@@ -24,7 +24,7 @@
 }
 \ProcessOptions\relax
 \LoadClass[a4paper,12pt]{letter}
-\RequirePackage[brazilian]{babel}
+\RequirePackage[brazilian ]{babel}
 \RequirePackage{graphicx}
     \RequirePackage{keyval}
 \RequirePackage{fixltx2e}
