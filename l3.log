@@ -1,0 +1,569 @@
+This is TeX, Version 3.14159265 (TeX Live 2017/Debian) (preloaded format=tex 2020.5.7)  7 MAY 2020 08:43
+**l3.ins
+(./l3.ins (./l3docstrip.dtx
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count26
+\emptyLines=\count27
+\processedLines=\count28
+\commentsRemoved=\count29
+\commentsPassed=\count30
+\codeLinesPassed=\count31
+\TotalprocessedLines=\count32
+\TotalcommentsRemoved=\count33
+\TotalcommentsPassed=\count34
+\TotalcodeLinesPassed=\count35
+\NumberOfFiles=\count36
+\inFile=\read0
+\inputcheck=\read1
+\@tempcnta=\count37
+\off@0=\count38
+\off@1=\count39
+\off@2=\count40
+\off@3=\count41
+\off@4=\count42
+\off@5=\count43
+\off@6=\count44
+\off@7=\count45
+\off@8=\count46
+\off@9=\count47
+\off@10=\count48
+\off@11=\count49
+\off@12=\count50
+\off@13=\count51
+\off@14=\count52
+\off@15=\count53
+\@temptokena=\toks12
+\@maxfiles=\count54
+\@maxoutfiles=\count55
+
+Utility: `docstrip' 2.5e <2014/09/29>
+English documentation    <2017/03/13>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+))
+
+Generating file(s) expl3-code.tex 
+\openout0 = `expl3-code.tex'.
+
+
+Processing file expl3.dtx (package) -> expl3-code.tex
+Lines  processed: 1564
+Comments removed: 1244
+Comments  passed: 1
+Codelines passed: 284
+
+
+Processing file l3bootstrap.dtx (package) -> expl3-code.tex
+Lines  processed: 568
+Comments removed: 292
+Comments  passed: 1
+Codelines passed: 250
+
+
+Processing file l3names.dtx (package) -> expl3-code.tex
+Lines  processed: 2093
+Comments removed: 257
+Comments  passed: 1
+Codelines passed: 1810
+
+
+Processing file l3basics.dtx (package) -> expl3-code.tex
+Lines  processed: 3276
+Comments removed: 2447
+Comments  passed: 1
+Codelines passed: 811
+
+
+Processing file l3expan.dtx (package) -> expl3-code.tex
+Lines  processed: 2889
+Comments removed: 1855
+Comments  passed: 1
+Codelines passed: 1027
+
+
+Processing file l3tl.dtx (package) -> expl3-code.tex
+Lines  processed: 3387
+Comments removed: 2371
+Comments  passed: 1
+Codelines passed: 1010
+
+
+Processing file l3str.dtx (package) -> expl3-code.tex
+Lines  processed: 1988
+Comments removed: 1345
+Comments  passed: 1
+Codelines passed: 637
+
+
+Processing file l3quark.dtx (package) -> expl3-code.tex
+Lines  processed: 634
+Comments removed: 508
+Comments  passed: 1
+Codelines passed: 119
+
+
+Processing file l3seq.dtx (package) -> expl3-code.tex
+Lines  processed: 2220
+Comments removed: 1594
+Comments  passed: 1
+Codelines passed: 620
+
+
+Processing file l3int.dtx (package) -> expl3-code.tex
+Lines  processed: 2558
+Comments removed: 1733
+Comments  passed: 1
+Codelines passed: 816
+
+
+Processing file l3flag.dtx (package) -> expl3-code.tex
+Lines  processed: 308
+Comments removed: 240
+Comments  passed: 1
+Codelines passed: 62
+
+
+Processing file l3prg.dtx (package) -> expl3-code.tex
+Lines  processed: 1640
+Comments removed: 1339
+Comments  passed: 1
+Codelines passed: 293
+
+
+Processing file l3sys.dtx (package) -> expl3-code.tex
+Lines  processed: 882
+Comments removed: 539
+Comments  passed: 1
+Codelines passed: 337
+
+
+Processing file l3clist.dtx (package) -> expl3-code.tex
+Lines  processed: 2031
+Comments removed: 1434
+Comments  passed: 1
+Codelines passed: 591
+
+
+Processing file l3token.dtx (package) -> expl3-code.tex
+Lines  processed: 2825
+Comments removed: 1891
+Comments  passed: 1
+Codelines passed: 920
+
+
+Processing file l3prop.dtx (package) -> expl3-code.tex
+Lines  processed: 1341
+Comments removed: 987
+Comments  passed: 1
+Codelines passed: 348
+
+
+Processing file l3msg.dtx (package) -> expl3-code.tex
+Lines  processed: 2078
+Comments removed: 1139
+Comments  passed: 1
+Codelines passed: 921
+
+
+Processing file l3file.dtx (package) -> expl3-code.tex
+Lines  processed: 3572
+Comments removed: 2036
+Comments  passed: 1
+Codelines passed: 1483
+
+
+Processing file l3skip.dtx (package) -> expl3-code.tex
+Lines  processed: 2226
+Comments removed: 1706
+Comments  passed: 1
+Codelines passed: 507
+
+
+Processing file l3keys.dtx (package) -> expl3-code.tex
+Lines  processed: 2991
+Comments removed: 1802
+Comments  passed: 1
+Codelines passed: 1182
+
+
+Processing file l3intarray.dtx (package) -> expl3-code.tex
+Lines  processed: 588
+Comments removed: 340
+Comments  passed: 1
+Codelines passed: 242
+
+
+Processing file l3fp.dtx (package) -> expl3-code.tex
+Lines  processed: 1513
+Comments removed: 1505
+Comments  passed: 1
+Codelines passed: 5
+
+
+Processing file l3fp-aux.dtx (package) -> expl3-code.tex
+Lines  processed: 1291
+Comments removed: 879
+Comments  passed: 1
+Codelines passed: 406
+
+
+Processing file l3fp-traps.dtx (package) -> expl3-code.tex
+Lines  processed: 400
+Comments removed: 221
+Comments  passed: 1
+Codelines passed: 173
+
+
+Processing file l3fp-round.dtx (package) -> expl3-code.tex
+Lines  processed: 592
+Comments removed: 296
+Comments  passed: 1
+Codelines passed: 290
+
+
+Processing file l3fp-parse.dtx (package) -> expl3-code.tex
+Lines  processed: 2908
+Comments removed: 1533
+Comments  passed: 1
+Codelines passed: 1365
+
+
+Processing file l3fp-assign.dtx (package) -> expl3-code.tex
+Lines  processed: 229
+Comments removed: 162
+Comments  passed: 1
+Codelines passed: 61
+
+
+Processing file l3fp-logic.dtx (package) -> expl3-code.tex
+Lines  processed: 737
+Comments removed: 312
+Comments  passed: 1
+Codelines passed: 419
+
+
+Processing file l3fp-basics.dtx (package) -> expl3-code.tex
+Lines  processed: 2178
+Comments removed: 1348
+Comments  passed: 1
+Codelines passed: 824
+
+
+Processing file l3fp-extended.dtx (package) -> expl3-code.tex
+Lines  processed: 1273
+Comments removed: 825
+Comments  passed: 1
+Codelines passed: 442
+
+
+Processing file l3fp-expo.dtx (package) -> expl3-code.tex
+Lines  processed: 1379
+Comments removed: 625
+Comments  passed: 1
+Codelines passed: 748
+
+
+Processing file l3fp-trig.dtx (package) -> expl3-code.tex
+Lines  processed: 1698
+Comments removed: 813
+Comments  passed: 1
+Codelines passed: 879
+
+
+Processing file l3fp-convert.dtx (package) -> expl3-code.tex
+Lines  processed: 630
+Comments removed: 315
+Comments  passed: 1
+Codelines passed: 309
+
+
+Processing file l3fp-random.dtx (package) -> expl3-code.tex
+Lines  processed: 664
+Comments removed: 363
+Comments  passed: 1
+Codelines passed: 295
+
+
+Processing file l3fparray.dtx (package) -> expl3-code.tex
+Lines  processed: 396
+Comments removed: 213
+Comments  passed: 1
+Codelines passed: 177
+
+
+Processing file l3sort.dtx (package) -> expl3-code.tex
+Lines  processed: 1103
+Comments removed: 664
+Comments  passed: 1
+Codelines passed: 426
+
+
+Processing file l3str-convert.dtx (package) -> expl3-code.tex
+Lines  processed: 3471
+Comments removed: 1327
+Comments  passed: 1
+Codelines passed: 2108
+
+
+Processing file l3tl-analysis.dtx (package) -> expl3-code.tex
+Lines  processed: 1106
+Comments removed: 666
+Comments  passed: 1
+Codelines passed: 434
+
+
+Processing file l3regex.dtx (package) -> expl3-code.tex
+Lines  processed: 6736
+Comments removed: 3525
+Comments  passed: 1
+Codelines passed: 3203
+
+
+Processing file l3box.dtx (package) -> expl3-code.tex
+Lines  processed: 2246
+Comments removed: 1561
+Comments  passed: 1
+Codelines passed: 677
+
+
+Processing file l3color-base.dtx (package) -> expl3-code.tex
+Lines  processed: 192
+Comments removed: 158
+Comments  passed: 1
+Codelines passed: 26
+
+
+Processing file l3coffins.dtx (package) -> expl3-code.tex
+Lines  processed: 2528
+Comments removed: 1266
+Comments  passed: 1
+Codelines passed: 1232
+
+
+Processing file l3luatex.dtx (package,tex) -> expl3-code.tex
+Lines  processed: 600
+Comments removed: 377
+Comments  passed: 1
+Codelines passed: 210
+
+
+Processing file l3unicode.dtx (package) -> expl3-code.tex
+Lines  processed: 288
+Comments removed: 116
+Comments  passed: 1
+Codelines passed: 166
+
+
+Processing file l3text.dtx (package) -> expl3-code.tex
+Lines  processed: 1038
+Comments removed: 536
+Comments  passed: 1
+Codelines passed: 480
+
+
+Processing file l3text-case.dtx (package) -> expl3-code.tex
+Lines  processed: 1591
+Comments removed: 462
+Comments  passed: 1
+Codelines passed: 1123
+
+
+Processing file l3text-purify.dtx (package) -> expl3-code.tex
+Lines  processed: 783
+Comments removed: 194
+Comments  passed: 1
+Codelines passed: 583
+
+
+Processing file l3candidates.dtx (package) -> expl3-code.tex
+Lines  processed: 1818
+Comments removed: 1222
+Comments  passed: 1
+Codelines passed: 581
+
+
+Processing file l3legacy.dtx (package) -> expl3-code.tex
+Lines  processed: 100
+Comments removed: 82
+Comments  passed: 1
+Codelines passed: 12
+
+
+Processing file l3deprecation.dtx (package,kernel) -> expl3-code.tex
+Lines  processed: 1081
+Comments removed: 493
+Comments  passed: 1
+Codelines passed: 573
+
+
+Generating file(s) expl3.sty 
+\openout0 = `expl3.sty'.
+
+
+Processing file expl3.dtx (package,loader) -> expl3.sty
+Lines  processed: 1564
+Comments removed: 1244
+Comments  passed: 1
+Codelines passed: 284
+
+
+Generating file(s) expl3.ltx 
+\openout0 = `expl3.ltx'.
+
+
+Processing file expl3.dtx (2ekernel,loader) -> expl3.ltx
+Lines  processed: 1564
+Comments removed: 1244
+Comments  passed: 1
+Codelines passed: 284
+
+
+Generating file(s) expl3-generic.tex 
+\openout0 = `expl3-generic.tex'.
+
+
+Processing file expl3.dtx (generic,loader) -> expl3-generic.tex
+Lines  processed: 1564
+Comments removed: 1244
+Comments  passed: 1
+Codelines passed: 284
+
+
+Generating file(s) l3doc.cls 
+\openout0 = `l3doc.cls'.
+
+
+Processing file l3doc.dtx (class) -> l3doc.cls
+Lines  processed: 4599
+Comments removed: 2162
+Comments  passed: 1
+Codelines passed: 2421
+
+
+Generating file(s) l3str-enc-iso88591.def l3str-enc-iso88592.def l3str-enc-iso8
+8593.def l3str-enc-iso88594.def l3str-enc-iso88595.def l3str-enc-iso88596.def l
+3str-enc-iso88597.def l3str-enc-iso88598.def l3str-enc-iso88599.def l3str-enc-i
+so885910.def l3str-enc-iso885911.def l3str-enc-iso885913.def l3str-enc-iso88591
+4.def l3str-enc-iso885915.def l3str-enc-iso885916.def 
+\openout0 = `l3str-enc-iso88591.def'.
+
+\openout1 = `l3str-enc-iso88592.def'.
+
+\openout2 = `l3str-enc-iso88593.def'.
+
+\openout3 = `l3str-enc-iso88594.def'.
+
+\openout4 = `l3str-enc-iso88595.def'.
+
+\openout5 = `l3str-enc-iso88596.def'.
+
+\openout6 = `l3str-enc-iso88597.def'.
+
+\openout7 = `l3str-enc-iso88598.def'.
+
+\openout8 = `l3str-enc-iso88599.def'.
+
+\openout9 = `l3str-enc-iso885910.def'.
+
+\openout10 = `l3str-enc-iso885911.def'.
+
+\openout11 = `l3str-enc-iso885913.def'.
+
+\openout12 = `l3str-enc-iso885914.def'.
+
+\openout13 = `l3str-enc-iso885915.def'.
+
+\openout14 = `l3str-enc-iso885916.def'.
+
+
+Processing file l3str-convert.dtx (iso88591) -> l3str-enc-iso88591.def
+                                  (iso88592) -> l3str-enc-iso88592.def
+                                  (iso88593) -> l3str-enc-iso88593.def
+                                  (iso88594) -> l3str-enc-iso88594.def
+                                  (iso88595) -> l3str-enc-iso88595.def
+                                  (iso88596) -> l3str-enc-iso88596.def
+                                  (iso88597) -> l3str-enc-iso88597.def
+                                  (iso88598) -> l3str-enc-iso88598.def
+                                  (iso88599) -> l3str-enc-iso88599.def
+                                  (iso885910) -> l3str-enc-iso885910.def
+                                  (iso885911) -> l3str-enc-iso885911.def
+                                  (iso885913) -> l3str-enc-iso885913.def
+                                  (iso885914) -> l3str-enc-iso885914.def
+                                  (iso885915) -> l3str-enc-iso885915.def
+                                  (iso885916) -> l3str-enc-iso885916.def
+Lines  processed: 3471
+Comments removed: 1327
+Comments  passed: 1
+Codelines passed: 2108
+
+
+Generating file(s) l3debug.def 
+\openout0 = `l3debug.def'.
+
+
+Processing file l3debug.dtx (package) -> l3debug.def
+Lines  processed: 1447
+Comments removed: 451
+Comments  passed: 1
+Codelines passed: 970
+
+
+Generating file(s) l3deprecation.def 
+\openout0 = `l3deprecation.def'.
+
+
+Processing file l3deprecation.dtx (package,patches) -> l3deprecation.def
+Lines  processed: 1081
+Comments removed: 493
+Comments  passed: 1
+Codelines passed: 573
+
+
+Generating file(s) l3docstrip.tex 
+\openout0 = `l3docstrip.tex'.
+
+
+Processing file l3docstrip.dtx (program) -> l3docstrip.tex
+Lines  processed: 292
+Comments removed: 200
+Comments  passed: 1
+Codelines passed: 79
+
+
+Generating file(s) l3names.def 
+\openout0 = `l3names.def'.
+
+
+Processing file l3names.dtx (names) -> l3names.def
+Lines  processed: 2093
+Comments removed: 257
+Comments  passed: 1
+Codelines passed: 1810
+
+
+Generating file(s) expl3.lua 
+\openout0 = `expl3.lua'.
+
+
+Processing file l3luatex.dtx (package,lua) -> expl3.lua
+Lines  processed: 600
+Comments removed: 377
+Comments  passed: 1
+Codelines passed: 210
+
+Overall statistics:
+Files  processed: 60
+Lines  processed: 100503
+Comments removed: 58157
+Comments  passed: 60
+Codelines passed: 41520
+ )
+No pages of output.
