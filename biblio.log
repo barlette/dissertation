@@ -1,0 +1,35 @@
+This is TeX, Version 3.14159265 (TeX Live 2017/Arch Linux) (preloaded format=tex 2018.6.5)  7 JUN 2018 14:29
+**biblio.bib
+(./biblio.bib
+Overfull \hbox (1.80043pt too wide) in paragraph at lines 119--129
+[]\tenrm @InCollectionchandrakasan1992low, title=Low-power CMOS dig-i-tal de-si
+gn, au-thor=A. P. Chan-drakasan|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm I
+.\tenrm n
+.\tenrm C
+.etc.
+
+[1]
+Overfull \hbox (4.52267pt too wide) in paragraph at lines 164--172
+[]\tenrm @InCollectionames2016investigating, ti-tle=Investigating PVT vari-abil
+-ity ef-fects on full adders, au-thor=S.|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm I
+.\tenrm n
+.\tenrm C
+.etc.
+
+[2])
+*
+! Interruption.
+<*> 
+    
+? X
+Output written on biblio.dvi (2 pages, 11864 bytes).
