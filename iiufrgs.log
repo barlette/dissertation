@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  7 MAY 2020 10:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  7 MAY 2020 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2649,10 +2649,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [32 <./FAs.png>]
 Package epstopdf Info: Source file: <STOriginal.eps>
-(epstopdf)                    date: 2020-05-07 08:20:21
+(epstopdf)                    date: 2020-05-07 10:27:55
 (epstopdf)                    size: 13035 bytes
 (epstopdf)             Output file: <STOriginal-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-07 10:03:24
+(epstopdf)                    date: 2020-05-07 10:27:55
 (epstopdf)                    size: 11139 bytes
 (epstopdf)             Command: <repstopdf --outfile=STOriginal-eps-converted-t
 o.pdf STOriginal.eps>
@@ -2674,10 +2674,10 @@ Underfull \hbox (badness 1983) in paragraph at lines 500--500
  []
 
 Package epstopdf Info: Source file: <STcorrigido.eps>
-(epstopdf)                    date: 2020-05-07 08:20:21
+(epstopdf)                    date: 2020-05-07 10:27:55
 (epstopdf)                    size: 11933 bytes
 (epstopdf)             Output file: <STcorrigido-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-07 10:03:24
+(epstopdf)                    date: 2020-05-07 10:27:55
 (epstopdf)                    size: 10773 bytes
 (epstopdf)             Command: <repstopdf --outfile=STcorrigido-eps-converted-
 to.pdf STcorrigido.eps>
