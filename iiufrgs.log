@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  7 MAY 2020 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  7 MAY 2020 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,6 +1045,42 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
 ) (./caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
@@ -1322,6 +1358,42 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
 Package tocstyle Info: prepare \l@chapter for redefinition on input line 115.
 Package tocstyle Info: prepare \l@section for redefinition on input line 115.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 Package tocstyle Info: prepare \l@subsection for redefinition on input line 115
 .
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
@@ -2430,7 +2502,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [16]
-<transistorVariability.png, id=606, 1297.84875pt x 1186.4325pt>
+<transistorVariability.png, id=604, 1297.84875pt x 1186.4325pt>
 File: transistorVariability.png Graphic file (type png)
 <use transistorVariability.png>
 Package pdftex.def Info: transistorVariability.png  used on input line 272.
@@ -2461,12 +2533,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 pdfTeX warning: pdflatex (file ./finfet.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<finfet.pdf, id=717, 963.6pt x 455.18056pt>
+<finfet.pdf, id=716, 963.6pt x 455.18056pt>
 File: finfet.pdf Graphic file (type pdf)
 <use finfet.pdf>
 Package pdftex.def Info: finfet.pdf  used on input line 332.
 (pdftex.def)             Requested size: 426.79135pt x 201.5997pt.
-<finfet2.png, id=723, 1595.9625pt x 769.87625pt>
+<finfet2.png, id=722, 1595.9625pt x 769.87625pt>
 File: finfet2.png Graphic file (type png)
 <use finfet2.png>
 Package pdftex.def Info: finfet2.png  used on input line 340.
@@ -2485,13 +2557,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [22 <./finfet2.png>]
-<chrome_2019-05-15_16-55-31.pdf, id=793, 956.20537pt x 474.33813pt>
+<chrome_2019-05-15_16-55-31.pdf, id=792, 956.20537pt x 474.33813pt>
 File: chrome_2019-05-15_16-55-31.pdf Graphic file (type pdf)
 <use chrome_2019-05-15_16-55-31.pdf>
 Package pdftex.def Info: chrome_2019-05-15_16-55-31.pdf  used on input line 356
 .
 (pdftex.def)             Requested size: 320.0935pt x 158.78302pt.
-<pic-selected-190513-1743-08.pdf, id=799, 759.58781pt x 666.99188pt>
+<pic-selected-190513-1743-08.pdf, id=798, 759.58781pt x 666.99188pt>
 File: pic-selected-190513-1743-08.pdf Graphic file (type pdf)
 <use pic-selected-190513-1743-08.pdf>
 Package pdftex.def Info: pic-selected-190513-1743-08.pdf  used on input line 36
@@ -2523,7 +2595,7 @@ tra-deep sub-micron (UDSM)
 
 pdfTeX warning: pdflatex (file ./ST.pdf): PDF inclusion: found PDF version <1.7
 >, but at most version <1.5> allowed
-<ST.pdf, id=878, 375.804pt x 556.47902pt>
+<ST.pdf, id=881, 375.804pt x 556.47902pt>
 File: ST.pdf Graphic file (type pdf)
 <use ST.pdf>
 Package pdftex.def Info: ST.pdf  used on input line 421.
@@ -2534,7 +2606,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27
 
 ]
-<TIST.png, id=890, 1341.01pt x 639.38875pt>
+<TIST.png, id=893, 1341.01pt x 639.38875pt>
 File: TIST.png Graphic file (type png)
 <use TIST.png>
 Package pdftex.def Info: TIST.png  used on input line 432.
@@ -2548,7 +2620,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [28 <./ST.pdf> <./TIST.png>]
-<SIG.png, id=910, 597.23125pt x 938.50626pt>
+<SIG.png, id=913, 597.23125pt x 938.50626pt>
 File: SIG.png Graphic file (type png)
 <use SIG.png>
 Package pdftex.def Info: SIG.png  used on input line 443.
@@ -2565,7 +2637,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<FAs.png, id=997, 1445.4pt x 1156.32pt>
+<FAs.png, id=1000, 1445.4pt x 1156.32pt>
 File: FAs.png Graphic file (type png)
 <use FAs.png>
 Package pdftex.def Info: FAs.png  used on input line 484.
@@ -2590,7 +2662,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./STOriginal-eps-converted-to.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<STOriginal-eps-converted-to.pdf, id=1016, 646.415pt x 551.05875pt>
+<STOriginal-eps-converted-to.pdf, id=1019, 646.415pt x 551.05875pt>
 File: STOriginal-eps-converted-to.pdf Graphic file (type pdf)
 <use STOriginal-eps-converted-to.pdf>
 Package pdftex.def Info: STOriginal-eps-converted-to.pdf  used on input line 49
@@ -2615,7 +2687,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./STcorrigido-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<STcorrigido-eps-converted-to.pdf, id=1021, 646.415pt x 551.05875pt>
+<STcorrigido-eps-converted-to.pdf, id=1024, 646.415pt x 551.05875pt>
 File: STcorrigido-eps-converted-to.pdf Graphic file (type pdf)
 <use STcorrigido-eps-converted-to.pdf>
 Package pdftex.def Info: STcorrigido-eps-converted-to.pdf  used on input line 5
@@ -2637,7 +2709,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./designFlow.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<designFlow.pdf, id=1048, 542.025pt x 963.6pt>
+<designFlow.pdf, id=1050, 542.025pt x 963.6pt>
 File: designFlow.pdf Graphic file (type pdf)
 <use designFlow.pdf>
 Package pdftex.def Info: designFlow.pdf  used on input line 537.
@@ -2668,7 +2740,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./INVComp.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<INVComp.pdf, id=1129, 963.6pt x 542.025pt>
+<INVComp.pdf, id=1131, 963.6pt x 542.025pt>
 File: INVComp.pdf Graphic file (type pdf)
 <use INVComp.pdf>
 Package pdftex.def Info: INVComp.pdf  used on input line 552.
@@ -2677,7 +2749,7 @@ Package pdftex.def Info: INVComp.pdf  used on input line 552.
 
 pdfTeX warning: pdflatex (file ./STComp.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<STComp.pdf, id=1131, 963.6pt x 542.025pt>
+<STComp.pdf, id=1133, 963.6pt x 542.025pt>
 File: STComp.pdf Graphic file (type pdf)
 <use STComp.pdf>
 Package pdftex.def Info: STComp.pdf  used on input line 560.
@@ -2686,7 +2758,7 @@ Package pdftex.def Info: STComp.pdf  used on input line 560.
 
 pdfTeX warning: pdflatex (file ./SIGComp.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<SIGComp.pdf, id=1133, 963.6pt x 542.025pt>
+<SIGComp.pdf, id=1135, 963.6pt x 542.025pt>
 File: SIGComp.pdf Graphic file (type pdf)
 <use SIGComp.pdf>
 Package pdftex.def Info: SIGComp.pdf  used on input line 568.
@@ -2695,7 +2767,7 @@ Package pdftex.def Info: SIGComp.pdf  used on input line 568.
 
 pdfTeX warning: pdflatex (file ./TISTComp.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<TISTComp.pdf, id=1135, 963.6pt x 542.025pt>
+<TISTComp.pdf, id=1137, 963.6pt x 542.025pt>
 File: TISTComp.pdf Graphic file (type pdf)
 <use TISTComp.pdf>
 Package pdftex.def Info: TISTComp.pdf  used on input line 576.
@@ -2709,7 +2781,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 pdfTeX warning: pdflatex (file ./camadasSTv2.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<camadasSTv2.pdf, id=1188, 332.44202pt x 158.99399pt>
+<camadasSTv2.pdf, id=1190, 332.44202pt x 158.99399pt>
 File: camadasSTv2.pdf Graphic file (type pdf)
 <use camadasSTv2.pdf>
 Package pdftex.def Info: camadasSTv2.pdf  used on input line 605.
@@ -2718,7 +2790,7 @@ Package pdftex.def Info: camadasSTv2.pdf  used on input line 605.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39 <./TISTComp.pdf>]
-<TAP.png, id=1211, 208.4419pt x 607.068pt>
+<TAP.png, id=1213, 208.4419pt x 607.068pt>
 File: TAP.png Graphic file (type png)
 <use TAP.png>
 Package pdftex.def Info: TAP.png  used on input line 625.
@@ -2759,7 +2831,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 717.
 
-<img17.png, id=1302, 379.4175pt x 368.37625pt>
+<img17.png, id=1304, 379.4175pt x 368.37625pt>
 File: img17.png Graphic file (type png)
 <use img17.png>
 Package pdftex.def Info: img17.png  used on input line 719.
@@ -2768,7 +2840,7 @@ Package pdftex.def Info: img17.png  used on input line 719.
 
 pdfTeX warning: pdflatex (file ./testbench.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<testbench.pdf, id=1309, 963.6pt x 542.025pt>
+<testbench.pdf, id=1311, 963.6pt x 542.025pt>
 File: testbench.pdf Graphic file (type pdf)
 <use testbench.pdf>
 Package pdftex.def Info: testbench.pdf  used on input line 737.
@@ -2782,7 +2854,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [44 <./img17.png>]
-<testbenchFA.png, id=1327, 1377.64688pt x 560.8453pt>
+<testbenchFA.png, id=1329, 1377.64688pt x 560.8453pt>
 File: testbenchFA.png Graphic file (type png)
 <use testbenchFA.png>
 Package pdftex.def Info: testbenchFA.png  used on input line 747.
@@ -2796,7 +2868,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./freqRetWFF.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<freqRetWFF.pdf, id=1347, 845.07718pt x 597.55246pt>
+<freqRetWFF.pdf, id=1349, 845.07718pt x 597.55246pt>
 File: freqRetWFF.pdf Graphic file (type pdf)
 <use freqRetWFF.pdf>
 Package pdftex.def Info: freqRetWFF.pdf  used on input line 766.
@@ -2824,7 +2896,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./delayDevWFF.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<delayDevWFF.pdf, id=1355, 845.07718pt x 597.55246pt>
+<delayDevWFF.pdf, id=1357, 845.07718pt x 597.55246pt>
 File: delayDevWFF.pdf Graphic file (type pdf)
 <use delayDevWFF.pdf>
 Package pdftex.def Info: delayDevWFF.pdf  used on input line 850.
@@ -2866,7 +2938,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./comp3Linv2Energy.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<comp3Linv2Energy.pdf, id=1408, 845.07718pt x 597.55246pt>
+<comp3Linv2Energy.pdf, id=1410, 845.07718pt x 597.55246pt>
 File: comp3Linv2Energy.pdf Graphic file (type pdf)
 <use comp3Linv2Energy.pdf>
 Package pdftex.def Info: comp3Linv2Energy.pdf  used on input line 1008.
@@ -2879,7 +2951,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./comp3Lst2Energy.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<comp3Lst2Energy.pdf, id=1410, 845.07718pt x 597.55246pt>
+<comp3Lst2Energy.pdf, id=1412, 845.07718pt x 597.55246pt>
 File: comp3Lst2Energy.pdf Graphic file (type pdf)
 <use comp3Lst2Energy.pdf>
 Package pdftex.def Info: comp3Lst2Energy.pdf  used on input line 1015.
@@ -2892,7 +2964,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./comp3Lsig2Energy.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<comp3Lsig2Energy.pdf, id=1412, 845.07718pt x 597.55246pt>
+<comp3Lsig2Energy.pdf, id=1414, 845.07718pt x 597.55246pt>
 File: comp3Lsig2Energy.pdf Graphic file (type pdf)
 <use comp3Lsig2Energy.pdf>
 Package pdftex.def Info: comp3Lsig2Energy.pdf  used on input line 1022.
@@ -2905,7 +2977,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./comp3Ltist212Energy.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<comp3Ltist212Energy.pdf, id=1414, 845.07718pt x 597.55246pt>
+<comp3Ltist212Energy.pdf, id=1416, 845.07718pt x 597.55246pt>
 File: comp3Ltist212Energy.pdf Graphic file (type pdf)
 <use comp3Ltist212Energy.pdf>
 Package pdftex.def Info: comp3Ltist212Energy.pdf  used on input line 1029.
@@ -2918,7 +2990,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./comp3Ltist312Energy.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<comp3Ltist312Energy.pdf, id=1416, 845.07718pt x 597.55246pt>
+<comp3Ltist312Energy.pdf, id=1418, 845.07718pt x 597.55246pt>
 File: comp3Ltist312Energy.pdf Graphic file (type pdf)
 <use comp3Ltist312Energy.pdf>
 Package pdftex.def Info: comp3Ltist312Energy.pdf  used on input line 1036.
@@ -2945,7 +3017,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./compLowEnergy.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<compLowEnergy.pdf, id=1466, 845.07718pt x 597.55246pt>
+<compLowEnergy.pdf, id=1468, 845.07718pt x 597.55246pt>
 File: compLowEnergy.pdf Graphic file (type pdf)
 <use compLowEnergy.pdf>
 Package pdftex.def Info: compLowEnergy.pdf  used on input line 1045.
@@ -2958,7 +3030,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./compHighRobustness.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<compHighRobustness.pdf, id=1468, 845.07718pt x 597.55246pt>
+<compHighRobustness.pdf, id=1470, 845.07718pt x 597.55246pt>
 File: compHighRobustness.pdf Graphic file (type pdf)
 <use compHighRobustness.pdf>
 Package pdftex.def Info: compHighRobustness.pdf  used on input line 1054.
@@ -2967,6 +3039,11 @@ Package pdftex.def Info: compHighRobustness.pdf  used on input line 1054.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55 <./comp3Ltist312Energy.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 56
+ []
+
+[56 <./compLowEnergy.pdf> <./compHighRobustness.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1061.
@@ -2975,7 +3052,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./compCB.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<compCB.pdf, id=1483, 845.07718pt x 597.55246pt>
+<compCB.pdf, id=1505, 845.07718pt x 597.55246pt>
 File: compCB.pdf Graphic file (type pdf)
 <use compCB.pdf>
 Package pdftex.def Info: compCB.pdf  used on input line 1063.
@@ -2983,12 +3060,7 @@ Package pdftex.def Info: compCB.pdf  used on input line 1063.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/10.95 56
- []
-
-[56 <./compLowEnergy.pdf>] [57 <./compHighRobustness.pdf> <./compCB.pdf>]
+ [57 <./compCB.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1073.
@@ -3001,7 +3073,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./currRatioWFF.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<currRatioWFF.pdf, id=1520, 597.55246pt x 845.07718pt>
+<currRatioWFF.pdf, id=1522, 597.55246pt x 845.07718pt>
 File: currRatioWFF.pdf Graphic file (type pdf)
 <use currRatioWFF.pdf>
 Package pdftex.def Info: currRatioWFF.pdf  used on input line 1235.
@@ -3015,9 +3087,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59 <./currRatioWFF.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1256.
@@ -3026,11 +3095,12 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./offCurrentComp.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<offCurrentComp.pdf, id=1550, 845.07718pt x 597.55246pt>
+<offCurrentComp.pdf, id=1536, 845.07718pt x 597.55246pt>
 File: offCurrentComp.pdf Graphic file (type pdf)
 <use offCurrentComp.pdf>
 Package pdftex.def Info: offCurrentComp.pdf  used on input line 1258.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+[59 <./currRatioWFF.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1263.
@@ -3039,7 +3109,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./on-off-scaling2.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<on-off-scaling2.pdf, id=1552, 845.07718pt x 597.55246pt>
+<on-off-scaling2.pdf, id=1554, 845.07718pt x 597.55246pt>
 File: on-off-scaling2.pdf Graphic file (type pdf)
 <use on-off-scaling2.pdf>
 Package pdftex.def Info: on-off-scaling2.pdf  used on input line 1265.
@@ -3052,7 +3122,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./gainComp.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<gainComp.pdf, id=1558, 597.55246pt x 845.07718pt>
+<gainComp.pdf, id=1560, 597.55246pt x 845.07718pt>
 File: gainComp.pdf Graphic file (type pdf)
 <use gainComp.pdf>
 Package pdftex.def Info: gainComp.pdf  used on input line 1274.
@@ -3065,7 +3135,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./slopes.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<slopes.pdf, id=1560, 597.55246pt x 845.07718pt>
+<slopes.pdf, id=1562, 597.55246pt x 845.07718pt>
 File: slopes.pdf Graphic file (type pdf)
 <use slopes.pdf>
 Package pdftex.def Info: slopes.pdf  used on input line 1281.
@@ -3074,7 +3144,7 @@ Package pdftex.def Info: slopes.pdf  used on input line 1281.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1286.
 
-<vtcs01.png, id=1562, 1436.36626pt x 641.39626pt>
+<vtcs01.png, id=1564, 1436.36626pt x 641.39626pt>
 File: vtcs01.png Graphic file (type png)
 <use vtcs01.png>
 Package pdftex.def Info: vtcs01.png  used on input line 1288.
@@ -3083,11 +3153,14 @@ Package pdftex.def Info: vtcs01.png  used on input line 1288.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1293.
 
-<vtcs07.png, id=1564, 1436.36626pt x 641.39626pt>
+<vtcs07.png, id=1566, 1436.36626pt x 641.39626pt>
 File: vtcs07.png Graphic file (type png)
 <use vtcs07.png>
 Package pdftex.def Info: vtcs07.png  used on input line 1295.
 (pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 60
@@ -3107,7 +3180,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./hystWFFComp.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<hystWFFComp.pdf, id=1615, 597.55246pt x 845.07718pt>
+<hystWFFComp.pdf, id=1617, 597.55246pt x 845.07718pt>
 File: hystWFFComp.pdf Graphic file (type pdf)
 <use hystWFFComp.pdf>
 Package pdftex.def Info: hystWFFComp.pdf  used on input line 1305.
@@ -3120,7 +3193,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./hystGraphs.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<hystGraphs.pdf, id=1617, 845.07718pt x 597.55246pt>
+<hystGraphs.pdf, id=1619, 845.07718pt x 597.55246pt>
 File: hystGraphs.pdf Graphic file (type pdf)
 <use hystGraphs.pdf>
 Package pdftex.def Info: hystGraphs.pdf  used on input line 1312.
@@ -3129,7 +3202,7 @@ Package pdftex.def Info: hystGraphs.pdf  used on input line 1312.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1321.
 
-<dist_energy_INV_0_2.pdf, id=1622, 505.89pt x 505.89pt>
+<dist_energy_INV_0_2.pdf, id=1624, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_2.pdf>
 Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 1323.
@@ -3138,7 +3211,7 @@ Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 1323.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1328.
 
-<dist_energy_INV_0_4.pdf, id=1624, 505.89pt x 505.89pt>
+<dist_energy_INV_0_4.pdf, id=1626, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_4.pdf>
 Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 1330.
@@ -3147,12 +3220,15 @@ Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 1330.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1335.
 
-<dist_energy_INV_0_7.pdf, id=1626, 505.89pt x 505.89pt>
+<dist_energy_INV_0_7.pdf, id=1628, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_7.pdf>
 Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 1337.
 (pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
-[63 <./vtcs07.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./vtcs07.png>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 64
  []
@@ -3185,7 +3261,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1418.
 
 
-Overfull \hbox (16.21252pt too wide) in paragraph at lines 1422--1440
+Overfull \hbox (21.33511pt too wide) in paragraph at lines 1422--1440
  [][] 
  []
 
@@ -3194,7 +3270,12 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1444.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (3.33511pt too wide) in paragraph at lines 1448--1466
+ [][] 
+ []
+
+
+Underfull \vbox (badness 2653) has occurred while \output is active []
 
  [69]
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3210,7 +3291,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./averageDelayNominal.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<averageDelayNominal.pdf, id=1722, 597.55246pt x 845.07718pt>
+<averageDelayNominal.pdf, id=1725, 597.55246pt x 845.07718pt>
 File: averageDelayNominal.pdf Graphic file (type pdf)
 <use averageDelayNominal.pdf>
 Package pdftex.def Info: averageDelayNominal.pdf  used on input line 1482.
@@ -3223,7 +3304,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./averageEnergyNominal.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<averageEnergyNominal.pdf, id=1724, 845.07718pt x 597.55246pt>
+<averageEnergyNominal.pdf, id=1727, 845.07718pt x 597.55246pt>
 File: averageEnergyNominal.pdf Graphic file (type pdf)
 <use averageEnergyNominal.pdf>
 Package pdftex.def Info: averageEnergyNominal.pdf  used on input line 1491.
@@ -3236,7 +3317,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./averageDelayNT.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<averageDelayNT.pdf, id=1726, 845.07718pt x 597.55246pt>
+<averageDelayNT.pdf, id=1729, 845.07718pt x 597.55246pt>
 File: averageDelayNT.pdf Graphic file (type pdf)
 <use averageDelayNT.pdf>
 Package pdftex.def Info: averageDelayNT.pdf  used on input line 1500.
@@ -3249,18 +3330,18 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./averageEnergyNT.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<averageEnergyNT.pdf, id=1728, 845.07718pt x 597.55246pt>
+<averageEnergyNT.pdf, id=1731, 845.07718pt x 597.55246pt>
 File: averageEnergyNT.pdf Graphic file (type pdf)
 <use averageEnergyNT.pdf>
 Package pdftex.def Info: averageEnergyNT.pdf  used on input line 1509.
 (pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
-[71]
+[71 <./averageDelayNominal.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 72
  []
 
-[72 <./averageDelayNominal.pdf> <./averageEnergyNominal.pdf>] [73 <./averageDel
-ayNT.pdf> <./averageEnergyNT.pdf>] (./iiufrgs.bbl
+[72 <./averageEnergyNominal.pdf> <./averageDelayNT.pdf>] [73 <./averageEnergyNT
+.pdf>] (./iiufrgs.bbl
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 74
  []
@@ -3285,7 +3366,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [80]) [81]
-<INV1F.png, id=1859, 319.94531pt x 624.08156pt>
+<INV1F.png, id=1862, 319.94531pt x 624.08156pt>
 File: INV1F.png Graphic file (type png)
 <use INV1F.png>
 Package pdftex.def Info: INV1F.png  used on input line 1587.
@@ -3305,7 +3386,7 @@ Overfull \vbox (41.18428pt too high) has occurred while \output is active []
 
 
 [83 <./INV1F.png>]
-<INV2F.png, id=1869, 321.45094pt x 625.58719pt>
+<INV2F.png, id=1872, 321.45094pt x 625.58719pt>
 File: INV2F.png Graphic file (type png)
 <use INV2F.png>
 Package pdftex.def Info: INV2F.png  used on input line 1595.
@@ -3319,7 +3400,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [84 <./INV2F.png>]
-<INV3F.png, id=1875, 319.94531pt x 625.58719pt>
+<INV3F.png, id=1878, 319.94531pt x 625.58719pt>
 File: INV3F.png Graphic file (type png)
 <use INV3F.png>
 Package pdftex.def Info: INV3F.png  used on input line 1603.
@@ -3329,7 +3410,7 @@ Overfull \vbox (41.19023pt too high) has occurred while \output is active []
 
 
 [85 <./INV3F.png>]
-<INV4F.png, id=1882, 273.27094pt x 627.09282pt>
+<INV4F.png, id=1885, 273.27094pt x 627.09282pt>
 File: INV4F.png Graphic file (type png)
 <use INV4F.png>
 Package pdftex.def Info: INV4F.png  used on input line 1611.
@@ -3343,7 +3424,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [86 <./INV4F.png>]
-<INV5F.png, id=1888, 237.88875pt x 625.58719pt>
+<INV5F.png, id=1891, 237.88875pt x 625.58719pt>
 File: INV5F.png Graphic file (type png)
 <use INV5F.png>
 Package pdftex.def Info: INV5F.png  used on input line 1619.
@@ -3353,12 +3434,12 @@ Overfull \vbox (41.19023pt too high) has occurred while \output is active []
 
 
 [87 <./INV5F.png>]
-<ST1F.png, id=1894, 730.22812pt x 627.09282pt>
+<ST1F.png, id=1897, 730.22812pt x 627.09282pt>
 File: ST1F.png Graphic file (type png)
 <use ST1F.png>
 Package pdftex.def Info: ST1F.png  used on input line 1634.
 (pdftex.def)             Requested size: 426.78618pt x 366.50813pt.
-<ST2F.png, id=1895, 730.22812pt x 625.58719pt>
+<ST2F.png, id=1898, 730.22812pt x 625.58719pt>
 File: ST2F.png Graphic file (type png)
 <use ST2F.png>
 Package pdftex.def Info: ST2F.png  used on input line 1642.
@@ -3372,7 +3453,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [88 <./ST1F.png>]
-<ST3F.png, id=1901, 731.73375pt x 627.09282pt>
+<ST3F.png, id=1904, 731.73375pt x 627.09282pt>
 File: ST3F.png Graphic file (type png)
 <use ST3F.png>
 Package pdftex.def Info: ST3F.png  used on input line 1650.
@@ -3381,7 +3462,7 @@ Package pdftex.def Info: ST3F.png  used on input line 1650.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89 <./ST2F.png>]
-<ST4F.png, id=1907, 623.32875pt x 625.58719pt>
+<ST4F.png, id=1910, 623.32875pt x 625.58719pt>
 File: ST4F.png Graphic file (type png)
 <use ST4F.png>
 Package pdftex.def Info: ST4F.png  used on input line 1658.
@@ -3395,7 +3476,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [90 <./ST3F.png>]
-<ST5F.png, id=1913, 543.53062pt x 625.58719pt>
+<ST5F.png, id=1917, 543.53062pt x 625.58719pt>
 File: ST5F.png Graphic file (type png)
 <use ST5F.png>
 Package pdftex.def Info: ST5F.png  used on input line 1666.
@@ -3404,7 +3485,7 @@ Package pdftex.def Info: ST5F.png  used on input line 1666.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91 <./ST4F.png>]
-<SIG1F.png, id=1921, 730.22812pt x 625.58719pt>
+<SIG1F.png, id=1924, 730.22812pt x 625.58719pt>
 File: SIG1F.png Graphic file (type png)
 <use SIG1F.png>
 Package pdftex.def Info: SIG1F.png  used on input line 1679.
@@ -3418,7 +3499,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [92 <./ST5F.png>]
-<SIG2F.png, id=1927, 729.47531pt x 625.58719pt>
+<SIG2F.png, id=1930, 729.47531pt x 625.58719pt>
 File: SIG2F.png Graphic file (type png)
 <use SIG2F.png>
 Package pdftex.def Info: SIG2F.png  used on input line 1687.
@@ -3427,7 +3508,7 @@ Package pdftex.def Info: SIG2F.png  used on input line 1687.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93 <./SIG1F.png>]
-<SIG3F.png, id=1933, 730.98094pt x 625.58719pt>
+<SIG3F.png, id=1936, 730.98094pt x 625.58719pt>
 File: SIG3F.png Graphic file (type png)
 <use SIG3F.png>
 Package pdftex.def Info: SIG3F.png  used on input line 1695.
@@ -3441,7 +3522,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [94 <./SIG2F.png>]
-<SIG4F.png, id=1939, 623.32875pt x 625.58719pt>
+<SIG4F.png, id=1942, 623.32875pt x 625.58719pt>
 File: SIG4F.png Graphic file (type png)
 <use SIG4F.png>
 Package pdftex.def Info: SIG4F.png  used on input line 1703.
@@ -3450,7 +3531,7 @@ Package pdftex.def Info: SIG4F.png  used on input line 1703.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95 <./SIG3F.png>]
-<SIG5F.png, id=1945, 542.77782pt x 625.58719pt>
+<SIG5F.png, id=1948, 542.77782pt x 625.58719pt>
 File: SIG5F.png Graphic file (type png)
 <use SIG5F.png>
 Package pdftex.def Info: SIG5F.png  used on input line 1711.
@@ -3464,7 +3545,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [96 <./SIG4F.png>]
-<TIST2F1F.png, id=1951, 523.9575pt x 626.34pt>
+<TIST2F1F.png, id=1954, 523.9575pt x 626.34pt>
 File: TIST2F1F.png Graphic file (type png)
 <use TIST2F1F.png>
 Package pdftex.def Info: TIST2F1F.png  used on input line 1725.
@@ -3473,7 +3554,7 @@ Package pdftex.def Info: TIST2F1F.png  used on input line 1725.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97 <./SIG5F.png>]
-<TIST3F1F.png, id=1958, 523.9575pt x 625.58719pt>
+<TIST3F1F.png, id=1961, 523.9575pt x 625.58719pt>
 File: TIST3F1F.png Graphic file (type png)
 <use TIST3F1F.png>
 Package pdftex.def Info: TIST3F1F.png  used on input line 1733.
@@ -3487,7 +3568,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [98 <./TIST2F1F.png>]
-<TIST4F2F.png, id=1964, 446.41782pt x 625.58719pt>
+<TIST4F2F.png, id=1967, 446.41782pt x 625.58719pt>
 File: TIST4F2F.png Graphic file (type png)
 <use TIST4F2F.png>
 Package pdftex.def Info: TIST4F2F.png  used on input line 1741.
@@ -3496,7 +3577,7 @@ Package pdftex.def Info: TIST4F2F.png  used on input line 1741.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [99 <./TIST3F1F.png>]
-<TIST6F2F.png, id=1970, 347.79938pt x 627.09282pt>
+<TIST6F2F.png, id=1973, 347.79938pt x 627.09282pt>
 File: TIST6F2F.png Graphic file (type png)
 <use TIST6F2F.png>
 Package pdftex.def Info: TIST6F2F.png  used on input line 1749.
@@ -3514,7 +3595,7 @@ Overfull \vbox (41.19762pt too high) has occurred while \output is active []
 
 
 [101 <./TIST6F2F.png>]
-<TIST6F3F.png, id=1981, 347.79938pt x 627.09282pt>
+<TIST6F3F.png, id=1984, 347.79938pt x 627.09282pt>
 File: TIST6F3F.png Graphic file (type png)
 <use TIST6F3F.png>
 Package pdftex.def Info: TIST6F3F.png  used on input line 1757.
@@ -3528,7 +3609,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [102 <./TIST6F3F.png>]
-<CMOS.png, id=1987, 1287.30937pt x 340.27126pt>
+<CMOS.png, id=1990, 1287.30937pt x 340.27126pt>
 File: CMOS.png Graphic file (type png)
 <use CMOS.png>
 Package pdftex.def Info: CMOS.png  used on input line 1771.
@@ -3544,13 +3625,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [104 <./CMOS.png>]
-<CMOSST1.png, id=1998, 1297.09593pt x 146.04562pt>
+<CMOSST1.png, id=2001, 1297.09593pt x 146.04562pt>
 File: CMOSST1.png Graphic file (type png)
 <use CMOSST1.png>
 Package pdftex.def Info: CMOSST1.png  used on input line 1780.
 (pdftex.def)             Requested size: 640.18703pt x 72.0822pt.
  [105 <./CMOSST1.png>]
-<CMOSST2.png, id=2004, 1297.09593pt x 222.07968pt>
+<CMOSST2.png, id=2007, 1297.09593pt x 222.07968pt>
 File: CMOSST2.png Graphic file (type png)
 <use CMOSST2.png>
 Package pdftex.def Info: CMOSST2.png  used on input line 1789.
@@ -3561,13 +3642,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [106 <./CMOSST2.png>]
-<TFA.png, id=2010, 1295.59032pt x 250.68657pt>
+<TFA.png, id=2013, 1295.59032pt x 250.68657pt>
 File: TFA.png Graphic file (type png)
 <use TFA.png>
 Package pdftex.def Info: TFA.png  used on input line 1802.
 (pdftex.def)             Requested size: 640.18703pt x 123.87027pt.
  [107 <./TFA.png>]
-<TFAST1.png, id=2016, 1296.34312pt x 126.4725pt>
+<TFAST1.png, id=2019, 1296.34312pt x 126.4725pt>
 File: TFAST1.png Graphic file (type png)
 <use TFAST1.png>
 Package pdftex.def Info: TFAST1.png  used on input line 1811.
@@ -3578,13 +3659,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [108 <./TFAST1.png>]
-<TFAST2.png, id=2022, 1297.09593pt x 198.7425pt>
+<TFAST2.png, id=2025, 1297.09593pt x 198.7425pt>
 File: TFAST2.png Graphic file (type png)
 <use TFAST2.png>
 Package pdftex.def Info: TFAST2.png  used on input line 1820.
 (pdftex.def)             Requested size: 640.18703pt x 98.09125pt.
  [109 <./TFAST2.png>]
-<TGA.png, id=2029, 1295.59032pt x 222.8325pt>
+<TGA.png, id=2032, 1295.59032pt x 222.8325pt>
 File: TGA.png Graphic file (type png)
 <use TGA.png>
 Package pdftex.def Info: TGA.png  used on input line 1836.
@@ -3595,13 +3676,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [110 <./TGA.png>]
-<TGAST1.png, id=2035, 1297.09593pt x 77.53969pt>
+<TGAST1.png, id=2038, 1297.09593pt x 77.53969pt>
 File: TGAST1.png Graphic file (type png)
 <use TGAST1.png>
 Package pdftex.def Info: TGAST1.png  used on input line 1845.
 (pdftex.def)             Requested size: 640.18703pt x 38.27043pt.
  [111 <./TGAST1.png>]
-<TGAST2.png, id=2041, 1297.09593pt x 140.77594pt>
+<TGAST2.png, id=2044, 1297.09593pt x 140.77594pt>
 File: TGAST2.png Graphic file (type png)
 <use TGAST2.png>
 Package pdftex.def Info: TGAST2.png  used on input line 1854.
@@ -3612,13 +3693,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [112 <./TGAST2.png>]
-<HYBRID.png, id=2047, 1296.34312pt x 234.1247pt>
+<HYBRID.png, id=2050, 1296.34312pt x 234.1247pt>
 File: HYBRID.png Graphic file (type png)
 <use HYBRID.png>
 Package pdftex.def Info: HYBRID.png  used on input line 1869.
 (pdftex.def)             Requested size: 640.18703pt x 115.62234pt.
  [113 <./HYBRID.png>]
-<HYBRIDST1.png, id=2053, 1295.59032pt x 75.28125pt>
+<HYBRIDST1.png, id=2056, 1295.59032pt x 75.28125pt>
 File: HYBRIDST1.png Graphic file (type png)
 <use HYBRIDST1.png>
 Package pdftex.def Info: HYBRIDST1.png  used on input line 1878.
@@ -3629,7 +3710,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [114 <./HYBRIDST1.png>]
-<HYBRIDST2.png, id=2059, 1296.34312pt x 140.02313pt>
+<HYBRIDST2.png, id=2062, 1296.34312pt x 140.02313pt>
 File: HYBRIDST2.png Graphic file (type png)
 <use HYBRIDST2.png>
 Package pdftex.def Info: HYBRIDST2.png  used on input line 1887.
@@ -3670,7 +3751,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1918--1919
  [][] 
  []
 
-<dist_disp_INV_0_2.pdf, id=2066, 505.89pt x 505.89pt>
+<dist_disp_INV_0_2.pdf, id=2070, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_2.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_2.pdf>
 Package pdftex.def Info: dist_disp_INV_0_2.pdf  used on input line 1926.
@@ -3700,7 +3781,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1932.
 
-<dist_disp_INV_0_4.pdf, id=2080, 505.89pt x 505.89pt>
+<dist_disp_INV_0_4.pdf, id=2083, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_4.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_4.pdf>
 Package pdftex.def Info: dist_disp_INV_0_4.pdf  used on input line 1934.
@@ -3714,7 +3795,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1934--1935
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1940.
 
-<dist_disp_INV_0_7.pdf, id=2081, 505.89pt x 505.89pt>
+<dist_disp_INV_0_7.pdf, id=2084, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_7.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_7.pdf>
 Package pdftex.def Info: dist_disp_INV_0_7.pdf  used on input line 1942.
@@ -3724,7 +3805,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1942--1943
  [][] 
  []
 
-<dist_energy_ST_0_2.pdf, id=2082, 505.89pt x 505.89pt>
+<dist_energy_ST_0_2.pdf, id=2085, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_2.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_2.pdf>
 Package pdftex.def Info: dist_energy_ST_0_2.pdf  used on input line 1952.
@@ -3747,7 +3828,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1958.
 
-<dist_energy_ST_0_4.pdf, id=2126, 505.89pt x 505.89pt>
+<dist_energy_ST_0_4.pdf, id=2129, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_4.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_4.pdf>
 Package pdftex.def Info: dist_energy_ST_0_4.pdf  used on input line 1960.
@@ -3761,7 +3842,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1960--1961
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1966.
 
-<dist_energy_ST_0_7.pdf, id=2127, 505.89pt x 505.89pt>
+<dist_energy_ST_0_7.pdf, id=2130, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_7.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_7.pdf>
 Package pdftex.def Info: dist_energy_ST_0_7.pdf  used on input line 1968.
@@ -3771,7 +3852,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1968--1969
  [][] 
  []
 
-<dist_disp_ST_0_2.pdf, id=2128, 505.89pt x 505.89pt>
+<dist_disp_ST_0_2.pdf, id=2131, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_2.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_2.pdf>
 Package pdftex.def Info: dist_disp_ST_0_2.pdf  used on input line 1976.
@@ -3799,7 +3880,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1982.
 
-<dist_disp_ST_0_4.pdf, id=2168, 505.89pt x 505.89pt>
+<dist_disp_ST_0_4.pdf, id=2171, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_4.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_4.pdf>
 Package pdftex.def Info: dist_disp_ST_0_4.pdf  used on input line 1984.
@@ -3813,7 +3894,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1984--1985
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1990.
 
-<dist_disp_ST_0_7.pdf, id=2169, 505.89pt x 505.89pt>
+<dist_disp_ST_0_7.pdf, id=2172, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_7.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_7.pdf>
 Package pdftex.def Info: dist_disp_ST_0_7.pdf  used on input line 1992.
@@ -3823,7 +3904,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 1992--1993
  [][] 
  []
 
-<dist_energy_SIG_0_2.pdf, id=2170, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_2.pdf, id=2173, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_2.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_2.pdf  used on input line 2002.
@@ -3846,7 +3927,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2008.
 
-<dist_energy_SIG_0_4.pdf, id=2206, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_4.pdf, id=2209, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_4.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_4.pdf  used on input line 2010.
@@ -3860,7 +3941,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2010--2011
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2016.
 
-<dist_energy_SIG_0_7.pdf, id=2207, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_7.pdf, id=2210, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_7.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_7.pdf  used on input line 2018.
@@ -3870,7 +3951,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2018--2019
  [][] 
  []
 
-<dist_disp_SIG_0_2.pdf, id=2208, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_2.pdf, id=2211, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_2.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_2.pdf  used on input line 2026.
@@ -3898,7 +3979,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2032.
 
-<dist_disp_SIG_0_4.pdf, id=2248, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_4.pdf, id=2251, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_4.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_4.pdf  used on input line 2034.
@@ -3912,7 +3993,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2034--2035
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2040.
 
-<dist_disp_SIG_0_7.pdf, id=2249, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_7.pdf, id=2252, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_7.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_7.pdf  used on input line 2042.
@@ -3922,7 +4003,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2042--2043
  [][] 
  []
 
-<dist_energy_6F3F_0_2.pdf, id=2250, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_2.pdf, id=2253, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_2.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_2.pdf  used on input line 2052.
@@ -3945,7 +4026,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2058.
 
-<dist_energy_6F3F_0_4.pdf, id=2285, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_4.pdf, id=2288, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_4.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_4.pdf  used on input line 2060.
@@ -3959,7 +4040,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2060--2061
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2066.
 
-<dist_energy_6F3F_0_7.pdf, id=2286, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_7.pdf, id=2289, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_7.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_7.pdf  used on input line 2068.
@@ -3969,7 +4050,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2068--2069
  [][] 
  []
 
-<dist_disp_6F3F_0_2.pdf, id=2287, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_2.pdf, id=2290, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_2.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_2.pdf  used on input line 2076.
@@ -3997,7 +4078,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2082.
 
-<dist_disp_6F3F_0_4.pdf, id=2328, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_4.pdf, id=2331, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_4.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_4.pdf  used on input line 2084.
@@ -4011,7 +4092,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2084--2085
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2090.
 
-<dist_disp_6F3F_0_7.pdf, id=2329, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_7.pdf, id=2332, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_7.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_7.pdf  used on input line 2092.
@@ -4021,7 +4102,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2092--2093
  [][] 
  []
 
-<dist_energy_6F2F_0_2.pdf, id=2330, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_2.pdf, id=2333, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_2.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_2.pdf  used on input line 2102.
@@ -4044,7 +4125,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2108.
 
-<dist_energy_6F2F_0_4.pdf, id=2365, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_4.pdf, id=2368, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_4.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_4.pdf  used on input line 2110.
@@ -4058,7 +4139,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2110--2111
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2116.
 
-<dist_energy_6F2F_0_7.pdf, id=2366, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_7.pdf, id=2369, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_7.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_7.pdf  used on input line 2118.
@@ -4068,7 +4149,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2118--2119
  [][] 
  []
 
-<dist_disp_6F2F_0_2.pdf, id=2367, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_2.pdf, id=2370, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_2.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_2.pdf  used on input line 2126.
@@ -4096,7 +4177,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2132.
 
-<dist_disp_6F2F_0_4.pdf, id=2407, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_4.pdf, id=2410, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_4.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_4.pdf  used on input line 2134.
@@ -4110,7 +4191,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2134--2135
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2140.
 
-<dist_disp_6F2F_0_7.pdf, id=2408, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_7.pdf, id=2411, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_7.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_7.pdf  used on input line 2142.
@@ -4134,7 +4215,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex (file ./extsINV.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<extsINV.pdf, id=2444, 722.7pt x 1084.05pt>
+<extsINV.pdf, id=2447, 722.7pt x 1084.05pt>
 File: extsINV.pdf Graphic file (type pdf)
 <use extsINV.pdf>
 Package pdftex.def Info: extsINV.pdf  used on input line 2156.
@@ -4164,27 +4245,26 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2162.
  ) 
 Here is how much of TeX's memory you used:
- 28829 strings out of 492982
- 480020 string characters out of 6134897
- 593584 words of memory out of 5000000
- 31604 multiletter control sequences out of 15000+600000
- 560484 words of font info for 54 fonts, out of 8000000 for 9000
+ 28934 strings out of 492982
+ 481750 string characters out of 6134897
+ 594831 words of memory out of 5000000
+ 31678 multiletter control sequences out of 15000+600000
+ 570976 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,65p,1521b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iiufrgs.pdf (147 pages, 9020505 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on iiufrgs.pdf (147 pages, 8993329 bytes).
 PDF statistics:
  2590 PDF objects out of 2984 (max. 8388607)
- 2013 compressed objects within 21 object streams
+ 2014 compressed objects within 21 object streams
  419 named destinations out of 1000 (max. 500000)
  1016 words of extra memory for PDF output out of 10000 (max. 10000000)
 

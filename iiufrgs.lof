@@ -43,7 +43,7 @@
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Layout comparison for each scenario considering the energy metrics for the TIST at 2:1 proportion.\relax }}{54}{figure.7.6}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Layout comparison for each scenario considering the energy metrics for the TIST at 3:1 proportion.\relax }}{55}{figure.7.7}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Low energy layouts energy metrics comparison for each design.\relax }}{56}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces High robustness layouts energy metrics comparison for each design.\relax }}{57}{figure.7.9}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces High robustness layouts energy metrics comparison for each design.\relax }}{56}{figure.7.9}
 \contentsline {figure}{\numberline {7.10}{\ignorespaces CB layouts energy metrics comparison for each design.\relax }}{57}{figure.7.10}
 \contentsline {figure}{\numberline {7.11}{\ignorespaces Current ratio (left) and current ratio deviation (right) design comparison across variability scaling.\relax }}{59}{figure.7.11}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Leakage current scaling (left axis) and standard deviation (right axis) for the inverter.\relax }}{60}{figure.7.12}
@@ -57,9 +57,9 @@
 \contentsline {figure}{\numberline {7.20}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.2V.\relax }}{65}{figure.7.20}
 \contentsline {figure}{\numberline {7.21}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.4V.\relax }}{66}{figure.7.21}
 \contentsline {figure}{\numberline {7.22}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.7V.\relax }}{67}{figure.7.22}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Average delay measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.23}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Average delay measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{71}{figure.7.23}
 \contentsline {figure}{\numberline {7.24}{\ignorespaces Average energy measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.24}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Average delay measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{73}{figure.7.25}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Average delay measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.25}
 \contentsline {figure}{\numberline {7.26}{\ignorespaces Average energy measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{73}{figure.7.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

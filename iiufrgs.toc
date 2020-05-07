@@ -21,11 +21,11 @@
 \contentsline {chapter}{7~Results}{46}{CHAPTER.7}
 \contentsline {section}{\numberline {7.1}Over robustness enhancing circuits}{46}{section.7.1}
 \contentsline {section}{\numberline {7.2}Energy Consumption and Deviation}{49}{section.7.2}
-\contentsline {section}{\numberline {7.3}Static Noise Margins}{56}{section.7.3}
+\contentsline {section}{\numberline {7.3}Static Noise Margins}{57}{section.7.3}
 \contentsline {section}{\numberline {7.4}Over ST technique applied on Full Adders}{63}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Nominal Operation}{68}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Near-Threshold Operation}{69}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Penalties}{71}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.2}Near-Threshold Operation}{68}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Penalties}{69}{subsection.7.4.3}
 \contentsline {chapter}{8~Conclusions}{74}{CHAPTER.8}
 \contentsline {chapter}{\xspace {}References}{75}{schapter.6}
 \contentsline {chapter}{\MakeUppercase {Annex} A~--- Inverter Designs Layouts}{82}{CHAPTER.A}
