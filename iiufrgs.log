@@ -1,0 +1,4301 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  10 MAY 2020 20:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**iiufrgs.tex
+(./iiufrgs.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./iiufrgs.cls
+Document Class: iiufrgs 2010/08/13 v4.4.0 Formatacao de documentos para o II/UF
+RGS
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+\l@brazilian = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+(./brazilian.babel) (./english.babel) (./lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (./iidefs.sty
+Package: iidefs 
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+))
+(./setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (./ccaption.sty
+Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
+\@contcwidth=\skip43
+\@contindw=\skip44
+\abovelegendskip=\skip45
+\belowlegendskip=\skip46
+\c@newflo@tctr=\count90
+) (./titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen106
+\ttl@minus=\dimen107
+\ttl@toksa=\toks15
+\titlewidth=\dimen108
+\titlewidthlast=\dimen109
+\titlewidthfirst=\dimen110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (./xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen111
+\extrarowheight=\dimen112
+\NC@list=\toks16
+\extratabsurround=\skip58
+\backup@length=\skip59
+)
+\everycr=\toks17
+\minrowclearance=\skip60
+)
+\rownum=\count91
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (./svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+)) (./tocstyle.sty
+Package: tocstyle 2019/10/09 v0.2j-alpha deprecated package (versatile toc styl
+es)
+
+
+Package tocstyle Warning: THIS IS A DEPRECATED ALPHA VERSION!
+(tocstyle)                USAGE OF THIS VERSION IS ON YOUR OWN RISK!
+(tocstyle)                EVERYTHING MAY HAPPEN!
+(tocstyle)                THE PACKAGE IS FROZEN WITH ALL IT'S BUGS!
+(tocstyle)                IT WILL BE REMOVED FROM KOMA-SCRIPT SOON!
+(tocstyle)                THERE IS NO SUPPORT, IF YOU USE THIS PACKAGE!
+(tocstyle)                Maybe it would be better, not to load this package.
+
+\tocstyle@indentstyle=\count92
+Package tocstyle Info: no tocstyle.cfg found on input line 951.
+)
+exclude: 
+exclude: 
+exclude: 
+exclude: 
+exclude: 
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4383
+.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4383.
+Package hyperref Info: Option `unicode' set `true' on input line 4383.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count97
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (./abntex2cite.sty
+Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count105
+\calc@Cskip=\skip64
+) (./abntex2abrev.sty)
+(./xparse.sty (./expl3.sty
+Package: expl3 2020-04-06 L3 programming layer (loader) 
+ (./expl3-code.tex
+Package: expl3 2020-04-06 L3 programming layer (code)
+\c_max_int=\count106
+\l_tmpa_int=\count107
+\l_tmpb_int=\count108
+\g_tmpa_int=\count109
+\g_tmpb_int=\count110
+\l__seq_internal_a_int=\count111
+\l__seq_internal_b_int=\count112
+\g__kernel_prg_map_int=\count113
+\c__ior_term_noprompt_ior=\count114
+\c_log_iow=\count115
+\l_iow_line_count_int=\count116
+\l__iow_line_target_int=\count117
+\l__iow_one_indent_int=\count118
+\l__iow_indent_int=\count119
+\c_zero_dim=\dimen119
+\c_max_dim=\dimen120
+\l_tmpa_dim=\dimen121
+\l_tmpb_dim=\dimen122
+\g_tmpa_dim=\dimen123
+\g_tmpb_dim=\dimen124
+\c_zero_skip=\skip65
+\c_max_skip=\skip66
+\l_tmpa_skip=\skip67
+\l_tmpb_skip=\skip68
+\g_tmpa_skip=\skip69
+\g_tmpb_skip=\skip70
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count120
+\l__intarray_loop_int=\count121
+\c__intarray_sp_dim=\dimen125
+\g__intarray_font_int=\count122
+\c__fp_leading_shift_int=\count123
+\c__fp_middle_shift_int=\count124
+\c__fp_trailing_shift_int=\count125
+\c__fp_big_leading_shift_int=\count126
+\c__fp_big_middle_shift_int=\count127
+\c__fp_big_trailing_shift_int=\count128
+\c__fp_Bigg_leading_shift_int=\count129
+\c__fp_Bigg_middle_shift_int=\count130
+\c__fp_Bigg_trailing_shift_int=\count131
+\c__kernel_randint_max_int=\count132
+\g__fp_array_int=\count133
+\l__fp_array_loop_int=\count134
+\l__sort_length_int=\count135
+\l__sort_min_int=\count136
+\l__sort_top_int=\count137
+\l__sort_max_int=\count138
+\l__sort_true_max_int=\count139
+\l__sort_block_int=\count140
+\l__sort_begin_int=\count141
+\l__sort_end_int=\count142
+\l__sort_A_int=\count143
+\l__sort_B_int=\count144
+\l__sort_C_int=\count145
+\l__str_internal_int=\count146
+\c__str_replacement_char_int=\count147
+\l__tl_analysis_normal_int=\count148
+\l__tl_analysis_index_int=\count149
+\l__tl_analysis_nesting_int=\count150
+\l__tl_analysis_type_int=\count151
+\l__regex_internal_a_int=\count152
+\l__regex_internal_b_int=\count153
+\l__regex_internal_c_int=\count154
+\l__regex_balance_int=\count155
+\l__regex_group_level_int=\count156
+\l__regex_mode_int=\count157
+\c__regex_cs_in_class_mode_int=\count158
+\c__regex_cs_mode_int=\count159
+\l__regex_catcodes_int=\count160
+\l__regex_default_catcodes_int=\count161
+\c__regex_catcode_D_int=\count162
+\c__regex_catcode_S_int=\count163
+\c__regex_catcode_L_int=\count164
+\c__regex_catcode_O_int=\count165
+\c__regex_catcode_A_int=\count166
+\c__regex_all_catcodes_int=\count167
+\l__regex_show_lines_int=\count168
+\l__regex_min_state_int=\count169
+\l__regex_max_state_int=\count170
+\l__regex_left_state_int=\count171
+\l__regex_right_state_int=\count172
+\l__regex_capturing_group_int=\count173
+\l__regex_min_pos_int=\count174
+\l__regex_max_pos_int=\count175
+\l__regex_curr_pos_int=\count176
+\l__regex_start_pos_int=\count177
+\l__regex_success_pos_int=\count178
+\l__regex_curr_char_int=\count179
+\l__regex_curr_catcode_int=\count180
+\l__regex_last_char_int=\count181
+\l__regex_case_changed_char_int=\count182
+\l__regex_curr_state_int=\count183
+\l__regex_step_int=\count184
+\l__regex_min_active_int=\count185
+\l__regex_max_active_int=\count186
+\l__regex_replacement_csnames_int=\count187
+\l__regex_match_count_int=\count188
+\l__regex_min_submatch_int=\count189
+\l__regex_submatch_int=\count190
+\l__regex_zeroth_submatch_int=\count191
+\g__regex_trace_regex_int=\count192
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen126
+\l__box_bottom_dim=\dimen127
+\l__box_left_dim=\dimen128
+\l__box_right_dim=\dimen129
+\l__box_top_new_dim=\dimen130
+\l__box_bottom_new_dim=\dimen131
+\l__box_left_new_dim=\dimen132
+\l__box_right_new_dim=\dimen133
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen134
+\l__coffin_offset_x_dim=\dimen135
+\l__coffin_offset_y_dim=\dimen136
+\l__coffin_x_dim=\dimen137
+\l__coffin_y_dim=\dimen138
+\l__coffin_x_prime_dim=\dimen139
+\l__coffin_y_prime_dim=\dimen140
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\g_tmpa_coffin=\box39
+\g_tmpb_coffin=\box40
+\l__coffin_bounding_shift_dim=\dimen141
+\l__coffin_left_corner_dim=\dimen142
+\l__coffin_right_corner_dim=\dimen143
+\l__coffin_bottom_corner_dim=\dimen144
+\l__coffin_top_corner_dim=\dimen145
+\l__coffin_scaled_total_height_dim=\dimen146
+\l__coffin_scaled_width_dim=\dimen147
+\c__coffin_empty_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen148
+\l__coffin_display_x_dim=\dimen149
+\l__coffin_display_y_dim=\dimen150
+\g__char_data_ior=\read1
+ (./l3deprecation.def
+File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
+))
+(./l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count193
+\l__pdf_internal_box=\box45
+))
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count194
+\g__xparse_grabber_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_v_nesting_int=\count197
+)
+\minimumbiblabelwidth=\skip71
+\ABCIauxlen=\skip72
+\c@ABCIaux=\count198
+\c@ABCImax=\count199
+
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip73
+LaTeX Info: Redefining \newblock on input line 679.
+\ABCItoken=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count266
+\Gm@cntv=\count267
+\c@Gm@tempcnt=\count268
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks19
+)
+\c@ii@authorcount=\count269
+\c@kwcounter=\count270
+\titlepagewinwidth=\skip74
+\titlepagewinheight=\skip75
+\titlepagewinvoffset=\skip76
+\dottedspace=\skip77
+\c@schapter=\count271
+ (./float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count272
+\float@exts=\toks20
+\float@box=\box46
+\@float@everytoks=\toks21
+\@floatcapt=\box47
+)
+\@float@every@figure=\toks22
+\@float@every@table=\toks23
+)
+(./pgmicro.def
+File: pgmicro.def 2014/04/12 Definições para o PGMicro
+) (./diss.def
+File: diss.def 2003/02/03 Dissertação de Mestrado
+) (./nominata.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (./caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(./caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\let \@conttempa \relax
+ \ifdim \prevdepth >-99\p@ \vskip \abovecaptionskip \else \def \@conttempa {\vb
+ox to\topskip {}}\fi \let \@contfnote \footnote \renewcommand {\footnote }[2][]
+{} \let \@contfmark \footnotemark \renewcommand {\footnotemark }[1][]{} \let \@
+contlabel \label \renewcommand {\label }[1]{} \sbox \@tempboxa {\@contnfont #1\
+@contdelim \@conttfont #2} \let \footnote \@contfnote \let \footnotemark \@cont
+fmark \let \label \@contlabel \ifdim \wd \@tempboxa <\linewidth \centering \fi 
+\if@contcw \centering \parbox {\@contcwidth }{\fi \if@conthang \sbox \@tempboxa
+ {\@contnfont #1\@contdelim } \@contpre {\@contnfont #1\@contdelim }\@conttempa
+ {\@contcstyle \hangindent =\wd \@tempboxa \hangafter =\@ne \@conttfont #2\par 
+} \else \if@contindent \@contpre {\@contnfont #1\@contdelim }\@conttempa {\@con
+tcstyle \hangindent =\@contindw \hangafter =\@ne \@conttfont #2\par } \else \@c
+ontpre {\@contnfont #1\@contdelim }\@conttempa {\@contcstyle \@conttfont #2\par
+ } \fi \fi \@contpost \if@contcw \par } \fi \vskip \belowcaptionskip  on input 
+line 1082.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+) (./subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count275
+\c@subtable=\count276
+) (./multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip78
+\multirow@cntb=\count277
+\multirow@dima=\skip79
+\bigstrutjot=\dimen166
+) (./ulem.sty
+\UL@box=\box48
+\UL@hyphenbox=\box49
+\UL@skip=\skip80
+\UL@hook=\toks26
+\UL@height=\dimen167
+\UL@pe=\count278
+\UL@pixel=\dimen168
+\ULC@box=\box50
+Package: ulem 2019/11/18
+\ULdepth=\dimen169
+) (./pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(./eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen170
+\AM@pageheight=\dimen171
+ (./pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box51
+\AM@global@opts=\toks27
+\AM@pagecnt=\count279
+\AM@toc@title=\toks28
+\c@AM@survey=\count280
+\AM@templatesizebox=\box52
+) (./listings.sty
+\lst@mode=\count281
+\lst@gtempboxa=\box53
+\lst@token=\toks29
+\lst@length=\count282
+\lst@currlwidth=\dimen172
+\lst@column=\count283
+\lst@pos=\count284
+\lst@lostspace=\dimen173
+\lst@width=\dimen174
+\lst@newlines=\count285
+\lst@lineno=\count286
+\lst@maxwidth=\dimen175
+ (./lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count287
+\lst@skipnumbers=\count288
+\lst@framebox=\box54
+)
+(./listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip81
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen176
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count289
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count290
+\leftroot@=\count291
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count292
+\DOTSCASE@=\count293
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count294
+\c@MaxMatrixCols=\count295
+\dotsspace@=\muskip17
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
+\tag@help=\toks31
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
+\andhelp@=\toks32
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks33
+\multlinegap=\skip82
+\multlinetaggap=\skip83
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (./iiufrgs.aux
+
+LaTeX Warning: Label `fig:hyst_INV_2' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_INV_4' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_INV_7' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_ST_2' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_ST_4' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_ST_7' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_SIG_2' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_SIG_4' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_SIG_7' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_6F3F_2' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_6F3F_4' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_6F3F_7' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_6F2F_2' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_6F2F_4' multiply defined.
+
+
+LaTeX Warning: Label `fig:hyst_6F2F_7' multiply defined.
+
+)
+\openout1 = `iiufrgs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 115.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 115.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count301
+\scratchdimen=\dimen185
+\scratchbox=\box57
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen186
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks36
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+Package tocstyle Info: prepare \l@part for redefinition on input line 115.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 115.
+Package tocstyle Info: prepare \l@section for redefinition on input line 115.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 115
+.
+Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
+115.
+Package tocstyle Info: prepare \l@table for redefinition on input line 115.
+Package tocstyle Info: prepare \l@subtable for redefinition on input line 115.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 115.
+Package tocstyle Info: prepare \l@subfigure for redefinition on input line 115.
+
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 115.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+LaTeX Info: Redefining \nameref on input line 115.
+
+(./iiufrgs.out) (./iiufrgs.out)
+\@outlinefile=\write3
+\openout3 = `iiufrgs.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-27.36447pt
+* \headheight=12.0pt
+* \headsep=28.45274pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\c@lstlisting=\count308
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+
+] (./iiufrgs.toc
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  39.0pt
+text indent calculated (toc, 2): 30.0pt
+number indent calculated (toc, 2): 39.0pt
+text noindent (toc, 2): 30.0pt
+number noindent (toc, 2): 0.0pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  39.0pt
+text indent calculated (toc, 2): 30.0pt
+number indent calculated (toc, 2): 39.0pt
+text noindent (toc, 2): 30.0pt
+number noindent (toc, 2): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 1):  18.0pt
+text indent by \l@... (toc, 1):  27.60004pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 21.0pt
+number indent calculated (toc, 1): 18.0pt
+text noindent (toc, 1): 30.0pt
+number noindent (toc, 1): 0.0pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  39.0pt
+text indent calculated (toc, 2): 30.0pt
+number indent calculated (toc, 2): 39.0pt
+text noindent (toc, 2): 30.0pt
+number noindent (toc, 2): 0.0pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  39.0pt
+text indent calculated (toc, 2): 30.0pt
+number indent calculated (toc, 2): 39.0pt
+text noindent (toc, 2): 30.0pt
+number noindent (toc, 2): 0.0pt
+number indent by \l@... (toc, 2):  45.60004pt
+text indent by \l@... (toc, 2):  38.39996pt
+number indent by parent (toc, 2):  39.0pt
+text indent calculated (toc, 2): 30.0pt
+number indent calculated (toc, 2): 39.0pt
+text noindent (toc, 2): 30.0pt
+number noindent (toc, 2): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  18.0pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 30.0pt
+number noindent (toc, 0): 0.0pt
+)
+\tf@toc=\write4
+\openout4 = `iiufrgs.toc'.
+
+ [3
+
+] [4
+
+] [5] [6] (./iiufrgs.lof
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+[7
+
+]
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+[8]
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+number indent by \l@... (lof, 1):  18.0pt
+text indent by \l@... (lof, 1):  27.60004pt
+number indent by parent (lof, 1):  18.0pt
+text indent calculated (lof, 1): 29.66396pt
+number indent calculated (lof, 1): 18.0pt
+text noindent (lof, 1): 29.66396pt
+number noindent (lof, 1): 0.0pt
+)
+\tf@lof=\write5
+\openout5 = `iiufrgs.lof'.
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+[10
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 228.
+ [11
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 12
+ []
+
+[12
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 14
+ []
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 16
+ []
+
+[16]
+<transistorVariability.png, id=606, 1297.84875pt x 1186.4325pt>
+File: transistorVariability.png Graphic file (type png)
+<use transistorVariability.png>
+Package pdftex.def Info: transistorVariability.png  used on input line 272.
+(pdftex.def)             Requested size: 277.41176pt x 253.59352pt.
+ [17 <./transistorVariability.png>]
+Overfull \hbox (8.94666pt too wide) in paragraph at lines 301--303
+[]\T1/ptm/m/n/12 Near-threshold op-er-a-tion has be-come a pop-u-lar tech-nique
+ to achieve energy-efficient
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 18
+ []
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 20
+ []
+
+[20]
+
+pdfTeX warning: pdflatex (file ./finfet.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<finfet.pdf, id=718, 963.6pt x 455.18056pt>
+File: finfet.pdf Graphic file (type pdf)
+<use finfet.pdf>
+Package pdftex.def Info: finfet.pdf  used on input line 332.
+(pdftex.def)             Requested size: 426.79135pt x 201.5997pt.
+<finfet2.png, id=724, 1595.9625pt x 769.87625pt>
+File: finfet2.png Graphic file (type png)
+<use finfet2.png>
+Package pdftex.def Info: finfet2.png  used on input line 340.
+(pdftex.def)             Requested size: 426.79135pt x 205.87231pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+ <./finfet.pdf>]
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 22
+ []
+
+[22 <./finfet2.png>]
+<chrome_2019-05-15_16-55-31.pdf, id=794, 956.20537pt x 474.33813pt>
+File: chrome_2019-05-15_16-55-31.pdf Graphic file (type pdf)
+<use chrome_2019-05-15_16-55-31.pdf>
+Package pdftex.def Info: chrome_2019-05-15_16-55-31.pdf  used on input line 356
+.
+(pdftex.def)             Requested size: 320.0935pt x 158.78302pt.
+<pic-selected-190513-1743-08.pdf, id=800, 759.58781pt x 666.99188pt>
+File: pic-selected-190513-1743-08.pdf Graphic file (type pdf)
+<use pic-selected-190513-1743-08.pdf>
+Package pdftex.def Info: pic-selected-190513-1743-08.pdf  used on input line 36
+4.
+(pdftex.def)             Requested size: 277.41176pt x 243.59758pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./chrome_2019-05-15_16-55-31.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 24
+ []
+
+[24 <./pic-selected-190513-1743-08.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 26
+ []
+
+[26]
+Overfull \hbox (13.48163pt too wide) in paragraph at lines 412--413
+[]\T1/ptm/m/n/12 Variations in phys-i-cal pa-ram-e-ters be-came alarm-ing at ul
+tra-deep sub-micron (UDSM)
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./ST.pdf): PDF inclusion: found PDF version <1.7
+>, but at most version <1.5> allowed
+<ST.pdf, id=883, 375.804pt x 556.47902pt>
+File: ST.pdf Graphic file (type pdf)
+<use ST.pdf>
+Package pdftex.def Info: ST.pdf  used on input line 421.
+(pdftex.def)             Requested size: 170.71393pt x 252.79077pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+]
+<TIST.png, id=895, 1341.01pt x 639.38875pt>
+File: TIST.png Graphic file (type png)
+<use TIST.png>
+Package pdftex.def Info: TIST.png  used on input line 432.
+(pdftex.def)             Requested size: 426.79135pt x 203.4866pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 28
+ []
+
+[28 <./ST.pdf> <./TIST.png>]
+<SIG.png, id=915, 597.23125pt x 938.50626pt>
+File: SIG.png Graphic file (type png)
+<use SIG.png>
+Package pdftex.def Info: SIG.png  used on input line 443.
+(pdftex.def)             Requested size: 170.71393pt x 268.26468pt.
+ [29 <./SIG.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 30
+ []
+
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+<FAs.png, id=1001, 1445.4pt x 1156.32pt>
+File: FAs.png Graphic file (type png)
+<use FAs.png>
+Package pdftex.def Info: FAs.png  used on input line 486.
+(pdftex.def)             Requested size: 426.79135pt x 341.42903pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 32
+ []
+
+[32]
+Package epstopdf Info: Source file: <STOriginal.eps>
+(epstopdf)                    date: 2020-05-07 10:27:55
+(epstopdf)                    size: 13035 bytes
+(epstopdf)             Output file: <STOriginal-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-07 10:27:55
+(epstopdf)                    size: 11139 bytes
+(epstopdf)             Command: <repstopdf --outfile=STOriginal-eps-converted-t
+o.pdf STOriginal.eps>
+(epstopdf)             \includegraphics on input line 501.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./STOriginal-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<STOriginal-eps-converted-to.pdf, id=1020, 646.415pt x 551.05875pt>
+File: STOriginal-eps-converted-to.pdf Graphic file (type pdf)
+<use STOriginal-eps-converted-to.pdf>
+Package pdftex.def Info: STOriginal-eps-converted-to.pdf  used on input line 50
+1.
+(pdftex.def)             Requested size: 170.71718pt x 145.53377pt.
+
+Underfull \hbox (badness 1983) in paragraph at lines 502--502
+[]\T1/ptm/m/n/10.95 (a) |[]LPST In-verter from [][]Doka-nia and Is-lam[][]
+ []
+
+Package epstopdf Info: Source file: <STcorrigido.eps>
+(epstopdf)                    date: 2020-05-07 10:27:55
+(epstopdf)                    size: 11933 bytes
+(epstopdf)             Output file: <STcorrigido-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-07 10:27:55
+(epstopdf)                    size: 10773 bytes
+(epstopdf)             Command: <repstopdf --outfile=STcorrigido-eps-converted-
+to.pdf STcorrigido.eps>
+(epstopdf)             \includegraphics on input line 507.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./STcorrigido-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<STcorrigido-eps-converted-to.pdf, id=1025, 646.415pt x 551.05875pt>
+File: STcorrigido-eps-converted-to.pdf Graphic file (type pdf)
+<use STcorrigido-eps-converted-to.pdf>
+Package pdftex.def Info: STcorrigido-eps-converted-to.pdf  used on input line 5
+07.
+(pdftex.def)             Requested size: 170.71718pt x 145.53377pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./FAs.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 34
+ []
+
+[34 <./STOriginal-eps-converted-to.pdf> <./STcorrigido-eps-converted-to.pdf>]
+[35
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 36
+ []
+
+[36
+
+]
+
+pdfTeX warning: pdflatex (file ./designFlow.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<designFlow.pdf, id=1060, 542.025pt x 963.6pt>
+File: designFlow.pdf Graphic file (type pdf)
+<use designFlow.pdf>
+Package pdftex.def Info: designFlow.pdf  used on input line 542.
+(pdftex.def)             Requested size: 341.43437pt x 375.3011pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 550.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (2.65814pt too wide) in paragraph at lines 550--551
+[]\T1/ptm/m/n/12 All cir-cuits were de-signed us-ing the Vir-tu-oso Elec-tronic
+ De-sign Au-toma-tion (EDA)
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 38
+ []
+
+[38 <./designFlow.pdf>]
+
+pdfTeX warning: pdflatex (file ./INVComp.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<INVComp.pdf, id=1140, 963.6pt x 542.025pt>
+File: INVComp.pdf Graphic file (type pdf)
+<use INVComp.pdf>
+Package pdftex.def Info: INVComp.pdf  used on input line 557.
+(pdftex.def)             Requested size: 426.79135pt x 229.35014pt.
+
+
+pdfTeX warning: pdflatex (file ./STComp.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<STComp.pdf, id=1142, 963.6pt x 542.025pt>
+File: STComp.pdf Graphic file (type pdf)
+<use STComp.pdf>
+Package pdftex.def Info: STComp.pdf  used on input line 565.
+(pdftex.def)             Requested size: 426.79135pt x 97.4798pt.
+
+
+pdfTeX warning: pdflatex (file ./SIGComp.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<SIGComp.pdf, id=1144, 963.6pt x 542.025pt>
+File: SIGComp.pdf Graphic file (type pdf)
+<use SIGComp.pdf>
+Package pdftex.def Info: SIGComp.pdf  used on input line 573.
+(pdftex.def)             Requested size: 426.79135pt x 97.4798pt.
+
+
+pdfTeX warning: pdflatex (file ./TISTComp.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<TISTComp.pdf, id=1146, 963.6pt x 542.025pt>
+File: TISTComp.pdf Graphic file (type pdf)
+<use TISTComp.pdf>
+Package pdftex.def Info: TISTComp.pdf  used on input line 581.
+(pdftex.def)             Requested size: 426.79135pt x 152.78748pt.
+[39 <./INVComp.pdf> <./STComp.pdf> <./SIGComp.pdf>]
+
+pdfTeX warning: pdflatex (file ./camadasSTv2.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<camadasSTv2.pdf, id=1199, 332.44202pt x 158.99399pt>
+File: camadasSTv2.pdf Graphic file (type pdf)
+<use camadasSTv2.pdf>
+Package pdftex.def Info: camadasSTv2.pdf  used on input line 610.
+(pdftex.def)             Requested size: 426.79135pt x 234.19142pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 40
+ []
+
+[40 <./TISTComp.pdf>]
+<TAP.png, id=1222, 208.4419pt x 607.068pt>
+File: TAP.png Graphic file (type png)
+<use TAP.png>
+Package pdftex.def Info: TAP.png  used on input line 630.
+(pdftex.def)             Requested size: 85.35696pt x 248.59381pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./camadasSTv2.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 638.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 671.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 42
+ []
+
+[42 <./TAP.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 707.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 722.
+
+<img17.png, id=1315, 379.4175pt x 368.37625pt>
+File: img17.png Graphic file (type png)
+<use img17.png>
+Package pdftex.def Info: img17.png  used on input line 724.
+(pdftex.def)             Requested size: 341.43437pt x 331.50745pt.
+
+
+pdfTeX warning: pdflatex (file ./testbench.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<testbench.pdf, id=1322, 963.6pt x 542.025pt>
+File: testbench.pdf Graphic file (type pdf)
+<use testbench.pdf>
+Package pdftex.def Info: testbench.pdf  used on input line 742.
+(pdftex.def)             Requested size: 341.43437pt x 93.05698pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 44
+ []
+
+[44] [45 <./img17.png>]
+<testbenchFA.png, id=1338, 1377.64688pt x 560.8453pt>
+File: testbenchFA.png Graphic file (type png)
+<use testbenchFA.png>
+Package pdftex.def Info: testbenchFA.png  used on input line 752.
+(pdftex.def)             Requested size: 426.79135pt x 173.749pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 46
+ []
+
+[46 <./testbench.pdf> <./testbenchFA.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 769.
+
+
+
+pdfTeX warning: pdflatex (file ./freqRetWFF.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<freqRetWFF.pdf, id=1358, 845.07718pt x 597.55246pt>
+File: freqRetWFF.pdf Graphic file (type pdf)
+<use freqRetWFF.pdf>
+Package pdftex.def Info: freqRetWFF.pdf  used on input line 771.
+(pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 813.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 853.
+
+
+
+pdfTeX warning: pdflatex (file ./delayDevWFF.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<delayDevWFF.pdf, id=1366, 845.07718pt x 597.55246pt>
+File: delayDevWFF.pdf Graphic file (type pdf)
+<use delayDevWFF.pdf>
+Package pdftex.def Info: delayDevWFF.pdf  used on input line 855.
+(pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 48
+ []
+
+[48 <./freqRetWFF.pdf>] [49 <./delayDevWFF.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 50
+ []
+
+[50]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 891.
+
+[51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 52
+ []
+
+[52]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 973.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1011.
+
+
+
+pdfTeX warning: pdflatex (file ./comp3Linv2Energy.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<comp3Linv2Energy.pdf, id=1419, 845.07718pt x 597.55246pt>
+File: comp3Linv2Energy.pdf Graphic file (type pdf)
+<use comp3Linv2Energy.pdf>
+Package pdftex.def Info: comp3Linv2Energy.pdf  used on input line 1013.
+(pdftex.def)             Requested size: 426.79135pt x 258.19035pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1018.
+
+
+
+pdfTeX warning: pdflatex (file ./comp3Lst2Energy.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<comp3Lst2Energy.pdf, id=1421, 845.07718pt x 597.55246pt>
+File: comp3Lst2Energy.pdf Graphic file (type pdf)
+<use comp3Lst2Energy.pdf>
+Package pdftex.def Info: comp3Lst2Energy.pdf  used on input line 1020.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1025.
+
+
+
+pdfTeX warning: pdflatex (file ./comp3Lsig2Energy.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<comp3Lsig2Energy.pdf, id=1423, 845.07718pt x 597.55246pt>
+File: comp3Lsig2Energy.pdf Graphic file (type pdf)
+<use comp3Lsig2Energy.pdf>
+Package pdftex.def Info: comp3Lsig2Energy.pdf  used on input line 1027.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1032.
+
+
+
+pdfTeX warning: pdflatex (file ./comp3Ltist212Energy.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<comp3Ltist212Energy.pdf, id=1425, 845.07718pt x 597.55246pt>
+File: comp3Ltist212Energy.pdf Graphic file (type pdf)
+<use comp3Ltist212Energy.pdf>
+Package pdftex.def Info: comp3Ltist212Energy.pdf  used on input line 1034.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1039.
+
+
+
+pdfTeX warning: pdflatex (file ./comp3Ltist312Energy.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<comp3Ltist312Energy.pdf, id=1427, 845.07718pt x 597.55246pt>
+File: comp3Ltist312Energy.pdf Graphic file (type pdf)
+<use comp3Ltist312Energy.pdf>
+Package pdftex.def Info: comp3Ltist312Energy.pdf  used on input line 1041.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 54
+ []
+
+[54 <./comp3Linv2Energy.pdf> <./comp3Lst2Energy.pdf>] [55 <./comp3Lsig2Energy.p
+df> <./comp3Ltist212Energy.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1048.
+
+
+
+pdfTeX warning: pdflatex (file ./compLowEnergy.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<compLowEnergy.pdf, id=1478, 845.07718pt x 597.55246pt>
+File: compLowEnergy.pdf Graphic file (type pdf)
+<use compLowEnergy.pdf>
+Package pdftex.def Info: compLowEnergy.pdf  used on input line 1050.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1057.
+
+
+
+pdfTeX warning: pdflatex (file ./compHighRobustness.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<compHighRobustness.pdf, id=1480, 845.07718pt x 597.55246pt>
+File: compHighRobustness.pdf Graphic file (type pdf)
+<use compHighRobustness.pdf>
+Package pdftex.def Info: compHighRobustness.pdf  used on input line 1059.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 56
+ []
+
+[56 <./comp3Ltist312Energy.pdf>] [57 <./compLowEnergy.pdf> <./compHighRobustnes
+s.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1066.
+
+
+
+pdfTeX warning: pdflatex (file ./compCB.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<compCB.pdf, id=1514, 845.07718pt x 597.55246pt>
+File: compCB.pdf Graphic file (type pdf)
+<use compCB.pdf>
+Package pdftex.def Info: compCB.pdf  used on input line 1068.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 58
+ []
+
+[58 <./compCB.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1078.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1238.
+
+
+
+pdfTeX warning: pdflatex (file ./currRatioWFF.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<currRatioWFF.pdf, id=1531, 597.55246pt x 845.07718pt>
+File: currRatioWFF.pdf Graphic file (type pdf)
+<use currRatioWFF.pdf>
+Package pdftex.def Info: currRatioWFF.pdf  used on input line 1240.
+(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1261.
+
+
+
+pdfTeX warning: pdflatex (file ./offCurrentComp.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<offCurrentComp.pdf, id=1545, 845.07718pt x 597.55246pt>
+File: offCurrentComp.pdf Graphic file (type pdf)
+<use offCurrentComp.pdf>
+Package pdftex.def Info: offCurrentComp.pdf  used on input line 1263.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 60
+ []
+
+[60 <./currRatioWFF.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1268.
+
+
+
+pdfTeX warning: pdflatex (file ./on-off-scaling2.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<on-off-scaling2.pdf, id=1563, 845.07718pt x 597.55246pt>
+File: on-off-scaling2.pdf Graphic file (type pdf)
+<use on-off-scaling2.pdf>
+Package pdftex.def Info: on-off-scaling2.pdf  used on input line 1270.
+(pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1277.
+
+
+
+pdfTeX warning: pdflatex (file ./gainComp.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<gainComp.pdf, id=1569, 597.55246pt x 845.07718pt>
+File: gainComp.pdf Graphic file (type pdf)
+<use gainComp.pdf>
+Package pdftex.def Info: gainComp.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1284.
+
+
+
+pdfTeX warning: pdflatex (file ./slopes.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<slopes.pdf, id=1571, 597.55246pt x 845.07718pt>
+File: slopes.pdf Graphic file (type pdf)
+<use slopes.pdf>
+Package pdftex.def Info: slopes.pdf  used on input line 1286.
+(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1291.
+
+<vtcs01.png, id=1573, 1436.36626pt x 641.39626pt>
+File: vtcs01.png Graphic file (type png)
+<use vtcs01.png>
+Package pdftex.def Info: vtcs01.png  used on input line 1293.
+(pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1298.
+
+<vtcs07.png, id=1575, 1436.36626pt x 641.39626pt>
+File: vtcs07.png Graphic file (type png)
+<use vtcs07.png>
+Package pdftex.def Info: vtcs07.png  used on input line 1300.
+(pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./offCurrentComp.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 62
+ []
+
+[62 <./on-off-scaling2.pdf> <./gainComp.pdf>] [63 <./slopes.pdf> <./vtcs01.png>
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1313.
+
+
+
+pdfTeX warning: pdflatex (file ./hystWFFComp.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<hystWFFComp.pdf, id=1627, 597.55246pt x 845.07718pt>
+File: hystWFFComp.pdf Graphic file (type pdf)
+<use hystWFFComp.pdf>
+Package pdftex.def Info: hystWFFComp.pdf  used on input line 1315.
+(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1320.
+
+
+
+pdfTeX warning: pdflatex (file ./hystGraphs.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<hystGraphs.pdf, id=1629, 845.07718pt x 597.55246pt>
+File: hystGraphs.pdf Graphic file (type pdf)
+<use hystGraphs.pdf>
+Package pdftex.def Info: hystGraphs.pdf  used on input line 1322.
+(pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1327.
+
+
+
+pdfTeX warning: pdflatex (file ./hystRatiosVdd.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<hystRatiosVdd.pdf, id=1631, 845.07718pt x 597.55246pt>
+File: hystRatiosVdd.pdf Graphic file (type pdf)
+<use hystRatiosVdd.pdf>
+Package pdftex.def Info: hystRatiosVdd.pdf  used on input line 1329.
+(pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1338.
+
+<dist_energy_INV_0_2.pdf, id=1636, 505.89pt x 505.89pt>
+File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
+<use dist_energy_INV_0_2.pdf>
+Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 1340.
+(pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1345.
+
+<dist_energy_INV_0_4.pdf, id=1638, 505.89pt x 505.89pt>
+File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
+<use dist_energy_INV_0_4.pdf>
+Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 1347.
+(pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1352.
+
+<dist_energy_INV_0_7.pdf, id=1640, 505.89pt x 505.89pt>
+File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
+<use dist_energy_INV_0_7.pdf>
+Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 1354.
+(pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 64
+ []
+
+[64 <./vtcs07.png>] [65 <./hystWFFComp.pdf> <./hystGraphs.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1372.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1399.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 66
+ []
+
+[66 <./hystRatiosVdd.pdf>] [67 <./dist_energy_INV_0_2.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 68
+ []
+
+[68 <./dist_energy_INV_0_4.pdf>] [69 <./dist_energy_INV_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1435.
+
+
+Overfull \hbox (21.33511pt too wide) in paragraph at lines 1439--1457
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1461.
+
+
+Overfull \hbox (3.33511pt too wide) in paragraph at lines 1465--1483
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 70
+ []
+
+[70]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1497.
+
+
+
+pdfTeX warning: pdflatex (file ./averageDelayNominal.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<averageDelayNominal.pdf, id=1741, 597.55246pt x 845.07718pt>
+File: averageDelayNominal.pdf Graphic file (type pdf)
+<use averageDelayNominal.pdf>
+Package pdftex.def Info: averageDelayNominal.pdf  used on input line 1499.
+(pdftex.def)             Requested size: 426.79135pt x 230.98412pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1506.
+
+
+
+pdfTeX warning: pdflatex (file ./averageEnergyNominal.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<averageEnergyNominal.pdf, id=1743, 845.07718pt x 597.55246pt>
+File: averageEnergyNominal.pdf Graphic file (type pdf)
+<use averageEnergyNominal.pdf>
+Package pdftex.def Info: averageEnergyNominal.pdf  used on input line 1508.
+(pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1515.
+
+
+
+pdfTeX warning: pdflatex (file ./averageDelayNT.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<averageDelayNT.pdf, id=1745, 845.07718pt x 597.55246pt>
+File: averageDelayNT.pdf Graphic file (type pdf)
+<use averageDelayNT.pdf>
+Package pdftex.def Info: averageDelayNT.pdf  used on input line 1517.
+(pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1524.
+
+
+
+pdfTeX warning: pdflatex (file ./averageEnergyNT.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<averageEnergyNT.pdf, id=1747, 845.07718pt x 597.55246pt>
+File: averageEnergyNT.pdf Graphic file (type pdf)
+<use averageEnergyNT.pdf>
+Package pdftex.def Info: averageEnergyNT.pdf  used on input line 1526.
+(pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
+[71]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 72
+ []
+
+[72 <./averageDelayNominal.pdf> <./averageEnergyNominal.pdf>] [73 <./averageDel
+ayNT.pdf> <./averageEnergyNT.pdf>] (./iiufrgs.bbl
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 74
+ []
+
+[74
+
+] [75
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 76
+ []
+
+[76] [77]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 78
+ []
+
+[78] [79]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 80
+ []
+
+[80]) [81]
+<INV1F.png, id=1878, 319.94531pt x 624.08156pt>
+File: INV1F.png Graphic file (type png)
+<use INV1F.png>
+Package pdftex.def Info: INV1F.png  used on input line 1604.
+(pdftex.def)             Requested size: 360.29884pt x 702.79471pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 82
+ []
+
+[82
+
+]
+Overfull \vbox (41.18428pt too high) has occurred while \output is active []
+
+
+[83 <./INV1F.png>]
+<INV2F.png, id=1888, 321.45094pt x 625.58719pt>
+File: INV2F.png Graphic file (type png)
+<use INV2F.png>
+Package pdftex.def Info: INV2F.png  used on input line 1612.
+(pdftex.def)             Requested size: 361.1262pt x 702.80066pt.
+
+Overfull \vbox (41.19023pt too high) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 84
+ []
+
+[84 <./INV2F.png>]
+<INV3F.png, id=1894, 319.94531pt x 625.58719pt>
+File: INV3F.png Graphic file (type png)
+<use INV3F.png>
+Package pdftex.def Info: INV3F.png  used on input line 1620.
+(pdftex.def)             Requested size: 359.43474pt x 702.80066pt.
+
+Overfull \vbox (41.19023pt too high) has occurred while \output is active []
+
+
+[85 <./INV3F.png>]
+<INV4F.png, id=1901, 273.27094pt x 627.09282pt>
+File: INV4F.png Graphic file (type png)
+<use INV4F.png>
+Package pdftex.def Info: INV4F.png  used on input line 1628.
+(pdftex.def)             Requested size: 306.26566pt x 702.80804pt.
+
+Overfull \vbox (41.19762pt too high) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 86
+ []
+
+[86 <./INV4F.png>]
+<INV5F.png, id=1908, 237.88875pt x 625.58719pt>
+File: INV5F.png Graphic file (type png)
+<use INV5F.png>
+Package pdftex.def Info: INV5F.png  used on input line 1636.
+(pdftex.def)             Requested size: 267.25029pt x 702.80066pt.
+
+Overfull \vbox (41.19023pt too high) has occurred while \output is active []
+
+
+[87 <./INV5F.png>]
+<ST1F.png, id=1914, 730.22812pt x 627.09282pt>
+File: ST1F.png Graphic file (type png)
+<use ST1F.png>
+Package pdftex.def Info: ST1F.png  used on input line 1651.
+(pdftex.def)             Requested size: 426.78618pt x 366.50813pt.
+<ST2F.png, id=1915, 730.22812pt x 625.58719pt>
+File: ST2F.png Graphic file (type png)
+<use ST2F.png>
+Package pdftex.def Info: ST2F.png  used on input line 1659.
+(pdftex.def)             Requested size: 426.78618pt x 365.62816pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 88
+ []
+
+[88 <./ST1F.png>]
+<ST3F.png, id=1921, 731.73375pt x 627.09282pt>
+File: ST3F.png Graphic file (type png)
+<use ST3F.png>
+Package pdftex.def Info: ST3F.png  used on input line 1667.
+(pdftex.def)             Requested size: 426.79526pt x 365.76178pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89 <./ST2F.png>]
+<ST4F.png, id=1927, 623.32875pt x 625.58719pt>
+File: ST4F.png Graphic file (type png)
+<use ST4F.png>
+Package pdftex.def Info: ST4F.png  used on input line 1675.
+(pdftex.def)             Requested size: 426.7969pt x 428.34328pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 90
+ []
+
+[90 <./ST3F.png>]
+<ST5F.png, id=1933, 543.53062pt x 625.58719pt>
+File: ST5F.png Graphic file (type png)
+<use ST5F.png>
+Package pdftex.def Info: ST5F.png  used on input line 1683.
+(pdftex.def)             Requested size: 426.81346pt x 491.2493pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91 <./ST4F.png>]
+<SIG1F.png, id=1940, 730.22812pt x 625.58719pt>
+File: SIG1F.png Graphic file (type png)
+<use SIG1F.png>
+Package pdftex.def Info: SIG1F.png  used on input line 1696.
+(pdftex.def)             Requested size: 426.78618pt x 365.62816pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 92
+ []
+
+[92 <./ST5F.png>]
+<SIG2F.png, id=1946, 729.47531pt x 625.58719pt>
+File: SIG2F.png Graphic file (type png)
+<use SIG2F.png>
+Package pdftex.def Info: SIG2F.png  used on input line 1704.
+(pdftex.def)             Requested size: 426.79143pt x 366.01pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93 <./SIG1F.png>]
+<SIG3F.png, id=1952, 730.98094pt x 625.58719pt>
+File: SIG3F.png Graphic file (type png)
+<use SIG3F.png>
+Package pdftex.def Info: SIG3F.png  used on input line 1712.
+(pdftex.def)             Requested size: 426.79117pt x 365.25587pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 94
+ []
+
+[94 <./SIG2F.png>]
+<SIG4F.png, id=1958, 623.32875pt x 625.58719pt>
+File: SIG4F.png Graphic file (type png)
+<use SIG4F.png>
+Package pdftex.def Info: SIG4F.png  used on input line 1720.
+(pdftex.def)             Requested size: 426.7969pt x 428.34328pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95 <./SIG3F.png>]
+<SIG5F.png, id=1964, 542.77782pt x 625.58719pt>
+File: SIG5F.png Graphic file (type png)
+<use SIG5F.png>
+Package pdftex.def Info: SIG5F.png  used on input line 1728.
+(pdftex.def)             Requested size: 426.81035pt x 491.92705pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 96
+ []
+
+[96 <./SIG4F.png>]
+<TIST2F1F.png, id=1970, 523.9575pt x 626.34pt>
+File: TIST2F1F.png Graphic file (type png)
+<use TIST2F1F.png>
+Package pdftex.def Info: TIST2F1F.png  used on input line 1742.
+(pdftex.def)             Requested size: 426.80173pt x 510.19977pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97 <./SIG5F.png>]
+<TIST3F1F.png, id=1977, 523.9575pt x 625.58719pt>
+File: TIST3F1F.png Graphic file (type png)
+<use TIST3F1F.png>
+Package pdftex.def Info: TIST3F1F.png  used on input line 1750.
+(pdftex.def)             Requested size: 426.80173pt x 509.58656pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 98
+ []
+
+[98 <./TIST2F1F.png>]
+<TIST4F2F.png, id=1983, 446.41782pt x 625.58719pt>
+File: TIST4F2F.png Graphic file (type png)
+<use TIST4F2F.png>
+Package pdftex.def Info: TIST4F2F.png  used on input line 1758.
+(pdftex.def)             Requested size: 426.79878pt x 598.0941pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99 <./TIST3F1F.png>]
+<TIST6F2F.png, id=1989, 347.79938pt x 627.09282pt>
+File: TIST6F2F.png Graphic file (type png)
+<use TIST6F2F.png>
+Package pdftex.def Info: TIST6F2F.png  used on input line 1766.
+(pdftex.def)             Requested size: 389.79268pt x 702.80804pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 100
+ []
+
+[100 <./TIST4F2F.png>]
+Overfull \vbox (41.19762pt too high) has occurred while \output is active []
+
+
+[101 <./TIST6F2F.png>]
+<TIST6F3F.png, id=2000, 347.79938pt x 627.09282pt>
+File: TIST6F3F.png Graphic file (type png)
+<use TIST6F3F.png>
+Package pdftex.def Info: TIST6F3F.png  used on input line 1774.
+(pdftex.def)             Requested size: 389.79268pt x 702.80804pt.
+
+Overfull \vbox (41.19762pt too high) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 102
+ []
+
+[102 <./TIST6F3F.png>]
+<CMOS.png, id=2006, 1287.30937pt x 340.27126pt>
+File: CMOS.png Graphic file (type png)
+<use CMOS.png>
+Package pdftex.def Info: CMOS.png  used on input line 1788.
+(pdftex.def)             Requested size: 640.18703pt x 169.22139pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 104
+ []
+
+[104 <./CMOS.png>]
+<CMOSST1.png, id=2017, 1297.09593pt x 146.04562pt>
+File: CMOSST1.png Graphic file (type png)
+<use CMOSST1.png>
+Package pdftex.def Info: CMOSST1.png  used on input line 1797.
+(pdftex.def)             Requested size: 640.18703pt x 72.0822pt.
+ [105 <./CMOSST1.png>]
+<CMOSST2.png, id=2023, 1297.09593pt x 222.07968pt>
+File: CMOSST2.png Graphic file (type png)
+<use CMOSST2.png>
+Package pdftex.def Info: CMOSST2.png  used on input line 1806.
+(pdftex.def)             Requested size: 640.18703pt x 109.60954pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 106
+ []
+
+[106 <./CMOSST2.png>]
+<TFA.png, id=2029, 1295.59032pt x 250.68657pt>
+File: TFA.png Graphic file (type png)
+<use TFA.png>
+Package pdftex.def Info: TFA.png  used on input line 1819.
+(pdftex.def)             Requested size: 640.18703pt x 123.87027pt.
+ [107 <./TFA.png>]
+<TFAST1.png, id=2035, 1296.34312pt x 126.4725pt>
+File: TFAST1.png Graphic file (type png)
+<use TFAST1.png>
+Package pdftex.def Info: TFAST1.png  used on input line 1828.
+(pdftex.def)             Requested size: 640.18703pt x 62.45837pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 108
+ []
+
+[108 <./TFAST1.png>]
+<TFAST2.png, id=2041, 1297.09593pt x 198.7425pt>
+File: TFAST2.png Graphic file (type png)
+<use TFAST2.png>
+Package pdftex.def Info: TFAST2.png  used on input line 1837.
+(pdftex.def)             Requested size: 640.18703pt x 98.09125pt.
+ [109 <./TFAST2.png>]
+<TGA.png, id=2048, 1295.59032pt x 222.8325pt>
+File: TGA.png Graphic file (type png)
+<use TGA.png>
+Package pdftex.def Info: TGA.png  used on input line 1853.
+(pdftex.def)             Requested size: 640.18703pt x 110.10692pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 110
+ []
+
+[110 <./TGA.png>]
+<TGAST1.png, id=2054, 1297.09593pt x 77.53969pt>
+File: TGAST1.png Graphic file (type png)
+<use TGAST1.png>
+Package pdftex.def Info: TGAST1.png  used on input line 1862.
+(pdftex.def)             Requested size: 640.18703pt x 38.27043pt.
+ [111 <./TGAST1.png>]
+<TGAST2.png, id=2061, 1297.09593pt x 140.77594pt>
+File: TGAST2.png Graphic file (type png)
+<use TGAST2.png>
+Package pdftex.def Info: TGAST2.png  used on input line 1871.
+(pdftex.def)             Requested size: 640.18703pt x 69.4813pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 112
+ []
+
+[112 <./TGAST2.png>]
+<HYBRID.png, id=2067, 1296.34312pt x 234.1247pt>
+File: HYBRID.png Graphic file (type png)
+<use HYBRID.png>
+Package pdftex.def Info: HYBRID.png  used on input line 1886.
+(pdftex.def)             Requested size: 640.18703pt x 115.62234pt.
+ [113 <./HYBRID.png>]
+<HYBRIDST1.png, id=2073, 1295.59032pt x 75.28125pt>
+File: HYBRIDST1.png Graphic file (type png)
+<use HYBRIDST1.png>
+Package pdftex.def Info: HYBRIDST1.png  used on input line 1895.
+(pdftex.def)             Requested size: 640.18703pt x 37.19827pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 114
+ []
+
+[114 <./HYBRIDST1.png>]
+<HYBRIDST2.png, id=2079, 1296.34312pt x 140.02313pt>
+File: HYBRIDST2.png Graphic file (type png)
+<use HYBRIDST2.png>
+Package pdftex.def Info: HYBRIDST2.png  used on input line 1904.
+(pdftex.def)             Requested size: 640.18703pt x 69.15034pt.
+ [115 <./HYBRIDST2.png>]
+File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
+<use dist_energy_INV_0_2.pdf>
+Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 1919.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1919--1920
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1925.
+
+File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
+<use dist_energy_INV_0_4.pdf>
+Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 1927.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1927--1928
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1933.
+
+File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
+<use dist_energy_INV_0_7.pdf>
+Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 1935.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1935--1936
+ [][] 
+ []
+
+<dist_disp_INV_0_2.pdf, id=2086, 505.89pt x 505.89pt>
+File: dist_disp_INV_0_2.pdf Graphic file (type pdf)
+<use dist_disp_INV_0_2.pdf>
+Package pdftex.def Info: dist_disp_INV_0_2.pdf  used on input line 1943.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1943--1944
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 116
+ []
+
+[116
+
+] [117]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 118
+ []
+
+[118]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1949.
+
+<dist_disp_INV_0_4.pdf, id=2099, 505.89pt x 505.89pt>
+File: dist_disp_INV_0_4.pdf Graphic file (type pdf)
+<use dist_disp_INV_0_4.pdf>
+Package pdftex.def Info: dist_disp_INV_0_4.pdf  used on input line 1951.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1951--1952
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1957.
+
+<dist_disp_INV_0_7.pdf, id=2100, 505.89pt x 505.89pt>
+File: dist_disp_INV_0_7.pdf Graphic file (type pdf)
+<use dist_disp_INV_0_7.pdf>
+Package pdftex.def Info: dist_disp_INV_0_7.pdf  used on input line 1959.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1959--1960
+ [][] 
+ []
+
+<dist_energy_ST_0_2.pdf, id=2101, 505.89pt x 505.89pt>
+File: dist_energy_ST_0_2.pdf Graphic file (type pdf)
+<use dist_energy_ST_0_2.pdf>
+Package pdftex.def Info: dist_energy_ST_0_2.pdf  used on input line 1969.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1969--1970
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119 <./dist_disp_INV_0_2.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 120
+ []
+
+[120 <./dist_disp_INV_0_4.pdf>] [121 <./dist_disp_INV_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1975.
+
+<dist_energy_ST_0_4.pdf, id=2145, 505.89pt x 505.89pt>
+File: dist_energy_ST_0_4.pdf Graphic file (type pdf)
+<use dist_energy_ST_0_4.pdf>
+Package pdftex.def Info: dist_energy_ST_0_4.pdf  used on input line 1977.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1977--1978
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1983.
+
+<dist_energy_ST_0_7.pdf, id=2146, 505.89pt x 505.89pt>
+File: dist_energy_ST_0_7.pdf Graphic file (type pdf)
+<use dist_energy_ST_0_7.pdf>
+Package pdftex.def Info: dist_energy_ST_0_7.pdf  used on input line 1985.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1985--1986
+ [][] 
+ []
+
+<dist_disp_ST_0_2.pdf, id=2147, 505.89pt x 505.89pt>
+File: dist_disp_ST_0_2.pdf Graphic file (type pdf)
+<use dist_disp_ST_0_2.pdf>
+Package pdftex.def Info: dist_disp_ST_0_2.pdf  used on input line 1993.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 1993--1994
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 122
+ []
+
+[122 <./dist_energy_ST_0_2.pdf>] [123 <./dist_energy_ST_0_4.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 124
+ []
+
+[124 <./dist_energy_ST_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1999.
+
+<dist_disp_ST_0_4.pdf, id=2188, 505.89pt x 505.89pt>
+File: dist_disp_ST_0_4.pdf Graphic file (type pdf)
+<use dist_disp_ST_0_4.pdf>
+Package pdftex.def Info: dist_disp_ST_0_4.pdf  used on input line 2001.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2001--2002
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2007.
+
+<dist_disp_ST_0_7.pdf, id=2189, 505.89pt x 505.89pt>
+File: dist_disp_ST_0_7.pdf Graphic file (type pdf)
+<use dist_disp_ST_0_7.pdf>
+Package pdftex.def Info: dist_disp_ST_0_7.pdf  used on input line 2009.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2009--2010
+ [][] 
+ []
+
+<dist_energy_SIG_0_2.pdf, id=2190, 505.89pt x 505.89pt>
+File: dist_energy_SIG_0_2.pdf Graphic file (type pdf)
+<use dist_energy_SIG_0_2.pdf>
+Package pdftex.def Info: dist_energy_SIG_0_2.pdf  used on input line 2019.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2019--2020
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125 <./dist_disp_ST_0_2.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 126
+ []
+
+[126 <./dist_disp_ST_0_4.pdf>] [127 <./dist_disp_ST_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2025.
+
+<dist_energy_SIG_0_4.pdf, id=2225, 505.89pt x 505.89pt>
+File: dist_energy_SIG_0_4.pdf Graphic file (type pdf)
+<use dist_energy_SIG_0_4.pdf>
+Package pdftex.def Info: dist_energy_SIG_0_4.pdf  used on input line 2027.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2027--2028
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2033.
+
+<dist_energy_SIG_0_7.pdf, id=2226, 505.89pt x 505.89pt>
+File: dist_energy_SIG_0_7.pdf Graphic file (type pdf)
+<use dist_energy_SIG_0_7.pdf>
+Package pdftex.def Info: dist_energy_SIG_0_7.pdf  used on input line 2035.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2035--2036
+ [][] 
+ []
+
+<dist_disp_SIG_0_2.pdf, id=2227, 505.89pt x 505.89pt>
+File: dist_disp_SIG_0_2.pdf Graphic file (type pdf)
+<use dist_disp_SIG_0_2.pdf>
+Package pdftex.def Info: dist_disp_SIG_0_2.pdf  used on input line 2043.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2043--2044
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 128
+ []
+
+[128 <./dist_energy_SIG_0_2.pdf>] [129 <./dist_energy_SIG_0_4.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 130
+ []
+
+[130 <./dist_energy_SIG_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2049.
+
+<dist_disp_SIG_0_4.pdf, id=2267, 505.89pt x 505.89pt>
+File: dist_disp_SIG_0_4.pdf Graphic file (type pdf)
+<use dist_disp_SIG_0_4.pdf>
+Package pdftex.def Info: dist_disp_SIG_0_4.pdf  used on input line 2051.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2051--2052
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2057.
+
+<dist_disp_SIG_0_7.pdf, id=2268, 505.89pt x 505.89pt>
+File: dist_disp_SIG_0_7.pdf Graphic file (type pdf)
+<use dist_disp_SIG_0_7.pdf>
+Package pdftex.def Info: dist_disp_SIG_0_7.pdf  used on input line 2059.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2059--2060
+ [][] 
+ []
+
+<dist_energy_6F3F_0_2.pdf, id=2269, 505.89pt x 505.89pt>
+File: dist_energy_6F3F_0_2.pdf Graphic file (type pdf)
+<use dist_energy_6F3F_0_2.pdf>
+Package pdftex.def Info: dist_energy_6F3F_0_2.pdf  used on input line 2069.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2069--2070
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131 <./dist_disp_SIG_0_2.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 132
+ []
+
+[132 <./dist_disp_SIG_0_4.pdf>] [133 <./dist_disp_SIG_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2075.
+
+<dist_energy_6F3F_0_4.pdf, id=2305, 505.89pt x 505.89pt>
+File: dist_energy_6F3F_0_4.pdf Graphic file (type pdf)
+<use dist_energy_6F3F_0_4.pdf>
+Package pdftex.def Info: dist_energy_6F3F_0_4.pdf  used on input line 2077.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2077--2078
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2083.
+
+<dist_energy_6F3F_0_7.pdf, id=2306, 505.89pt x 505.89pt>
+File: dist_energy_6F3F_0_7.pdf Graphic file (type pdf)
+<use dist_energy_6F3F_0_7.pdf>
+Package pdftex.def Info: dist_energy_6F3F_0_7.pdf  used on input line 2085.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2085--2086
+ [][] 
+ []
+
+<dist_disp_6F3F_0_2.pdf, id=2307, 505.89pt x 505.89pt>
+File: dist_disp_6F3F_0_2.pdf Graphic file (type pdf)
+<use dist_disp_6F3F_0_2.pdf>
+Package pdftex.def Info: dist_disp_6F3F_0_2.pdf  used on input line 2093.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2093--2094
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 134
+ []
+
+[134 <./dist_energy_6F3F_0_2.pdf>] [135 <./dist_energy_6F3F_0_4.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 136
+ []
+
+[136 <./dist_energy_6F3F_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2099.
+
+<dist_disp_6F3F_0_4.pdf, id=2347, 505.89pt x 505.89pt>
+File: dist_disp_6F3F_0_4.pdf Graphic file (type pdf)
+<use dist_disp_6F3F_0_4.pdf>
+Package pdftex.def Info: dist_disp_6F3F_0_4.pdf  used on input line 2101.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2101--2102
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2107.
+
+<dist_disp_6F3F_0_7.pdf, id=2348, 505.89pt x 505.89pt>
+File: dist_disp_6F3F_0_7.pdf Graphic file (type pdf)
+<use dist_disp_6F3F_0_7.pdf>
+Package pdftex.def Info: dist_disp_6F3F_0_7.pdf  used on input line 2109.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2109--2110
+ [][] 
+ []
+
+<dist_energy_6F2F_0_2.pdf, id=2349, 505.89pt x 505.89pt>
+File: dist_energy_6F2F_0_2.pdf Graphic file (type pdf)
+<use dist_energy_6F2F_0_2.pdf>
+Package pdftex.def Info: dist_energy_6F2F_0_2.pdf  used on input line 2119.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2119--2120
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137 <./dist_disp_6F3F_0_2.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 138
+ []
+
+[138 <./dist_disp_6F3F_0_4.pdf>] [139 <./dist_disp_6F3F_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2125.
+
+<dist_energy_6F2F_0_4.pdf, id=2384, 505.89pt x 505.89pt>
+File: dist_energy_6F2F_0_4.pdf Graphic file (type pdf)
+<use dist_energy_6F2F_0_4.pdf>
+Package pdftex.def Info: dist_energy_6F2F_0_4.pdf  used on input line 2127.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2127--2128
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2133.
+
+<dist_energy_6F2F_0_7.pdf, id=2385, 505.89pt x 505.89pt>
+File: dist_energy_6F2F_0_7.pdf Graphic file (type pdf)
+<use dist_energy_6F2F_0_7.pdf>
+Package pdftex.def Info: dist_energy_6F2F_0_7.pdf  used on input line 2135.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2135--2136
+ [][] 
+ []
+
+<dist_disp_6F2F_0_2.pdf, id=2386, 505.89pt x 505.89pt>
+File: dist_disp_6F2F_0_2.pdf Graphic file (type pdf)
+<use dist_disp_6F2F_0_2.pdf>
+Package pdftex.def Info: dist_disp_6F2F_0_2.pdf  used on input line 2143.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2143--2144
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 140
+ []
+
+[140 <./dist_energy_6F2F_0_2.pdf>] [141 <./dist_energy_6F2F_0_4.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 142
+ []
+
+[142 <./dist_energy_6F2F_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2149.
+
+<dist_disp_6F2F_0_4.pdf, id=2427, 505.89pt x 505.89pt>
+File: dist_disp_6F2F_0_4.pdf Graphic file (type pdf)
+<use dist_disp_6F2F_0_4.pdf>
+Package pdftex.def Info: dist_disp_6F2F_0_4.pdf  used on input line 2151.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2151--2152
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2157.
+
+<dist_disp_6F2F_0_7.pdf, id=2428, 505.89pt x 505.89pt>
+File: dist_disp_6F2F_0_7.pdf Graphic file (type pdf)
+<use dist_disp_6F2F_0_7.pdf>
+Package pdftex.def Info: dist_disp_6F2F_0_7.pdf  used on input line 2159.
+(pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
+
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2159--2160
+ [][] 
+ []
+
+[143 <./dist_disp_6F2F_0_2.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 144
+ []
+
+[144 <./dist_disp_6F2F_0_4.pdf>] [145 <./dist_disp_6F2F_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2171.
+
+
+
+pdfTeX warning: pdflatex (file ./extsINV.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<extsINV.pdf, id=2463, 722.7pt x 1084.05pt>
+File: extsINV.pdf Graphic file (type pdf)
+<use extsINV.pdf>
+Package pdftex.def Info: extsINV.pdf  used on input line 2173.
+(pdftex.def)             Requested size: 426.79135pt x 640.196pt.
+
+AED: lastpage setting LastPage
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 146
+ []
+
+[146
+
+] [147 <./extsINV.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2179.
+ (./iiufrgs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2179.
+
+Package rerunfilecheck Info: File `iiufrgs.out' has not changed.
+(rerunfilecheck)             Checksum: 1D915C114C68F9A6F0F460AC56A84096;5435.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2179.
+ ) 
+Here is how much of TeX's memory you used:
+ 28947 strings out of 492982
+ 482022 string characters out of 6134897
+ 594098 words of memory out of 5000000
+ 31688 multiletter control sequences out of 15000+600000
+ 570976 words of font info for 77 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,19n,65p,1521b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on iiufrgs.pdf (147 pages, 8997865 bytes).
+PDF statistics:
+ 2607 PDF objects out of 2984 (max. 8388607)
+ 2029 compressed objects within 21 object streams
+ 421 named destinations out of 1000 (max. 500000)
+ 1027 words of extra memory for PDF output out of 10000 (max. 10000000)
+
