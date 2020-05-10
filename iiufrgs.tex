@@ -347,7 +347,7 @@ The channel being surrounded from three dimensions by the gate results in a supe
 
 Given the elevated levels of gate leakage due to the scaling down of the gate oxide, insulating materials with higher dielectric constant (high-k) have been introduced. Although, with the high-k dielectric adoption, challenges such as Fermi level pinning \cite{hobbs2004fermi} and phonon scattering \cite{gusev2006advanced} rised, being necessary the replacement of the traditional polysilicon gate electrode by a metal gate electrode \cite{gusev2001ultrathin, datta2003high}.
 
-In the bulk FET devices in nanotechnologies, the variations in the gate length was the dominant parameter related to I\textsubscript{ON} deviations due to the RDF effects. Although, as a results of the shapes of the fin-like structures in FinFET, the channel is prefered to be low-doped in order to minimize threshold voltage variations. Given so, threshold voltage is mainly set by the workfunction. 
+In the bulk FET devices in nanotechnologies, the variations in the gate length was the dominant parameter related to I\textsubscript{ON} deviations due to the RDF effects. Although, as a results of the shapes of the fin-like structures in FinFET, the channel is prefered to be low-doped in order to minimize threshold voltage variations. Given so, threshold voltage is mainly set by the workfunction.
 
 Metals exist \textit{in natura} in the form of crystals where each atom has several bonds with adjacent atoms. Although, due to defects and disorientations, several crystals are formed, with "grain boundaries" between regions of regularity (crystal grains) in the metal \cite{dadgour2008statistical}, as shown in Fig. \ref{fig:meinMetalFab}. The electrostatic potential (e.g. $V_T$) varies depending on each grain boundary, as shown in Fig. \ref{WFFelectros}. At Table \ref{tab:WFForient} a example of possible orientation, probability and WF is given. Between several technology nodes - FD-SOI, Bulk and FinFET - the latter showed the lowest $V_T$ variation due to the much larger gate area \cite{dadgour2008statistical}.
 
@@ -380,7 +380,7 @@ Metals exist \textit{in natura} in the form of crystals where each atom has seve
 \legend{Source: \citet{brown2010impact}}
 \end{table}
 
-The WFF impact can be better understood when considering the equation \ref{eqn:wffvt}, where the threshold voltage for multigate devices is expressed, where $Q_{SS}$ represents the charge in the gate dielectric, $C_{ox}$ is the gate capacitance, $Q_D$ is the depletion charge in the channel, $f_{ms}$ represents metal-semiconductor work-function difference between the gate electrode and the semiconductor, $f_f$ is the fermi potential. Additionally, the fermi potential for the P-type silicon is given by equation \ref{eqn:ff}, where $N_A$ is the acceptor concentration and $n_i$ is the intrinsic carrier concentration \cite{colinge2008finfets}. The effects of $Q_D$ and $Q_{SS}$ onto the threshold voltage ($V_{th}$) are almost negligible compared to $f_f$, in ultrathin body and lighly doped devices, like the FinFET. Additionally, $V_{in}$ is the additional surface potential to $2f_f$, of ultrathin body devices, that is needed to accumulate enough inversion charges into the channel region of the transistor to reach the threshold point \cite{mustafa2013threshold}. 
+The WFF impact can be better understood when considering the equation \ref{eqn:wffvt}, where the threshold voltage for multigate devices is expressed, where $Q_{SS}$ represents the charge in the gate dielectric, $C_{ox}$ is the gate capacitance, $Q_D$ is the depletion charge in the channel, $f_{ms}$ represents metal-semiconductor work-function difference between the gate electrode and the semiconductor, $f_f$ is the fermi potential. Additionally, the fermi potential for the P-type silicon is given by equation \ref{eqn:ff}, where $N_A$ is the acceptor concentration and $n_i$ is the intrinsic carrier concentration \cite{colinge2008finfets}. The effects of $Q_D$ and $Q_{SS}$ onto the threshold voltage ($V_{th}$) are almost negligible compared to $f_f$, in ultrathin body and lighly doped devices, like the FinFET. Additionally, $V_{in}$ is the additional surface potential to $2f_f$, of ultrathin body devices, that is needed to accumulate enough inversion charges into the channel region of the transistor to reach the threshold point \cite{mustafa2013threshold}.
 
     \begin{equation}
         \centering
@@ -436,7 +436,7 @@ The TIST, shown in Fig. \ref{fig:TIST} is a ST implementation, most common in te
 
 \subsection{Stacked Inverter Gate (SIG)}
 
-SIG, shown in Fig. \ref{fig:SIG}, is a circuit composed of unbalanced inverters without positive feedback, referred to as stacked, or redundant, inverters. It presented improvements over the CMOS inverter regarding voltage gains \cite{bose2018stacked, luo2017sub}.  
+SIG, shown in Fig. \ref{fig:SIG}, is a circuit composed of unbalanced inverters without positive feedback, referred to as stacked, or redundant, inverters. It presented improvements over the CMOS inverter regarding voltage gains \cite{bose2018stacked, luo2017sub}.
 
 \begin{figure}[H]
   \centering
@@ -449,6 +449,8 @@ SIG, shown in Fig. \ref{fig:SIG}, is a circuit composed of unbalanced inverters 
  A variety of CMOS STs have been proposed and implemented over the years based on different requirements. A higher performance ST is proposed in \cite{steyaert1986novel} where, by a different design, a smaller load capacitor value is achieved, decreasing the slew rate of the ST internal node. In \cite{pfister1992novel} a ST with a programmable hysteresis is proposed. The programmable hysteresis is achieved by adding a P and N transistors in series with the 6T ST $P_F$ and $N_F$ transistors, respectively, both receiving the same gate signal. \cite{kim1993new} proposes a 10T ST which its hysteresis interval does not depend on transistors width/length ratios being, consequently, more robust to process variations.
 
  A low-power ST is proposed at \cite{al2002low} with low short circuit current achieved by the presence of only one path to each power rail, being recommended for low power, very low frequency applications. In \cite{pedroni2005low} proposes a low-power ST by having only one transistor transmitting (at stable output values), considerably reducing power consumption. STs can be optimised by adequate dimensioning as well as stated in \cite{tache2018reliability} where the OTS technique presented the best metrics for low power applications, in accordance to \cite{zimpeck2016finfet}.
+
+In \cite{shah2020soft} a voltage-booster is applied in the traditional 6T ST in order to replace its pull up network and reduce the number of PMOS transistor to only one. This replacement makes it less vulnerable to the effects of NBTI, which severely affects PMOS devices. It was simulated on 32 nm bulk CMOS technology and was revealed to present an almost negligible delay shift of 0.47\%, with the traditional 6T ST and CMOS inverter presenting 7.2\% and 5.32\% shifts, after three years of simulated NBTI stress, respectively. Furthermore, it presented an improved sensitivity against charged particles of 62.48\% and 55.10\% against the CMOS inverter and 6T ST, respectively. And finally, it presented 168.68\% less deviations in comparison to the CMOS inverter considering process variability. It is important, though, to highlight its 4.315x higher leakage power and potential higher area, given finfet technology restrictions considering the higher number of NMOS transistors (5) in comparison to the traditional 6T ST (3).
 
 In \cite{dokania2015circuit} a novel technique based on the replacement of FA’s internal inverters with low voltage STs for PVT variability robustness improvement is originally introduced and applied on seven different FA designs. The simulations were performed using the 16nm bulk CMOS predictive technology model in SPICE. It presented significant variability improvement up to 4.8x in PDP. Although, the improvements occur at the cost of an increase in the area and power dissipation of each design.
 
@@ -473,7 +475,7 @@ For the experiments, there were considered four different types of Full Adders t
     \item Hybrid Full Adder
 \end{enumerate}
 
-The Mirror Full Adder is considered the most traditional Full Adder topology containing 28 Transistors arranged in a pull-up and pull-down networks, which are logically complementary. It has a full voltage swing and buffered Sum and Cout signal and the advantages of good conductibility and robustness when working with novel technologies and low voltages. However, it has high capacitance because each input is connected to the gate of at least a p-channel metal-oxide-semiconductor (PMOS) and n-channel metal-oxide-semiconductor (NMOS) device additionally, it shows the impact of the pull-up network that makes the circuit slower due to the low mobility of its holes \cite{beckett2002fine} \cite{devadas2017design} \cite{islam2011design}. 
+The Mirror Full Adder is considered the most traditional Full Adder topology containing 28 Transistors arranged in a pull-up and pull-down networks, which are logically complementary. It has a full voltage swing and buffered Sum and Cout signal and the advantages of good conductibility and robustness when working with novel technologies and low voltages. However, it has high capacitance because each input is connected to the gate of at least a p-channel metal-oxide-semiconductor (PMOS) and n-channel metal-oxide-semiconductor (NMOS) device additionally, it shows the impact of the pull-up network that makes the circuit slower due to the low mobility of its holes \cite{beckett2002fine} \cite{devadas2017design} \cite{islam2011design}.
 
 Transmission Gate Full Adder \cite{weste1985principles} contains 16 transistors, and is a high speed and low power design. However, shows low driving capability which may be unacceptable in some cases where there is a long chain of full adders due to the increase in delay \cite{islam2011design}. The Transmission Function Adder is based on transmission gates as well, containing 20 transistors, working satisfactorily with low voltages but losing performance when cascaded due to the lack of supply/ground contacts and, consequently, driving capability \cite{navi2009novel}. Both TFA and TGA generate the XOR function (H = A XOR B) followed by an inverter which produces the XNOR function (H’). H and H’ are used to control the transmission gates generating the Sum and Cout outputs. The inverter generates delay between H and H’, which will cause the transmission gates to behave as pass transistors, that may introduce glitches and consequently, increase the power consumption of these cells. Additionally, TGA contains three inverters, one more than TFA. The inverters switching introduce more short-circuit power \cite{shams2000novel}.
 
@@ -488,9 +490,9 @@ Inspired by CMOS and CPL Full Adders architectures, the Hybrid Full Adder \cite{
 Source: \citet{samuel2016}}
 \end{figure}
 
-The additional ST inverter circuit used in this work was inspired by \cite{zhang2003low} and modified in \cite{dokania2015circuit} to achieve the desired inverting characteristic, as shown in Figure \ref{fig:sub1}. It is designed for operation at a supply voltage of 0.4V in order to achieve low power consumption, and consists of the junction of two inverters where the output from the second one will be the bulk for the first one.  
+The additional ST inverter circuit used in this work was inspired by \cite{zhang2003low} and modified in \cite{dokania2015circuit} to achieve the desired inverting characteristic, as shown in Figure \ref{fig:sub1}. It is designed for operation at a supply voltage of 0.4V in order to achieve low power consumption, and consists of the junction of two inverters where the output from the second one will be the bulk for the first one.
 
-In this design a dynamic body-bias technique is applied through a feedback mechanism to a standard CMOS inverter circuit, thus allowing a change in the threshold voltages of two MOSFETs, implying a change in the switching voltage. 
+In this design a dynamic body-bias technique is applied through a feedback mechanism to a standard CMOS inverter circuit, thus allowing a change in the threshold voltages of two MOSFETs, implying a change in the switching voltage.
 
 \begin{figure}[H]
 \centering
@@ -524,9 +526,9 @@ The transistor sizing consisted of layouts from 1 to 5 fins through 1-fin steps 
 
 According to \cite{thiagoTIST}, given the small signal analysis presented, depending on the supply voltage of the TIST design, it will present an amplifier or hysteresis behavior with a discontinuous transition between regions where an infinite gain will be present. Furthermore, it was shown that the higher the ratio between the size of the respective inverter and latch transistors, lower is the supply voltage needed to achieve the given region of infinite gain. Given that, the majority of the TIST failures, at nominal operation, occured around the threshold voltage, and that an increase in the proportion between its inverter and latch transistors decreased the number of failures considerably, the failures are related to the proportion of its transistors and the infinite gain region.
 
-Due to technology restriction it is not possible to decrease the cell height when considering layout with a fin count below 3. In the case of the ST, for the layouts with a fin count below 3, M2 was applied to connect the source/drain of the ${P_F}$ and ${N_F}$ transistors to the X and Y layout nodes. For the TIST, for the layouts with less than 3 fins, M2 was necessary to connect the output signal to the $P_2$ and $N_2$ transistors gate. Given the smaller area to work with, it was necessary to apply M2 in order to respect the M1 spacing rules, bringing to light one of the challenges related to a smaller layout. The M2 usage in those cases will increase the design parasitics from the necessary extra vias connecting M1 and M2. 
+Due to technology restriction it is not possible to decrease the cell height when considering layout with a fin count below 3. In the case of the ST, for the layouts with a fin count below 3, M2 was applied to connect the source/drain of the ${P_F}$ and ${N_F}$ transistors to the X and Y layout nodes. For the TIST, for the layouts with less than 3 fins, M2 was necessary to connect the output signal to the $P_2$ and $N_2$ transistors gate. Given the smaller area to work with, it was necessary to apply M2 in order to respect the M1 spacing rules, bringing to light one of the challenges related to a smaller layout. The M2 usage in those cases will increase the design parasitics from the necessary extra vias connecting M1 and M2.
 
-For all the Full Adders layouts it was used a dense 7.5 M2 (Metal 2) track cell, baseline resulting in a 270nm cell height. This corresponds to three fins for each transistor. 
+For all the Full Adders layouts it was used a dense 7.5 M2 (Metal 2) track cell, baseline resulting in a 270nm cell height. This corresponds to three fins for each transistor.
 
  %The ST inverter circuits which will be applied in this work was originally proposed in \cite{doki1984cmos} exhibiting the wanted characteristics of different high-to-low and low-to-high transition threshold voltages, giving rise to hysteresis.
 
@@ -637,25 +639,25 @@ The ASAP7 PDK contains the manufacturing process composed by front end of line (
 \begin{tabular}{|c|c|c|c|c|}
 \hline
                       & Layout & Height (nm) & Width (nm) & Area (nm²) \\ \hline
-\multirow{5}{*}{INV}  & 1 Fin             & 270         & 162        & 43,740  \\ \cline{2-5} 
-                      & 2 Fins             & 270         & 162        & 43,740  \\ \cline{2-5} 
-                      & 3 Fins             & 270         & 162        & 43,740  \\ \cline{2-5} 
-                      & 4 Fins             & 324         & 162        & 52,488 \\ \cline{2-5} 
+\multirow{5}{*}{INV}  & 1 Fin             & 270         & 162        & 43,740  \\ \cline{2-5}
+                      & 2 Fins             & 270         & 162        & 43,740  \\ \cline{2-5}
+                      & 3 Fins             & 270         & 162        & 43,740  \\ \cline{2-5}
+                      & 4 Fins             & 324         & 162        & 52,488 \\ \cline{2-5}
                       & 5 Fins             & 378         & 162        & 61,236 \\ \hline
-\multirow{5}{*}{ST}   & 1 Fin             & 270         & 378        & 102,060 \\ \cline{2-5} 
-                      & 2 Fins             & 270         & 378        & 102,060 \\ \cline{2-5} 
-                      & 3 Fins             & 270         & 378        & 102,060 \\ \cline{2-5} 
-                      & 4 Fins             & 324         & 378        & 122,472 \\ \cline{2-5} 
+\multirow{5}{*}{ST}   & 1 Fin             & 270         & 378        & 102,060 \\ \cline{2-5}
+                      & 2 Fins             & 270         & 378        & 102,060 \\ \cline{2-5}
+                      & 3 Fins             & 270         & 378        & 102,060 \\ \cline{2-5}
+                      & 4 Fins             & 324         & 378        & 122,472 \\ \cline{2-5}
                       & 5 Fins             & 378         & 378        & 142,884 \\ \hline
-\multirow{5}{*}{SIG}  & 1 Fin             & 270         & 378        & 102,060 \\ \cline{2-5} 
-                      & 2 Fins             & 270         & 378        & 102,060 \\ \cline{2-5} 
-                      & 3 Fins             & 270         & 378        & 102,060 \\ \cline{2-5} 
-                      & 4 Fins             & 324         & 378        & 122,472 \\ \cline{2-5} 
+\multirow{5}{*}{SIG}  & 1 Fin             & 270         & 378        & 102,060 \\ \cline{2-5}
+                      & 2 Fins             & 270         & 378        & 102,060 \\ \cline{2-5}
+                      & 3 Fins             & 270         & 378        & 102,060 \\ \cline{2-5}
+                      & 4 Fins             & 324         & 378        & 122,472 \\ \cline{2-5}
                       & 5 Fins             & 378         & 378        & 142,884 \\ \hline
-\multirow{5}{*}{TIST} & 2 Fins : 1 Fin             & 270         & 270        & 72,900 \\ \cline{2-5} 
-                      & 4 Fins : 2 Fins             & 324         & 270        & 87,480  \\ \cline{2-5} 
-                      & 6 Fins : 3 Fins             & 432         & 270        & 116,640  \\ \cline{2-5} 
-                      & 3 Fins : 1 Fin             & 270         & 270        & 72,900 \\ \cline{2-5} 
+\multirow{5}{*}{TIST} & 2 Fins : 1 Fin             & 270         & 270        & 72,900 \\ \cline{2-5}
+                      & 4 Fins : 2 Fins             & 324         & 270        & 87,480  \\ \cline{2-5}
+                      & 6 Fins : 3 Fins             & 432         & 270        & 116,640  \\ \cline{2-5}
+                      & 3 Fins : 1 Fin             & 270         & 270        & 72,900 \\ \cline{2-5}
                       & 6 Fins : 2 Fins             & 432         & 270        & 116,640  \ \\hline
 \end{tabular}
 \end{table}
@@ -671,17 +673,17 @@ The ASAP7 PDK contains the manufacturing process composed by front end of line (
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 Full Adder & Width (nm) & Height (nm)           & Area (nm²) & Ratio \\ \hline
-CMOS       & 1,188       & \multirow{12}{*}{270} & 320,760     & -     \\ \cline{1-2} \cline{4-5} 
-CMOS ST1   & 2,808       &                       & 758,160     & 2.36  \\ \cline{1-2} \cline{4-5} 
-CMOS ST2   & 1,836       &                       & 495,720     & 1.55  \\ \cline{1-2} \cline{4-5} 
-TGA        & 1,836       &                       & 495,720     & -     \\ \cline{1-2} \cline{4-5} 
-TGA ST1    & 5,292       &                       & 1,428,840    & 2.88  \\ \cline{1-2} \cline{4-5} 
-TGA ST2    & 2,916       &                       & 787,320     & 1.59  \\ \cline{1-2} \cline{4-5} 
-TFA        & 1,620       &                       & 437,400     & -     \\ \cline{1-2} \cline{4-5} 
-TFA ST1    & 3,240       &                       & 874,800     & 2.00  \\ \cline{1-2} \cline{4-5} 
-TFA ST2    & 2,052       &                       & 554,040     & 1.27  \\ \cline{1-2} \cline{4-5} 
-HYBRID     & 1,728       &                       & 466,560     & -     \\ \cline{1-2} \cline{4-5} 
-HYBRID ST1 & 5,292       &                       & 1,428,840    & 3.06  \\ \cline{1-2} \cline{4-5} 
+CMOS       & 1,188       & \multirow{12}{*}{270} & 320,760     & -     \\ \cline{1-2} \cline{4-5}
+CMOS ST1   & 2,808       &                       & 758,160     & 2.36  \\ \cline{1-2} \cline{4-5}
+CMOS ST2   & 1,836       &                       & 495,720     & 1.55  \\ \cline{1-2} \cline{4-5}
+TGA        & 1,836       &                       & 495,720     & -     \\ \cline{1-2} \cline{4-5}
+TGA ST1    & 5,292       &                       & 1,428,840    & 2.88  \\ \cline{1-2} \cline{4-5}
+TGA ST2    & 2,916       &                       & 787,320     & 1.59  \\ \cline{1-2} \cline{4-5}
+TFA        & 1,620       &                       & 437,400     & -     \\ \cline{1-2} \cline{4-5}
+TFA ST1    & 3,240       &                       & 874,800     & 2.00  \\ \cline{1-2} \cline{4-5}
+TFA ST2    & 2,052       &                       & 554,040     & 1.27  \\ \cline{1-2} \cline{4-5}
+HYBRID     & 1,728       &                       & 466,560     & -     \\ \cline{1-2} \cline{4-5}
+HYBRID ST1 & 5,292       &                       & 1,428,840    & 3.06  \\ \cline{1-2} \cline{4-5}
 HYBRID ST2 & 2,916       &                       & 787,320     & 1.69  \\ \hline
 \end{tabular}%
 }
@@ -711,7 +713,7 @@ The simulations will be carried out in HSPICE (https://www.synopsys.com/) using 
 \legend{Source: \citet{clark2016asap7}}
 \end{table}
 
-For all experiments, it will be observed maximum values, mean (\(\mu\)), standard deviation (\(\sigma\)) and normalized standard deviation (\(\sigma\)/\(\mu\)) for each metric: hysteresis interval, propagation times, energy, and on and off currents where \(\sigma\)/\(\mu\) represents the sensibility of the cell to process variability. The energy was calculated by integrating the current through time and multiplying by the supply voltage, and the propagation times where calculated by the timing difference between input and output signals to reach 50\% of its value ($V_{DD}/2$). Additionally, noise margins, gains and VTC curve slopes will be presented. The noise margins were calculated as shown in Fig. \ref{fig:SNM} where the margin values are extracted from the VTC curve points where the derivative/slope is -1. The slopes were calculated following the equation \ref{eqn:slope}, based on Fig. \ref{fig:SNM}. 
+For all experiments, it will be observed maximum values, mean (\(\mu\)), standard deviation (\(\sigma\)) and normalized standard deviation (\(\sigma\)/\(\mu\)) for each metric: hysteresis interval, propagation times, energy, and on and off currents where \(\sigma\)/\(\mu\) represents the sensibility of the cell to process variability. The energy was calculated by integrating the current through time and multiplying by the supply voltage, and the propagation times where calculated by the timing difference between input and output signals to reach 50\% of its value ($V_{DD}/2$). Additionally, noise margins, gains and VTC curve slopes will be presented. The noise margins were calculated as shown in Fig. \ref{fig:SNM} where the margin values are extracted from the VTC curve points where the derivative/slope is -1. The slopes were calculated following the equation \ref{eqn:slope}, based on Fig. \ref{fig:SNM}.
 
 
 \begin{figure}[]
@@ -727,7 +729,7 @@ For all experiments, it will be observed maximum values, mean (\(\mu\)), standar
     \label{eqn:slope}
     Slope = \frac{V_{OH} - V{OL}}{V_{IH} - V_{IL}}
 \end{equation}
-    
+
  For a more realistic test bench, it will be considered a scenario where the Device Under Test (DUT) receives the signal passing through two inverters in series and having a 1fF output capacitance, as shown in Fig. \ref{fig:tbST}. It is essential to consider some details such as: the same supply voltage is applied in the entire testbench, only the DUT suffers from variability, the inverters are the same (3-fins transistors) for all experiments, and they are, like the DUT, simulated from the extracted layout.
 
 
@@ -753,13 +755,13 @@ For the simulations concerning the Full Adders, it was considered the mean, stan
 
 \chapter{Results}
 \section{Over robustness enhancing circuits}
- Over all simulations there were non-viable scenarios. Such scenarios kept clustered around the supply voltages of 0.1V, over any scenario above 3\% WFF, and 0.2V, over scenarios above 4\% WFF for the inverter, ST and SIG. The TIST results presented a discrepancy in relation to the aforementioned designs. For the TIST designs at 2 to 1 and 3 to 1 proportions, the 0.1V scenarios at above 2\% WFF level are not viable. For 0.2V and 0.3V the 3 to 1 designs only presented viable scenarios at 1\% WFF while the 2 to 1 proportion designs did not operate properly at such supply voltage at any variability level. For the 0.4V the 3 to 1 and 2 to 1 designs worked at below 3\% and 2\% WFF levels, respectively. For 0.5V the 3 to 1 and 2 to 1 designs worked at below 5\% and 3\% WFF levels, respectively. Finally, at 0.6V and 0.7V, all scenarios worked properly. 
- 
- Given so, in overall, each design presented non-viable scenarios at below threshold voltages, with the TIST layouts presenting a much higher number of failures only working properly, at all variability levels, on 0.6V and 0.7V supply voltages. This results shows the lower robustness and more complex way of sizing for the TIST, which may not be advised for critical applications. All scenarios frequencies are shown in Table \ref{tab:freqs}.
- 
- On average, the ST, SIG and TIST (2:1) operated at around half the inverter's frequency (47.61\%, 50.5\% and 49.71\% respectively) while the TIST (3:1) worked at 65.72\% of the inverter frequency. This is expected since their input capacitance is much higher, from a two-transistor design to a six-transistor design and, for the ST and TIST designs, the hysteresis keeps the output from switching much longer than in the other considered designs. The 3:1 TIST designs present a higher frequency, in comparison to its 2 to 1 proportion counterpart, given the higher proportion giving less resistance and higher currents to the circuit, making it faster in charging and discharging its nodes and output. 
+ Over all simulations there were non-viable scenarios. Such scenarios kept clustered around the supply voltages of 0.1V, over any scenario above 3\% WFF, and 0.2V, over scenarios above 4\% WFF for the inverter, ST and SIG. The TIST results presented a discrepancy in relation to the aforementioned designs. For the TIST designs at 2 to 1 and 3 to 1 proportions, the 0.1V scenarios at above 2\% WFF level are not viable. For 0.2V and 0.3V the 3 to 1 designs only presented viable scenarios at 1\% WFF while the 2 to 1 proportion designs did not operate properly at such supply voltage at any variability level. For the 0.4V the 3 to 1 and 2 to 1 designs worked at below 3\% and 2\% WFF levels, respectively. For 0.5V the 3 to 1 and 2 to 1 designs worked at below 5\% and 3\% WFF levels, respectively. Finally, at 0.6V and 0.7V, all scenarios worked properly.
 
-Considering the impact of variability on the frequency retention, in comparison to a low variability scenario (1\% WFF) the inverter, ST, SIG, TIST 2:1 and TIST 3:1 presented up to 40.03\%, 48.81\%, 48.20\%, 59.4\%, and 53.17\% average decrease on frequencies considering the worst case scenario, respectively. It is important to elucidate that in order to not deflate the decrease results of the TIST designs due to the large number of non-viable scenarios, the results were calculated considering such scenarios to work at 0Hz, as shown in Fig. \ref{fig:freqRetWFF}.  
+ Given so, in overall, each design presented non-viable scenarios at below threshold voltages, with the TIST layouts presenting a much higher number of failures only working properly, at all variability levels, on 0.6V and 0.7V supply voltages. This results shows the lower robustness and more complex way of sizing for the TIST, which may not be advised for critical applications. All scenarios frequencies are shown in Table \ref{tab:freqs}.
+
+ On average, the ST, SIG and TIST (2:1) operated at around half the inverter's frequency (47.61\%, 50.5\% and 49.71\% respectively) while the TIST (3:1) worked at 65.72\% of the inverter frequency. This is expected since their input capacitance is much higher, from a two-transistor design to a six-transistor design and, for the ST and TIST designs, the hysteresis keeps the output from switching much longer than in the other considered designs. The 3:1 TIST designs present a higher frequency, in comparison to its 2 to 1 proportion counterpart, given the higher proportion giving less resistance and higher currents to the circuit, making it faster in charging and discharging its nodes and output.
+
+Considering the impact of variability on the frequency retention, in comparison to a low variability scenario (1\% WFF) the inverter, ST, SIG, TIST 2:1 and TIST 3:1 presented up to 40.03\%, 48.81\%, 48.20\%, 59.4\%, and 53.17\% average decrease on frequencies considering the worst case scenario, respectively. It is important to elucidate that in order to not deflate the decrease results of the TIST designs due to the large number of non-viable scenarios, the results were calculated considering such scenarios to work at 0Hz, as shown in Fig. \ref{fig:freqRetWFF}.
 
 \begin{figure}[]
 \centering
@@ -803,8 +805,8 @@ Considering the impact of variability on the frequency retention, in comparison 
 %\end{figure}
 %\end{comment}
 
-Such performance degradation is expected since process variability will, in many cases, increase the transistors $V_{TH}$, making necessary to decrease the circuits frequency to work properly. Alongside, in higher transistor count circuits, it is expected a higher impact since the variability effect on transistors will work as a chain reaction, with the previous node own deviation accumulating along the next circuit nodes and so on, until the output node. Given that, it is expected for the ST and SIG to present a higher impact due to the inserted process variability. The TIST present higher decreases due to their higher number of non-viable scenarios.  %Although, the small difference between the inverter and the robustness enhancing designs, shows that the inverter has higher susceptibility to the process variability impact. 
-    
+Such performance degradation is expected since process variability will, in many cases, increase the transistors $V_{TH}$, making necessary to decrease the circuits frequency to work properly. Alongside, in higher transistor count circuits, it is expected a higher impact since the variability effect on transistors will work as a chain reaction, with the previous node own deviation accumulating along the next circuit nodes and so on, until the output node. Given that, it is expected for the ST and SIG to present a higher impact due to the inserted process variability. The TIST present higher decreases due to their higher number of non-viable scenarios.  %Although, the small difference between the inverter and the robustness enhancing designs, shows that the inverter has higher susceptibility to the process variability impact.
+
 \begin{table}[]
 \centering
 \caption{All scenarios frequencies.}
@@ -812,32 +814,32 @@ Such performance degradation is expected since process variability will, in many
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline
-\multirow{2}{*}{Design} & \multirow{2}{*}{WFF} & \multicolumn{7}{c|}{Supply Voltage (V)}                             \\ \cline{3-9} 
+\multirow{2}{*}{Design} & \multirow{2}{*}{WFF} & \multicolumn{7}{c|}{Supply Voltage (V)}                             \\ \cline{3-9}
                         &                      & 0.1     & 0.2     & 0.3     & 0.4     & 0.5     & 0.6     & 0.7     \\ \hline
-\multirow{5}{*}{INV}    & 1\%                  & 2.18MHz & 49.4MHz & 1.12GHz & 6.5GHz  & 13.6GHz & 19.1GHz & 23.4GHz \\ \cline{2-9} 
-                        & 2\%                  & 510KHz  & 15.4MHz & 504MHz  & 4.95GHz & 12GHz   & 17.9GHz & 22.3GHz \\ \cline{2-9} 
-                        & 3\%                  & -       & 4.79MHz & 149MHz  & 4.86GHz & 10.3GHz & 16.6GHz & 21.3GHz \\ \cline{2-9} 
-                        & 4\%                  & -       & -       & 47.2MHz & 1.77GHz & 8GHz    & 15.1GHz & 20.3GHz \\ \cline{2-9} 
+\multirow{5}{*}{INV}    & 1\%                  & 2.18MHz & 49.4MHz & 1.12GHz & 6.5GHz  & 13.6GHz & 19.1GHz & 23.4GHz \\ \cline{2-9}
+                        & 2\%                  & 510KHz  & 15.4MHz & 504MHz  & 4.95GHz & 12GHz   & 17.9GHz & 22.3GHz \\ \cline{2-9}
+                        & 3\%                  & -       & 4.79MHz & 149MHz  & 4.86GHz & 10.3GHz & 16.6GHz & 21.3GHz \\ \cline{2-9}
+                        & 4\%                  & -       & -       & 47.2MHz & 1.77GHz & 8GHz    & 15.1GHz & 20.3GHz \\ \cline{2-9}
                         & 5\%                  & -       & -       & 17.8MHz & 360MHz  & 5.2GHz  & 13.5GHz & 19.2GHz \\ \hline
-\multirow{5}{*}{ST}     & 1\%                  & 930KHz  & 22MHz   & 510MHz  & 3.2GHz  & 7.8GHz  & 12GHz   & 15.1GHz \\ \cline{2-9} 
-                        & 2\%                  & 192KHz  & 7.2MHz  & 210MHz  & 2.3GHz  & 6.3GHz  & 10.7GHz & 14.1GHz \\ \cline{2-9} 
-                        & 3\%                  & -       & 2.39MHz & 74.2MHz & 1.3GHz  & 5GHz    & 9GHz    & 13.1GHz \\ \cline{2-9} 
-                        & 4\%                  & -       & -       & 28.4MHz & 550MHz  & 3.7GHz  & 7.9GHz  & 1.11GHz \\ \cline{2-9} 
+\multirow{5}{*}{ST}     & 1\%                  & 930KHz  & 22MHz   & 510MHz  & 3.2GHz  & 7.8GHz  & 12GHz   & 15.1GHz \\ \cline{2-9}
+                        & 2\%                  & 192KHz  & 7.2MHz  & 210MHz  & 2.3GHz  & 6.3GHz  & 10.7GHz & 14.1GHz \\ \cline{2-9}
+                        & 3\%                  & -       & 2.39MHz & 74.2MHz & 1.3GHz  & 5GHz    & 9GHz    & 13.1GHz \\ \cline{2-9}
+                        & 4\%                  & -       & -       & 28.4MHz & 550MHz  & 3.7GHz  & 7.9GHz  & 1.11GHz \\ \cline{2-9}
                         & 5\%                  & -       & -       & 4.6MHz  & 170MHz  & 2.2GHz  & 6.7GHz  & 10.7GHz \\ \hline
-\multirow{5}{*}{SIG}    & 1\%                  & 1.02MHz & 23.8MHz & 540MHz  & 3.5GHz  & 8.2GHz  & 12.6GHz & 15.9GHz \\ \cline{2-9} 
-                        & 2\%                  & 268KHz  & 7.4MHz  & 216MHz  & 2.45GHz & 6.6GHz  & 10.7GHz & 14.8GHz \\ \cline{2-9} 
-                        & 3\%                  & -       & 2.34MHz & 71.4MHz & 1.25GHz & 5.5GHz  & 9.7GHz  & 13.2GHz \\ \cline{2-9} 
-                        & 4\%                  & -       & -       & 20.8MHz & 540MHz  & 4GHz    & 8.5GHz  & 12.4GHz \\ \cline{2-9} 
+\multirow{5}{*}{SIG}    & 1\%                  & 1.02MHz & 23.8MHz & 540MHz  & 3.5GHz  & 8.2GHz  & 12.6GHz & 15.9GHz \\ \cline{2-9}
+                        & 2\%                  & 268KHz  & 7.4MHz  & 216MHz  & 2.45GHz & 6.6GHz  & 10.7GHz & 14.8GHz \\ \cline{2-9}
+                        & 3\%                  & -       & 2.34MHz & 71.4MHz & 1.25GHz & 5.5GHz  & 9.7GHz  & 13.2GHz \\ \cline{2-9}
+                        & 4\%                  & -       & -       & 20.8MHz & 540MHz  & 4GHz    & 8.5GHz  & 12.4GHz \\ \cline{2-9}
                         & 5\%                  & -       & -       & 5MHz    & 150MHz  & 2.2GHz  & 7.3GHz  & 11.5GHz \\ \hline
-\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}TIST\\ 2:1\end{tabular}} & 1\% & 833KHz & -      & -      & 783MHz & 6.37GHz & 13.3GHz & 17.8GHz \\ \cline{2-9} 
-                        & 2\%                  & 142KHz  & -       & -       & -       & 2.86GHz & 10.9GHz & 16.5GHz \\ \cline{2-9} 
-                        & 3\%                  & -       & -       & -       & -       & -       & 8.17GHz & 14.8GHz \\ \cline{2-9} 
-                        & 4\%                  & -       & -       & -       & -       & -       & 4.93GHz & 13.2GHz \\ \cline{2-9} 
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}TIST\\ 2:1\end{tabular}} & 1\% & 833KHz & -      & -      & 783MHz & 6.37GHz & 13.3GHz & 17.8GHz \\ \cline{2-9}
+                        & 2\%                  & 142KHz  & -       & -       & -       & 2.86GHz & 10.9GHz & 16.5GHz \\ \cline{2-9}
+                        & 3\%                  & -       & -       & -       & -       & -       & 8.17GHz & 14.8GHz \\ \cline{2-9}
+                        & 4\%                  & -       & -       & -       & -       & -       & 4.93GHz & 13.2GHz \\ \cline{2-9}
                         & 5\%                  & -       & -       & -       & -       & -       & 4.33GHz & 11.2GHz \\ \hline
-\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}TIST\\ 3:1\end{tabular}} & 1\% & 1.3MHz & 5.5MHz & 175MHz & 3.3GHz & 11.2GHz & 17.3GHz & 21.3GHz \\ \cline{2-9} 
-                        & 2\%                  & 275KHz  & -       & -       & 600MHz  & 8.51GHz & 15.7GHz & 20.3GHz \\ \cline{2-9} 
-                        & 3\%                  & -       & -       & -       & -       & 5GHz    & 13.9GHz & 19GHz   \\ \cline{2-9} 
-                        & 4\%                  & -       & -       & -       & -       & 1.1GHz  & 11.8GHz & 17.8GHz \\ \cline{2-9} 
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}TIST\\ 3:1\end{tabular}} & 1\% & 1.3MHz & 5.5MHz & 175MHz & 3.3GHz & 11.2GHz & 17.3GHz & 21.3GHz \\ \cline{2-9}
+                        & 2\%                  & 275KHz  & -       & -       & 600MHz  & 8.51GHz & 15.7GHz & 20.3GHz \\ \cline{2-9}
+                        & 3\%                  & -       & -       & -       & -       & 5GHz    & 13.9GHz & 19GHz   \\ \cline{2-9}
+                        & 4\%                  & -       & -       & -       & -       & 1.1GHz  & 11.8GHz & 17.8GHz \\ \cline{2-9}
                         & 5\%                  & -       & -       & -       & -       & -       & 8.65GHz & 16.3GHz \\ \hline
 \end{tabular}
 }
@@ -855,15 +857,15 @@ Given the propagation time deviations for each design, in comparison to the inve
 
 \section{Energy Consumption and Deviation}
     Concerning energy consumption absolute values, the ST, SIG, TIST 2:1 and, TIST 3:1 presented on average, 173.07\%, 50.74\%, 480.68\% and, 310.83\% higher consumption compared to the traditional inverter. This is mainly related to the transistor count difference between all designs, and the inverter. The ST higher consumption is justified due to the dependency of its feedback mechanism on the output value in contrast to the SIG feed-forward mechanism being directly dependent on the input value. The dependency over the output value of the ST makes it slower, hence the output dependency over the input itself and the input capacitance, increasing the energy consumption. The difference between different proportions of TIST designs is mainly due to lower frequencies on high variability scenarios for the 2 to 1 designs. The designs with a 2:1 proportion presented up to 40.94\% lower frequency in comparison to its 3 to 1 proportion counterparts. Additionally, the higher energy consumption for TIST designs is mainly due to the 6 (3 to the ground and 3 to the source) total paths enabling the circuit to charge/discharge with no mechanism for the minimization of the leakage power.
-    
+
     The energy consumption increase over each variability scenario kept stable over 15.16\%, 35.6\%, 20.94\%, 9.04\% and, 7.18\% for the inverter, ST, SIG, TIST 2:1 and, TIST 3:1, respectively. Such increase is related to the frequency decrease over variability scaling. The low increase related to the TIST designs is due to many of the low supply voltage scenarios not being taken into account, in comparison to the other designs, since it did not work properly. A more fair analysis would consider only the subset of cases where all designs worked properly. Given such subset, the energy increase over each variability scenario would be 17.59\%, 18.16\%, 18.62\%, 9.04\% and 11.59\% for the inverter, ST, SIG, TIST 2:1 and, TIST 3:1, respectively.
     %Energy consumption measures over variability scenarios for each design is shown at Figure \ref{figEnergiaAbs}.
-    
-    
-    
-    Concerning robustness, the ST and SIG presented a 55.83\%, 47.15\% higher sensibility while the TIST 2:1 and 3:1 presented a 42.39\% and 52.03\% lower sensibility to the process variability impact in comparison to the traditional inverter considering the scenarios where each design presented acceptable behavior. In order to make a fair comparison, considering only the subset of scenarios where all designs worked properly, the ST and TIST 3:1 presented 1.13\% and 33.36\% lower sensibilities while the SIG and TIST 2:1 presented 5.5\% and 7.99\% higher variability sensibility. Additionally, considering all cases, even when the circuit did not work properly, the ST, SIG, TIST 2:1, and TIST 3:1 presented 19.85\%, 12.09\%, 145.96\%, and 118.24\% higher sensibilities in comparison to the traditional inverter. 
-    %Which, as stated before, is expected. 
-    
+
+
+
+    Concerning robustness, the ST and SIG presented a 55.83\%, 47.15\% higher sensibility while the TIST 2:1 and 3:1 presented a 42.39\% and 52.03\% lower sensibility to the process variability impact in comparison to the traditional inverter considering the scenarios where each design presented acceptable behavior. In order to make a fair comparison, considering only the subset of scenarios where all designs worked properly, the ST and TIST 3:1 presented 1.13\% and 33.36\% lower sensibilities while the SIG and TIST 2:1 presented 5.5\% and 7.99\% higher variability sensibility. Additionally, considering all cases, even when the circuit did not work properly, the ST, SIG, TIST 2:1, and TIST 3:1 presented 19.85\%, 12.09\%, 145.96\%, and 118.24\% higher sensibilities in comparison to the traditional inverter.
+    %Which, as stated before, is expected.
+
     %\begin{figure}[b]
     %    \centering
     %        \includegraphics[width=0.45\textwidth, trim={2cm 4cm 2cm 4cm}, clip]{compEnergiaAbs.pdf}
@@ -871,10 +873,10 @@ Given the propagation time deviations for each design, in comparison to the inve
    %     \label{figEnergiaAbs}
   %  \end{figure}
 
-    
-    
+
+
     Three types of analysis were performed to identify the most appropriate layout depending on the scenario: 1) layout with the lowest energy consumption, 2) highest robustness and 3) the most Cost-Benefit (CB) oriented layout. The lowest energy layout is identified through the energy measures. The higher robustness layout is identified by the lowest normalized standard deviation concerning energy consumption and the CB layout is identified by the lowest value considering the product between the energy consumption and normalized standard deviation (EDP - Energy Deviation Product). The results are shown at Table \ref{tab:3types}.
-    
+
     % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
 % \usepackage{graphicx}
@@ -890,41 +892,41 @@ Given the propagation time deviations for each design, in comparison to the inve
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
-\multirow{2}{*}{Design} & \multirow{2}{*}{WFF} & \multicolumn{2}{c|}{Minimum Energy} & \multicolumn{2}{c|}{Highest Robustness} & \multicolumn{2}{c|}{CB} \\ \cline{3-8} 
+\multirow{2}{*}{Design} & \multirow{2}{*}{WFF} & \multicolumn{2}{c|}{Minimum Energy} & \multicolumn{2}{c|}{Highest Robustness} & \multicolumn{2}{c|}{CB} \\ \cline{3-8}
                           &     & Supply (V) & \#Fins & Supply (V) & \#Fins       & Supply (V) & \#Fins \\ \hline
-\multirow{5}{*}{INV}      & 1\% & 0.1        & 1 or 2 & 0.7        & 1            & 0.7        & 1      \\ \cline{2-8} 
-                          & 2\% & 0.1        & 1      & 0.3        & 4 or 5       & 0.2        & 2 to 4 \\ \cline{2-8} 
-                          & 3\% & 0.2        & 1      & 0.3        & 5            & 0.3        & 3 to 5 \\ \cline{2-8} 
-                          & 4\% & 0.3        & 1 or 2 & 0.4        & 5            & 0.4        & 5      \\ \cline{2-8} 
+\multirow{5}{*}{INV}      & 1\% & 0.1        & 1 or 2 & 0.7        & 1            & 0.7        & 1      \\ \cline{2-8}
+                          & 2\% & 0.1        & 1      & 0.3        & 4 or 5       & 0.2        & 2 to 4 \\ \cline{2-8}
+                          & 3\% & 0.2        & 1      & 0.3        & 5            & 0.3        & 3 to 5 \\ \cline{2-8}
+                          & 4\% & 0.3        & 1 or 2 & 0.4        & 5            & 0.4        & 5      \\ \cline{2-8}
                           & 5\% & 0.3        & 1      & 0.4        & 1       & 0.4        & 1      \\ \hline
-\multirow{5}{*}{ST}       & 1\% & 0.1        & 1      & 0.7        & 5            & 0.7        & 1      \\ \cline{2-8} 
-                          & 2\% & 0.2        & 1      & 0.7        & 5            & 0.7        & 1      \\ \cline{2-8} 
-                          & 3\% & 0.2        & 1      & 0.7        & 4 or 5       & 0.3        & 1      \\ \cline{2-8} 
-                          & 4\% & 0.3        & 1      & 0.4        & 2            & 0.4        & 1 or 2 \\ \cline{2-8} 
+\multirow{5}{*}{ST}       & 1\% & 0.1        & 1      & 0.7        & 5            & 0.7        & 1      \\ \cline{2-8}
+                          & 2\% & 0.2        & 1      & 0.7        & 5            & 0.7        & 1      \\ \cline{2-8}
+                          & 3\% & 0.2        & 1      & 0.7        & 4 or 5       & 0.3        & 1      \\ \cline{2-8}
+                          & 4\% & 0.3        & 1      & 0.4        & 2            & 0.4        & 1 or 2 \\ \cline{2-8}
                           & 5\% & 0.4        & 1      & 0.5        & 2 to 5       & 0.5        & 1 or 2 \\ \hline
-\multirow{5}{*}{SIG}      & 1\% & 0.1        & 1      & 0.7        & 2            & 0.7        & 1      \\ \cline{2-8} 
-                          & 2\% & 0.2        & 1      & 0.3        & 3 or 4       & 0.7        & 1      \\ \cline{2-8} 
-                          & 3\% & 0.2        & 1      & 0.3        & 3            & 0.3        & 1      \\ \cline{2-8} 
-                          & 4\% & 0.3        & 1      & 0.4        & 3            & 0.4        & 2 or 3 \\ \cline{2-8} 
+\multirow{5}{*}{SIG}      & 1\% & 0.1        & 1      & 0.7        & 2            & 0.7        & 1      \\ \cline{2-8}
+                          & 2\% & 0.2        & 1      & 0.3        & 3 or 4       & 0.7        & 1      \\ \cline{2-8}
+                          & 3\% & 0.2        & 1      & 0.3        & 3            & 0.3        & 1      \\ \cline{2-8}
+                          & 4\% & 0.3        & 1      & 0.4        & 3            & 0.4        & 2 or 3 \\ \cline{2-8}
                           & 5\% & 0.4        & 1      & 0.5        & 2 or 3       & 0.5        & 2      \\ \hline
-\multirow{5}{*}{TIST 2:1} & 1\% & 0.1        & 2F1F   & 0.7        & 4F2F         & 0.7        & 2F1F   \\ \cline{2-8} 
-                          & 2\% & 0.1        & 2F1F   & 0.6        & 4F2F         & 0.6        & 2F1F   \\ \cline{2-8} 
-                          & 3\% & 0.7        & 2F1F   & 0.6        & 2F1F         & 0.6        & 2F1F   \\ \cline{2-8} 
-                          & 4\% & 0.7        & 2F1F   & 0.7        & 4F2F         & 0.7        & 2F1F   \\ \cline{2-8} 
+\multirow{5}{*}{TIST 2:1} & 1\% & 0.1        & 2F1F   & 0.7        & 4F2F         & 0.7        & 2F1F   \\ \cline{2-8}
+                          & 2\% & 0.1        & 2F1F   & 0.6        & 4F2F         & 0.6        & 2F1F   \\ \cline{2-8}
+                          & 3\% & 0.7        & 2F1F   & 0.6        & 2F1F         & 0.6        & 2F1F   \\ \cline{2-8}
+                          & 4\% & 0.7        & 2F1F   & 0.7        & 4F2F         & 0.7        & 2F1F   \\ \cline{2-8}
                           & 5\% & 0.7        & 2F1F   & 0.7        & 6F3F         & 0.7        & 2F1F   \\ \hline
-\multirow{5}{*}{TIST 3:1} & 1\% & 0.1        & 3F1F   & 0.7        & 6F2F         & 0.7        & 3F1F   \\ \cline{2-8} 
-                          & 2\% & 0.1        & 3F1F   & 0.7        & 6F2F or 3F1F & 0.7        & 3F1F   \\ \cline{2-8} 
-                          & 3\% & 0.7 or 0.6 & 3F1F   & 0.6 or 0.7 & 6F2F or 3F1F & 0.7        & 3F1F   \\ \cline{2-8} 
-                          & 4\% & 0.7 or 0.6 & 3F1F   & 0.6        & 6F2F         & 0.6        & 3F1F   \\ \cline{2-8} 
+\multirow{5}{*}{TIST 3:1} & 1\% & 0.1        & 3F1F   & 0.7        & 6F2F         & 0.7        & 3F1F   \\ \cline{2-8}
+                          & 2\% & 0.1        & 3F1F   & 0.7        & 6F2F or 3F1F & 0.7        & 3F1F   \\ \cline{2-8}
+                          & 3\% & 0.7 or 0.6 & 3F1F   & 0.6 or 0.7 & 6F2F or 3F1F & 0.7        & 3F1F   \\ \cline{2-8}
+                          & 4\% & 0.7 or 0.6 & 3F1F   & 0.6        & 6F2F         & 0.6        & 3F1F   \\ \cline{2-8}
                           & 5\% & 0.7 or 0.6 & 3F1F   & 0.6        & 3F1F         & 0.6        & 3F1F   \\ \hline
 \end{tabular}
 }
 \end{table}
 
-    Some results will show more than one appropriate layout/supply voltage. Values of energy consumption, energy normalized deviation and EDPs between the respective minimum value and, relatively, 5\% higher values were considered in order to provide more flexibility. It is possible to identify patterns concerning the minimum energy and highest robustness layouts. The minimum energy layouts contain only few fins and lower supply voltages. Both low values aim to lower currents and increase resistance, therefore decreasing energy consumption. As variability rises, the supply voltage rises as well. That is due to the lower frequencies applied in those scenarios and the consequent increase on propagation times, given that energy is the by-product of power and time. A higher supply voltage will decrease propagation times followed by a decrease on energy consumption. The TIST designs present a steep increase on supply voltage, from 0.1V to 0.6V/0.7V due to the lack of possible mid-term (0.2V to 0.5V) viable scenarios. 
-    
+    Some results will show more than one appropriate layout/supply voltage. Values of energy consumption, energy normalized deviation and EDPs between the respective minimum value and, relatively, 5\% higher values were considered in order to provide more flexibility. It is possible to identify patterns concerning the minimum energy and highest robustness layouts. The minimum energy layouts contain only few fins and lower supply voltages. Both low values aim to lower currents and increase resistance, therefore decreasing energy consumption. As variability rises, the supply voltage rises as well. That is due to the lower frequencies applied in those scenarios and the consequent increase on propagation times, given that energy is the by-product of power and time. A higher supply voltage will decrease propagation times followed by a decrease on energy consumption. The TIST designs present a steep increase on supply voltage, from 0.1V to 0.6V/0.7V due to the lack of possible mid-term (0.2V to 0.5V) viable scenarios.
+
     The robust layouts present a shift on supply voltage. At saturation region, the on-current presents an exponential dependency over the $V_{TH}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{TH}$, as shown in equation \ref{eqn:lin}. For both equations, the $I_{D,sat}$ is the saturation current, $I_{D,lin}$ is the linear current, $\mu_p$ is the p-material electron mobility, $C_{ox}$ is the specific capacitance of the gate, $W$ is the transistor width, $L$ is the transistor length, $V_{GS}$ is the gate-source voltage, $V_{DS}$ is the drain-source voltage, and $V_T$ is the threshold voltage. At low level variability scenarios, a saturation on-current will not present significant variations, while at high variability scenarios the on-current must fall to linear region in order to present lower deviations.
-    
+
     %\begin{equation}
     %    \centering
     %    \label{eqn:somelabel}
@@ -955,14 +957,14 @@ Given the propagation time deviations for each design, in comparison to the inve
 %\end{subequations}
 
 
-    Energy consumption and deviation comparisons between each scenario best layout are shown in Fig. \ref{figscCompINV}, Fig. \ref{figscCompST}, Fig. \ref{figscCompSIG}, Fig. \ref{figscCompTIST21}, and Fig.\ref{figscCompTIST31}. The lines correspond to the energy consumption axis (left), while the bars correspond to the energy deviation axis (right). It is shown that the CB layouts presents similar results in comparison to the high robustness layouts while maintaining a lower energy consumption, for the ST and SIG, with the exception of the inverter. The inverter presents a high deviation for its minimum energy layout at 5\% WFF (1 fin layout with a supply voltage of 0.3V). Although, with a little increase on supply voltage, from 0.3V to 0.4V, matching the CB layout, the inverter presents a 8.95\% increase on energy consumption while decreasing its energy deviation by 93.49\%, as shown in Table \ref{tab:CBDiff}. This result highlights the importance of a cost-benefit analysis in order to bring flexibility, and the best of both low energy and robust layouts. 
-    
-    At the same time, it is important to analyze its drawbacks. The CB layouts for inverter and TIST layouts presented higher increases on energy consumption, in comparison to the ST and SIG designs. This higher increase is directly related to the much higher maximum values of those designs. Those higher maximum values occurred at 1\% WFF and are due to two factors. The first factor is related to the presence of a leakage current suppression system, part to the feed-back circuit, in the ST and SIG designs. Secondly, as WFF increases, the minimum energy values start to rise as well, due to lower frequencies and higher supply voltages. Although, the high robustness layouts energy consumption rises as well, it does not rises as fast as the minimum energy layouts consumption. Given so, with the CB layouts energy consumption always staying between the high robustness and minimum energy layouts, the difference between the energy consumption of the minimum energy layout and the CB layout will be diminished as variability rises. 
-    
+    Energy consumption and deviation comparisons between each scenario best layout are shown in Fig. \ref{figscCompINV}, Fig. \ref{figscCompST}, Fig. \ref{figscCompSIG}, Fig. \ref{figscCompTIST21}, and Fig.\ref{figscCompTIST31}. The lines correspond to the energy consumption axis (left), while the bars correspond to the energy deviation axis (right). It is shown that the CB layouts presents similar results in comparison to the high robustness layouts while maintaining a lower energy consumption, for the ST and SIG, with the exception of the inverter. The inverter presents a high deviation for its minimum energy layout at 5\% WFF (1 fin layout with a supply voltage of 0.3V). Although, with a little increase on supply voltage, from 0.3V to 0.4V, matching the CB layout, the inverter presents a 8.95\% increase on energy consumption while decreasing its energy deviation by 93.49\%, as shown in Table \ref{tab:CBDiff}. This result highlights the importance of a cost-benefit analysis in order to bring flexibility, and the best of both low energy and robust layouts.
+
+    At the same time, it is important to analyze its drawbacks. The CB layouts for inverter and TIST layouts presented higher increases on energy consumption, in comparison to the ST and SIG designs. This higher increase is directly related to the much higher maximum values of those designs. Those higher maximum values occurred at 1\% WFF and are due to two factors. The first factor is related to the presence of a leakage current suppression system, part to the feed-back circuit, in the ST and SIG designs. Secondly, as WFF increases, the minimum energy values start to rise as well, due to lower frequencies and higher supply voltages. Although, the high robustness layouts energy consumption rises as well, it does not rises as fast as the minimum energy layouts consumption. Given so, with the CB layouts energy consumption always staying between the high robustness and minimum energy layouts, the difference between the energy consumption of the minimum energy layout and the CB layout will be diminished as variability rises.
+
     Considering the difference in energy consumption, the CB inverter shows the lowest decrease compared to the high robustness layout. It is mainly due to the CB layout trending into a more robust approach. It happens due to the higher difference in sensibility caused by sizing. For example, at 0.7V the inverter can show up to 44.4\% higher energy deviation, depending on the sizing, while the ST will present a maximum of 21.17\% increase in deviation. This makes the inverter less flexible, tightening appropriate setups around more specific sets of sizing and supply voltages. All around, it can be noted huge maximum decreases in energy deviation in comparison to the low energy layout for all designs.
-    
-    
-    
+
+
+
     % Please add the following required packages to your document preamble:
     % \usepackage{multirow}
     \begin{table}[]
@@ -973,8 +975,8 @@ Given the propagation time deviations for each design, in comparison to the inve
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline
 \multicolumn{9}{|c|}{CB Layout comparison (\%)}                                          \\ \hline
-\multirow{3}{*}{Design} & \multicolumn{4}{c|}{Energy}                                            & \multicolumn{4}{c|}{Energy Deviation}                                  \\ \cline{2-9} 
-                        & \multicolumn{2}{c|}{Low Energy} & \multicolumn{2}{c|}{High Robustness} & \multicolumn{2}{c|}{Low Energy} & \multicolumn{2}{c|}{High Robustness} \\ \cline{2-9} 
+\multirow{3}{*}{Design} & \multicolumn{4}{c|}{Energy}                                            & \multicolumn{4}{c|}{Energy Deviation}                                  \\ \cline{2-9}
+                        & \multicolumn{2}{c|}{Low Energy} & \multicolumn{2}{c|}{High Robustness} & \multicolumn{2}{c|}{Low Energy} & \multicolumn{2}{c|}{High Robustness} \\ \cline{2-9}
          & Maximum & Average & Maximum & Average & Maximum & Average & Maximum & Average \\ \hline
 INV      & 260.64  & 81.44   & -37.51  & -7.50   & -93.49  & -76.87  & 7.42    & 1.48    \\ \hline
 ST       & 80.17   & 37.38   & -78.60  & -53.56  & -84.05  & -60.67  & 31.98   & 12.96   \\ \hline
@@ -984,53 +986,53 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
 \end{tabular}
 }
 \end{table}
-    
-    
-    
+
+
+
     %The ST CB layouts presented a maximum of 31.98\% increase on sensibility, with a maximum average of 12.96\%, in comparison to the high robustness layouts, while there is a maximum increase on energy consumption of 80.17\% with an average increase of 37.38\%, in comparison to the minimum energy layout. Over improvements, it brought a maximum reduction on sensibility of 85.01\% with an average of 60.68\%, in comparison to the low energy layouts, for the energy consumption, there was a maximum reduction of 78.6\% with an average of 53.56\%, in comparison to the high robustness layouts.
-    
-    %Presenting a similar behaviour, the SIG CB layouts showed a maximum and average increase on sensibility of 22.48\% and 7.27\%, in comparison to the high robustness layout, respectively, while presenting a maximum and average energy consumption increase of 53.09\% and 34.7\%, in comparison to the low energy layout, respectively. The SIG presented improvements of 90.88\% maximum and 68.28\% average decreases on sensibility in comparison to the low energy layouts, while presenting a 58.92\% maximum decrease and 24.14\% average decrease on energy consumption related to the high robustness layouts. 
-    
+
+    %Presenting a similar behaviour, the SIG CB layouts showed a maximum and average increase on sensibility of 22.48\% and 7.27\%, in comparison to the high robustness layout, respectively, while presenting a maximum and average energy consumption increase of 53.09\% and 34.7\%, in comparison to the low energy layout, respectively. The SIG presented improvements of 90.88\% maximum and 68.28\% average decreases on sensibility in comparison to the low energy layouts, while presenting a 58.92\% maximum decrease and 24.14\% average decrease on energy consumption related to the high robustness layouts.
+
     %The inverter presents a different behaviour, with the majority of its CB layouts being the same as the high robustness layouts. This highlights an important pattern where considering its EDP, the robustness was prioritized, as the energy deviation goes up to 132\% at 5\% WFF, the highest among the considered scenarios. Given so, the inverter CB layouts present virtually no worsening concerning robustness, with a maximum worsening of 7.42\% and an average of 1.5\% and no improvement on energy, in comparison to a the high robustness layouts, with a maximum energy reduction of 37.51\% at 2\% WFF, and an average reduction of 7.5\%. In comparison to the low energy layouts, there is a considerable increase on energy consumption with a maximum increase of 260.64\% and an average increase of 81.44\%. Although, the sensibility levels decreased as well, with a maximum and average decreases on energy deviation of 93.49\% and 76.87\%, respectively.
-    
+
     %It is important to clarify that the 1-fin inverter operating at 0.4V presents the highest robustness while still maintaining a considerable smaller energy consumption over the ST, and SIG.
-    
+
     %Over the TIST 2:1 the CB layouts presented a maximum deviation increase of 23.89\% and an average increase of 15.05\%, in comparison to the high robustness layout. Comparing to the low energy layout, the CB alternative presented a maximum decrease on energy deviation up to 95.04\% with and average of 41.72\%. On absolute values of energy consumption, the CB variant presented a maximum and average increase of 308.67\%, and 72.48\%, respectively, comparing to the low energy layout. In comparison to the high robustness layout it presented a maximum decrease of 39.10\% with an average decrease of 29.49\%.
-    
-    %Lastly, the TIST 3:1 CB layouts showed a maximum sensibility worsening of 13.31\% with an average of 5.39\%, in comparison to the high robustness variant, in comparison to the low energy layouts, it presented a maximum improvement over energy deviation of 92.18\% with an average of 48.97\%. Concerning energy consumption, the CB layout has a maximum increase of 301.76\% with an average increase of 74.77\%, in comparison to the low energy design. 
-    
-    %The inverter low-energy layout showed the highest energy consumption increase as the variability level increased - 3.84, 3.21, and 3.25 times for the inverter, ST and SIG, respectively. Additionally, at high variability scenario (5\% WFF), the low-energy inverter presented the highest deviation 132.75\% while showing similar energy consumption to the high robustness and CB layouts. 
-    
-    
-    
+
+    %Lastly, the TIST 3:1 CB layouts showed a maximum sensibility worsening of 13.31\% with an average of 5.39\%, in comparison to the high robustness variant, in comparison to the low energy layouts, it presented a maximum improvement over energy deviation of 92.18\% with an average of 48.97\%. Concerning energy consumption, the CB layout has a maximum increase of 301.76\% with an average increase of 74.77\%, in comparison to the low energy design.
+
+    %The inverter low-energy layout showed the highest energy consumption increase as the variability level increased - 3.84, 3.21, and 3.25 times for the inverter, ST and SIG, respectively. Additionally, at high variability scenario (5\% WFF), the low-energy inverter presented the highest deviation 132.75\% while showing similar energy consumption to the high robustness and CB layouts.
+
+
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 2cm 2cm 3cm}, clip]{comp3Linv2Energy.pdf}
             \caption{Layout comparison for each scenario considering the energy metrics for the inverter.}
         \label{figscCompINV}
-    \end{figure}  
-    
+    \end{figure}
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{comp3Lst2Energy.pdf}
             \caption{Layout comparison for each scenario considering the energy metrics for the ST.}
         \label{figscCompST}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{comp3Lsig2Energy.pdf}
             \caption{Layout comparison for each scenario considering the energy metrics for the SIG.}
         \label{figscCompSIG}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{comp3Ltist212Energy.pdf}
             \caption{Layout comparison for each scenario considering the energy metrics for the TIST at 2:1 proportion.}
         \label{figscCompTIST21}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{comp3Ltist312Energy.pdf}
@@ -1039,7 +1041,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
     \end{figure}
 
     A comparison between each design layout is presented in Fig. \ref{figCompLowEnergy}, Fig. \ref{figCompHighRobustness}, and Fig. \ref{figCompCB}. The lines correspond to the energy consumption axis (left), while the bars correspond to the energy deviation axis (right). Considering the averages, for the low energy layouts, the inverter presented the lowest energy consumption, followed by the SIG (34.61\% higher), ST (68.32\% higher), TIST 3:1 (358.84\% higher) and TIST 2:1 (487\% higher), respectively. The TIST layouts, showed the highest robustness, with the 2:1 variants presenting a 22.93\% average energy deviation and the 3:1 variants showing a minor increase with its 23.62\% average energy deviation. Following the TIST layouts, the ST, SIG and inverter present a 29.34\%, 33.25\%, and 51.55\% energy deviation, respectively. It can be noted that, while the inverter presents the lowest energy consumption it presents the highest energy deviation as well. It is mainly due to its spike on deviation at 5\% WFF but even disconsidering this spike, the inverter would show an average deviation of 31.25\%, which is still higher than most designs. Given so, the inverter is not entirely recommended for a low energy application where robustness is critical. A more appropriate design would be either ST or SIG, with the ST although presenting higher energy consumption, its hysteresis effect should not be ignored, being of importance for high noise application.
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{compLowEnergy.pdf}
@@ -1047,7 +1049,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
         \label{figCompLowEnergy}
     \end{figure}
 
-    For the high robustness spectrum, the energy consumption difference between designs follows the same behaviour, although with much broader differences. In comparison to the inverter energy consumption each design presented an average increase of 43.52\%, 263.24\%, 382.12\%, and 555.21\%, for the SIG, ST, TIST 3:1, and TIST 2:1, respectively. The deviation metrics presented a similar behaviour as well, although the ST presented the highest deviations. The TIST designs presented the lowest deviations with 3.56\%, and 5.55\% for the TIST 2:1, and 3:1, respectively. Following, the SIG, inverter, and ST, presented 6.23\%, 6.93\%, and 7.81\% deviations. In this case, the inverter is a strong candidate, with the lowest energy consumption, and acceptable robustness. 
+    For the high robustness spectrum, the energy consumption difference between designs follows the same behaviour, although with much broader differences. In comparison to the inverter energy consumption each design presented an average increase of 43.52\%, 263.24\%, 382.12\%, and 555.21\%, for the SIG, ST, TIST 3:1, and TIST 2:1, respectively. The deviation metrics presented a similar behaviour as well, although the ST presented the highest deviations. The TIST designs presented the lowest deviations with 3.56\%, and 5.55\% for the TIST 2:1, and 3:1, respectively. Following, the SIG, inverter, and ST, presented 6.23\%, 6.93\%, and 7.81\% deviations. In this case, the inverter is a strong candidate, with the lowest energy consumption, and acceptable robustness.
 
     \begin{figure}[]
         \centering
@@ -1055,21 +1057,21 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
             \caption{High robustness layouts energy metrics comparison for each design.}
         \label{figCompHighRobustness}
     \end{figure}
-    
-    Lastly, for the CB layouts, the energy consumption scaling through the designs is the same, although with smaller differences, even in comparison to the low energy layouts. In comparison to the inverter, the SIG, ST, TIST 3:1, and TIST 2:1 presented average increases of 18.84\%, 47.74\%, 281.85\%, and 379.6\%. The designs kept the same behaviour as their high robustness variants. The TIST designs presented the lowest deviations with 4.07\% and 5.8\% for the 2:1 and 3:1 proportions, respectively. The SIG, inverter and ST, presented respectively, 6.72\%, 7.05\%, and 8.74\% deviations on energy. In this case, the SIG, presents a higher energy consumption and much bigger layout, it only provides a minor improvement over deviations (4.91\%, relative to the inverter). The ST presented higher energy and bigger area as well, with a increase on deviations (1.69\%, absolute and 23.97\% relative increases, in comparison to the inverter), although it still presents hysteresis. The TIST designs, consume considerably more energy, with less deviation (although, as stated before, those numbers are deflated), bigger layout area, and less viable scenarios to work with. 
-    
+
+    Lastly, for the CB layouts, the energy consumption scaling through the designs is the same, although with smaller differences, even in comparison to the low energy layouts. In comparison to the inverter, the SIG, ST, TIST 3:1, and TIST 2:1 presented average increases of 18.84\%, 47.74\%, 281.85\%, and 379.6\%. The designs kept the same behaviour as their high robustness variants. The TIST designs presented the lowest deviations with 4.07\% and 5.8\% for the 2:1 and 3:1 proportions, respectively. The SIG, inverter and ST, presented respectively, 6.72\%, 7.05\%, and 8.74\% deviations on energy. In this case, the SIG, presents a higher energy consumption and much bigger layout, it only provides a minor improvement over deviations (4.91\%, relative to the inverter). The ST presented higher energy and bigger area as well, with a increase on deviations (1.69\%, absolute and 23.97\% relative increases, in comparison to the inverter), although it still presents hysteresis. The TIST designs, consume considerably more energy, with less deviation (although, as stated before, those numbers are deflated), bigger layout area, and less viable scenarios to work with.
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{compCB.pdf}
             \caption{CB layouts energy metrics comparison for each design.}
         \label{figCompCB}
     \end{figure}
-    
-    
+
+
 \section{Static Noise Margins}
 
-    The evaluation of the Static Noise Margins (SNM) are shown at Table \ref{tab:SNM}. The inverter and SIG showed identical SNMs, while TIST designs presented higher SNMs than the inverter and SIG at sub-threshold levels, with the 2:1 layouts presenting lower margins. The ST presented higher SNMs overall. In comparison to the inverter, SIG, and TIST 3:1, which presented the same average SNM of 0.164V, the TIST 2:1 presented 2.6\% lower SNMs, while the ST showed 17.5\% higher SNMs. The ST presents its biggest difference at low supply voltages, with 41.91\% and 28.23\% higher SNMs at 0.1V, and 0.2V, respectively, in comparison to the inverter. 
-    
+    The evaluation of the Static Noise Margins (SNM) are shown at Table \ref{tab:SNM}. The inverter and SIG showed identical SNMs, while TIST designs presented higher SNMs than the inverter and SIG at sub-threshold levels, with the 2:1 layouts presenting lower margins. The ST presented higher SNMs overall. In comparison to the inverter, SIG, and TIST 3:1, which presented the same average SNM of 0.164V, the TIST 2:1 presented 2.6\% lower SNMs, while the ST showed 17.5\% higher SNMs. The ST presents its biggest difference at low supply voltages, with 41.91\% and 28.23\% higher SNMs at 0.1V, and 0.2V, respectively, in comparison to the inverter.
+
 \begin{table}[]
 \centering
 \caption{}
@@ -1079,7 +1081,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
 \hline
 \multirow{2}{*}{Design} &
   \multirow{2}{*}{SNM (V)} &
-  \multicolumn{7}{c|}{Supply Voltage (V)} \\ \cline{3-9} 
+  \multicolumn{7}{c|}{Supply Voltage (V)} \\ \cline{3-9}
  &
    &
   0.1 &
@@ -1097,7 +1099,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.171 &
   0.217 &
   0.253 &
-  0.277 \\ \cline{2-9} 
+  0.277 \\ \cline{2-9}
  &
   $NM_{H}$ &
   0.025 &
@@ -1106,7 +1108,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.169 &
   0.216 &
   0.259 &
-  0.299 \\ \cline{2-9} 
+  0.299 \\ \cline{2-9}
  &
   \textbf{Avg.} &
   \textbf{0.025} &
@@ -1124,7 +1126,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.171 &
   0.217 &
   0.253 &
-  0.277 \\ \cline{2-9} 
+  0.277 \\ \cline{2-9}
  &
   $NM_{H}$ &
   0.025 &
@@ -1133,7 +1135,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.169 &
   0.216 &
   0.259 &
-  0.299 \\ \cline{2-9} 
+  0.299 \\ \cline{2-9}
  &
   \textbf{Avg.} &
   \textbf{0.025} &
@@ -1151,7 +1153,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.244 &
   0.310 &
   0.376 &
-  0.440 \\ \cline{2-9} 
+  0.440 \\ \cline{2-9}
  &
   $NM_{H}$ &
   0.036 &
@@ -1160,7 +1162,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.144 &
   0.178 &
   0.213 &
-  0.248 \\ \cline{2-9} 
+  0.248 \\ \cline{2-9}
  &
   \textbf{Avg.} &
   \textbf{0.036} &
@@ -1178,7 +1180,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.292 &
   0.319 &
   0.337 &
-  0.359 \\ \cline{2-9} 
+  0.359 \\ \cline{2-9}
  &
   $NM_{H}$ &
   0.014 &
@@ -1187,7 +1189,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.038 &
   0.079 &
   0.131 &
-  0.189 \\ \cline{2-9} 
+  0.189 \\ \cline{2-9}
  &
   \textbf{Avg.} &
   \textbf{0.037} &
@@ -1205,7 +1207,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.277 &
   0.300 &
   0.314 &
-  0.341 \\ \cline{2-9} 
+  0.341 \\ \cline{2-9}
  &
   $NM_{H}$ &
   0.022 &
@@ -1214,7 +1216,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
   0.056 &
   0.108 &
   0.173 &
-  0.235 \\ \cline{2-9} 
+  0.235 \\ \cline{2-9}
  &
   \textbf{Avg.} &
   \textbf{0.036} &
@@ -1236,60 +1238,60 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
             \caption{Current ratio (left) and current ratio deviation (right) design comparison across variability scaling.}
         \label{figsCurrComp}
     \end{figure}
-    
+
     Due to the variability impact, the current ratios tend to decrease. This mainly happens due to the increase of the off-current as variability scales. This behavior is due to the effects of DIBL (Drain-Induced Barrier Lowering) and is a consequence of the short channel present on modern transistors. Due to the decreasing channel length, the depletion regions of drain and source become an increasing fraction of the whole area under the gate. Therefore, the volume of the depletion region effectively controlled by the gate decreases which can be modeled by a threshold voltage decreasing with the gate length. The charge below the gate being not only controlled by the gate but also by the drain and source regions is called the charge sharing effect. A similar effect occurs if the drain potential of the transistor increases: the pn-junction between the drain and the substrate becomes more reverse-biased, so the depletion layer grows and reduces even more the volume controlled by the gate. Given so, a drain bias-dependent threshold voltage can be assumed, as shown in Equation \ref{eqn:DIBL} \cite{henzler2006power}:
-    
+
       \begin{equation}
         \centering
         \label{eqn:DIBL}
         V_{th} = V_{th,0} - mV_{DS}
-    \end{equation}    
-    
+    \end{equation}
+
     Thus, according to Equation \ref{eqn:sub} \cite{henzler2006power}, where $I_{D,sub}$ is the subthreshold current (leakage current), the leakage current (or subthreshold current) is exponentially dependent on the threshold voltage, as shown in Fig. \ref{figsOffCurrComp} for the inverter, although all designs presented the same behavior. The TIST designs presented the lowest decrease, at 15.21\%, with the ST, inverter, and SIG presenting much higher losses with 51.44\%, 63.59\%, 65.54\%, respectively. The current ratios present a linear decrease, instead of an exponential decrease, due to the lower, although exponential, increase rate of the $on$ current, as shown in Fig. \ref{figOnOffScal}.
-    
+
     \begin{equation}
         \centering
         \label{eqn:sub}
         I_{D,sub} = I_0 \cdot exp\left(\frac{V_{GS} - V_{th,0} + mV_{DS}}{\eta \cdot V_T}\right)
     \end{equation}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{offCurrentComp.pdf}
             \caption{Leakage current scaling (left axis) and standard deviation (right axis) for the inverter.}
         \label{figsOffCurrComp}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{on-off-scaling2.pdf}
             \caption{Average on and off-current increase over all designs through variability scaling. The scaling is normalized in relation to the 1\% WFF level measures.}
         \label{figOnOffScal}
     \end{figure}
-    
+
     Additionally, it was considered the output gain values for each design, as show in Fig. \ref{figsGainComp}. These measures present the most broader difference across all designs. The TIST and ST designs presented, on average, values up to 8300.60\%, and 1246.50\% higher, respectively, in comparison to the inverter and SIG designs, which presented the same gains. Additionally, the curve slope measures are shown in Fig. \ref{fig:slopes}, where lower slopes can be observed for the TIST, SIG and inverter designs in comparison to the ST. The ST and TIST designs presented 126.24\% and 9.43\% higher average slopes, respectively, in comparison to the inverter and SIG designs which showed identical measures. Figs. \ref{fig:vtcs01} and \ref{fig:vtcs07} show the VTC curves for all designs. It shows how the TIST although presenting higher gain, present lower slopes, given that it takes more time to properly discharge.
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 9cm 2cm 10cm}, clip]{gainComp.pdf}
             \caption{Output gain value across voltage scaling.}
         \label{figsGainComp}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 9cm 2cm 10cm}, clip]{slopes.pdf}
             \caption{Voltage Transfer Curve slopes through supply voltage scaling for each design.}
         \label{fig:slopes}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{vtcs01.png}
             \caption{Voltage Transfer Curves for all designs at 0.1V.}
         \label{fig:vtcs01}
     \end{figure}
-    
+
         \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{vtcs07.png}
@@ -1297,55 +1299,55 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
         \label{fig:vtcs07}
     \end{figure}
     %According to \cite{henzler2006power}
-    
+
     The hysteresis ratios of all designs which present the hysteresis characteristic are shown in Fig. \ref{figsHystComp}. The hysteresis ratio is the ratio between the hysteresis interval (V) and the supply voltage (V), which will result in a percentage of the current supply voltage. Given so, the TIST designs presented higher average ratios of 18.92\% and 15.95\% for the 2:1 and 3:1 designs, respectively, with the ST presenting a ratio average of 8.62\%. It is important to highlight the ratio losses as well, since due to the variability scaling and its related increase on off-current, the ratios will tend to decrease. Therefore, the TIST designs presented ratio decreases up to 14.68\% and the ST presented a better response with a 5.68\% decrease. This result is due to the leakage current supression embedded into the ST design through the feed-back system. The hysteresis curves for all designs at nominal supply voltage are shown in Fig. \ref{fig:hystCurves}. Furthermore, the hysteresis ratios in relation to the supply voltage are shown in Fig. \ref{fig:hystRatiosVdd}, it can be observed huge hysteresis intervals for the TIST designs, which are responsible for the circuits failures at working at acceptable frequencies. In order to tackle this problem, further increase of the ratio between the TIST inverter and latch transistors sizes would be necessary, inserting even higher area penalties.
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={1.25cm 9cm 2cm 10cm}, clip]{hystWFFComp.pdf}
             \caption{Design hysteresis ratio comparison (left) and hysteresis ratio normalized deviation (right), across variability scaling.}
         \label{figsHystComp}
     \end{figure}
-    
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{hystGraphs.pdf}
             \caption{Hysteresis curves for all designs at nominal supply voltage.}
         \label{fig:hystCurves}
     \end{figure}
-   
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{hystRatiosVdd.pdf}
             \caption{Design hysteresis ratios comparison across supply voltage scaling.}
         \label{fig:hystRatiosVdd}
     \end{figure}
- 
+
     The average hysteresis ratio deviations for each design was 23.44\%, 24.83\%, and 27.30\% for the ST, TIST 2:1 and TIST 3:1. The hysteresis average ratio deviation measures did not present considerable differences between designs, although, at high variability scenarios (5\% WFF) the ST presented 16.79\% and 21.40\% lower deviations, in comparison to the TIST 2:1 and TIST 3:1, respectively.
-    
+
     Figs. \ref{fig:energyDist0_2}, \ref{fig:energyDist0_4}, and \ref{fig:energyDist0_7}, show the distribution of the energy metrics for the inverter over all levels of WFF for 0.2V, 0.4V, and 0.7V supply voltages. For low variability and high supply voltage scenarios it can be observed a normal distribution. While at higher variability and lower supply voltages, a left skew can be noted at first where the majority of the cases stay clustered and as soon as the variability rises, the skew will tend to the left, with extreme cases up to 5 orders of magnitude higher than the mean. Hystograms and dispersion graphs for all designs, are shown in Annex C.
-    
+
      \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{dist_energy_INV_0_2.pdf}
             \caption{Energy measures distribution for the inverter at different levels of variability at 0.2V.}
         \label{fig:energyDist0_2}
-    \end{figure}   
-    
+    \end{figure}
+
     \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{dist_energy_INV_0_4.pdf}
             \caption{Energy measures distribution for the inverter at different levels of variability at 0.4V.}
         \label{fig:energyDist0_4}
-    \end{figure}   
-    
+    \end{figure}
+
          \begin{figure}[]
         \centering
             \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{dist_energy_INV_0_7.pdf}
             \caption{Energy measures distribution for the inverter at different levels of variability at 0.7V.}
         \label{fig:energyDist0_7}
-    \end{figure}   
-    
+    \end{figure}
+
 \section{Over ST technique applied on Full Adders}
 
 The results are divided into two main analyses, with the set of FAs operating at nominal and near-threshold. In both cases, simulations were performed with and without the ST technique. To better present the improvements (positive values) and drawbacks (negative values) of each ST, results also show a comparison ($\Delta$) between the normalized deviation between the traditional and the circuits with the applied technique.
@@ -1354,7 +1356,7 @@ The results are divided into two main analyses, with the set of FAs operating at
 
 The results concerning propagation times at nominal levels are show in Table \ref{delayNominal}. It is possible to observe no considerable improvement over variability robustness concerning the propagation times. It can be explained due to the pass-transistor logic present in the TFA, TGA, and Hybrid given further signal degradation as a result of the area increase. Furthermore, it can be observed only a slight improvement over the Mirror FA given its mirroring-based logic with many paths to source and ground.
 
-For the energy results, it was observed considerable improvement over robustness in the Mirror, TFA, and TGA, as shown in Table \ref{energiaNominal}. There was a considerable worsening over the Hybrid energy robustness. It is mainly due to its number of transistors, which is comparable to the Mirror FA but it is not entirely based on complementary logic, and the number of internal inverters replaced, further increasing its area and signal degradation. Overall, the traditional TFA presented the best performance and, by far, the lowest energy consumption and energy normalized deviation at nominal operation. However, it presented the highest delay deviations. 
+For the energy results, it was observed considerable improvement over robustness in the Mirror, TFA, and TGA, as shown in Table \ref{energiaNominal}. There was a considerable worsening over the Hybrid energy robustness. It is mainly due to its number of transistors, which is comparable to the Mirror FA but it is not entirely based on complementary logic, and the number of internal inverters replaced, further increasing its area and signal degradation. Overall, the traditional TFA presented the best performance and, by far, the lowest energy consumption and energy normalized deviation at nominal operation. However, it presented the highest delay deviations.
 
 %\setlength\tabcolsep{2 pt}
 
@@ -1367,7 +1369,7 @@ For the energy results, it was observed considerable improvement over robustness
 \begin{tabular}{lccccccccc}
 \hline
 \multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Delays} \\ \cline{3-10}
- & &  \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10} 
+ & &  \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10}
  & & \textbf{$\mu$(ps)} & \textbf{$\sigma$(ps)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} & \textbf{$\mu$(ps)} & \textbf{$\sigma$(ps)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} \\ \hline
 \multirow{3}{*}{Mirror} & - & 22.83 & 4.82 & 20.89 & - & 22.60 & 4.39 & 19.38 & - \\ \cline{2-10}
  & ST1 & 27.38 & 5.75 & 20.77 & 0.54 & 25.31 & 4.79  & 18.87 & 2.63 \\ \cline{2-10}
@@ -1393,8 +1395,8 @@ For the energy results, it was observed considerable improvement over robustness
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccccccccc}
 \hline
-\multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Energy} \\ \cline{3-10} 
- & & \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10} 
+\multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Energy} \\ \cline{3-10}
+ & & \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10}
  & & \textbf{$\mu$(fJ)} & \textbf{$\sigma$(fJ)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} & \textbf{$\mu$(fJ)} & \textbf{$\sigma$(fJ)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} \\ \hline
 \multirow{3}{*}{Mirror} & - & 19.30 & 3.55 & 18.35 & - & 27.30 & 3.99 & 14.60 & - \\ \cline{2-10}
 & ST1 & 26.80 & 4.85 & 18.10 & 1.37 & 37.20 & 5.54 & 14.87 & -1.84 \\ \cline{2-10}
@@ -1416,9 +1418,9 @@ For the energy results, it was observed considerable improvement over robustness
 
  At near-threshold operation, there is little room for noise margin. Given so, it makes full use of the noise immunity characteristic of the STs, as shown in Table \ref{delayNT}. It can be observed a superior robustness improvement with the ST2, given its smaller area, and consequently, lower signal degradation.
  In the case of the TFA it seems that due to its few paths to source and ground, the higher parasitic capacitance and resistance present in ST2 brings higher deviation, with the ST1 presenting better results.
- 
+
  For the energy results, shown in Table \ref{energiaNT}, ST1 showed superior robustness improvement for the TFA and TGA, which can be explained by their pass-transistor based logic and the ST1 smaller parasitics, in comparison to the Mirror and Hybrid FAs which showed no improvement whatsoever.
- 
+
  For the delay results, the Mirror FA showed the lowest means and normalized deviations, which is expected given it is not based on pass-transistor logic, having better driving capabilities. For the energy measures, TFA showed the lowest mean, due to its pass-transistor logic and lower number of transistors. Although, the TFA presented the highest delay normalized deviations. Overall, the TGA showed the lowest normalized deviations in energy and the highest robustness gains concerning delay and energy measures.
 
 %%DELAYS NT
@@ -1428,8 +1430,8 @@ For the energy results, it was observed considerable improvement over robustness
 \label{delayNT}
 \begin{tabular}{lccccccccc}
 \hline
-\multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Delays} \\ \cline{3-10} 
-& & \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10}  
+\multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Delays} \\ \cline{3-10}
+& & \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10}
 & & \textbf{$\mu$(ps)} & \textbf{$\sigma$(ps)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} & \textbf{$\mu$(ps)} & \textbf{$\sigma$(ps)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} \\ \hline
 \multirow{3}{*}{Mirror} & - & 103.49 & 63.18 & 60.95 & - & 91.62 & 55.41 & 59.18 & - \\ \cline{2-10}
 & ST1 & 119.98 & 67.63 & 56.09 & 7.97 & 115.50 & 73.68 & 64.11 & -8.32 \\ \cline{2-10}
@@ -1454,20 +1456,20 @@ For the energy results, it was observed considerable improvement over robustness
 \label{energiaNT}
 \begin{tabular}{lccccccccc}
 \hline
-\multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Energy} \\ \cline{3-10} 
-& & \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10}  
+\multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Energy} \\ \cline{3-10}
+& & \multicolumn{4}{c}{SUM} & \multicolumn{4}{c}{CARRY OUT} \\ \cline{3-10}
 & & \textbf{$\mu$(fJ)} & \textbf{$\sigma$(fJ)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} & \textbf{$\mu$(fJ)} & \textbf{$\sigma$(fJ)} & \textbf{$\sigma$/$\mu$(\%)} & \textbf{$\Delta$(\%)} \\ \hline
-\multirow{3}{*}{Mirror} & - & 10.10 & 3.04 & 30.12 & - & 14.10 & 2.53 & 18.00 & - \\ \cline{2-10} 
-& ST1 & 13.90 & 4.05 & 29.07 & 3.50 & 18.60 & 4.25 & 22.93 & -27.42 \\ \cline{2-10} 
+\multirow{3}{*}{Mirror} & - & 10.10 & 3.04 & 30.12 & - & 14.10 & 2.53 & 18.00 & - \\ \cline{2-10}
+& ST1 & 13.90 & 4.05 & 29.07 & 3.50 & 18.60 & 4.25 & 22.93 & -27.42 \\ \cline{2-10}
 & ST2 & 18.40 & 4.34 & 23.60 & 21.64 & 25.30 & 5.73 & 22.59 & -25.53 \\ \hline
-\multirow{3}{*}{TFA} & - & 2.62 & 0.83 & 31.49 & - & 2.71 & 0.37 & 13.49 & - \\ \cline{2-10} 
-& ST1 & 5.67 & 1.34 & 23.69 & 24.76 & 5.69 & 0.63 & 11.01 & 18.38 \\ \cline{2-10} 
+\multirow{3}{*}{TFA} & - & 2.62 & 0.83 & 31.49 & - & 2.71 & 0.37 & 13.49 & - \\ \cline{2-10}
+& ST1 & 5.67 & 1.34 & 23.69 & 24.76 & 5.69 & 0.63 & 11.01 & 18.38 \\ \cline{2-10}
 & ST2 & 9.69 & 2.11 & 21.74 & 30.96 & 8.80 & 2.59 & 29.40 & -117.89 \\ \hline
-\multirow{3}{*}{TGA} & - & 6.87 & 1.56 & 22.68 & - & 8.11 & 2.90 & 35.70 & - \\ \cline{2-10} 
-& ST1 & 12.90 & 2.37 & 18.45 & 18.65 & 13.50 & 1.86 & 13.79 & 61.37 \\ \cline{2-10} 
+\multirow{3}{*}{TGA} & - & 6.87 & 1.56 & 22.68 & - & 8.11 & 2.90 & 35.70 & - \\ \cline{2-10}
+& ST1 & 12.90 & 2.37 & 18.45 & 18.65 & 13.50 & 1.86 & 13.79 & 61.37 \\ \cline{2-10}
 & ST2 & 16.10 & 3.09 & 19.17 & 15.48 & 17.30 & 2.57 & 14.86 & 58.38 \\ \hline
-\multirow{3}{*}{Hybrid} & - & 9.66 & 3.09 & 32.02 & - & 12.80 & 3.17 & 24.77 & - \\ \cline{2-10} 
-& ST1 & 36.40 & 17.94 & 49.30 & -53.96 & 45.80 & 23.63 & 51.54 & -108.07 \\ \cline{2-10} 
+\multirow{3}{*}{Hybrid} & - & 9.66 & 3.09 & 32.02 & - & 12.80 & 3.17 & 24.77 & - \\ \cline{2-10}
+& ST1 & 36.40 & 17.94 & 49.30 & -53.96 & 45.80 & 23.63 & 51.54 & -108.07 \\ \cline{2-10}
 & ST2 & 35.40 & 12.72 & 35.91 & -12.14 & 46.60 & 13.84 & 29.69 & -19.86 \\ \hline
 \end{tabular}
 \end{table}
@@ -1475,12 +1477,12 @@ For the energy results, it was observed considerable improvement over robustness
 \vspace{-1.5em}
 
  \subsection{Penalties}
- 
+
 Overviews for metrics measurements and variability sensitivities are shown in Figs. \ref{fig:avgDelayNominal} to \ref{fig:avgEnergyNT}. Since it was considered a technique where a single inverter (2 transistors) by ST1/ST2 (4/6 transistors). It is expected penalties concerning delay, energy and area metrics. For the delays, it was observed an average 30\% and 97\% increase for the ST1 and ST2, respectively. Additionally, for the energy, there was a 123\% and 176\% average increase for the ST1 and ST2, respectively.
 
-Concerning area penalties, the ST1 increased the FAs area by 157.71\%, on average, while the ST2 increased by 52.20\%. The ST1 higher increase in area is due to the necessity to use TAP-Cells, which is a technology restriction, in order to explicitly connect the transistor's bulk to specific points of the circuit or source/ground making the ST1 cell more prominent than expected. The ST2 does not apply specific bulk connections, although it was necessary the use of METAL3 for cell routing, increasing parasitic capacitance and resistance. 
+Concerning area penalties, the ST1 increased the FAs area by 157.71\%, on average, while the ST2 increased by 52.20\%. The ST1 higher increase in area is due to the necessity to use TAP-Cells, which is a technology restriction, in order to explicitly connect the transistor's bulk to specific points of the circuit or source/ground making the ST1 cell more prominent than expected. The ST2 does not apply specific bulk connections, although it was necessary the use of METAL3 for cell routing, increasing parasitic capacitance and resistance.
 
-Considering all scenarios, there can be observed no delay robustness improvement at nominal operation with the ST1 and ST2 showing, on average, 50\% and 115.2\% worsening on delay robustness, respectively. For energy robustness, at nominal operation, the ST2 presented a considerable average improvement of 11.18\% while the ST1 showed an average worsening of 25\%. For near-threshold operation, ST1 and ST2 showed 7.79\% and 18.173\% higher delay robustness. For energy robustness, the ST2 showed a 4.13\% improvement while the ST1 presented a worsening of 4.5\%. 
+Considering all scenarios, there can be observed no delay robustness improvement at nominal operation with the ST1 and ST2 showing, on average, 50\% and 115.2\% worsening on delay robustness, respectively. For energy robustness, at nominal operation, the ST2 presented a considerable average improvement of 11.18\% while the ST1 showed an average worsening of 25\%. For near-threshold operation, ST1 and ST2 showed 7.79\% and 18.173\% higher delay robustness. For energy robustness, the ST2 showed a 4.13\% improvement while the ST1 presented a worsening of 4.5\%.
 
 %\vspace{-3.65em}
 
@@ -1524,7 +1526,7 @@ The ongoing trend of IoT devices was enabled by two key technology improvements:
 
 The node scaling, that enabled IoT devices, comes not short of inherent challenges, with process variability being the major one. New transistor technologies have been proposed such as FinFETs, although even such devices, at deep submicron nodes (e.g. 7-nm), present considerable deviation in its metrics. Such deviations are not appropriate for such sensible devices working at narrow constraints (with energy consumption being a priority).
 
-Given so, an analysis over multiple scenarios considering several levels of process variability, supply voltages, and transistor sizing was performed in order to identify the adequate fin number and supply voltage for various kinds of applications prioritizing energy consumption and the minimization of deviations. 
+Given so, an analysis over multiple scenarios considering several levels of process variability, supply voltages, and transistor sizing was performed in order to identify the adequate fin number and supply voltage for various kinds of applications prioritizing energy consumption and the minimization of deviations.
 
 
 
@@ -1879,7 +1881,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\newpage 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.5\textwidth, angle =90]{HYBRIDST1.png}
@@ -1888,7 +1890,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\newpage 
+\newpage
 \begin{figure}[H]
 \centering
 \includegraphics[width=1.5\textwidth, angle =90]{HYBRIDST2.png}
