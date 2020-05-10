@@ -54,13 +54,14 @@
 \contentsline {figure}{\numberline {7.17}{\ignorespaces Voltage Transfer Curves for all designs at 0.7V.\relax }}{63}{figure.7.17}
 \contentsline {figure}{\numberline {7.18}{\ignorespaces Design hysteresis ratio comparison (left) and hysteresis ratio normalized deviation (right), across variability scaling.\relax }}{64}{figure.7.18}
 \contentsline {figure}{\numberline {7.19}{\ignorespaces Hysteresis curves for all designs at nominal supply voltage.\relax }}{64}{figure.7.19}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.2V.\relax }}{65}{figure.7.20}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.4V.\relax }}{66}{figure.7.21}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.7V.\relax }}{67}{figure.7.22}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Average delay measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{71}{figure.7.23}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Average energy measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.24}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Average delay measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.25}
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Average energy measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{73}{figure.7.26}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Design hysteresis ratios comparison across supply voltage scaling.\relax }}{65}{figure.7.20}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.2V.\relax }}{66}{figure.7.21}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.4V.\relax }}{67}{figure.7.22}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.7V.\relax }}{68}{figure.7.23}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Average delay measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.24}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Average energy measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{72}{figure.7.25}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Average delay measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{73}{figure.7.26}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Average energy measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{73}{figure.7.27}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
