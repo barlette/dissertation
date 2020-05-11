@@ -65,69 +65,71 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces 1 fin inverter layout.\relax }}{83}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces 2 fins inverter layout.\relax }}{84}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces 3 fins inverter layout.\relax }}{85}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces 4 fins inverter layout.\relax }}{86}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces 5 fins inverter layout.\relax }}{87}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces 1 fin ST layout.\relax }}{88}{figure.A.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces 2 fins ST layout.\relax }}{89}{figure.A.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces 3 fins ST layout.\relax }}{90}{figure.A.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces 4 fins ST layout.\relax }}{91}{figure.A.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces 5 fins ST layout.\relax }}{92}{figure.A.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces 1 fin SIG layout.\relax }}{93}{figure.A.11}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces 2 fins SIG layout.\relax }}{94}{figure.A.12}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces 3 fins SIG layout.\relax }}{95}{figure.A.13}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces 4 fins SIG layout.\relax }}{96}{figure.A.14}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces 5 fins SIG layout.\relax }}{97}{figure.A.15}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces 2 fin max., proportion 2:1 TIST layout.\relax }}{98}{figure.A.16}
-\contentsline {figure}{\numberline {A.17}{\ignorespaces 3 fin max., proportion 3:1 TIST layout.\relax }}{99}{figure.A.17}
-\contentsline {figure}{\numberline {A.18}{\ignorespaces 4 fin max., proportion 2:1 TIST layout.\relax }}{100}{figure.A.18}
-\contentsline {figure}{\numberline {A.19}{\ignorespaces 6 fin max., proportion 3:1 TIST layout.\relax }}{101}{figure.A.19}
-\contentsline {figure}{\numberline {A.20}{\ignorespaces 6 fin max., proportion 2:1 TIST layout.\relax }}{102}{figure.A.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Traditional Mirror Full Adder layout.\relax }}{104}{figure.B.1}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Mirror Full Adder layout with internal inverters replaced by ST1.\relax }}{105}{figure.B.2}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Mirror Full Adder layout with internal inverters replaced by ST2.\relax }}{106}{figure.B.3}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Traditional Transmission Full Adder layout .\relax }}{107}{figure.B.4}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Transmission Full Adder layout with internal inverters replaced by ST1.\relax }}{108}{figure.B.5}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Transmission Full Adder layout with internal inverters replaced by ST2.\relax }}{109}{figure.B.6}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Traditional Transmission Gate Adder layout.\relax }}{110}{figure.B.7}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Transmission Gate Adder layout with internal inverters replaced by ST1.\relax }}{111}{figure.B.8}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Transmission Gate Adder layout with internal inverters replaced by ST2.\relax }}{112}{figure.B.9}
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Traditional Hybrid Full Adder layout.\relax }}{113}{figure.B.10}
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Hybrid Full Adder layout with internal inverters replaced by ST1.\relax }}{114}{figure.B.11}
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Hybrid Full Adder layout with internal inverters replaced by ST2.\relax }}{115}{figure.B.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Inverter energy measures distribution operating at 0.2V.\relax }}{116}{figure.C.1}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Inverter energy measures distribution operating at 0.4V.\relax }}{117}{figure.C.2}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Inverter energy measures distribution operating at 0.7V.\relax }}{118}{figure.C.3}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Inverter energy measures dispersion operating at 0.2V.\relax }}{119}{figure.C.4}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Inverter energy measures dispersion operating at 0.4V.\relax }}{120}{figure.C.5}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Inverter energy measures dispersion operating at 0.7V.\relax }}{121}{figure.C.6}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces ST energy measures distribution operating at 0.2V.\relax }}{122}{figure.C.7}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces ST energy measures distribution operating at 0.4V.\relax }}{123}{figure.C.8}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces ST energy measures distribution operating at 0.7V.\relax }}{124}{figure.C.9}
-\contentsline {figure}{\numberline {C.10}{\ignorespaces ST energy measures dispersion operating at 0.2V.\relax }}{125}{figure.C.10}
-\contentsline {figure}{\numberline {C.11}{\ignorespaces ST energy measures dispersion operating at 0.4V.\relax }}{126}{figure.C.11}
-\contentsline {figure}{\numberline {C.12}{\ignorespaces ST energy measures dispersion operating at 0.7V.\relax }}{127}{figure.C.12}
-\contentsline {figure}{\numberline {C.13}{\ignorespaces SIG energy measures distribution operating at 0.2V.\relax }}{128}{figure.C.13}
-\contentsline {figure}{\numberline {C.14}{\ignorespaces SIG energy measures distribution operating at 0.4V.\relax }}{129}{figure.C.14}
-\contentsline {figure}{\numberline {C.15}{\ignorespaces SIG energy measures distribution operating at 0.7V.\relax }}{130}{figure.C.15}
-\contentsline {figure}{\numberline {C.16}{\ignorespaces SIG energy measures dispersion operating at 0.2V.\relax }}{131}{figure.C.16}
-\contentsline {figure}{\numberline {C.17}{\ignorespaces SIG energy measures dispersion operating at 0.4V.\relax }}{132}{figure.C.17}
-\contentsline {figure}{\numberline {C.18}{\ignorespaces SIG energy measures dispersion operating at 0.7V.\relax }}{133}{figure.C.18}
-\contentsline {figure}{\numberline {C.19}{\ignorespaces TIST 2:1 energy measures distribution operating at 0.2V.\relax }}{134}{figure.C.19}
-\contentsline {figure}{\numberline {C.20}{\ignorespaces TIST 2:1 energy measures distribution operating at 0.4V.\relax }}{135}{figure.C.20}
-\contentsline {figure}{\numberline {C.21}{\ignorespaces TIST 2:1 energy measures distribution operating at 0.7V.\relax }}{136}{figure.C.21}
-\contentsline {figure}{\numberline {C.22}{\ignorespaces TIST 2:1 energy measures dispersion operating at 0.2V.\relax }}{137}{figure.C.22}
-\contentsline {figure}{\numberline {C.23}{\ignorespaces TIST 2:1 energy measures dispersion operating at 0.4V.\relax }}{138}{figure.C.23}
-\contentsline {figure}{\numberline {C.24}{\ignorespaces TIST 2:1 energy measures dispersion operating at 0.7V.\relax }}{139}{figure.C.24}
-\contentsline {figure}{\numberline {C.25}{\ignorespaces TIST 3:1 energy measures distribution operating at 0.2V.\relax }}{140}{figure.C.25}
-\contentsline {figure}{\numberline {C.26}{\ignorespaces TIST 3:1 energy measures distribution operating at 0.4V.\relax }}{141}{figure.C.26}
-\contentsline {figure}{\numberline {C.27}{\ignorespaces TIST 3:1 energy measures distribution operating at 0.7V.\relax }}{142}{figure.C.27}
-\contentsline {figure}{\numberline {C.28}{\ignorespaces TIST 3:1 energy measures dispersion operating at 0.2V.\relax }}{143}{figure.C.28}
-\contentsline {figure}{\numberline {C.29}{\ignorespaces TIST 3:1 energy measures dispersion operating at 0.4V.\relax }}{144}{figure.C.29}
-\contentsline {figure}{\numberline {C.30}{\ignorespaces TIST 3:1 energy measures dispersion operating at 0.7V.\relax }}{145}{figure.C.30}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 1 fin inverter layout.\relax }}{89}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 2 fins inverter layout.\relax }}{90}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces 3 fins inverter layout.\relax }}{91}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces 4 fins inverter layout.\relax }}{92}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces 5 fins inverter layout.\relax }}{93}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces 1 fin ST layout.\relax }}{94}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces 2 fins ST layout.\relax }}{95}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces 3 fins ST layout.\relax }}{96}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces 4 fins ST layout.\relax }}{97}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces 5 fins ST layout.\relax }}{98}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces 1 fin SIG layout.\relax }}{99}{figure.A.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces 2 fins SIG layout.\relax }}{100}{figure.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces 3 fins SIG layout.\relax }}{101}{figure.A.13}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces 4 fins SIG layout.\relax }}{102}{figure.A.14}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces 5 fins SIG layout.\relax }}{103}{figure.A.15}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces 2 fin max., proportion 2:1 TIST layout.\relax }}{104}{figure.A.16}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces 3 fin max., proportion 3:1 TIST layout.\relax }}{105}{figure.A.17}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces 4 fin max., proportion 2:1 TIST layout.\relax }}{106}{figure.A.18}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces 6 fin max., proportion 3:1 TIST layout.\relax }}{107}{figure.A.19}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces 6 fin max., proportion 2:1 TIST layout.\relax }}{108}{figure.A.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Inverter extracted netlist for all sizings.\relax }}{147}{figure.D.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Traditional Mirror Full Adder layout.\relax }}{110}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Mirror Full Adder layout with internal inverters replaced by ST1.\relax }}{111}{figure.B.2}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Mirror Full Adder layout with internal inverters replaced by ST2.\relax }}{112}{figure.B.3}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Traditional Transmission Full Adder layout .\relax }}{113}{figure.B.4}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Transmission Full Adder layout with internal inverters replaced by ST1.\relax }}{114}{figure.B.5}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Transmission Full Adder layout with internal inverters replaced by ST2.\relax }}{115}{figure.B.6}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Traditional Transmission Gate Adder layout.\relax }}{116}{figure.B.7}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Transmission Gate Adder layout with internal inverters replaced by ST1.\relax }}{117}{figure.B.8}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Transmission Gate Adder layout with internal inverters replaced by ST2.\relax }}{118}{figure.B.9}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Traditional Hybrid Full Adder layout.\relax }}{119}{figure.B.10}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Hybrid Full Adder layout with internal inverters replaced by ST1.\relax }}{120}{figure.B.11}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Hybrid Full Adder layout with internal inverters replaced by ST2.\relax }}{121}{figure.B.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Inverter energy measures distribution operating at 0.2V.\relax }}{122}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Inverter energy measures distribution operating at 0.4V.\relax }}{123}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Inverter energy measures distribution operating at 0.7V.\relax }}{124}{figure.C.3}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Inverter energy measures dispersion operating at 0.2V.\relax }}{125}{figure.C.4}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Inverter energy measures dispersion operating at 0.4V.\relax }}{126}{figure.C.5}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Inverter energy measures dispersion operating at 0.7V.\relax }}{127}{figure.C.6}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces ST energy measures distribution operating at 0.2V.\relax }}{128}{figure.C.7}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces ST energy measures distribution operating at 0.4V.\relax }}{129}{figure.C.8}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces ST energy measures distribution operating at 0.7V.\relax }}{130}{figure.C.9}
+\contentsline {figure}{\numberline {C.10}{\ignorespaces ST energy measures dispersion operating at 0.2V.\relax }}{131}{figure.C.10}
+\contentsline {figure}{\numberline {C.11}{\ignorespaces ST energy measures dispersion operating at 0.4V.\relax }}{132}{figure.C.11}
+\contentsline {figure}{\numberline {C.12}{\ignorespaces ST energy measures dispersion operating at 0.7V.\relax }}{133}{figure.C.12}
+\contentsline {figure}{\numberline {C.13}{\ignorespaces SIG energy measures distribution operating at 0.2V.\relax }}{134}{figure.C.13}
+\contentsline {figure}{\numberline {C.14}{\ignorespaces SIG energy measures distribution operating at 0.4V.\relax }}{135}{figure.C.14}
+\contentsline {figure}{\numberline {C.15}{\ignorespaces SIG energy measures distribution operating at 0.7V.\relax }}{136}{figure.C.15}
+\contentsline {figure}{\numberline {C.16}{\ignorespaces SIG energy measures dispersion operating at 0.2V.\relax }}{137}{figure.C.16}
+\contentsline {figure}{\numberline {C.17}{\ignorespaces SIG energy measures dispersion operating at 0.4V.\relax }}{138}{figure.C.17}
+\contentsline {figure}{\numberline {C.18}{\ignorespaces SIG energy measures dispersion operating at 0.7V.\relax }}{139}{figure.C.18}
+\contentsline {figure}{\numberline {C.19}{\ignorespaces TIST 2:1 energy measures distribution operating at 0.2V.\relax }}{140}{figure.C.19}
+\contentsline {figure}{\numberline {C.20}{\ignorespaces TIST 2:1 energy measures distribution operating at 0.4V.\relax }}{141}{figure.C.20}
+\contentsline {figure}{\numberline {C.21}{\ignorespaces TIST 2:1 energy measures distribution operating at 0.7V.\relax }}{142}{figure.C.21}
+\contentsline {figure}{\numberline {C.22}{\ignorespaces TIST 2:1 energy measures dispersion operating at 0.2V.\relax }}{143}{figure.C.22}
+\contentsline {figure}{\numberline {C.23}{\ignorespaces TIST 2:1 energy measures dispersion operating at 0.4V.\relax }}{144}{figure.C.23}
+\contentsline {figure}{\numberline {C.24}{\ignorespaces TIST 2:1 energy measures dispersion operating at 0.7V.\relax }}{145}{figure.C.24}
+\contentsline {figure}{\numberline {C.25}{\ignorespaces TIST 3:1 energy measures distribution operating at 0.2V.\relax }}{146}{figure.C.25}
+\contentsline {figure}{\numberline {C.26}{\ignorespaces TIST 3:1 energy measures distribution operating at 0.4V.\relax }}{147}{figure.C.26}
+\contentsline {figure}{\numberline {C.27}{\ignorespaces TIST 3:1 energy measures distribution operating at 0.7V.\relax }}{148}{figure.C.27}
+\contentsline {figure}{\numberline {C.28}{\ignorespaces TIST 3:1 energy measures dispersion operating at 0.2V.\relax }}{149}{figure.C.28}
+\contentsline {figure}{\numberline {C.29}{\ignorespaces TIST 3:1 energy measures dispersion operating at 0.4V.\relax }}{150}{figure.C.29}
+\contentsline {figure}{\numberline {C.30}{\ignorespaces TIST 3:1 energy measures dispersion operating at 0.7V.\relax }}{151}{figure.C.30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Inverter extracted netlist for all sizings.\relax }}{153}{figure.D.1}

@@ -27,9 +27,18 @@
 \usepackage{pdfpages}
 \usepackage{listings}
 \usepackage{amsmath}
+
+\usepackage{bibentry}
+\nobibliography*
+
+%\usepackage{biblatex}
+%\usepackage{filecontents}
+%\usepackage{natbib}
+%\usepackage{bibentry}
 %
 % Informações gerais
 %
+%\addbibresource{biblio.bib}
 \title{Schmitt Trigger Dimensioning Under Variability and Voltage Scaling for Minimum Energy Operation.}
 
 \author{Moraes}{Leonardo Barlette}
@@ -108,6 +117,8 @@
 \keyword{\LaTeX}
 \keyword{ABNT}
 \keyword{UFRGS}
+
+%\addbibresource{biblio.bib}
 
 %
 % inicio do documento
@@ -1358,7 +1369,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
 
 \section{Over ST technique applied on Full Adders}
 
-The results are divided into two main analyses, with the set of FAs operating at nominal and near-threshold. In both cases, simulations were performed with and without the ST technique. To better present the improvements (positive values) and drawbacks (negative values) of each ST, results also show a comparison ($\Delta$) between the normalized deviation between the traditional and the circuits with the applied technique.
+The results are divided into two main analyses, with the set of FAs operating at nominal and near-threshold. In both cases, simulations were performed with and without the ST technique. To better present the improvements (positive values) and drawbacks (negative values) of each ST, results also show a comparison ($\Delta$) between the normalized deviation between the traditional and the circuits with the applied technique. For the sake of simplicity the LPST and traditional 6T ST were renamed ST1 and ST2, respectively.
 
 \subsection{Nominal Operation}
 
@@ -1530,68 +1541,122 @@ Considering all scenarios, there can be observed no delay robustness improvement
 
 \chapter{Conclusions}
 
-The ongoing trend of IoT devices was enabled by two key technology improvements: battery lifetime and capacity improvement, and node scaling. Although, for specific applications, battery maintenance and charging through the power grid is not possible. Given so, IoT devices have been constrained with tight energy consumption metrics, and adapted with self-sufficient mechanisms in order to produce energy through external sources.
+The ongoing trend of IoT devices was enabled by two key technology improvements: battery lifetime and capacity improvement, and node scaling. Although, for specific applications, battery maintenance and charging through the power grid is not possible. Given so, IoT devices have been constrained with tight energy consumption metrics, and adapted with self-sufficient mechanisms in order to produce energy through external sources. The node scaling, that enabled IoT devices, comes not short of inherent challenges, with process variability being the major one. New transistor technologies have been proposed such as FinFETs, although even such devices, at deep submicron nodes (e.g. 7-nm), present considerable deviation in its metrics. Such deviations are not appropriate for such sensible devices working at narrow constraints (with energy consumption being a priority).
 
-The node scaling, that enabled IoT devices, comes not short of inherent challenges, with process variability being the major one. New transistor technologies have been proposed such as FinFETs, although even such devices, at deep submicron nodes (e.g. 7-nm), present considerable deviation in its metrics. Such deviations are not appropriate for such sensible devices working at narrow constraints (with energy consumption being a priority).
+Given so, an analysis over multiple scenarios considering several levels of process variability, supply voltages, and transistor sizing was performed in order to identify the adequate fin number and supply voltage for various kinds of inverter circuits prioritizing energy consumption and the minimization of deviations. Furthermore, the impact of the replacement of Full Adders internal inverters was analyzed considering two types of Schmitt Trigger and four types of Full Adders.
 
-Given so, an analysis over multiple scenarios considering several levels of process variability, supply voltages, and transistor sizing was performed in order to identify the adequate fin number and supply voltage for various kinds of applications prioritizing energy consumption and the minimization of deviations.
+An overview for the inverter designs analysis is shown in Table \ref{tab:overview}. On performance, the inverter presented the lowest propagation times, and lowest frequency loss due to variability impact. Although, it presented the higher propagation deviations than the ST and SIG designs. The ST and SIG designs presented the lowest frequencies, but lowest propagation times deviations as well. The TIST 2:1 designs presented frequencies on average lower to the ST and SIG designs, and higher deviations, second only to the 3:1 designs which presented higher frequencies, apart from the inverter, than all of the designs. Given so, it can be observed the higher impact of variability on the TIST designs which present the lowest average frequencies (for the 2:1 TISTs) and second highest frequencies (for the 3:1 TISTs) and still presented considerable higher propagation deviations in comparison to all designs.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\caption{Overall results overview for all designs.}
+\label{tab:overview}
+
+\resizebox{0.8\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
+\hline
+Metric                            &         & Absolute     & Deviations \\ \hline
+\multirow{2}{*}{Delays}           & Highest & TIST 2:1     & TIST 3:1   \\ \cline{2-4} 
+                                  & Lowest  & INV          & SIG        \\ \hline
+\multirow{2}{*}{Energy}           & Highest & TIST 2:1     & TIST 2:1   \\ \cline{2-4} 
+                                  & Lowest  & INV          & INV        \\ \hline
+\multirow{2}{*}{SNMs}             & Highest & ST           & -          \\ \cline{2-4} 
+                                  & Lowest  & TIST 2:1     & -          \\ \hline
+\multirow{2}{*}{Current Ratios}   & Highest & TIST 2:1     & TIST 2:1   \\ \cline{2-4} 
+                                  & Lowest  & SIG          & ST         \\ \hline
+\multirow{2}{*}{Gain}             & Highest & TIST         & -          \\ \cline{2-4} 
+                                  & Lowest  & INV/SIG      & -          \\ \hline
+\multirow{2}{*}{Slope}            & Highest & ST           & -          \\ \cline{2-4} 
+                                  & Lowest  & TIST/INV/SIG & -          \\ \hline
+\multirow{2}{*}{Hysteresis Ratio*} & Highest & TIST 2:1     & TIST 3:1   \\ \cline{2-4} 
+                                  & Lowest  & ST           & ST         \\ \hline
+\end{tabular}%
+}
+\legend{*The inverter and SIG designs do not present a hysteresis characteristic.}
+\end{table}
+
+Trying to detect the most adequate values for the supply voltage and sizing variables for each type of application, low energy consumption, high robustness, and cost-benefit, a subset of solution was chosen considering each level of variability. For the low energy applications, the inverter, ST, and SIG remained tightly together while the TIST designs presented way higher energy consumption. The high robustness application stayed favorable for the TIST designs, although not being directly comparable since it utilizes a 2 to 3 times higher number of fins, and a higher supply voltage, to maintain such results. Putting the TIST designs aside, the ST design presents lower deviation, at the cost of much higher energy consumption for low variality scenarios. Therefore the SIG presents itself as an alternative, showing lower deviations and energy consumption similar to the inverter in the remaining cases. Although, it is important to highlight that the maximum energy deviation presented for this application was approximately 10\%.
+
+Lastly, for the cost-benefit applications, the TIST designs maintained the lowest deviations, 73\% to 30\% lower than the inverter, at the cost of roughly 3.5 to 4.8 times higher energy consumption in comparison to the inverter. The SIG presented similar energy consumption (20\% higher) with a slight decrease on the deviations (8\%) in comparison to the inverter. Therefore, the inverter and SIG designs are still good alternatives, with the TIST designs tending more to a high robustness application with no to little restraints into energy consumption. The EDP over all chosen layouts, for each considered application, is shown at Table \ref{tab:edpApp}.
+
+\begin{table}[]
+\centering
+\caption{EDP for each chosen design at each considered application.}
+\label{tab:edpApp}
+\resizebox{0.8\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{Design} & \multicolumn{3}{c|}{EDP}                    \\ \cline{2-4} 
+                        & Low Energy & High Robustness & Cost Benefit \\ \hline
+INV                     & 0.155      & 0.029           & 0.027        \\ \hline
+ST                      & 0.124      & 0.112           & 0.053        \\ \hline
+SIG                     & 0.114      & 0.037           & 0.031        \\ \hline
+TIST 2:1                & 0.273      & 0.096           & 0.076        \\ \hline
+TIST 3:1                & 0.214      & 0.113           & 0.086        \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Concerning reliability over signals, the ST and TIST designs presented similar results at low supply voltages with widening difference as the supply voltage scales up, with the ST presenting the highest noise margins and the TIST designs leveling up with the SIG and inverter designs with presented identical results through all supply voltage values. The TIST designs presented the highest current ratios and deviations, by a considerable margin, altough presenting the lowest decreases due to the variability impact. On the contrary, the SIG and inverter designs presented the lowest ratios, with the ST presenting the lowest deviation. Additionally, the TIST designs presented much higher gains, although presenting signal slopes comparable to the SIG and inverter designs, with the ST showing the highest signal slopes. Lastly, over the hysteresis ratios, the TIST designs presented a broad difference in comparison to the ST, although with higher deviations in most cases. Considering the hysteresis ratio scaling in comparison to the supply voltage, the TIST designs keep showing higher ratios (mainly at the lowest supply voltages), although due to higher ratios at near-threshold voltages the TIST circuits did not work properly at those specific levels of supply. 
+
+The impact of the ST1 and ST2 replacement of Full Adders internal inverters showed overall no improvement over delay deviations at nominal levels with a worsening up to 199.08\%. On the contrary, for the energy measures the pass-transistor logic-based Full Adders presented improvements (43.12\%). At near-threshold operation, almost all designs take advantage of the gain improvement characteristic of the STs and showed a maximum of 36.07\% and 44.78\% lower deviations on the delays and energy metrics, respectively. Such results show that the more apropriate application of the technique is at near-threshold operating circuits and that, depending of the logic of which the Full Adder is based, it will present better or worse results with the area having an influence as well, where the Hybrid Full Adder, the biggest design, presented almost no improvement. 
+
+Table \ref{tab:overallFAs} shows the best and worst cases concerning the metrics, and the two levels of supply voltage considered in the experiments. It can be observed the presence of the TFA at nominal level, presenting most of the lowest measures, which comes along with the TFA also presenting the smallest area of all considered designs, making it the most apropriate Full Adder at nominal operation. On the other side, the Hybrid presented the worst results and has the biggest area overall, making it not very suitable, not only for nominal operation but for near-threshold operation as well. At near-threshold the TFAST2 presents itself with the highest delays and delay variations. Although, for the energy measures, its traditional version presents the lowest energy consumption and acceptable variations, although now as low as the TGAST1. Into the performance, the Mirror presented the best results. 
+
+\begin{table}[]
+\centering
+\caption{Best and worst cases considering all metrics and the two types of operation considered in the experiments.}
+\label{tab:overallFAs}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{Operation}} & \multicolumn{2}{c|}{Delay} & \multicolumn{2}{c|}{Energy} \\ \cline{3-6} 
+\multicolumn{2}{|c|}{}             & Absolute  & Deviation & Absolute  & Deviation \\ \hline
+\multirow{2}{*}{Nominal} & Highest & HYBRIDST2 & TFAST2    & HYBRIDST2 & HYBRIDST1 \\ \cline{2-6} 
+                         & Lowest  & TFA       & MirrorST2 & TFA       & TFAST1    \\ \hline
+\multirow{2}{*}{NT}      & Highest & TFAST2    & TFAST2    & HYBRIDST1 & HYBRIDST1 \\ \cline{2-6} 
+                         & Lowest  & Mirror    & MirrorST2 & TFA       & TGAST1    \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Additionally, since when considering just one variable much of the impact of other variables are put aside, Table \ref{tab:edpddp} shows the layouts which presented the highest and lowest Measure Deviation Products (MDP), where the absolute value of the measures and its deviation are multiplied. This further analysis permits to consider not only one separable variable (e.g. only the absolute value or the deviation) but the impact of several measures into one index. Furthermore, in order to give the most overall apropriate layout, considering energy and delay measures and deviations, the MDP for energy (Energy Deviation Product - EDP) and delays (Delay Deviation Product - DDP) were multiplied as well. These results show that the original TFA presents best energy and overall results, while the Mirror Full Adder shows improved delays results. Again, the Hybrid Full Adder presented for the energy and overall the worst resutls, mainly due to its area and not being fully based onto complimentary logic. 
+
+\begin{table}[]
+\centering
+\caption{Overall results considering the EDP and DPP for each metric and the product between those.}
+\label{tab:edpddp}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{Operation}} & \multicolumn{2}{c|}{Measure Deviation Product} & \multirow{2}{*}{DDP and EDP Product} \\ \cline{3-4}
+\multicolumn{2}{|c|}{}             & Delay  & Energy    &           \\ \hline
+\multirow{2}{*}{Nominal} & Highest & TGAST2 & HYBRIDST1 & HYBRIDST1 \\ \cline{2-5} 
+                         & Lowest  & MIRROR & TFA       & TFA       \\ \hline
+\multirow{2}{*}{NT}      & Highest & TFAST2 & HYBRIDST1 & HYBRIDST1 \\ \cline{2-5} 
+                         & Lowest  & MIRROR & TFA       & TFA       \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 
+\chapter{Future Works and Cronogram}
 
+For future works, it is expected for a similar analysis to be made considering the TIST design at a different technology node (FD-SOI 28nm) at sub-100mV in order to achieve ultra low-power circuits capable of enhancing the circuits robustness to noise and to decrease the impact of process variability.
 
+\chapter{Publications}
 
+\begin{enumerate}
 
+	\item \bibentry{moraes2018evaluation}
 
+	\item \bibentry{moraes2019exploring}
 
-
-
-Performance
-    maior desempenho
-    perda de frequencia
-    maior robustez nos delays
-
-Energia
-    menor consumo de energia
-    menor desvios
-
-Correntes
-Ganhos
-Histerese
-Margens de ruído
-Area
-
-
-%ST is a promising circuit for variability effects mitigation and enhancement of noise immunity being fairly applied on critical applications with tight reliability constraints.
-
-%The results show that fewer fins can enable considerable energy reduction. On the contrary, for the ST robustness, a higher fin count will bring an increase in the on-current, bringing noise immunity improvements. In performance results, it could be observed up to 16\% and 44.65\% maximum average increase and decrease in frequency, respectively, with differences between variability impact in the layouts rising alongside the supply voltage value. The hysteresis intervals showed clear advantages over higher fin count and supply voltages with 10.76\% and 25.26\% better hysteresis.
-
-%Lastly, considering energy consumption and variability, it was possible to achieve 24.84\% and 14.44\% decreases, respectively, in comparison to a traditional transistor sizing. A cost-benefit analysis was made as well, giving an additional option in order to achieve acceptable energy consumption and variability robustness.
-
-%\chapter{Future Works and Cronogram}
-
-%For future works it is expect the same analysis presented in the results section to be made over two additional ST designs: the Triple-Inverter ST (TIST), Stacked-Inverter Gate (SIG) and, for the sake of comparison, a classical inverter. Both TIST and SIG designs are shown in Figs. \ref{fig:TIST} and \ref{fig:SIG}, respectively. Additionally, the analysis will be expanded by considering the SNMs, VTC and, $I_{ON}$ and $I_{OFF}$ currents under variability.
-
-
-
-
-
-%Table \ref{tab:cron}, shows the expected cronogram for the dissertation:
-
-%\begin{table}[h]
-%\centering
-%\caption{Dissertation Cronogram}
-%\label{tab:cron}
-%\resizebox{\textwidth}{!}{%
-%\begin{tabular}{lcccc}
-%\hline
-%\textbf{} & \textbf{Simulations} & \textbf{Writing} & %\textbf{Event Publication} & \textbf{Revision} \\ \hline
-%\textbf{July} & X &  &  &  \\ \hline
-%\textbf{August} & X & X & X &  \\ \hline
-%\textbf{September} &  & X & X & X \\ \hline
-%\textbf{October} & \multicolumn{1}{l}{} & %\multicolumn{1}{l}{} & X & X
-%\end{tabular}%
-%}
-%\end{table}
+	\item \bibentry{moraes2019minimum}
+\end{enumerate}
 
 \bibliographystyle{abntex2-alf}
 \bibliography{biblio}
@@ -1922,7 +1987,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_INV_0_4.pdf}
 \caption{Inverter energy measures distribution operating at 0.4V.}
@@ -1930,7 +1995,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_INV_0_7.pdf}
 \caption{Inverter energy measures distribution operating at 0.7V.}
@@ -1946,7 +2011,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_INV_0_4.pdf}
 \caption{Inverter energy measures dispersion operating at 0.4V.}
@@ -1954,7 +2019,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_INV_0_7.pdf}
 \caption{Inverter energy measures dispersion operating at 0.7V.}
@@ -1972,7 +2037,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_ST_0_4.pdf}
 \caption{ST energy measures distribution operating at 0.4V.}
@@ -1980,7 +2045,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_ST_0_7.pdf}
 \caption{ST energy measures distribution operating at 0.7V.}
@@ -1996,7 +2061,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_ST_0_4.pdf}
 \caption{ST energy measures dispersion operating at 0.4V.}
@@ -2004,7 +2069,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_ST_0_7.pdf}
 \caption{ST energy measures dispersion operating at 0.7V.}
@@ -2022,7 +2087,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_SIG_0_4.pdf}
 \caption{SIG energy measures distribution operating at 0.4V.}
@@ -2030,7 +2095,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_SIG_0_7.pdf}
 \caption{SIG energy measures distribution operating at 0.7V.}
@@ -2046,7 +2111,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_SIG_0_4.pdf}
 \caption{SIG energy measures dispersion operating at 0.4V.}
@@ -2054,7 +2119,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_SIG_0_7.pdf}
 \caption{SIG energy measures dispersion operating at 0.7V.}
@@ -2072,7 +2137,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_6F3F_0_4.pdf}
 \caption{TIST 2:1 energy measures distribution operating at 0.4V.}
@@ -2080,7 +2145,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_6F3F_0_7.pdf}
 \caption{TIST 2:1 energy measures distribution operating at 0.7V.}
@@ -2096,7 +2161,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_6F3F_0_4.pdf}
 \caption{TIST 2:1 energy measures dispersion operating at 0.4V.}
@@ -2104,7 +2169,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_6F3F_0_7.pdf}
 \caption{TIST 2:1 energy measures dispersion operating at 0.7V.}
@@ -2122,7 +2187,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_6F2F_0_4.pdf}
 \caption{TIST 3:1 energy measures distribution operating at 0.4V.}
@@ -2130,7 +2195,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_energy_6F2F_0_7.pdf}
 \caption{TIST 3:1 energy measures distribution operating at 0.7V.}
@@ -2146,7 +2211,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_6F2F_0_4.pdf}
 \caption{TIST 3:1 energy measures dispersion operating at 0.4V.}
@@ -2154,7 +2219,7 @@ Area
 \legend{Source: From the author.}
 \end{figure}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{dist_disp_6F2F_0_7.pdf}
 \caption{TIST 3:1 energy measures dispersion operating at 0.7V.}
@@ -2168,7 +2233,7 @@ Area
 \addtolength{\evensidemargin}{.875in}
 \addtolength{\textwidth}{-1.75in}
 
-\begin{figure}[]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{extsINV.pdf}
 \caption{Inverter extracted netlist for all sizings.}

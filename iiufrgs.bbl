@@ -420,6 +420,19 @@
   efficient schmitt trigger-based hardened latch in cntfet technology. In:  .
   [S.l.]: IEEE, 2017. v.~17, n.~1, p. 267--277.}
 
+\bibitem[Moraes et al. 2019]{moraes2019exploring}
+\abntrefinfo{Moraes et al.}{MORAES et al.}{2019a}
+{MORAES, L. et al. Exploring schmitt trigger circuits for process variability
+  mitigation. In:  IEEE. \textbf{2019 17th IEEE International New Circuits and
+  Systems Conference (NEWCAS)}. [S.l.], 2019. p.~1--4.}
+
+\bibitem[Moraes et al. 2019]{moraes2019minimum}
+\abntrefinfo{Moraes et al.}{MORAES et al.}{2019b}
+{MORAES, L. et al. Minimum energy finfet schmitt trigger design considering
+  process variability. In:  IEEE. \textbf{2019 IFIP/IEEE 27th International
+  Conference on Very Large Scale Integration (VLSI-SoC)}. [S.l.], 2019. p.
+  88--93.}
+
 \bibitem[Moraes et al. 2018]{moraes2018evaluation}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2018}
 {MORAES, L. B.~d. et al. Evaluation of variability using schmitt trigger on

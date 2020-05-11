@@ -27,8 +27,10 @@
 \contentsline {subsection}{\numberline {7.4.2}Near-Threshold Operation}{70}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Penalties}{71}{subsection.7.4.3}
 \contentsline {chapter}{8~Conclusions}{74}{CHAPTER.8}
-\contentsline {chapter}{\xspace {}References}{75}{schapter.6}
-\contentsline {chapter}{\MakeUppercase {Annex} A~--- Inverter Designs Layouts}{82}{CHAPTER.A}
-\contentsline {chapter}{\MakeUppercase {Annex} B~--- Full Adders}{103}{CHAPTER.B}
-\contentsline {chapter}{\MakeUppercase {Annex} C~--- Energy measures distributions}{116}{CHAPTER.C}
-\contentsline {chapter}{\MakeUppercase {Annex} D~--- Extracted netlists from layouts}{146}{CHAPTER.D}
+\contentsline {chapter}{9~Future Works and Cronogram}{78}{CHAPTER.9}
+\contentsline {chapter}{10~Publications}{79}{CHAPTER.10}
+\contentsline {chapter}{\xspace {}References}{80}{schapter.6}
+\contentsline {chapter}{\MakeUppercase {Annex} A~--- Inverter Designs Layouts}{88}{CHAPTER.A}
+\contentsline {chapter}{\MakeUppercase {Annex} B~--- Full Adders}{109}{CHAPTER.B}
+\contentsline {chapter}{\MakeUppercase {Annex} C~--- Energy measures distributions}{122}{CHAPTER.C}
+\contentsline {chapter}{\MakeUppercase {Annex} D~--- Extracted netlists from layouts}{152}{CHAPTER.D}
