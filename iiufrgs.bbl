@@ -175,6 +175,12 @@
   In:  IEEE. \textbf{Inventive Systems and Control (ICISC), 2017 International
   Conference on}. [S.l.], 2017. p.~1--4.}
 
+\bibitem[Dietrich and Haase 2011]{dietrich2011process}
+\abntrefinfo{Dietrich and Haase}{DIETRICH; HAASE}{2011}
+{DIETRICH, M.; HAASE, J. \textbf{Process Variations and Probabilistic
+  Integrated Circuit Design}. [S.l.]: Springer Science \& Business Media,
+  2011.}
+
 \bibitem[Dighe et al. 2011]{dighe2011within}
 \abntrefinfo{Dighe et al.}{DIGHE et al.}{2011}
 {DIGHE, S. et al. Within-die variation-aware dynamic-voltage-frequency-scaling
@@ -366,11 +372,6 @@
 {LIAO, W. et al. Investigation of reliability characteristics in nmos and pmos
   finfets. In:  . [S.l.]: IEEE, 2008. v.~29, n.~7, p. 788--790.}
 
-\bibitem[Lombardo et al. 2005]{lombardo2005dielectric}
-\abntrefinfo{Lombardo et al.}{LOMBARDO et al.}{2005}
-{LOMBARDO, S. et al. Dielectric breakdown mechanisms in gate oxides.
-\textbf{Journal of applied physics}, AIP, v.~98, n.~12, p.~12, 2005.}
-
 \bibitem[Lotze and Manoli 2017]{lotze2017ultra}
 \abntrefinfo{Lotze and Manoli}{LOTZE; MANOLI}{2017}
 {LOTZE, N.; MANOLI, Y. Ultra-sub-threshold operation of always-on digital
@@ -420,19 +421,6 @@
   efficient schmitt trigger-based hardened latch in cntfet technology. In:  .
   [S.l.]: IEEE, 2017. v.~17, n.~1, p. 267--277.}
 
-\bibitem[Moraes et al. 2019]{moraes2019exploring}
-\abntrefinfo{Moraes et al.}{MORAES et al.}{2019a}
-{MORAES, L. et al. Exploring schmitt trigger circuits for process variability
-  mitigation. In:  IEEE. \textbf{2019 17th IEEE International New Circuits and
-  Systems Conference (NEWCAS)}. [S.l.], 2019. p.~1--4.}
-
-\bibitem[Moraes et al. 2019]{moraes2019minimum}
-\abntrefinfo{Moraes et al.}{MORAES et al.}{2019b}
-{MORAES, L. et al. Minimum energy finfet schmitt trigger design considering
-  process variability. In:  IEEE. \textbf{2019 IFIP/IEEE 27th International
-  Conference on Very Large Scale Integration (VLSI-SoC)}. [S.l.], 2019. p.
-  88--93.}
-
 \bibitem[Moraes et al. 2018]{moraes2018evaluation}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2018}
 {MORAES, L. B.~d. et al. Evaluation of variability using schmitt trigger on
@@ -451,12 +439,6 @@ Scientific Research Publishing, 2013.}
 {NASSIF, S. Process variability at the 65nm node and beyond. In:  IEEE.
   \textbf{Custom Integrated Circuits Conference, 2008. CICC 2008. IEEE}.
   [S.l.], 2008. p.~1--8.}
-
-\bibitem[Nassif 1998]{nassif1998within}
-\abntrefinfo{Nassif}{NASSIF}{1998}
-{NASSIF, S.~R. Within-chip variability analysis. In:  IEEE.
-  \textbf{International Electron Devices Meeting 1998. Technical Digest (Cat.
-  No. 98CH36217)}. [S.l.], 1998. p. 283--286.}
 
 \bibitem[Navi et al. 2009]{navi2009novel}
 \abntrefinfo{Navi et al.}{NAVI et al.}{2009}
@@ -492,6 +474,13 @@ Scientific Research Publishing, 2013.}
 \abntrefinfo{Pfister}{PFISTER}{1992}
 {PFISTER, A. Novel cmos schmitt trigger with controllable hysteresis.
 \textbf{Electronics Letters}, IET, v.~28, n.~7, p. 639--641, 1992.}
+
+\bibitem[Qian 2015]{qian2015variability}
+\abntrefinfo{Qian}{QIAN}{2015}
+{QIAN, K.
+\textbf{Variability modeling and statistical parameter extraction for CMOS
+  devices}.
+Thesis (PhD) --- UC Berkeley, 2015.}
 
 \bibitem[Rabaey, Chandrakasan and Nikolic 2002]{rabaey2002digital}
 \abntrefinfo{Rabaey, Chandrakasan and Nikolic}{RABAEY; CHANDRAKASAN;

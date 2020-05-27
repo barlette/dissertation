@@ -1,36 +1,33 @@
 \babel@toc {english}{}
 \babel@toc {brazilian}{}
 \babel@toc {english}{}
-\contentsline {chapter}{\xspace {}List of Abbreviations and Acronyms}{4}{schapter.2}
-\contentsline {chapter}{\xspace {}List of Figures}{7}{schapter.3}
-\contentsline {chapter}{\xspace {}Abstract}{10}{schapter.4}
 \babel@toc {brazilian}{}
-\contentsline {chapter}{\xspace {}Resumo}{11}{schapter.5}
 \babel@toc {english}{}
 \contentsline {chapter}{1~Introduction}{12}{CHAPTER.1}
-\contentsline {chapter}{2~Variability Effects and Mitigation Techniques}{15}{CHAPTER.2}
-\contentsline {chapter}{3~FinFET Technology and Variability Impact}{21}{CHAPTER.3}
-\contentsline {chapter}{4~Considered Designs}{27}{CHAPTER.4}
-\contentsline {section}{\numberline {4.1}6T Traditional ST}{27}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Three Inverter Schmitt Trigger (TIST)}{28}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Stacked Inverter Gate (SIG)}{29}{subsection.4.1.2}
-\contentsline {chapter}{5~Objectives}{35}{CHAPTER.5}
-\contentsline {chapter}{6~Methodology}{36}{CHAPTER.6}
-\contentsline {section}{\numberline {6.1}Layout Design}{38}{section.6.1}
-\contentsline {section}{\numberline {6.2}Electrical Simulation}{43}{section.6.2}
-\contentsline {chapter}{7~Results}{47}{CHAPTER.7}
-\contentsline {section}{\numberline {7.1}Over robustness enhancing circuits}{47}{section.7.1}
-\contentsline {section}{\numberline {7.2}Energy Consumption and Deviation}{50}{section.7.2}
-\contentsline {section}{\numberline {7.3}Static Noise Margins}{58}{section.7.3}
-\contentsline {section}{\numberline {7.4}Over ST technique applied on Full Adders}{64}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Nominal Operation}{66}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Near-Threshold Operation}{70}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Penalties}{71}{subsection.7.4.3}
-\contentsline {chapter}{8~Conclusions}{74}{CHAPTER.8}
-\contentsline {chapter}{9~Future Works and Cronogram}{78}{CHAPTER.9}
-\contentsline {chapter}{10~Publications}{79}{CHAPTER.10}
+\contentsline {chapter}{2~Variability Effects, Mitigation Techniques, and FinFET Technology}{16}{CHAPTER.2}
+\contentsline {section}{\numberline {2.1}FinFET Technology and Variability Impact}{22}{section.2.1}
+\contentsline {chapter}{3~Considered Designs}{28}{CHAPTER.3}
+\contentsline {section}{\numberline {3.1}ST Topologies and alternatives}{28}{section.3.1}
+\contentsline {section}{\numberline {3.2}Evaluated Circuits}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Low Power Schmitt Trigger (LPST)}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Traditional 6T ST}{31}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Three Inverter Schmitt Trigger (TIST)}{32}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Stacked Inverter Gate (SIG)}{33}{subsection.3.2.4}
+\contentsline {chapter}{4~Methodology}{34}{CHAPTER.4}
+\contentsline {section}{\numberline {4.1}Layout Design}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}Electrical Simulation}{43}{section.4.2}
+\contentsline {chapter}{5~Results}{46}{CHAPTER.5}
+\contentsline {section}{\numberline {5.1}Over robustness enhancing circuits}{46}{section.5.1}
+\contentsline {section}{\numberline {5.2}Energy Consumption and Deviation}{49}{section.5.2}
+\contentsline {section}{\numberline {5.3}Static Noise Margins}{57}{section.5.3}
+\contentsline {section}{\numberline {5.4}Over ST technique applied on Full Adders}{69}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Nominal Operation}{69}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Near-Threshold Operation}{69}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Penalties}{71}{subsection.5.4.3}
+\contentsline {chapter}{6~Conclusions}{75}{CHAPTER.6}
+\contentsline {chapter}{7~Future Works and Cronogram}{79}{CHAPTER.7}
 \contentsline {chapter}{\xspace {}References}{80}{schapter.6}
-\contentsline {chapter}{\MakeUppercase {Annex} A~--- Inverter Designs Layouts}{88}{CHAPTER.A}
-\contentsline {chapter}{\MakeUppercase {Annex} B~--- Full Adders}{109}{CHAPTER.B}
-\contentsline {chapter}{\MakeUppercase {Annex} C~--- Energy measures distributions}{122}{CHAPTER.C}
+\contentsline {chapter}{\MakeUppercase {Annex} A~--- Inverter Designs Layouts}{87}{CHAPTER.A}
+\contentsline {chapter}{\MakeUppercase {Annex} B~--- Full Adders}{108}{CHAPTER.B}
+\contentsline {chapter}{\MakeUppercase {Annex} C~--- Energy measures distributions}{121}{CHAPTER.C}
 \contentsline {chapter}{\MakeUppercase {Annex} D~--- Extracted netlists from layouts}{152}{CHAPTER.D}
