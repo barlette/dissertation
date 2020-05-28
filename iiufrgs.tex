@@ -248,11 +248,11 @@ O surgimento da Internet das Coisas juntamente com o aumento do impacto da varia
 %\section{Internet of Things / Ultra Low Power Applications}
 
 	
-	Technology scaling, as stated by Moore, with the number of transistors in a chip doubling at about every two years, is a major factor in the ascendance of Integrated Circuits (ICs), providing higher transistor densities and voltage scaling due to the miniaturization of gate dimensions, internal capacitances and resistances. Such improvements provided the IC designers with much more processing power per area unit of chip and energy efficiency, making it the perfect combination for the start of the application of ICs for mobile scenarios \cite{islam:10}. 
+	Technology scaling, as stated by Moore where the number of transistors in a chip should double at about every two years, is a major factor in the ascendance of Integrated Circuits (ICs), providing higher transistor densities and voltage scaling due to the miniaturization of gate dimensions, internal capacitances and resistances. Such improvements provided the IC designers with plenty processing power per area unit of chip and energy efficiency, making it the perfect combination for the start of the usage of ICs in mobile applications \cite{islam:10}. 
 
-	As the devices shrank, several transistor characteristic which were not considered as challenges became severe problems for the modern semiconductor industry, alongside some new challenges. As transistors got smaller, the supply voltage decreased as well, in order accomodate appropriate currents to an evermore smaller channel. Although, as the supply voltage decreases the noise margins got narrower, with the smaller currents, and capacitances curbing the circuit ability to mask the transients caused by external noise and radiation \cite{abbas:15}. 
+	As devices shrank, several transistor characteristic which were not considered as challenges became severe problems for the modern semiconductor industry, alongside some new challenges. As transistors got smaller, the supply voltage decreased as well, in order accomodate appropriate currents to an evermore smaller channel. Although, as the supply voltage decreases the noise margins got narrower, with the smaller currents, and capacitances curbing the circuit ability to mask the transients caused by external noise and radiation \cite{abbas:15}. 
 
-	Furthermore, the manufacturing process did not improve as the same rythm as the scaling of devices. Variations into the devices geometrical and electrical parameters were always a reality, introducing minor, if not negligible, variations into the circuits behavior. Even though, those geometrical variations did not scale down at the same rate as the devices. It has gotten increasingly difficult to produce further smaller light waves to correctly print such small patterns. Additionally, modern devices are so close to the atomic limit, that even variations in the scale of few units to few hundreds of atoms can make the circuit simply non operational, decreasing yield and profit \cite{abbas:15}.
+	Furthermore, the manufacturing process did not improve in the same rythm as the scaling of devices. Variations into the devices geometrical and electrical parameters were always a reality, introducing minor, if not negligible, variations into the circuits behavior. Even though, those geometrical variations did not scale down at the same rate as the devices. It has gotten increasingly difficult to produce further smaller light waves to correctly print such small patterns. Additionally, modern devices are so close to the atomic limit, that even variations in the scale of few units to few hundreds of atoms can exert influence into the device behavior, decreasing yield \cite{abbas:15}.
 
     One of the many category of system which emerged from the techonology scaling is The Internet of Things (IoT) which turned out to be one of the major mainstream trends, shaping technology development and the industry. The IoT concept englobes the shift from an internet which used to interconnect end-user devices to, nowadays, interconnect physical objects that communicate with each other and/or with humans \cite{miorandi2012internet}. The IoT rise alongside battery technology improvements has provided us with portable, powerful and useful equipment for our daily routine, with wireless communication making information available anytime and anywhere \cite{manoli2010energy}.
 
@@ -264,23 +264,24 @@ O surgimento da Internet das Coisas juntamente com o aumento do impacto da varia
 
     One of the industry responses to the challenges related to the improvements in the semiconductor industry is the Fin Field Effect Transistor (FinFET). FinFET devices present superior channel control due to the reduced Short Channel Effects (SCE) and low (if none) Random Dopant Fluctuation (RDF) effect due to the fully depleted channel \cite{farkhani2014comparative}. Although, at deep technology nodes, variability still is one of the most challenging factors, including on FinFET devices. Variability introduces geometrical inconsistencies which changes the circuits behavior in comparison to the final manufactured product. Such changes influence the circuits metrics, hastening its degradation and deviating from its correct operation regime \cite{abbas:15} \cite{nassif:08}.
 
-    Due to the energy constraints of IoT applications and the variability impact on recent nodes, the Schmitt Trigger (ST) circuit has been pointed as an alternative. The classical ST has been employed as a key element for several ULP circuits \cite{kulkarni2007160, hays201262, melek:17, lotze2017ultra}. For variability mitigation, mainly attenuating the deviation on the power consumption, and replacing internal inverters on more complex circuits \cite{dokania2015circuit} where spreads in major metrics were successfully limited. Also, the same experiment was executed at electrical and layout levels considering FinFET technology, and showed a considerable decrease in overall variability impact on metrics \cite{toledo2018pros,moraes2018evaluation}. However, with a considerable increase in delay and power consumption. In addition to previous work, this work will present further analysis related to this ST technique. 
+    Due to the energy constraints of IoT applications and the variability impact on recent nodes, the Schmitt Trigger (ST) circuit has been pointed as an alternative. The classical ST has been employed as a key element for several ULP circuits \cite{kulkarni2007160, hays201262, melek:17, lotze2017ultra}. For variability mitigation, mainly attenuating the deviation on the power consumption, and replacing internal inverters on more complex circuits \cite{dokania2015circuit} where spreads in major metrics were successfully limited. Also, the same experiment was executed at electrical and layout levels considering FinFET technology, and showed a considerable decrease in overall variability impact on metrics \cite{toledo2018pros,moraes2018evaluation}. However, with a considerable increase in delay and power consumption.
+% In addition to previous work, this work will present further analysis related to this ST technique. 
 
 %Furthermore, a considerable part of this work consists of evaluations about the behavior of the classical ST, the Stacked Inverter Gate (SIG) \cite{bose2018stacked} and Triple Inverter Schmitt Trigger (TI-ST) \cite{luo2017sub} over several scenarios of sizing, supply voltage, and process variability level, in order to identify the most apropriate set of characteristics for each design.
 
-	This work has two main objectives: 
+	Given all the laid concepts, this work has two main objectives: 
 	
-	1) to identify an appropriate layout, considering the number of fins, and supply voltage in order to achieve the most apropriate design for a set of applications. The considered circuits will be the traditional 6T ST, Stacked Inverter Gate (SIG), Triple Inverter Schmitt Trigger (TIST) and, for the sake of comparison, a traditional inverter. Multiple levels of process variability will be considered. Therefore, depending on manufacturability quality, different recommended layouts and supply voltages can arise.
+	1) to identify an appropriate layout, considering transistor sizing, and supply voltage in order to achieve the most apropriate design for a set of applications. The considered circuits will be the traditional 6T ST, Stacked Inverter Gate (SIG), Triple Inverter Schmitt Trigger (TIST) and, for the sake of comparison, a traditional inverter. Multiple levels of process variability will be considered. Therefore, depending on manufacturability quality, different recommended layouts and supply voltages can arise.
 
-	2) to apply the ST technique into FAs. In the case, the Mirror Full Adder, the Transmission Function Adder (TFA), the Transmission Gate Adder (TGA) and Hybrid Full Adder circuits are considered. The two applied STs are the traditional 6T ST and a low-power back-gating-based ST (LPST). The LPST was chosen for demonstrating good results at \cite{dokania2015circuit}. Due to technology restrictions, the LPST design had to be modified, given so, the 6T ST was chosen, in order to provide a reference for comparison and showing desirable results in sub-threshold applications \cite{lotze2017ultra}. The technique consists of the replacement of the FAs internal inverters with the respective STs. All layouts will be designs with a fixed number of transistors and two levels of supply voltages. All simulations will be performed at the same level of process variability.
+	2) to apply the ST technique into FAs. The technique consists of the replacement of the FAs internal inverters with the respective STs. The considered FAs will be: the Mirror FA, the Transmission Function Adder (TFA), the Transmission Gate Adder (TGA) and Hybrid FA. The two applied STs are the traditional 6T ST and a low-power back-gating-based ST (LPST). The LPST was chosen for demonstrating good results at \cite{dokania2015circuit}. Due to technology restrictions, the LPST design had to be modified, given so, the 6T ST was chosen, in order to provide a reference for comparison and showing desirable results in sub-threshold applications \cite{lotze2017ultra}. All layouts will be designs with a fixed number of transistors and two levels of supply voltages. All simulations will be performed at the same level of process variability.
 
 For both analysis there will be considered the means, standard deviations and normalized standard deviations for the energy and propagation time measures. Specifically for the first analysis, the means, standard deviations and normalized standard deviations will be calculated for further metrics: on and off currents, current ratios and hysteresis interval (when applicable). The output curve slopes and voltage gain will be presented, as well.
 
-    This work is divided into five further sections: Variability Effects, Mitigation Techniques and FinFET Technology, where a theoretical foundation about variability is laid with several related works about mitigating its impact with the characteristics of FinFET devices and how process variability presents itself in the device. A section about the considered circuits will explain their functionality and applications. The Methodology section will explain the experimental setup which will be employed to generate the results. A Results section is present, showing some preliminary results and analysis. Lastly, there are a Conclusions and Future Works sections.
-
-% Objectives section, will lay the main objectives based on the beforehand laid concepts.
+    This work is divided into five further sections: Variability Effects, Mitigation Techniques and FinFET Technology, where a theoretical foundation about variability is laid with several related works about mitigating its impact with the characteristics of FinFET devices and how process variability presents itself in the device. A section about the considered circuits will explain their functionality and applications. The Methodology section will explain the experimental setup which will be employed to generate the results. A Results section is present, showing the extracted measures and related analysis. Lastly, there are a Conclusions and Future Works sections.
 
 \chapter{Variability Effects, Mitigation Techniques, and FinFET Technology}
+
+According to the ITRS Roadmap \cite{blish2003critical}, reliability will become one of the major challenges for the semiconductor industry. The device scaling combined with the adoption of new materials are the source of the increasing yield loss and reliability problems \cite{gielen2008emerging}.
 
 As process technology scaling advanced, decreasing the transistor dimensions, the ratio between device size and atom-size have been decreasing as well. Multiple techniques have been developed to reduce the loss of precision due to the manufacturing process at different end-of-lines. However, as the quantum-mechanical limit approaches, manufacturing-induced imprecision impact rises \cite{asenov1999random}.
 
@@ -613,6 +614,8 @@ To provide an extensive exploration of the process variability effects on the ci
 
 4) the impact of these parameters on the maximum achievable frequency within a failure threshold of 10\% of the 2000 Monte Carlo simulations.
 
+The transistor sizing exploration evaluate layouts from 1 to 5 fins through 1-fin steps for the CMOS inverter, the traditional ST and the SIG. The TIST did not present an adequate behaviour with its P and N devices presenting the same number of fins, with its output value getting stuck. Thus, for the TIST, a different approach was adopted. The TIST consists of a traditional inverter (transistors $P_1$ and $N_1$) followed by a latch (transistors $P_0$, $P_2$, $N_0$ and $N_2$), given so, the inverter transistors were resized following a proportion between their size and the size of the latch transistors. It was adopted two proportions: 2:1 and 3:1, resulting in five different layouts. Three layouts follow a 2:1 proportion with the inverter transistors containing 2, 4, and 6 fins and the latch transistors containing 1, 2, and 3 fins, respectively. Two layouts follow a 3:1 proportion with the ST transistors containing 3 and 6 fins, and the latch transistors containing 1 and 2 fins, respectively. For the sake of simplicity TIST layouts will be refered to as TIST2F1F, TIST4F2F, TIST6F3F, TIST3F1F and TIST6F2F. With such sizing, the TIST worked properly in most cases, with near-threshold voltage operations presenting the highest number of failures.
+
 To provide an analysis of the impact of the replacement of FAs internal inverters with STs, it was considered four different types of Full Adders topologies to evaluate their robustness to process variability. In order to analyze such impact:
 
 1) All FAs will be analyzed with the same sizing of 3 fins;
@@ -656,8 +659,6 @@ The design flow is shown at Figure \ref{DesignFlow}. The project was divided int
 \label{DesignFlow}
 \legend{Source: From the author.}
 \end{figure}
-
-The transistor sizing exploration evaluate layouts from 1 to 5 fins through 1-fin steps for the CMOS inverter, the traditional ST and the SIG. The TIST did not present an adequate behaviour with its P and N devices presenting the same number of fins, with its output value getting stuck. Thus, for the TIST, a different approach was adopted. The TIST consists of a traditional inverter (transistors $P_1$ and $N_1$) followed by a latch (transistors $P_0$, $P_2$, $N_0$ and $N_2$), given so, the inverter transistors were resized following a proportion between their size and the size of the latch transistors. It was adopted two proportions: 2:1 and 3:1, resulting in five different layouts. Three layouts follow a 2:1 proportion with the inverter transistors containing 2, 4, and 6 fins and the latch transistors containing 1, 2, and 3 fins, respectively. Two layouts follow a 3:1 proportion with the ST transistors containing 3 and 6 fins, and the latch transistors containing 1 and 2 fins, respectively. For the sake of simplicity TIST layouts will be refered to as TIST2F1F, TIST4F2F, TIST6F3F, TIST3F1F and TIST6F2F. With such sizing, the TIST worked properly in most cases, with near-threshold voltage operations presenting the highest number of failures.
 
 \section{Layout Design}
 
@@ -736,9 +737,10 @@ All circuits were designed using the Virtuoso Electronic Design Automation (EDA)
 
 Due to technology restriction it is not possible to decrease the cell height when considering layout with a fin count below 3. In the case of the ST, for the layouts with a fin count below 3, M2 was applied to connect the source/drain of the ${P_F}$ and ${N_F}$ transistors to the X and Y layout nodes. For the TIST, for the layouts with less than 3 fins, M2 was necessary to connect the output signal to the $P_2$ and $N_2$ transistors gate. Given the smaller area to work with, it was necessary to apply M2 in order to respect the M1 spacing rules, bringing to light one of the challenges related to a smaller layout. The M2 usage in those cases will increase the design parasitics from the necessary extra vias connecting M1 and M2.
 
-For all the Full Adders layouts it was used a dense 7.5 M2 (Metal 2) track cell, baseline resulting in a 270nm cell height. This corresponds to three fins for each transistor.
 
-The ASAP7 PDK contains the manufacturing process composed by front end of line (FEOL), middle of line (MOL) and back end of line (BEOL). The layouts were developed in a continuous diffusion layer with every gate surrounding another gate in the horizontal axis. The Source-Drain Trench (SDT) connects the active area to the LISD layer. The Local-Interconnect Gate (LIG) is applied to connect the gate terminal, and Local-Interconnect Source-Drain (LISD) is used to connect the source and drain of the transistors. The function of Via 0 (V0) is to join the LIG and LISD to the BEOL layers. The Metal 1 (M1) is used for intra-cell routing and short connections. The Metal 2 (M2) was applied to connect the PF and NF drains to ground and source, respectively. To make the back-gate connections it is necessary a TAP-Cell. It is responsible to connect the NMOS and PMOS back-gates to supply/ground, respectively, being possible to connect the PMOS back-gates to another node. It is a PDK restriction needed for the proper function of the circuit. Its layout has a length of 108nm resulting in an area of 0.02916${\mu}m^{2}$ the 3-fins variant is shown in Figure \ref{tap}. In order to build the back-gate connections present in the LPST, it was necessary the insertion of TAP-Cells, greatly increasing the layouts size. Furhtermore, given the shared well of the NMOS devices, it was not possible to connect each NMOS back-gate to a specific node. Given so, the LPST NMOS transistors back-gates were connected to the ground, as shown in Fig \ref{fig:test}. Each FA area is shown in Table \ref{tab:FAareas} where the LPST and traditional 6T ST are renamed as ST1 and ST2, respectively.
+The ASAP7 PDK contains the manufacturing process composed by front end of line (FEOL), middle of line (MOL) and back end of line (BEOL). The layouts were developed in a continuous diffusion layer with every gate surrounding another gate in the horizontal axis. The Source-Drain Trench (SDT) connects the active area to the LISD layer. The Local-Interconnect Gate (LIG) is applied to connect the gate terminal, and Local-Interconnect Source-Drain (LISD) is used to connect the source and drain of the transistors. The function of Via 0 (V0) is to join the LIG and LISD to the BEOL layers. The Metal 1 (M1) is used for intra-cell routing and short connections. The Metal 2 (M2) was applied to connect the PF and NF drains to ground and source, respectively. To make the back-gate connections it is necessary a TAP-Cell. It is responsible to connect the NMOS and PMOS back-gates to supply/ground, respectively, being possible to connect the PMOS back-gates to another node. It is a PDK restriction needed for the proper function of the circuit. Its layout has a length of 108nm resulting in an area of 0.02916${\mu}m^{2}$ the 3-fins variant is shown in Figure \ref{tap}. In order to build the back-gate connections present in the LPST, it was necessary the insertion of TAP-Cells, greatly increasing the layouts size. 
+
+Furthermore, given the shared well of the NMOS devices, it was not possible to connect each NMOS back-gate to a specific node. Given so, the LPST NMOS transistors back-gates were connected to the ground, as shown in Fig \ref{fig:test}. Each FA area is shown in Table \ref{tab:FAareas} where the LPST and traditional 6T ST are renamed as ST1 and ST2, respectively. All FAs layouts were designed with a dense 7.5 M2 (Metal 2) track cell, baseline resulting in a 270nm cell height. This corresponds to three fins for each transistor.
 
 \begin{figure}[]
 \centering
@@ -806,34 +808,36 @@ The ASAP7 PDK contains the manufacturing process composed by front end of line (
 \centering
 \caption{Each Full Adder area with the ST technique applied where ST1 and ST2 corresponds to the LPST and 6T ST, respectively.}
 \label{tab:FAareas}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|c|c|c|c|c|}
+\resizebox{0.7\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
 \hline
-Full Adder & Width (nm) & Height (nm)           & Area (nm²) & Ratio \\ \hline
-CMOS       & 1,188       & \multirow{12}{*}{270} & 320,760     & -     \\ \cline{1-2} \cline{4-5}
-CMOS ST1   & 2,808       &                       & 758,160     & 2.36  \\ \cline{1-2} \cline{4-5}
-CMOS ST2   & 1,836       &                       & 495,720     & 1.55  \\ \cline{1-2} \cline{4-5}
-TGA        & 1,836       &                       & 495,720     & -     \\ \cline{1-2} \cline{4-5}
-TGA ST1    & 5,292       &                       & 1,428,840    & 2.88  \\ \cline{1-2} \cline{4-5}
-TGA ST2    & 2,916       &                       & 787,320     & 1.59  \\ \cline{1-2} \cline{4-5}
-TFA        & 1,620       &                       & 437,400     & -     \\ \cline{1-2} \cline{4-5}
-TFA ST1    & 3,240       &                       & 874,800     & 2.00  \\ \cline{1-2} \cline{4-5}
-TFA ST2    & 2,052       &                       & 554,040     & 1.27  \\ \cline{1-2} \cline{4-5}
-HYBRID     & 1,728       &                       & 466,560     & -     \\ \cline{1-2} \cline{4-5}
-HYBRID ST1 & 5,292       &                       & 1,428,840    & 3.06  \\ \cline{1-2} \cline{4-5}
-HYBRID ST2 & 2,916       &                       & 787,320     & 1.69  \\ \hline
+Full Adder & Width (nm)  & Area (nm²) & Ratio \\ \hline
+CMOS       & 1,188       & 320,760     & -     \\ \hline 
+CMOS ST1   & 2,808       & 758,160     & 2.36  \\ \hline 
+CMOS ST2   & 1,836       & 495,720     & 1.55  \\ \hline 
+TGA        & 1,836       & 495,720     & -     \\ \hline 
+TGA ST1    & 5,292       & 1,428,840    & 2.88  \\ \hline 
+TGA ST2    & 2,916       & 787,320     & 1.59  \\ \hline 
+TFA        & 1,620       & 437,400     & -     \\ \hline 
+TFA ST1    & 3,240       & 874,800     & 2.00  \\ \hline 
+TFA ST2    & 2,052       & 554,040     & 1.27  \\ \hline 
+HYBRID     & 1,728       & 466,560     & -     \\ \hline 
+HYBRID ST1 & 5,292       & 1,428,840    & 3.06  \\ \hline 
+HYBRID ST2 & 2,916       & 787,320     & 1.69  \\ \hline
 \end{tabular}%
 }
+\legend{Source: from the author.}
 \end{table}
 
 \section{Electrical Simulation}
 
-The simulations will be carried out in HSPICE (https://www.synopsys.com/) using the netlist obtained after the physical verification flow and the parasitic capacitances extraction. The deviation on the device geometry impacts the electrical parameter WF causing high fluctuations \cite{zimpeck2016finfet}. It happens due to the orientation of metal grains randomly aligned in FinFET manufacturing process. In this way, WFF represents the most significant variation beyond the other parameters \cite{meinhardt2014impact}. The process variability evaluation will be taken through 2000 Monte Carlo (MC) simulations \cite{alioto2015variations} varying the WF of devices according to a Gaussian distribution considering a 3\(\sigma\) deviation and variations from 1\% up to 5\% with 1\% steps on nominal values \cite{nawaz2014comparison}. For each step on WF variation, all simulations will be carried from 0.1V to 0.7V supply voltage, with 0.1V steps. The reference values from ASAP7 technology for electrical simulations are shown in Table \ref{electPar}.
+The simulations will be carried out in HSPICE \footnote{https://www.synopsys.com/} using the netlist obtained after the physical verification flow and the parasitic capacitances extraction. The deviation on the device geometry impacts the electrical parameter WF causing high fluctuations \cite{zimpeck2016finfet}. It happens due to the orientation of metal grains randomly aligned in FinFET manufacturing process. In this way, WFF represents the most significant variation beyond the other parameters \cite{meinhardt2014impact}. The process variability evaluation will be taken through 2000 Monte Carlo (MC) simulations \cite{alioto2015variations} varying the WF of devices according to a Gaussian distribution considering a 3\(\sigma\) deviation. The reference values from ASAP7 technology for electrical simulations are shown in Table \ref{electPar}.
 
 \begin{table}[]
 \centering
 \caption{Parameters applied in the electrical simulations}
 \label{electPar}
+\resizebox{0.6\textwidth}{!}{%
 \begin{tabular}{lcc}
 \hline
 \textbf{Parameter}                                            & \multicolumn{2}{c}{\textbf{7nm}}                                  \\ \hline
@@ -846,11 +850,17 @@ The simulations will be carried out in HSPICE (https://www.synopsys.com/) using 
 \textbf{Source/Drain Doping}                                  & \multicolumn{2}{c}{$2x10^{22}m^{-3}$} \\ \hline
 \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Work Function (eV)}}} & NFET                            & 4.372                            \\ \cline{2-3}
 \multicolumn{1}{c}{}                                        & PFET                            & 4.8108                           \\ \hline
-\end{tabular}
+\end{tabular}%
+}
 \legend{Source: \citet{clark2016asap7}}
 \end{table}
 
-For all experiments, it will be observed maximum values, mean (\(\mu\)), standard deviation (\(\sigma\)) and normalized standard deviation (\(\sigma\)/\(\mu\)) for each metric: hysteresis interval, propagation times, energy, and on and off currents where \(\sigma\)/\(\mu\) represents the sensibility of the cell to process variability. The energy was calculated by integrating the current through time and multiplying by the supply voltage, and the propagation times where calculated by the timing difference between input and output signals to reach 50\% of its value ($V_{DD}/2$). Additionally, noise margins, gains and VTC curve slopes will be presented. The noise margins were calculated as shown in Fig. \ref{fig:SNM} where the margin values are extracted from the VTC curve points where the derivative/slope is -1. The slopes were calculated following the equation \ref{eqn:slope}, based on Fig. \ref{fig:SNM}.
+\subsection{Inverters evaluation}
+The WFF level for all simulations will range from 1\% to 5\% in 1\% steps on nominal values \cite{nawaz2014comparison}. For each step on WF variation, all simulations will be carried from 0.1V to 0.7V supply voltage, with 0.1V steps. For all experiments, it will be observed mean (\(\mu\)), standard deviation (\(\sigma\)) and normalized standard deviation (\(\sigma\)/\(\mu\)) for each metric: hysteresis interval, propagation times, energy, and on and off currents. The \(\sigma\)/\(\mu\) represents the sensibility of the cell to process variability, where the lower it is, highest is the robustness of the circuit to the impact of process variability. 
+
+The energy was calculated by integrating the current through time and multiplying by the supply voltage, and the propagation times where calculated by the timing difference between input and output signals to reach 50\% of its value ($V_{DD}/2$). Additionally, noise margins, gains and VTC curve slopes will be presented. The noise margins were calculated as shown in Fig. \ref{fig:SNM} where the margin values are extracted from the VTC curve points where the derivative/slope is -1. The slopes were calculated following the equation \ref{eqn:slope}, based on Fig. \ref{fig:SNM}. 
+
+For the maximum frequencies, each time there was 10\% or more of failed simulations, from the 2000 MC, the frequency was decreased. On the contrary, if there was less than 10\% of failures, the frequency was increased. At each increase/decrease the simulations were performed again. The minimum frequency considered for the circuit to be considered functional at determined sizing, supply voltage, and level of variability is 50KHz. This frequency was chosen in order to save resources and bring a wide frequency range.
 
 
 \begin{figure}[]
@@ -867,36 +877,37 @@ For all experiments, it will be observed maximum values, mean (\(\mu\)), standar
     Slope = \frac{V_{OH} - V{OL}}{V_{IH} - V_{IL}}
 \end{equation}
 
- For a more realistic test bench, it will be considered a scenario where the Device Under Test (DUT) receives the signal passing through two inverters in series and having a 1fF output capacitance, as shown in Fig. \ref{fig:tbST}. It is essential to consider some details such as: the same supply voltage is applied in the entire testbench, only the DUT suffers from variability, the inverters are the same (3-fins transistors) for all experiments, and they are, like the DUT, simulated from the extracted layout.
-
-
+ For a more realistic test-bench, it will be considered a scenario where the Device Under Test (DUT) receives the signal passing through two inverters in series and having a 1fF output capacitance, as shown in Fig. \ref{fig:tbST}. It is essential to consider some details such as: the same supply voltage is applied in the entire testbench, only the DUT suffers from variability, the inverters are the same (3-fins transistors) for all experiments, and they are, like the DUT, simulated from the extracted layout.
 
 \begin{figure}[]
 \centering
 \includegraphics[width=0.8\textwidth, trim={2cm 7cm 6cm 5cm},clip]{testbench.pdf}
-\caption{Test Bench.}
+\caption{Test-bench.}
 \label{fig:tbST}
 \legend{Source: From the author.}
 \end{figure}
 
-For the simulations concerning the Full Adders, it was considered the mean, standard deviations, and normalized standard deviations for the energy and delay measures. The test bench applied consisted of a 5-bit Ripple Carrier Adder with with each output (Sum outputs for each FA and last Carry Out) connected to a fan-out of 4 inverters, as shown in Fig \ref{fig:tbFA}.
+\subsection{ST technique on Full Adders}
+
+For the simulations concerning the Full Adders, it was considered two levels of supply voltage, near-threshold (0.4V) and nominal (0.7V) and single level of WFF level of 5\%. For the metrics, it was considered the mean, standard deviations, and normalized standard deviations for the energy and delay measures. The test-bench applied consists of a 5-bit Ripple Carrier Adder with with each output (Sum outputs for each FA and last Carry Out) connected to a fan-out of 4 inverters, as shown in Fig \ref{fig:tbFA}. In order to extract the delay and energy measures, an input vector was applied in order to trigger a pair of transitions (high-to-low and low-to-high) for each output (Sum and Carry Out) in relation to each input (A, B and C). 
 
 \begin{figure}[]
 \centering
 \includegraphics[width=\textwidth, trim={0cm 0cm 0cm 0cm},clip]{testbenchFA.png}
-\caption{Test Bench for the Full Adders simulation.}
+\caption{Test-bench for the Full Adders simulation.}
 \label{fig:tbFA}
 \legend{Source: From the author.}
 \end{figure}
 
 
 \chapter{Results}
-\section{Over robustness enhancing circuits}
+\section{Inverters}
  Over all simulations there were non-viable scenarios. Such scenarios kept clustered around the supply voltages of 0.1V, over any scenario above 3\% WFF, and 0.2V, over scenarios above 4\% WFF for the inverter, ST and SIG. The TIST results presented a discrepancy in relation to the aforementioned designs. For the TIST designs at 2 to 1 and 3 to 1 proportions, the 0.1V scenarios at above 2\% WFF level are not viable. For 0.2V and 0.3V the 3 to 1 designs only presented viable scenarios at 1\% WFF while the 2 to 1 proportion designs did not operate properly at such supply voltage at any variability level. For the 0.4V the 3 to 1 and 2 to 1 designs worked at below 3\% and 2\% WFF levels, respectively. For 0.5V the 3 to 1 and 2 to 1 designs worked at below 5\% and 3\% WFF levels, respectively. Finally, at 0.6V and 0.7V, all scenarios worked properly.
 
- Given so, in overall, each design presented non-viable scenarios at below threshold voltages, with the TIST layouts presenting a much higher number of failures only working properly, at all variability levels, on 0.6V and 0.7V supply voltages. This results shows the lower robustness and more complex way of sizing for the TIST, which may not be advised for critical applications. All scenarios frequencies are shown in Table \ref{tab:freqs}.
+ Given so, in overall, each design presented non-viable scenarios at below threshold voltages, with the TIST layouts presenting a much higher number of failures only working properly, at all variability levels, on 0.6V and 0.7V supply voltages. This results shows the lower robustness and more complex way of sizing for the TIST, which may not be advised for critical applications. 
 
- On average, the ST, SIG and TIST (2:1) operated at around half the inverter's frequency (47.61\%, 50.5\% and 49.71\% respectively) while the TIST (3:1) worked at 65.72\% of the inverter frequency. This is expected since their input capacitance is much higher, from a two-transistor design to a six-transistor design and, for the ST and TIST designs, the hysteresis keeps the output from switching much longer than in the other considered designs. The 3:1 TIST designs present a higher frequency, in comparison to its 2 to 1 proportion counterpart, given the higher proportion giving less resistance and higher currents to the circuit, making it faster in charging and discharging its nodes and output.
+\subsection{Frequency}
+All scenarios frequencies are shown in Table \ref{tab:freqs}. On average, the ST, SIG and TIST (2:1) operated at around half the inverter's frequency (47.61\%, 50.5\% and 49.71\% respectively) while the TIST (3:1) worked at 65.72\% of the inverter frequency. This is expected since their input capacitance is much higher, from a two-transistor design to a six-transistor design and, for the ST and TIST designs, the hysteresis keeps the output from switching much longer than in the other considered designs. The 3:1 TIST designs present a higher frequency, in comparison to its 2 to 1 proportion counterpart, given the higher proportion giving less resistance and higher currents to the circuit, making it faster in charging and discharging its nodes and output.
 
 Considering the impact of variability on the frequency retention, in comparison to a low variability scenario (1\% WFF) the inverter, ST, SIG, TIST 2:1 and TIST 3:1 presented up to 40.03\%, 48.81\%, 48.20\%, 59.4\%, and 53.17\% average decrease on frequencies considering the worst case scenario, respectively. It is important to elucidate that in order to not deflate the decrease results of the TIST designs due to the large number of non-viable scenarios, the results were calculated considering such scenarios to work at 0Hz, as shown in Fig. \ref{fig:freqRetWFF}.
 
@@ -982,6 +993,7 @@ Such performance degradation is expected since process variability will, in many
 }
 \end{table}
 
+\subsection{Propagation Times}
 Given the propagation time deviations for each design, in comparison to the inverter, and considering all scenarios, the ST and SIG presented 36.36\% and 43.21\% lower sensibility, respectively. While the TIST with 2:1 and 3:1 proportions presented 72.89\% and 103.26\% higher deviations, respectively, as shown in Fig. \ref{fig:delaysDev}. When considering only scenarios where all designs worked properly, the ST and SIG presented small increases of 8.54\% and 7.04\% in sensibility, with the TIST 2:1 and 3:1 presenting 146.15\% and 36.28\% higher sensibility.
 
     \begin{figure}[]
@@ -992,7 +1004,7 @@ Given the propagation time deviations for each design, in comparison to the inve
         \legend{Source: From the author.}
     \end{figure}
 
-\section{Energy Consumption and Deviation}
+\subsection{Energy Consumption and Deviation}
     Concerning energy consumption absolute values, the ST, SIG, TIST 2:1 and, TIST 3:1 presented on average, 173.07\%, 50.74\%, 480.68\% and, 310.83\% higher consumption compared to the traditional inverter. This is mainly related to the transistor count difference between all designs, and the inverter. The ST higher consumption is justified due to the dependency of its feedback mechanism on the output value in contrast to the SIG feed-forward mechanism being directly dependent on the input value. The dependency over the output value of the ST makes it slower, hence the output dependency over the input itself and the input capacitance, increasing the energy consumption. The difference between different proportions of TIST designs is mainly due to lower frequencies on high variability scenarios for the 2 to 1 designs. The designs with a 2:1 proportion presented up to 40.94\% lower frequency in comparison to its 3 to 1 proportion counterparts. Additionally, the higher energy consumption for TIST designs is mainly due to the 6 (3 to the ground and 3 to the source) total paths enabling the circuit to charge/discharge with no mechanism for the minimization of the leakage power.
 
     The energy consumption increase over each variability scenario kept stable over 15.16\%, 35.6\%, 20.94\%, 9.04\% and, 7.18\% for the inverter, ST, SIG, TIST 2:1 and, TIST 3:1, respectively. Such increase is related to the frequency decrease over variability scaling. The low increase related to the TIST designs is due to many of the low supply voltage scenarios not being taken into account, in comparison to the other designs, since it did not work properly. A more fair analysis would consider only the subset of cases where all designs worked properly. Given such subset, the energy increase over each variability scenario would be 17.59\%, 18.16\%, 18.62\%, 9.04\% and 11.59\% for the inverter, ST, SIG, TIST 2:1 and, TIST 3:1, respectively.
@@ -1205,7 +1217,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
     \end{figure}
 
 
-\section{Static Noise Margins}
+\subsection{Static Noise Margins}
 
     The evaluation of the Static Noise Margins (SNM) are shown at Table \ref{tab:SNM}. The inverter and SIG showed identical SNMs, while TIST designs presented higher SNMs than the inverter and SIG at sub-threshold levels, with the 2:1 layouts presenting lower margins. The ST presented higher SNMs overall. In comparison to the inverter, SIG, and TIST 3:1, which presented the same average SNM of 0.164V, the TIST 2:1 presented 2.6\% lower SNMs, while the ST showed 17.5\% higher SNMs. The ST presents its biggest difference at low supply voltages, with 41.91\% and 28.23\% higher SNMs at 0.1V, and 0.2V, respectively, in comparison to the inverter.
 
@@ -1367,6 +1379,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
 }
 \end{table}
 
+\subsection{Current Ratios}
      Concerning the $I_{on}$/$I_{off}$ ratios, in comparison to the inverter, the ST, TIST 2:1, and TIST 3:1 presented, on average, 118.01\%, 600.21\%, and 468.7\% higher ratios. The SIG is the only design which presented a worsening with a 12.53\% lower ratio. While considering deviations into the ratio due to process variability, the ST and SIG presented 11.1\% and 6.91\% lower deviations, with the TIST 2:1 and 3:1 presenting 49.57\% and 42.79\% higher deviations, respectively. The current ratios and current ratios deviations are shown in Fig. \ref{figsCurrComp}, with the marked lines and bars being related to the left and right axis, respectively.
 
     \begin{figure}[]
@@ -1384,7 +1397,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
         V_{th} = V_{th,0} - mV_{DS}
     \end{equation}
 
-    Thus, according to Equation \ref{eqn:sub} \cite{henzler2006power}, where $I_{D,sub}$ is the subthreshold current (leakage current), the leakage current (or subthreshold current) is exponentially dependent on the threshold voltage, as shown in Fig. \ref{figsOffCurrComp} for the inverter, although all designs presented the same behavior. The TIST designs presented the lowest decrease, at 15.21\%, with the ST, inverter, and SIG presenting much higher losses with 51.44\%, 63.59\%, 65.54\%, respectively. The current ratios present a linear decrease, instead of an exponential decrease, due to the lower, although exponential, increase rate of the $on$ current, as shown in Fig. \ref{figOnOffScal}. In more depth, as shown in Fig. \ref{fig:OnOffDev}, in comparison to the inverter, for the on-current, the ST, TIST 2:1, and TIST 3:1 presented 33.63\%, 44.45\%, and 43.23\% lower normalized deviations, respectively. Meanwhile, for the off-current, the improvements were narrower with a 6.27\%, 4.89\%, and 4.37\% lower off-current normalized deviations for the ST, TIST 2:1 and, TIST 3:1, respectively. The SIG presented little to no improvement, staying below 1\% decrease on both deviations.
+    Thus, according to Equation \ref{eqn:sub} \cite{henzler2006power}, where $I_{D,sub}$ is the subthreshold current (leakage current), the leakage current is exponentially dependent on the threshold voltage, as shown in Fig. \ref{figsOffCurrComp} for the inverter, although all designs presented the same behavior. The TIST designs presented the lowest decrease, at 15.21\%, with the ST, inverter, and SIG presenting much higher losses with 51.44\%, 63.59\%, 65.54\%, respectively. The current ratios present a linear decrease, instead of an exponential decrease, due to the lower, although exponential, increase rate of the $on$ current, as shown in Fig. \ref{figOnOffScal}. In more depth, as shown in Fig. \ref{fig:OnOffDev}, in comparison to the inverter, for the on-current, the ST, TIST 2:1, and TIST 3:1 presented 33.63\%, 44.45\%, and 43.23\% lower normalized deviations, respectively. Meanwhile, for the off-current, the improvements were narrower with a 6.27\%, 4.89\%, and 4.37\% lower off-current normalized deviations for the ST, TIST 2:1 and, TIST 3:1, respectively. The SIG presented little to no improvement, staying below 1\% decrease on both deviations.
 
     \begin{equation}
         \centering
@@ -1413,7 +1426,9 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
         \label{fig:OnOffDev}
     \end{figure}
 
-    Additionally, it was considered the output gain values for each design, as show in Fig. \ref{figsGainComp}. These measures present the most broader difference across all designs. The TIST and ST designs presented, on average, values up to 8300.60\%, and 1246.50\% higher, respectively, in comparison to the inverter and SIG designs, which presented the same gains. Furthermore, the curve slope measures are shown in Fig. \ref{fig:slopes}, where lower slopes can be observed for the TIST, SIG and inverter designs in comparison to the ST. The ST and TIST designs presented 126.24\% and 9.43\% higher average slopes, respectively, in comparison to the inverter and SIG designs which showed identical measures. Figs. \ref{fig:vtcs01} and \ref{fig:vtcs07} show the VTC curves for all designs. It shows how the TIST although presenting higher gain, present lower slopes, given that it takes more time to properly discharge.
+\subsection{Output Gains and Slopes}
+    
+It was considered the output gain values for each design, as show in Fig. \ref{figsGainComp}. These measures present the most broader difference across all designs. The TIST and ST designs presented, on average, values up to 8300.60\%, and 1246.50\% higher, respectively, in comparison to the inverter and SIG designs, which presented the same gains. Furthermore, the curve slope measures are shown in Fig. \ref{fig:slopes}, where lower slopes can be observed for the TIST, SIG and inverter designs in comparison to the ST. The ST and TIST designs presented 126.24\% and 9.43\% higher average slopes, respectively, in comparison to the inverter and SIG designs which showed identical measures. Figs. \ref{fig:vtcs01} and \ref{fig:vtcs07} show the VTC curves for all designs. It shows how the TIST although presenting higher gain, present lower slopes, given that it takes more time to properly discharge.
 
     \begin{figure}[]
         \centering
@@ -1444,6 +1459,8 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
     \end{figure}
     %According to \cite{henzler2006power}
 
+\subsection{Hysteresis}
+
     The hysteresis ratios of all designs which present the hysteresis characteristic are shown in Fig. \ref{figsHystComp}. The hysteresis ratio is the ratio between the hysteresis interval (V) and the supply voltage (V), which will result in a percentage of the current supply voltage. Given so, the TIST designs presented higher average ratios of 18.92\% and 15.95\% for the 2:1 and 3:1 designs, respectively, with the ST presenting a ratio average of 8.62\%. It is important to highlight the ratio losses as well, the TIST designs presented ratio decreases up to 14.68\% and the ST presented a better response with a 5.68\% decrease. The hysteresis curves for all designs at nominal supply voltage are shown in Fig. \ref{fig:hystCurves}. Furthermore, the hysteresis ratios in relation to the supply voltage are shown in Fig. \ref{fig:hystRatiosVdd}, it can be observed huge hysteresis intervals for the TIST designs, which are responsible for the circuits failures at working at acceptable frequencies. 
 
 %por que diminui? 
@@ -1473,7 +1490,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
     \end{figure}
 
     The average hysteresis ratio deviations for each design was 23.44\%, 24.83\%, and 27.30\% for the ST, TIST 2:1 and TIST 3:1. The hysteresis average ratio deviation measures did not present considerable differences between designs, although, at high variability scenarios (5\% WFF) the ST presented 16.79\% and 21.40\% lower deviations, in comparison to the TIST 2:1 and TIST 3:1, respectively.
-
+\subsection{Measures Distribution}
     Figs. \ref{fig:energyDist0_2}, \ref{fig:energyDist0_4}, and \ref{fig:energyDist0_7}, show the distribution of the energy metrics for the inverter over all levels of WFF for 0.2V, 0.4V, and 0.7V supply voltages. For low variability and high supply voltage scenarios it can be observed a normal distribution. While at higher variability and lower supply voltages, a left skew can be noted at first where the majority of the cases stay clustered and as soon as the variability rises, the skew will tend to the left, with extreme cases up to 5 orders of magnitude higher than the mean. Hystograms and dispersion graphs for all designs, are shown in Annex C.
 
      \begin{figure}[]
@@ -1497,7 +1514,7 @@ TIST 3:1 & 301.76  & 74.77   & -33.75  & -25.24  & -92.18  & -48.97  & 13.31   &
         \label{fig:energyDist0_7}
     \end{figure}
 
-\section{Over ST technique applied on Full Adders}
+\section{Full Adders}
 
 The results are divided into two main analyses, with the set of FAs operating at nominal and near-threshold. In both cases, simulations were performed with and without the ST technique. To better present the improvements (positive values) and drawbacks (negative values) of each ST, results also show a comparison ($\Delta$) between the normalized deviation between the traditional and the circuits with the applied technique. For the sake of simplicity the LPST and traditional 6T ST were renamed ST1 and ST2, respectively.
 

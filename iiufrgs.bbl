@@ -104,6 +104,12 @@
   of schmitt trigger gates versus cmos gates under process variations. In:
   VDE. \textbf{ANALOG 2018; 16th GMM/ITG-Symposium}. [S.l.], 2018. p.~1--6.}
 
+\bibitem[Blish et al. 2003]{blish2003critical}
+\abntrefinfo{Blish et al.}{BLISH et al.}{2003}
+{BLISH, R. et al. Critical reliability challenges for the international
+  technology roadmap for semiconductors (itrs).
+\textbf{Technology Transfer}, 2003.}
+
 \bibitem[Borkar et al. 2004]{borkar2004design}
 \abntrefinfo{Borkar et al.}{BORKAR et al.}{2004}
 {BORKAR, S. et al. Design and reliability challenges in nanometer technologies.
@@ -250,6 +256,12 @@
   mosfets. In:  IEEE. \textbf{7th International Workshop on Computational
   Electronics. Book of Abstracts. IWCE (Cat. No. 00EX427)}. [S.l.], 2000.
   p.~2--3.}
+
+\bibitem[Gielen et al. 2008]{gielen2008emerging}
+\abntrefinfo{Gielen et al.}{GIELEN et al.}{2008}
+{GIELEN, G. et al. Emerging yield and reliability challenges in nanometer cmos
+  technologies. In:  \textbf{Proceedings of the conference on Design,
+  automation and test in Europe}. [S.l.: s.n.], 2008. p. 1322--1327.}
 
 \bibitem[Guduri and Islam 2015]{guduri2015design}
 \abntrefinfo{Guduri and Islam}{GUDURI; ISLAM}{2015}
