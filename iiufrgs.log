@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  28 MAY 2020 03:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.7)  29 MAY 2020 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3067,6 +3067,12 @@ File: testbenchFA.png Graphic file (type png)
 Package pdftex.def Info: testbenchFA.png  used on input line 896.
 (pdftex.def)             Requested size: 426.79135pt x 173.749pt.
 [45 <./testbench.pdf> <./testbenchFA.png>]
+Overfull \hbox (1.25368pt too wide) in paragraph at lines 909--910
+[]\T1/ptm/m/n/12 Across the sim-u-la-tions, as the vari-abil-ity level scaled a
+nd sup-ply volt-age de-creased,
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3079,7 +3085,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 914.
+               Default added (so using `tbp') on input line 962.
 
 
 
@@ -3088,41 +3094,35 @@ ion <1.7>, but at most version <1.5> allowed
 <freqRetWFF.pdf, id=1439, 845.07718pt x 597.55246pt>
 File: freqRetWFF.pdf Graphic file (type pdf)
 <use freqRetWFF.pdf>
-Package pdftex.def Info: freqRetWFF.pdf  used on input line 916.
-(pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
+Package pdftex.def Info: freqRetWFF.pdf  used on input line 964.
+(pdftex.def)             Requested size: 341.43437pt x 199.29079pt.
+[47]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 958.
+pdfTeX warning: pdflatex (file ./delayDevWFF.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<delayDevWFF.pdf, id=1447, 845.07718pt x 597.55246pt>
+File: delayDevWFF.pdf Graphic file (type pdf)
+<use delayDevWFF.pdf>
+Package pdftex.def Info: delayDevWFF.pdf  used on input line 986.
+(pdftex.def)             Requested size: 341.43437pt x 199.29079pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./freqRetWFF.pdf>]
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 48
  []
 
-[48]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 999.
-
-
-
-pdfTeX warning: pdflatex (file ./delayDevWFF.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<delayDevWFF.pdf, id=1459, 845.07718pt x 597.55246pt>
-File: delayDevWFF.pdf Graphic file (type pdf)
-<use delayDevWFF.pdf>
-Package pdftex.def Info: delayDevWFF.pdf  used on input line 1001.
-(pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
-
+[48 <./freqRetWFF.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49 <./delayDevWFF.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1037.
+               Default added (so using `tbp') on input line 1022.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3143,11 +3143,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [52]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1119.
+               Default added (so using `tbp') on input line 1104.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1157.
+               Default added (so using `tbp') on input line 1142.
 
 
 
@@ -3156,11 +3156,11 @@ F version <1.7>, but at most version <1.5> allowed
 <comp3Linv2Energy.pdf, id=1500, 845.07718pt x 597.55246pt>
 File: comp3Linv2Energy.pdf Graphic file (type pdf)
 <use comp3Linv2Energy.pdf>
-Package pdftex.def Info: comp3Linv2Energy.pdf  used on input line 1159.
+Package pdftex.def Info: comp3Linv2Energy.pdf  used on input line 1144.
 (pdftex.def)             Requested size: 426.79135pt x 258.19035pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1164.
+               Default added (so using `tbp') on input line 1149.
 
 
 
@@ -3169,11 +3169,11 @@ pdfTeX warning: pdflatex (file ./comp3Lst2Energy.pdf): PDF inclusion: found PDF
 <comp3Lst2Energy.pdf, id=1502, 845.07718pt x 597.55246pt>
 File: comp3Lst2Energy.pdf Graphic file (type pdf)
 <use comp3Lst2Energy.pdf>
-Package pdftex.def Info: comp3Lst2Energy.pdf  used on input line 1166.
+Package pdftex.def Info: comp3Lst2Energy.pdf  used on input line 1151.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1171.
+               Default added (so using `tbp') on input line 1156.
 
 
 
@@ -3182,11 +3182,11 @@ F version <1.7>, but at most version <1.5> allowed
 <comp3Lsig2Energy.pdf, id=1504, 845.07718pt x 597.55246pt>
 File: comp3Lsig2Energy.pdf Graphic file (type pdf)
 <use comp3Lsig2Energy.pdf>
-Package pdftex.def Info: comp3Lsig2Energy.pdf  used on input line 1173.
+Package pdftex.def Info: comp3Lsig2Energy.pdf  used on input line 1158.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1178.
+               Default added (so using `tbp') on input line 1163.
 
 
 
@@ -3195,11 +3195,11 @@ pdfTeX warning: pdflatex (file ./comp3Ltist212Energy.pdf): PDF inclusion: found
 <comp3Ltist212Energy.pdf, id=1506, 845.07718pt x 597.55246pt>
 File: comp3Ltist212Energy.pdf Graphic file (type pdf)
 <use comp3Ltist212Energy.pdf>
-Package pdftex.def Info: comp3Ltist212Energy.pdf  used on input line 1180.
+Package pdftex.def Info: comp3Ltist212Energy.pdf  used on input line 1165.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1185.
+               Default added (so using `tbp') on input line 1170.
 
 
 
@@ -3208,7 +3208,7 @@ pdfTeX warning: pdflatex (file ./comp3Ltist312Energy.pdf): PDF inclusion: found
 <comp3Ltist312Energy.pdf, id=1508, 845.07718pt x 597.55246pt>
 File: comp3Ltist312Energy.pdf Graphic file (type pdf)
 <use comp3Ltist312Energy.pdf>
-Package pdftex.def Info: comp3Ltist312Energy.pdf  used on input line 1187.
+Package pdftex.def Info: comp3Ltist312Energy.pdf  used on input line 1172.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3222,7 +3222,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 df> <./comp3Ltist212Energy.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1194.
+               Default added (so using `tbp') on input line 1179.
 
 
 
@@ -3231,11 +3231,11 @@ ersion <1.7>, but at most version <1.5> allowed
 <compLowEnergy.pdf, id=1558, 845.07718pt x 597.55246pt>
 File: compLowEnergy.pdf Graphic file (type pdf)
 <use compLowEnergy.pdf>
-Package pdftex.def Info: compLowEnergy.pdf  used on input line 1196.
+Package pdftex.def Info: compLowEnergy.pdf  used on input line 1181.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1203.
+               Default added (so using `tbp') on input line 1188.
 
 
 
@@ -3244,7 +3244,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 <compHighRobustness.pdf, id=1560, 845.07718pt x 597.55246pt>
 File: compHighRobustness.pdf Graphic file (type pdf)
 <use compHighRobustness.pdf>
-Package pdftex.def Info: compHighRobustness.pdf  used on input line 1205.
+Package pdftex.def Info: compHighRobustness.pdf  used on input line 1190.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3254,36 +3254,37 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 56
  []
 
-[56 <./comp3Ltist312Energy.pdf>]
+[56 <./comp3Ltist312Energy.pdf>] [57 <./compLowEnergy.pdf> <./compHighRobustnes
+s.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1212.
+               Default added (so using `tbp') on input line 1197.
 
 
 
 pdfTeX warning: pdflatex (file ./compCB.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<compCB.pdf, id=1575, 845.07718pt x 597.55246pt>
+<compCB.pdf, id=1595, 845.07718pt x 597.55246pt>
 File: compCB.pdf Graphic file (type pdf)
 <use compCB.pdf>
-Package pdftex.def Info: compCB.pdf  used on input line 1214.
+Package pdftex.def Info: compCB.pdf  used on input line 1199.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1209.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./compLowEnergy.pdf>]
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 58
  []
 
-[58 <./compHighRobustness.pdf> <./compCB.pdf>]
+[58 <./compCB.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1224.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1385.
+               Default added (so using `tbp') on input line 1370.
 
 
 
@@ -3292,10 +3293,13 @@ rsion <1.7>, but at most version <1.5> allowed
 <currRatioWFF.pdf, id=1612, 597.55246pt x 845.07718pt>
 File: currRatioWFF.pdf Graphic file (type pdf)
 <use currRatioWFF.pdf>
-Package pdftex.def Info: currRatioWFF.pdf  used on input line 1387.
+Package pdftex.def Info: currRatioWFF.pdf  used on input line 1372.
 (pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
-[59]
-Underfull \vbox (badness 2680) has occurred while \output is active []
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3305,7 +3309,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [60 <./currRatioWFF.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1408.
+               Default added (so using `tbp') on input line 1393.
 
 
 
@@ -3314,11 +3318,11 @@ version <1.7>, but at most version <1.5> allowed
 <offCurrentComp.pdf, id=1642, 845.07718pt x 597.55246pt>
 File: offCurrentComp.pdf Graphic file (type pdf)
 <use offCurrentComp.pdf>
-Package pdftex.def Info: offCurrentComp.pdf  used on input line 1410.
+Package pdftex.def Info: offCurrentComp.pdf  used on input line 1395.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1415.
+               Default added (so using `tbp') on input line 1400.
 
 
 
@@ -3327,11 +3331,11 @@ pdfTeX warning: pdflatex (file ./on-off-scaling2.pdf): PDF inclusion: found PDF
 <on-off-scaling2.pdf, id=1644, 845.07718pt x 597.55246pt>
 File: on-off-scaling2.pdf Graphic file (type pdf)
 <use on-off-scaling2.pdf>
-Package pdftex.def Info: on-off-scaling2.pdf  used on input line 1417.
+Package pdftex.def Info: on-off-scaling2.pdf  used on input line 1402.
 (pdftex.def)             Requested size: 426.79135pt x 242.05504pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1422.
+               Default added (so using `tbp') on input line 1407.
 
 
 
@@ -3340,109 +3344,110 @@ ersion <1.7>, but at most version <1.5> allowed
 <compOnOffCurr.pdf, id=1646, 845.07718pt x 597.55246pt>
 File: compOnOffCurr.pdf Graphic file (type pdf)
 <use compOnOffCurr.pdf>
-Package pdftex.def Info: compOnOffCurr.pdf  used on input line 1424.
+Package pdftex.def Info: compOnOffCurr.pdf  used on input line 1409.
 (pdftex.def)             Requested size: 426.79135pt x 274.32567pt.
 
-Underfull \vbox (badness 1308) has occurred while \output is active []
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1418.
+
+
+
+pdfTeX warning: pdflatex (file ./gainComp.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<gainComp.pdf, id=1652, 597.55246pt x 845.07718pt>
+File: gainComp.pdf Graphic file (type pdf)
+<use gainComp.pdf>
+Package pdftex.def Info: gainComp.pdf  used on input line 1420.
+(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1425.
+
+
+
+pdfTeX warning: pdflatex (file ./slopes.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<slopes.pdf, id=1654, 597.55246pt x 845.07718pt>
+File: slopes.pdf Graphic file (type pdf)
+<use slopes.pdf>
+Package pdftex.def Info: slopes.pdf  used on input line 1427.
+(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1432.
+
+<vtcs01.png, id=1656, 1436.36626pt x 641.39626pt>
+File: vtcs01.png Graphic file (type png)
+<use vtcs01.png>
+Package pdftex.def Info: vtcs01.png  used on input line 1434.
+(pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1439.
+
+<vtcs07.png, id=1658, 1436.36626pt x 641.39626pt>
+File: vtcs07.png Graphic file (type png)
+<use vtcs07.png>
+Package pdftex.def Info: vtcs07.png  used on input line 1441.
+(pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61 <./offCurrentComp.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 62
  []
 
-[62 <./on-off-scaling2.pdf> <./compOnOffCurr.pdf>]
+[62 <./on-off-scaling2.pdf> <./compOnOffCurr.pdf>] [63 <./gainComp.pdf> <./slop
+es.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+\T1/ptm/m/n/10.95 64
+ []
+
+[64 <./vtcs01.png> <./vtcs07.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1433.
-
-
-
-pdfTeX warning: pdflatex (file ./gainComp.pdf): PDF inclusion: found PDF versio
-n <1.7>, but at most version <1.5> allowed
-<gainComp.pdf, id=1686, 597.55246pt x 845.07718pt>
-File: gainComp.pdf Graphic file (type pdf)
-<use gainComp.pdf>
-Package pdftex.def Info: gainComp.pdf  used on input line 1435.
-(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1440.
-
-
-
-pdfTeX warning: pdflatex (file ./slopes.pdf): PDF inclusion: found PDF version 
-<1.7>, but at most version <1.5> allowed
-<slopes.pdf, id=1688, 597.55246pt x 845.07718pt>
-File: slopes.pdf Graphic file (type pdf)
-<use slopes.pdf>
-Package pdftex.def Info: slopes.pdf  used on input line 1442.
-(pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1447.
-
-<vtcs01.png, id=1690, 1436.36626pt x 641.39626pt>
-File: vtcs01.png Graphic file (type png)
-<use vtcs01.png>
-Package pdftex.def Info: vtcs01.png  used on input line 1449.
-(pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1454.
-
-<vtcs07.png, id=1692, 1436.36626pt x 641.39626pt>
-File: vtcs07.png Graphic file (type png)
-<use vtcs07.png>
-Package pdftex.def Info: vtcs07.png  used on input line 1456.
-(pdftex.def)             Requested size: 426.79135pt x 190.58041pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1471.
+               Default added (so using `tbp') on input line 1456.
 
 
 
 pdfTeX warning: pdflatex (file ./hystWFFComp.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<hystWFFComp.pdf, id=1697, 597.55246pt x 845.07718pt>
+<hystWFFComp.pdf, id=1724, 597.55246pt x 845.07718pt>
 File: hystWFFComp.pdf Graphic file (type pdf)
 <use hystWFFComp.pdf>
-Package pdftex.def Info: hystWFFComp.pdf  used on input line 1473.
+Package pdftex.def Info: hystWFFComp.pdf  used on input line 1458.
 (pdftex.def)             Requested size: 426.79135pt x 257.28563pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1478.
+               Default added (so using `tbp') on input line 1463.
 
 
 
 pdfTeX warning: pdflatex (file ./hystGraphs.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<hystGraphs.pdf, id=1699, 845.07718pt x 597.55246pt>
+<hystGraphs.pdf, id=1726, 845.07718pt x 597.55246pt>
 File: hystGraphs.pdf Graphic file (type pdf)
 <use hystGraphs.pdf>
-Package pdftex.def Info: hystGraphs.pdf  used on input line 1480.
+Package pdftex.def Info: hystGraphs.pdf  used on input line 1465.
 (pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1485.
+               Default added (so using `tbp') on input line 1470.
 
 
 
 pdfTeX warning: pdflatex (file ./hystRatiosVdd.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<hystRatiosVdd.pdf, id=1701, 845.07718pt x 597.55246pt>
+<hystRatiosVdd.pdf, id=1728, 845.07718pt x 597.55246pt>
 File: hystRatiosVdd.pdf Graphic file (type pdf)
 <use hystRatiosVdd.pdf>
-Package pdftex.def Info: hystRatiosVdd.pdf  used on input line 1487.
+Package pdftex.def Info: hystRatiosVdd.pdf  used on input line 1472.
 (pdftex.def)             Requested size: 426.79135pt x 249.11511pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63 <./gainComp.pdf>]
-Underfull \hbox (badness 10000) has occurred while \output is active
-\T1/ptm/m/n/10.95 64
- []
-
-[64 <./slopes.pdf> <./vtcs01.png>] [65 <./vtcs07.png> <./hystWFFComp.pdf>]
+ [65 <./hystWFFComp.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 66
  []
@@ -3450,77 +3455,74 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [66 <./hystGraphs.pdf> <./hystRatiosVdd.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1496.
+               Default added (so using `tbp') on input line 1481.
 
 <dist_energy_INV_0_2.pdf, id=1765, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_2.pdf>
-Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 1498.
+Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 1483.
 (pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1503.
+               Default added (so using `tbp') on input line 1488.
 
 <dist_energy_INV_0_4.pdf, id=1767, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_4.pdf>
-Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 1505.
+Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 1490.
 (pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1510.
+               Default added (so using `tbp') on input line 1495.
 
 <dist_energy_INV_0_7.pdf, id=1769, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_7.pdf>
-Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 1512.
+Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 1497.
 (pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [67 <./dist_energy_INV_0_2.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 68
  []
 
-[68 <./dist_energy_INV_0_2.pdf>] [69 <./dist_energy_INV_0_4.pdf>]
+[68 <./dist_energy_INV_0_4.pdf>] [69 <./dist_energy_INV_0_7.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1515.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1542.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 \T1/ptm/m/n/10.95 70
  []
 
-[70 <./dist_energy_INV_0_7.pdf>]
+[70] [71]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1530.
+               Default added (so using `tbp') on input line 1577.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1557.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1592.
-
-
-Overfull \hbox (21.33511pt too wide) in paragraph at lines 1596--1614
+Overfull \hbox (21.33511pt too wide) in paragraph at lines 1581--1599
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1618.
+               Default added (so using `tbp') on input line 1603.
 
 
-Overfull \hbox (3.33511pt too wide) in paragraph at lines 1622--1640
+Overfull \hbox (3.33511pt too wide) in paragraph at lines 1607--1625
  [][] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3530,7 +3532,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [72]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1654.
+               Default added (so using `tbp') on input line 1639.
 
 
 
@@ -3539,11 +3541,11 @@ pdfTeX warning: pdflatex (file ./averageDelayNominal.pdf): PDF inclusion: found
 <averageDelayNominal.pdf, id=1841, 597.55246pt x 845.07718pt>
 File: averageDelayNominal.pdf Graphic file (type pdf)
 <use averageDelayNominal.pdf>
-Package pdftex.def Info: averageDelayNominal.pdf  used on input line 1656.
+Package pdftex.def Info: averageDelayNominal.pdf  used on input line 1641.
 (pdftex.def)             Requested size: 426.79135pt x 230.98412pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1663.
+               Default added (so using `tbp') on input line 1648.
 
 
 
@@ -3552,11 +3554,11 @@ d PDF version <1.7>, but at most version <1.5> allowed
 <averageEnergyNominal.pdf, id=1843, 845.07718pt x 597.55246pt>
 File: averageEnergyNominal.pdf Graphic file (type pdf)
 <use averageEnergyNominal.pdf>
-Package pdftex.def Info: averageEnergyNominal.pdf  used on input line 1665.
+Package pdftex.def Info: averageEnergyNominal.pdf  used on input line 1650.
 (pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1672.
+               Default added (so using `tbp') on input line 1657.
 
 
 
@@ -3565,11 +3567,11 @@ version <1.7>, but at most version <1.5> allowed
 <averageDelayNT.pdf, id=1845, 845.07718pt x 597.55246pt>
 File: averageDelayNT.pdf Graphic file (type pdf)
 <use averageDelayNT.pdf>
-Package pdftex.def Info: averageDelayNT.pdf  used on input line 1674.
+Package pdftex.def Info: averageDelayNT.pdf  used on input line 1659.
 (pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1681.
+               Default added (so using `tbp') on input line 1666.
 
 
 
@@ -3578,7 +3580,7 @@ pdfTeX warning: pdflatex (file ./averageEnergyNT.pdf): PDF inclusion: found PDF
 <averageEnergyNT.pdf, id=1847, 845.07718pt x 597.55246pt>
 File: averageEnergyNT.pdf Graphic file (type pdf)
 <use averageEnergyNT.pdf>
-Package pdftex.def Info: averageEnergyNT.pdf  used on input line 1683.
+Package pdftex.def Info: averageEnergyNT.pdf  used on input line 1668.
 (pdftex.def)             Requested size: 426.79135pt x 255.74603pt.
 [73]
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3589,7 +3591,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ayNT.pdf> <./averageEnergyNT.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1699.
+               Default added (so using `tbp') on input line 1684.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3604,7 +3606,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1731.
+               Default added (so using `tbp') on input line 1716.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3617,11 +3619,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [78]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1755.
+               Default added (so using `tbp') on input line 1740.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1774.
+               Default added (so using `tbp') on input line 1759.
 
 [79] (./iiufrgs.bbl
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3650,204 +3652,204 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [86]) [87]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1813.
+               Default added (so using `tbp') on input line 1798.
 
 <INV1F.png, id=2003, 319.94531pt x 624.08156pt>
 File: INV1F.png Graphic file (type png)
 <use INV1F.png>
-Package pdftex.def Info: INV1F.png  used on input line 1815.
+Package pdftex.def Info: INV1F.png  used on input line 1800.
 (pdftex.def)             Requested size: 360.29884pt x 702.79471pt.
 
-LaTeX Warning: Float too large for page by 33.36165pt on input line 1819.
+LaTeX Warning: Float too large for page by 33.36165pt on input line 1804.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1821.
+               Default added (so using `tbp') on input line 1806.
 
 <INV2F.png, id=2004, 321.45094pt x 625.58719pt>
 File: INV2F.png Graphic file (type png)
 <use INV2F.png>
-Package pdftex.def Info: INV2F.png  used on input line 1823.
+Package pdftex.def Info: INV2F.png  used on input line 1808.
 (pdftex.def)             Requested size: 361.1262pt x 702.80066pt.
 
-LaTeX Warning: Float too large for page by 33.3676pt on input line 1827.
+LaTeX Warning: Float too large for page by 33.3676pt on input line 1812.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1829.
+               Default added (so using `tbp') on input line 1814.
 
 <INV3F.png, id=2005, 319.94531pt x 625.58719pt>
 File: INV3F.png Graphic file (type png)
 <use INV3F.png>
-Package pdftex.def Info: INV3F.png  used on input line 1831.
+Package pdftex.def Info: INV3F.png  used on input line 1816.
 (pdftex.def)             Requested size: 359.43474pt x 702.80066pt.
 
-LaTeX Warning: Float too large for page by 33.3676pt on input line 1835.
+LaTeX Warning: Float too large for page by 33.3676pt on input line 1820.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1837.
+               Default added (so using `tbp') on input line 1822.
 
 <INV4F.png, id=2006, 273.27094pt x 627.09282pt>
 File: INV4F.png Graphic file (type png)
 <use INV4F.png>
-Package pdftex.def Info: INV4F.png  used on input line 1839.
+Package pdftex.def Info: INV4F.png  used on input line 1824.
 (pdftex.def)             Requested size: 306.26566pt x 702.80804pt.
 
-LaTeX Warning: Float too large for page by 33.37498pt on input line 1843.
+LaTeX Warning: Float too large for page by 33.37498pt on input line 1828.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1830.
+
+<INV5F.png, id=2007, 237.88875pt x 625.58719pt>
+File: INV5F.png Graphic file (type png)
+<use INV5F.png>
+Package pdftex.def Info: INV5F.png  used on input line 1832.
+(pdftex.def)             Requested size: 267.25029pt x 702.80066pt.
+
+LaTeX Warning: Float too large for page by 33.3676pt on input line 1836.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1845.
 
-<INV5F.png, id=2007, 237.88875pt x 625.58719pt>
-File: INV5F.png Graphic file (type png)
-<use INV5F.png>
-Package pdftex.def Info: INV5F.png  used on input line 1847.
-(pdftex.def)             Requested size: 267.25029pt x 702.80066pt.
-
-LaTeX Warning: Float too large for page by 33.3676pt on input line 1851.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1860.
-
 <ST1F.png, id=2008, 730.22812pt x 627.09282pt>
 File: ST1F.png Graphic file (type png)
 <use ST1F.png>
-Package pdftex.def Info: ST1F.png  used on input line 1862.
+Package pdftex.def Info: ST1F.png  used on input line 1847.
 (pdftex.def)             Requested size: 426.78618pt x 366.50813pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1868.
+               Default added (so using `tbp') on input line 1853.
 
 <ST2F.png, id=2009, 730.22812pt x 625.58719pt>
 File: ST2F.png Graphic file (type png)
 <use ST2F.png>
-Package pdftex.def Info: ST2F.png  used on input line 1870.
+Package pdftex.def Info: ST2F.png  used on input line 1855.
 (pdftex.def)             Requested size: 426.78618pt x 365.62816pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1876.
+               Default added (so using `tbp') on input line 1861.
 
 <ST3F.png, id=2010, 731.73375pt x 627.09282pt>
 File: ST3F.png Graphic file (type png)
 <use ST3F.png>
-Package pdftex.def Info: ST3F.png  used on input line 1878.
+Package pdftex.def Info: ST3F.png  used on input line 1863.
 (pdftex.def)             Requested size: 426.79526pt x 365.76178pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1884.
+               Default added (so using `tbp') on input line 1869.
 
 <ST4F.png, id=2011, 623.32875pt x 625.58719pt>
 File: ST4F.png Graphic file (type png)
 <use ST4F.png>
-Package pdftex.def Info: ST4F.png  used on input line 1886.
+Package pdftex.def Info: ST4F.png  used on input line 1871.
 (pdftex.def)             Requested size: 426.7969pt x 428.34328pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1892.
+               Default added (so using `tbp') on input line 1877.
 
 <ST5F.png, id=2012, 543.53062pt x 625.58719pt>
 File: ST5F.png Graphic file (type png)
 <use ST5F.png>
-Package pdftex.def Info: ST5F.png  used on input line 1894.
+Package pdftex.def Info: ST5F.png  used on input line 1879.
 (pdftex.def)             Requested size: 426.81346pt x 491.2493pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1905.
+               Default added (so using `tbp') on input line 1890.
 
 <SIG1F.png, id=2013, 730.22812pt x 625.58719pt>
 File: SIG1F.png Graphic file (type png)
 <use SIG1F.png>
-Package pdftex.def Info: SIG1F.png  used on input line 1907.
+Package pdftex.def Info: SIG1F.png  used on input line 1892.
 (pdftex.def)             Requested size: 426.78618pt x 365.62816pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1913.
+               Default added (so using `tbp') on input line 1898.
 
 <SIG2F.png, id=2014, 729.47531pt x 625.58719pt>
 File: SIG2F.png Graphic file (type png)
 <use SIG2F.png>
-Package pdftex.def Info: SIG2F.png  used on input line 1915.
+Package pdftex.def Info: SIG2F.png  used on input line 1900.
 (pdftex.def)             Requested size: 426.79143pt x 366.01pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1921.
+               Default added (so using `tbp') on input line 1906.
 
 <SIG3F.png, id=2015, 730.98094pt x 625.58719pt>
 File: SIG3F.png Graphic file (type png)
 <use SIG3F.png>
-Package pdftex.def Info: SIG3F.png  used on input line 1923.
+Package pdftex.def Info: SIG3F.png  used on input line 1908.
 (pdftex.def)             Requested size: 426.79117pt x 365.25587pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1929.
+               Default added (so using `tbp') on input line 1914.
 
 <SIG4F.png, id=2016, 623.32875pt x 625.58719pt>
 File: SIG4F.png Graphic file (type png)
 <use SIG4F.png>
-Package pdftex.def Info: SIG4F.png  used on input line 1931.
+Package pdftex.def Info: SIG4F.png  used on input line 1916.
 (pdftex.def)             Requested size: 426.7969pt x 428.34328pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1937.
+               Default added (so using `tbp') on input line 1922.
 
 <SIG5F.png, id=2017, 542.77782pt x 625.58719pt>
 File: SIG5F.png Graphic file (type png)
 <use SIG5F.png>
-Package pdftex.def Info: SIG5F.png  used on input line 1939.
+Package pdftex.def Info: SIG5F.png  used on input line 1924.
 (pdftex.def)             Requested size: 426.81035pt x 491.92705pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1951.
+               Default added (so using `tbp') on input line 1936.
 
 <TIST2F1F.png, id=2018, 523.9575pt x 626.34pt>
 File: TIST2F1F.png Graphic file (type png)
 <use TIST2F1F.png>
-Package pdftex.def Info: TIST2F1F.png  used on input line 1953.
+Package pdftex.def Info: TIST2F1F.png  used on input line 1938.
 (pdftex.def)             Requested size: 426.80173pt x 510.19977pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1959.
+               Default added (so using `tbp') on input line 1944.
 
 <TIST3F1F.png, id=2019, 523.9575pt x 625.58719pt>
 File: TIST3F1F.png Graphic file (type png)
 <use TIST3F1F.png>
-Package pdftex.def Info: TIST3F1F.png  used on input line 1961.
+Package pdftex.def Info: TIST3F1F.png  used on input line 1946.
 (pdftex.def)             Requested size: 426.80173pt x 509.58656pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1967.
+               Default added (so using `tbp') on input line 1952.
 
 <TIST4F2F.png, id=2020, 446.41782pt x 625.58719pt>
 File: TIST4F2F.png Graphic file (type png)
 <use TIST4F2F.png>
-Package pdftex.def Info: TIST4F2F.png  used on input line 1969.
+Package pdftex.def Info: TIST4F2F.png  used on input line 1954.
 (pdftex.def)             Requested size: 426.79878pt x 598.0941pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1975.
+               Default added (so using `tbp') on input line 1960.
 
 <TIST6F2F.png, id=2021, 347.79938pt x 627.09282pt>
 File: TIST6F2F.png Graphic file (type png)
 <use TIST6F2F.png>
-Package pdftex.def Info: TIST6F2F.png  used on input line 1977.
+Package pdftex.def Info: TIST6F2F.png  used on input line 1962.
 (pdftex.def)             Requested size: 389.79268pt x 702.80804pt.
 
-LaTeX Warning: Float too large for page by 33.37498pt on input line 1981.
+LaTeX Warning: Float too large for page by 33.37498pt on input line 1966.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1983.
+               Default added (so using `tbp') on input line 1968.
 
 <TIST6F3F.png, id=2022, 347.79938pt x 627.09282pt>
 File: TIST6F3F.png Graphic file (type png)
 <use TIST6F3F.png>
-Package pdftex.def Info: TIST6F3F.png  used on input line 1985.
+Package pdftex.def Info: TIST6F3F.png  used on input line 1970.
 (pdftex.def)             Requested size: 389.79268pt x 702.80804pt.
 
-LaTeX Warning: Float too large for page by 33.37498pt on input line 1989.
+LaTeX Warning: Float too large for page by 33.37498pt on input line 1974.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3909,12 +3911,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [108 <./TIST6F3F.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1997.
+               Default added (so using `tbp') on input line 1982.
 
 <CMOS.png, id=2131, 1287.30937pt x 340.27126pt>
 File: CMOS.png Graphic file (type png)
 <use CMOS.png>
-Package pdftex.def Info: CMOS.png  used on input line 1999.
+Package pdftex.def Info: CMOS.png  used on input line 1984.
 (pdftex.def)             Requested size: 640.18703pt x 169.22139pt.
 [109
 
@@ -3926,102 +3928,102 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [110 <./CMOS.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2006.
+               Default added (so using `tbp') on input line 1991.
 
 <CMOSST1.png, id=2142, 1297.09593pt x 146.04562pt>
 File: CMOSST1.png Graphic file (type png)
 <use CMOSST1.png>
-Package pdftex.def Info: CMOSST1.png  used on input line 2008.
+Package pdftex.def Info: CMOSST1.png  used on input line 1993.
 (pdftex.def)             Requested size: 640.18703pt x 72.0822pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2015.
+               Default added (so using `tbp') on input line 2000.
 
 <CMOSST2.png, id=2143, 1297.09593pt x 222.07968pt>
 File: CMOSST2.png Graphic file (type png)
 <use CMOSST2.png>
-Package pdftex.def Info: CMOSST2.png  used on input line 2017.
+Package pdftex.def Info: CMOSST2.png  used on input line 2002.
 (pdftex.def)             Requested size: 640.18703pt x 109.60954pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2028.
+               Default added (so using `tbp') on input line 2013.
 
 <TFA.png, id=2144, 1295.59032pt x 250.68657pt>
 File: TFA.png Graphic file (type png)
 <use TFA.png>
-Package pdftex.def Info: TFA.png  used on input line 2030.
+Package pdftex.def Info: TFA.png  used on input line 2015.
 (pdftex.def)             Requested size: 640.18703pt x 123.87027pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2037.
+               Default added (so using `tbp') on input line 2022.
 
 <TFAST1.png, id=2145, 1296.34312pt x 126.4725pt>
 File: TFAST1.png Graphic file (type png)
 <use TFAST1.png>
-Package pdftex.def Info: TFAST1.png  used on input line 2039.
+Package pdftex.def Info: TFAST1.png  used on input line 2024.
 (pdftex.def)             Requested size: 640.18703pt x 62.45837pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2046.
+               Default added (so using `tbp') on input line 2031.
 
 <TFAST2.png, id=2146, 1297.09593pt x 198.7425pt>
 File: TFAST2.png Graphic file (type png)
 <use TFAST2.png>
-Package pdftex.def Info: TFAST2.png  used on input line 2048.
+Package pdftex.def Info: TFAST2.png  used on input line 2033.
 (pdftex.def)             Requested size: 640.18703pt x 98.09125pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2062.
+               Default added (so using `tbp') on input line 2047.
 
 <TGA.png, id=2147, 1295.59032pt x 222.8325pt>
 File: TGA.png Graphic file (type png)
 <use TGA.png>
-Package pdftex.def Info: TGA.png  used on input line 2064.
+Package pdftex.def Info: TGA.png  used on input line 2049.
 (pdftex.def)             Requested size: 640.18703pt x 110.10692pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2071.
+               Default added (so using `tbp') on input line 2056.
 
 <TGAST1.png, id=2148, 1297.09593pt x 77.53969pt>
 File: TGAST1.png Graphic file (type png)
 <use TGAST1.png>
-Package pdftex.def Info: TGAST1.png  used on input line 2073.
+Package pdftex.def Info: TGAST1.png  used on input line 2058.
 (pdftex.def)             Requested size: 640.18703pt x 38.27043pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2080.
+               Default added (so using `tbp') on input line 2065.
 
 <TGAST2.png, id=2149, 1297.09593pt x 140.77594pt>
 File: TGAST2.png Graphic file (type png)
 <use TGAST2.png>
-Package pdftex.def Info: TGAST2.png  used on input line 2082.
+Package pdftex.def Info: TGAST2.png  used on input line 2067.
 (pdftex.def)             Requested size: 640.18703pt x 69.4813pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2095.
+               Default added (so using `tbp') on input line 2080.
 
 <HYBRID.png, id=2150, 1296.34312pt x 234.1247pt>
 File: HYBRID.png Graphic file (type png)
 <use HYBRID.png>
-Package pdftex.def Info: HYBRID.png  used on input line 2097.
+Package pdftex.def Info: HYBRID.png  used on input line 2082.
 (pdftex.def)             Requested size: 640.18703pt x 115.62234pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2104.
+               Default added (so using `tbp') on input line 2089.
 
 <HYBRIDST1.png, id=2151, 1295.59032pt x 75.28125pt>
 File: HYBRIDST1.png Graphic file (type png)
 <use HYBRIDST1.png>
-Package pdftex.def Info: HYBRIDST1.png  used on input line 2106.
+Package pdftex.def Info: HYBRIDST1.png  used on input line 2091.
 (pdftex.def)             Requested size: 640.18703pt x 37.19827pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2113.
+               Default added (so using `tbp') on input line 2098.
 
 <HYBRIDST2.png, id=2152, 1296.34312pt x 140.02313pt>
 File: HYBRIDST2.png Graphic file (type png)
 <use HYBRIDST2.png>
-Package pdftex.def Info: HYBRIDST2.png  used on input line 2115.
+Package pdftex.def Info: HYBRIDST2.png  used on input line 2100.
 (pdftex.def)             Requested size: 640.18703pt x 69.15034pt.
 [111 <./CMOSST1.png>]
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4051,418 +4053,418 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [120 <./HYBRIDST1.png>] [121 <./HYBRIDST2.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2128.
+               Default added (so using `tbp') on input line 2113.
 
 File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_2.pdf>
-Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 2130.
+Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 2115.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2130--2131
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2115--2116
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2136.
+               Default added (so using `tbp') on input line 2121.
 
 File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_4.pdf>
-Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 2138.
+Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 2123.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2138--2139
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2123--2124
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2144.
+               Default added (so using `tbp') on input line 2129.
 
 File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_7.pdf>
-Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 2146.
+Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 2131.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2146--2147
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2131--2132
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2152.
+               Default added (so using `tbp') on input line 2137.
 
 <dist_disp_INV_0_2.pdf, id=2211, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_2.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_2.pdf>
-Package pdftex.def Info: dist_disp_INV_0_2.pdf  used on input line 2154.
+Package pdftex.def Info: dist_disp_INV_0_2.pdf  used on input line 2139.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2154--2155
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2139--2140
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2160.
+               Default added (so using `tbp') on input line 2145.
 
 <dist_disp_INV_0_4.pdf, id=2212, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_4.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_4.pdf>
-Package pdftex.def Info: dist_disp_INV_0_4.pdf  used on input line 2162.
+Package pdftex.def Info: dist_disp_INV_0_4.pdf  used on input line 2147.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2162--2163
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2147--2148
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2168.
+               Default added (so using `tbp') on input line 2153.
 
 <dist_disp_INV_0_7.pdf, id=2213, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_7.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_7.pdf>
-Package pdftex.def Info: dist_disp_INV_0_7.pdf  used on input line 2170.
+Package pdftex.def Info: dist_disp_INV_0_7.pdf  used on input line 2155.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2170--2171
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2155--2156
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2178.
+               Default added (so using `tbp') on input line 2163.
 
 <dist_energy_ST_0_2.pdf, id=2214, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_2.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_2.pdf>
-Package pdftex.def Info: dist_energy_ST_0_2.pdf  used on input line 2180.
+Package pdftex.def Info: dist_energy_ST_0_2.pdf  used on input line 2165.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2180--2181
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2165--2166
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2186.
+               Default added (so using `tbp') on input line 2171.
 
 <dist_energy_ST_0_4.pdf, id=2215, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_4.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_4.pdf>
-Package pdftex.def Info: dist_energy_ST_0_4.pdf  used on input line 2188.
+Package pdftex.def Info: dist_energy_ST_0_4.pdf  used on input line 2173.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2188--2189
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2173--2174
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2194.
+               Default added (so using `tbp') on input line 2179.
 
 <dist_energy_ST_0_7.pdf, id=2216, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_7.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_7.pdf>
-Package pdftex.def Info: dist_energy_ST_0_7.pdf  used on input line 2196.
+Package pdftex.def Info: dist_energy_ST_0_7.pdf  used on input line 2181.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2196--2197
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2181--2182
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2202.
+               Default added (so using `tbp') on input line 2187.
 
 <dist_disp_ST_0_2.pdf, id=2217, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_2.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_2.pdf>
-Package pdftex.def Info: dist_disp_ST_0_2.pdf  used on input line 2204.
+Package pdftex.def Info: dist_disp_ST_0_2.pdf  used on input line 2189.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2204--2205
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2189--2190
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2210.
+               Default added (so using `tbp') on input line 2195.
 
 <dist_disp_ST_0_4.pdf, id=2218, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_4.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_4.pdf>
-Package pdftex.def Info: dist_disp_ST_0_4.pdf  used on input line 2212.
+Package pdftex.def Info: dist_disp_ST_0_4.pdf  used on input line 2197.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2212--2213
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2197--2198
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2218.
+               Default added (so using `tbp') on input line 2203.
 
 <dist_disp_ST_0_7.pdf, id=2219, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_7.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_7.pdf>
-Package pdftex.def Info: dist_disp_ST_0_7.pdf  used on input line 2220.
+Package pdftex.def Info: dist_disp_ST_0_7.pdf  used on input line 2205.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2220--2221
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2205--2206
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2228.
+               Default added (so using `tbp') on input line 2213.
 
 <dist_energy_SIG_0_2.pdf, id=2220, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_2.pdf>
-Package pdftex.def Info: dist_energy_SIG_0_2.pdf  used on input line 2230.
+Package pdftex.def Info: dist_energy_SIG_0_2.pdf  used on input line 2215.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2230--2231
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2215--2216
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2236.
+               Default added (so using `tbp') on input line 2221.
 
 <dist_energy_SIG_0_4.pdf, id=2221, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_4.pdf>
-Package pdftex.def Info: dist_energy_SIG_0_4.pdf  used on input line 2238.
+Package pdftex.def Info: dist_energy_SIG_0_4.pdf  used on input line 2223.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2238--2239
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2223--2224
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2244.
+               Default added (so using `tbp') on input line 2229.
 
 <dist_energy_SIG_0_7.pdf, id=2222, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_7.pdf>
-Package pdftex.def Info: dist_energy_SIG_0_7.pdf  used on input line 2246.
+Package pdftex.def Info: dist_energy_SIG_0_7.pdf  used on input line 2231.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2246--2247
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2231--2232
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2252.
+               Default added (so using `tbp') on input line 2237.
 
 <dist_disp_SIG_0_2.pdf, id=2223, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_2.pdf>
-Package pdftex.def Info: dist_disp_SIG_0_2.pdf  used on input line 2254.
+Package pdftex.def Info: dist_disp_SIG_0_2.pdf  used on input line 2239.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2254--2255
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2239--2240
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2260.
+               Default added (so using `tbp') on input line 2245.
 
 <dist_disp_SIG_0_4.pdf, id=2224, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_4.pdf>
-Package pdftex.def Info: dist_disp_SIG_0_4.pdf  used on input line 2262.
+Package pdftex.def Info: dist_disp_SIG_0_4.pdf  used on input line 2247.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2262--2263
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2247--2248
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2268.
+               Default added (so using `tbp') on input line 2253.
 
 <dist_disp_SIG_0_7.pdf, id=2225, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_7.pdf>
-Package pdftex.def Info: dist_disp_SIG_0_7.pdf  used on input line 2270.
+Package pdftex.def Info: dist_disp_SIG_0_7.pdf  used on input line 2255.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2270--2271
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2255--2256
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2278.
+               Default added (so using `tbp') on input line 2263.
 
 <dist_energy_6F3F_0_2.pdf, id=2226, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_2.pdf>
-Package pdftex.def Info: dist_energy_6F3F_0_2.pdf  used on input line 2280.
+Package pdftex.def Info: dist_energy_6F3F_0_2.pdf  used on input line 2265.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2280--2281
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2265--2266
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2286.
+               Default added (so using `tbp') on input line 2271.
 
 <dist_energy_6F3F_0_4.pdf, id=2227, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_4.pdf>
-Package pdftex.def Info: dist_energy_6F3F_0_4.pdf  used on input line 2288.
+Package pdftex.def Info: dist_energy_6F3F_0_4.pdf  used on input line 2273.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2288--2289
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2273--2274
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2294.
+               Default added (so using `tbp') on input line 2279.
 
 <dist_energy_6F3F_0_7.pdf, id=2228, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_7.pdf>
-Package pdftex.def Info: dist_energy_6F3F_0_7.pdf  used on input line 2296.
+Package pdftex.def Info: dist_energy_6F3F_0_7.pdf  used on input line 2281.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2296--2297
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2281--2282
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2302.
+               Default added (so using `tbp') on input line 2287.
 
 <dist_disp_6F3F_0_2.pdf, id=2229, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_2.pdf>
-Package pdftex.def Info: dist_disp_6F3F_0_2.pdf  used on input line 2304.
+Package pdftex.def Info: dist_disp_6F3F_0_2.pdf  used on input line 2289.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2304--2305
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2289--2290
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2310.
+               Default added (so using `tbp') on input line 2295.
 
 <dist_disp_6F3F_0_4.pdf, id=2230, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_4.pdf>
-Package pdftex.def Info: dist_disp_6F3F_0_4.pdf  used on input line 2312.
+Package pdftex.def Info: dist_disp_6F3F_0_4.pdf  used on input line 2297.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2312--2313
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2297--2298
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2318.
+               Default added (so using `tbp') on input line 2303.
 
 <dist_disp_6F3F_0_7.pdf, id=2231, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_7.pdf>
-Package pdftex.def Info: dist_disp_6F3F_0_7.pdf  used on input line 2320.
+Package pdftex.def Info: dist_disp_6F3F_0_7.pdf  used on input line 2305.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2320--2321
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2305--2306
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2328.
+               Default added (so using `tbp') on input line 2313.
 
 <dist_energy_6F2F_0_2.pdf, id=2232, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_2.pdf>
-Package pdftex.def Info: dist_energy_6F2F_0_2.pdf  used on input line 2330.
+Package pdftex.def Info: dist_energy_6F2F_0_2.pdf  used on input line 2315.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2330--2331
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2315--2316
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2336.
+               Default added (so using `tbp') on input line 2321.
 
 <dist_energy_6F2F_0_4.pdf, id=2233, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_4.pdf>
-Package pdftex.def Info: dist_energy_6F2F_0_4.pdf  used on input line 2338.
+Package pdftex.def Info: dist_energy_6F2F_0_4.pdf  used on input line 2323.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2338--2339
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2323--2324
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2344.
+               Default added (so using `tbp') on input line 2329.
 
 <dist_energy_6F2F_0_7.pdf, id=2234, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_7.pdf>
-Package pdftex.def Info: dist_energy_6F2F_0_7.pdf  used on input line 2346.
+Package pdftex.def Info: dist_energy_6F2F_0_7.pdf  used on input line 2331.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2346--2347
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2331--2332
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2352.
+               Default added (so using `tbp') on input line 2337.
 
 <dist_disp_6F2F_0_2.pdf, id=2235, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_2.pdf>
-Package pdftex.def Info: dist_disp_6F2F_0_2.pdf  used on input line 2354.
+Package pdftex.def Info: dist_disp_6F2F_0_2.pdf  used on input line 2339.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2354--2355
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2339--2340
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2360.
+               Default added (so using `tbp') on input line 2345.
 
 <dist_disp_6F2F_0_4.pdf, id=2236, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_4.pdf>
-Package pdftex.def Info: dist_disp_6F2F_0_4.pdf  used on input line 2362.
+Package pdftex.def Info: dist_disp_6F2F_0_4.pdf  used on input line 2347.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2362--2363
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2347--2348
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2368.
+               Default added (so using `tbp') on input line 2353.
 
 <dist_disp_6F2F_0_7.pdf, id=2237, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_7.pdf>
-Package pdftex.def Info: dist_disp_6F2F_0_7.pdf  used on input line 2370.
+Package pdftex.def Info: dist_disp_6F2F_0_7.pdf  used on input line 2355.
 (pdftex.def)             Requested size: 553.26384pt x 553.27722pt.
 
-Overfull \hbox (126.47249pt too wide) in paragraph at lines 2370--2371
+Overfull \hbox (126.47249pt too wide) in paragraph at lines 2355--2356
  [][] 
  []
 
@@ -4551,7 +4553,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [152 <./dist_disp_6F2F_0_7.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2382.
+               Default added (so using `tbp') on input line 2367.
 
 
 
@@ -4560,7 +4562,7 @@ pdfTeX warning: pdflatex (file ./extsINV.pdf): PDF inclusion: found PDF version
 <extsINV.pdf, id=2592, 722.7pt x 1084.05pt>
 File: extsINV.pdf Graphic file (type pdf)
 <use extsINV.pdf>
-Package pdftex.def Info: extsINV.pdf  used on input line 2384.
+Package pdftex.def Info: extsINV.pdf  used on input line 2369.
 (pdftex.def)             Requested size: 426.79135pt x 640.196pt.
 
 AED: lastpage setting LastPage
@@ -4572,24 +4574,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [154 <./extsINV.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2390.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2390.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2375.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2375.
  (./iiufrgs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2390.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2375.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2375.
 
 Package rerunfilecheck Info: File `iiufrgs.out' has not changed.
-(rerunfilecheck)             Checksum: F0D518BD053E36CE327485FF884C7269;7611.
+(rerunfilecheck)             Checksum: 12E2FBE93ECC03E566FB5000E027BF42;7755.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2390.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2375.
  ) 
 Here is how much of TeX's memory you used:
  29160 strings out of 492982
  485997 string characters out of 6134897
- 620753 words of memory out of 5000000
+ 621753 words of memory out of 5000000
  31865 multiletter control sequences out of 15000+600000
  584550 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4603,7 +4605,7 @@ urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iiufrgs.pdf (154 pages, 9022109 bytes).
+Output written on iiufrgs.pdf (154 pages, 9023211 bytes).
 PDF statistics:
  2742 PDF objects out of 2984 (max. 8388607)
  2152 compressed objects within 22 object streams

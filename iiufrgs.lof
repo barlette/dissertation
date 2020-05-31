@@ -34,7 +34,7 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Test-bench.\relax }}{45}{figure.4.11}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Test-bench for the Full Adders simulation.\relax }}{45}{figure.4.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Frequency decrease over variability scaling for each design.\relax }}{47}{figure.5.1}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Frequency decrease over variability scaling for each design.\relax }}{48}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Propagation times deviation for each design in relation to the WFF level considering all scenarios.\relax }}{49}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Layout comparison for each scenario considering the energy metrics for the inverter.\relax }}{54}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Layout comparison for each scenario considering the energy metrics for the ST.\relax }}{54}{figure.5.4}
@@ -42,22 +42,22 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Layout comparison for each scenario considering the energy metrics for the TIST at 2:1 proportion.\relax }}{55}{figure.5.6}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Layout comparison for each scenario considering the energy metrics for the TIST at 3:1 proportion.\relax }}{56}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Low energy layouts energy metrics comparison for each design.\relax }}{57}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces High robustness layouts energy metrics comparison for each design.\relax }}{58}{figure.5.9}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces High robustness layouts energy metrics comparison for each design.\relax }}{57}{figure.5.9}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces CB layouts energy metrics comparison for each design.\relax }}{58}{figure.5.10}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Current ratio (left) and current ratio deviation (right) design comparison across variability scaling.\relax }}{60}{figure.5.11}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Leakage current scaling (left axis) and standard deviation (right axis) for the inverter.\relax }}{61}{figure.5.12}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Average on and off-current increase over all designs through variability scaling. The scaling is normalized in relation to the 1\% WFF level measures.\relax }}{62}{figure.5.13}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Average on and off-current normalized deviation over all designs through variability scaling. The marked line is related to the on-current normalized deviations (left axis) while the bars are related to the off-curent normalized deviation (right axis).\relax }}{62}{figure.5.14}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Output gain value across voltage scaling.\relax }}{63}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Voltage Transfer Curve slopes through supply voltage scaling for each design.\relax }}{64}{figure.5.16}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Voltage Transfer Curve slopes through supply voltage scaling for each design.\relax }}{63}{figure.5.16}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Voltage Transfer Curves for all designs at 0.1V.\relax }}{64}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Voltage Transfer Curves for all designs at 0.7V.\relax }}{65}{figure.5.18}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Voltage Transfer Curves for all designs at 0.7V.\relax }}{64}{figure.5.18}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Design hysteresis ratio comparison (left) and hysteresis ratio normalized deviation (right), across variability scaling.\relax }}{65}{figure.5.19}
 \contentsline {figure}{\numberline {5.20}{\ignorespaces Hysteresis curves for all designs at nominal supply voltage.\relax }}{66}{figure.5.20}
 \contentsline {figure}{\numberline {5.21}{\ignorespaces Design hysteresis ratios comparison across supply voltage scaling.\relax }}{66}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.2V.\relax }}{68}{figure.5.22}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.4V.\relax }}{69}{figure.5.23}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.7V.\relax }}{70}{figure.5.24}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.2V.\relax }}{67}{figure.5.22}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.4V.\relax }}{68}{figure.5.23}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Energy measures distribution for the inverter at different levels of variability at 0.7V.\relax }}{69}{figure.5.24}
 \contentsline {figure}{\numberline {5.25}{\ignorespaces Average delay measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{74}{figure.5.25}
 \contentsline {figure}{\numberline {5.26}{\ignorespaces Average energy measures for nominal operation and their respective normalized deviation (variability sensitivity).\relax }}{74}{figure.5.26}
 \contentsline {figure}{\numberline {5.27}{\ignorespaces Average delay measures for near-threshold operation and their respective normalized deviation (variability sensitivity).\relax }}{75}{figure.5.27}

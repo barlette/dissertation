@@ -901,61 +901,18 @@ For the simulations concerning the Full Adders, it was considered two levels of 
 
 
 \chapter{Results}
+
 \section{Inverters}
- Over all simulations there were non-viable scenarios. Such scenarios kept clustered around the supply voltages of 0.1V, over any scenario above 3\% WFF, and 0.2V, over scenarios above 4\% WFF for the inverter, ST and SIG. The TIST results presented a discrepancy in relation to the aforementioned designs. For the TIST designs at 2 to 1 and 3 to 1 proportions, the 0.1V scenarios at above 2\% WFF level are not viable. For 0.2V and 0.3V the 3 to 1 designs only presented viable scenarios at 1\% WFF while the 2 to 1 proportion designs did not operate properly at such supply voltage at any variability level. For the 0.4V the 3 to 1 and 2 to 1 designs worked at below 3\% and 2\% WFF levels, respectively. For 0.5V the 3 to 1 and 2 to 1 designs worked at below 5\% and 3\% WFF levels, respectively. Finally, at 0.6V and 0.7V, all scenarios worked properly.
 
- Given so, in overall, each design presented non-viable scenarios at below threshold voltages, with the TIST layouts presenting a much higher number of failures only working properly, at all variability levels, on 0.6V and 0.7V supply voltages. This results shows the lower robustness and more complex way of sizing for the TIST, which may not be advised for critical applications. 
+\subsection{Non-viable scenarios and Frequencies}
 
-\subsection{Frequency}
-All scenarios frequencies are shown in Table \ref{tab:freqs}. On average, the ST, SIG and TIST (2:1) operated at around half the inverter's frequency (47.61\%, 50.5\% and 49.71\% respectively) while the TIST (3:1) worked at 65.72\% of the inverter frequency. This is expected since their input capacitance is much higher, from a two-transistor design to a six-transistor design and, for the ST and TIST designs, the hysteresis keeps the output from switching much longer than in the other considered designs. The 3:1 TIST designs present a higher frequency, in comparison to its 2 to 1 proportion counterpart, given the higher proportion giving less resistance and higher currents to the circuit, making it faster in charging and discharging its nodes and output.
+Across the simulations, as the variability level scaled and supply voltage decreased, in order to maintain the percentage of failures below 10\%, the circuits frequency had to be reducted. For the traditional inverter, ST, and SIG, the considered \textit{non-viable} scenarios (when the viable frequency of operation is below or at 50KHz)) started to appear at 200mV, for any scenario above 4\% WFF, and 100mV for any scenario above 5\% WFF.
 
-Considering the impact of variability on the frequency retention, in comparison to a low variability scenario (1\% WFF) the inverter, ST, SIG, TIST 2:1 and TIST 3:1 presented up to 40.03\%, 48.81\%, 48.20\%, 59.4\%, and 53.17\% average decrease on frequencies considering the worst case scenario, respectively. It is important to elucidate that in order to not deflate the decrease results of the TIST designs due to the large number of non-viable scenarios, the results were calculated considering such scenarios to work at 0Hz, as shown in Fig. \ref{fig:freqRetWFF}.
+The TIST presented a particular behavior, with its hysteresis interval growing too large as supply voltages got higher. The TIST got the same subset of \textit{non-viable} scenarios of the previous designs, although due to its hysteresis, sub- to near-threshold supply voltages did not work apropriately. 
 
-\begin{figure}[]
-\centering
-\includegraphics[width=\textwidth, trim={2cm 3cm 2cm 3cm},clip]{freqRetWFF.pdf}
-\caption{Frequency decrease over variability scaling for each design.}
-\label{fig:freqRetWFF}
-\legend{Source: From the author.}
-\end{figure}
+The TIST 2:1 designs did not present any viable scenarios at 200mV and 300mV, with only low-variability scenarios (1\% and 2\% WFF) working at 0.4V and 0.5V. The TIST 3:1 designs presented a slight improvement with viable scenarios at 200mV and 300mV at 1\% WFF. For 0.4V and 0.5V the TIST 3:1 presented to be more viable, although not working at high to medium level of variability (3\%~5\% WFF). The frequencies for each scenarios are shown at Table \ref{tab:freqs}.
 
-%\begin{comment}
-%\begin{figure}[]
-%\centering
-%\includegraphics[width=0.8\textwidth, trim={2cm 3.5cm 2cm 3cm},clip]{freqRet2.pdf}
-%\caption{Frequency retention rates for the 2\% WFF scenarios.}
-%\label{fig:freqRet2}
-%\legend{Source: From the author.}
-%\end{figure}
-
-%\begin{figure}[]
-%\centering
-%\includegraphics[width=0.8\textwidth, trim={2cm 3.5cm 2cm 3cm},clip]{freqRet3.pdf}
-%\caption{Frequency retention rates for the 3\% WFF scenarios.}
-%\label{fig:freqRet3}
-%\legend{Source: From the author.}
-%\end{figure}
-
-%\begin{figure}[]
-%\centering
-%\includegraphics[width=0.8\textwidth, trim={2cm 3.5cm 2cm 3cm},clip]{freqRet4.pdf}
-%\caption{Frequency retention rates for the 4\% WFF scenarios.}
-%\label{fig:freqRet4}
-%\legend{Source: From the author.}
-%\end{figure}
-
-%\begin{figure}[]
-%\centering
-%\includegraphics[width=0.8\textwidth, trim={2cm 3.5cm 2cm 3cm},clip]{freqRet5.pdf}
-%\caption{Frequency retention rates for the 5\% WFF scenarios.}
-%\label{fig:freqRet5}
-%\legend{Source: From the author.}
-%\end{figure}
-%\end{comment}
-
-Such performance degradation is expected since process variability will, in many cases, increase the transistors $V_{TH}$, making necessary to decrease the circuits frequency to work properly. Alongside, in higher transistor count circuits, it is expected a higher impact since the variability effect on transistors will work as a chain reaction, with the previous node own deviation accumulating along the next circuit nodes and so on, until the output node. Given that, it is expected for the ST and SIG to present a higher impact due to the inserted process variability. The TIST present higher decreases due to their higher number of non-viable scenarios.  %Although, the small difference between the inverter and the robustness enhancing designs, shows that the inverter has higher susceptibility to the process variability impact.
-
-\begin{table}[]
+\begin{table}[t]
 \centering
 \caption{All scenarios frequencies.}
 \label{tab:freqs}
@@ -993,16 +950,44 @@ Such performance degradation is expected since process variability will, in many
 }
 \end{table}
 
-\subsection{Propagation Times}
-Given the propagation time deviations for each design, in comparison to the inverter, and considering all scenarios, the ST and SIG presented 36.36\% and 43.21\% lower sensibility, respectively. While the TIST with 2:1 and 3:1 proportions presented 72.89\% and 103.26\% higher deviations, respectively, as shown in Fig. \ref{fig:delaysDev}. When considering only scenarios where all designs worked properly, the ST and SIG presented small increases of 8.54\% and 7.04\% in sensibility, with the TIST 2:1 and 3:1 presenting 146.15\% and 36.28\% higher sensibility.
+Comparing each circuit frequencies to the inverter, it can be noted the fairly lower frequencies of the ST, SIG, TIST 2:1 designs. On average, those designs maximum frequencies stayed at about half the inverter frequency (47.61\%, 50.5\%, and 49.71\%, respectively). The TIST 3:1, due to its wider transistors, capable of higher currents,  less resistance, and lower hysteresis (as will be shown further on) presented on average 65.72\% of the inverter frequencies. The difference between the other designs and the traditional inverter is higher at near and sub-threshold supply voltages. 
 
-    \begin{figure}[]
-        \centering
-            \includegraphics[width=\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{delayDevWFF.pdf}
-            \caption{Propagation times deviation for each design in relation to the WFF level considering all scenarios.}
-        \label{fig:delaysDev}
-        \legend{Source: From the author.}
-    \end{figure}
+The decrease in the frequencies in comparison to the inverter is mainly due to the hysteresis effects of the ST and TIST designs and the higher parasitics present in designs with a higher number of transistors, vias, and wire length.
+
+Furthermore, the frequencies decrease over variability level scaling is due to the effects of threshold voltage variations into the circuits behavior. There are scenarios where, due to variability, the threshold voltage will increase, making the transistor slower. Given so, the frequency at which the circuit is working must englobe the worst-case scenario at which the circuit is at its slowest.
+
+A robust design must maintain its frequency level as high as possible even as variability arises. For this reason, considering the impact of variability on the frequency retention, the inverter, ST, SIG, TIST 2:1, and TIST 3:1 presented 40.03\%, 48.81\%, 48.2\%, 59.4\%, and 53.17\% average frequency decrease. The decrease is calculated comparing a best-case scenario (1\% WFF) with a worst case scenario (5\% WFF) circuit frequency at the same supply voltage. The frequency decrease over the variability levels is shown at Fig. \ref{fig:freqRetWFF}.
+%It is important to highlight that given the many scenarios in which the TIST did not work, and to not deflate the frequency loss over variability, those the averages will be calculated with those scenarios frequencies at 0Hz.
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.8\textwidth, trim={2cm 3cm 2cm 3cm},clip]{freqRetWFF.pdf}
+\caption{Frequency decrease over variability scaling for each design.}
+\label{fig:freqRetWFF}
+\legend{Source: From the author.}
+\end{figure}
+
+When isolating the influence of the number of fins and supply voltage over the frequency behavior over variability, it can be observed clear advantages for sizings above 1 fin and supply voltages above 300mV. From 1 fin to 2 fins it was observed an increase of 10.62\% over frequency retention, although above 2 fins, the increase on retention for each extra fin kept steady at 0.77\%. For the supply voltage, each 100mV increase from 0.1V to 0.3V increased the frequency retention by 3.66\%, while each 100mV increase from 0.3V to 0.7V improved the frequency retention by 13.79\%, on average. Given so, if performance is a priority, the number of fins should be kept above 2, and if trying to improve robustnes, the increase of supply voltage from 100mV to 300mV will not provide considerable gains. 
+
+%\vspace{-1cm}
+
+\subsection{Propagation Times}
+
+\vspace{-0.5cm}
+
+Related to the frequencies, the propagation times will deviate according to the threshold voltages variations and its effects into the currents. Propagation times deviations will directly influence the circuit frequency, increasing the time guardband necessary in order to include the worst cases at the circuit frequency.
+
+Given so, propagation times deviations for each design, in comparsion to the inverter was 36.36\% and 43.21\% lower, for the ST and SIG, while the TIST 2:1 and 3:1 designs presented 72.89\% and 103.26\% higher deviations, as shown in Fig. \ref{fig:delaysDev}. This results is calculated considering the normalized deviation for all scenarios, even the ones where the design did not work properly, in order to not deflate the results for the TIST designs.
+
+Calculating the average normalized devations only considering the cases where each design worked properly puts the inverter at the lowest normalized deviation while the ST, SIG, TIST 2:1, and TIST 3:1 presented 8.54\%, 7.04\%, 146.15\%, and 36.28\% higher sensibilities. By calculating the average normalized deviation this way, a fair comparison ban be made between the designs, given that onlythe subset of scenarios where all designs worked is considered.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.8\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{delayDevWFF.pdf}
+		\caption{Propagation times deviation for each design in relation to the WFF level considering all scenarios.}
+	\label{fig:delaysDev}
+       	\legend{Source: From the author.}
+\end{figure}
 
 \subsection{Energy Consumption and Deviation}
     Concerning energy consumption absolute values, the ST, SIG, TIST 2:1 and, TIST 3:1 presented on average, 173.07\%, 50.74\%, 480.68\% and, 310.83\% higher consumption compared to the traditional inverter. This is mainly related to the transistor count difference between all designs, and the inverter. The ST higher consumption is justified due to the dependency of its feedback mechanism on the output value in contrast to the SIG feed-forward mechanism being directly dependent on the input value. The dependency over the output value of the ST makes it slower, hence the output dependency over the input itself and the input capacitance, increasing the energy consumption. The difference between different proportions of TIST designs is mainly due to lower frequencies on high variability scenarios for the 2 to 1 designs. The designs with a 2:1 proportion presented up to 40.94\% lower frequency in comparison to its 3 to 1 proportion counterparts. Additionally, the higher energy consumption for TIST designs is mainly due to the 6 (3 to the ground and 3 to the source) total paths enabling the circuit to charge/discharge with no mechanism for the minimization of the leakage power.

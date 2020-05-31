@@ -20,18 +20,18 @@
 \contentsline {subsection}{\numberline {4.2.2}ST technique on Full Adders}{45}{subsection.4.2.2}
 \contentsline {chapter}{5~Results}{46}{CHAPTER.5}
 \contentsline {section}{\numberline {5.1}Inverters}{46}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Frequency}{46}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Propagation Times}{47}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.1}Non-viable scenarios and Frequencies}{46}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Propagation Times}{48}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Energy Consumption and Deviation}{49}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Static Noise Margins}{57}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.4}Static Noise Margins}{58}{subsection.5.1.4}
 \contentsline {subsection}{\numberline {5.1.5}Current Ratios}{59}{subsection.5.1.5}
 \contentsline {subsection}{\numberline {5.1.6}Output Gains and Slopes}{61}{subsection.5.1.6}
-\contentsline {subsection}{\numberline {5.1.7}Hysteresis}{63}{subsection.5.1.7}
+\contentsline {subsection}{\numberline {5.1.7}Hysteresis}{65}{subsection.5.1.7}
 \contentsline {subsection}{\numberline {5.1.8}Measures Distribution}{67}{subsection.5.1.8}
-\contentsline {section}{\numberline {5.2}Full Adders}{67}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Nominal Operation}{67}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Near-Threshold Operation}{72}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Penalties}{73}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.2}Full Adders}{70}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Nominal Operation}{70}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Near-Threshold Operation}{70}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Penalties}{72}{subsection.5.2.3}
 \contentsline {chapter}{6~Conclusions}{76}{CHAPTER.6}
 \contentsline {chapter}{7~Future Works and Cronogram}{80}{CHAPTER.7}
 \contentsline {chapter}{\xspace {}References}{81}{schapter.6}
