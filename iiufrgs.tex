@@ -247,10 +247,10 @@ O surgimento da Internet das Coisas juntamente com o aumento do impacto da varia
 \chapter{Introduction}
 %\section{Internet of Things / Ultra Low Power Applications}
 
+	
+	Technology scaling, as stated by Moore where the number of transistors in a chip should double at about every two years, is a major factor in the ascendance of Integrated Circuits (ICs), providing higher transistor densities and voltage scaling due to the miniaturization of gate dimensions, internal capacitances and resistances. Such improvements provided the IC designers with plenty processing power per area unit of chip and energy efficiency, making it the perfect combination for the start of the usage of ICs in mobile applications \cite{islam:10}. 
 
-	Technology scaling, as stated by Moore where the number of transistors in a chip should double at about every two years, is a major factor in the ascendance of Integrated Circuits (ICs), providing higher transistor densities and voltage scaling due to the miniaturization of gate dimensions, internal capacitances and resistances. Such improvements provided the IC designers with plenty processing power per area unit of chip and energy efficiency, making it the perfect combination for the start of the usage of ICs in mobile applications \cite{islam:10}.
-
-	As devices shrank, several transistor characteristic which were not considered as challenges became severe problems for the modern semiconductor industry, alongside some new challenges. As transistors got smaller, the supply voltage decreased as well, in order accomodate appropriate currents to an evermore smaller channel. Although, as the supply voltage decreases the noise margins got narrower, with the smaller currents, and capacitances curbing the circuit ability to mask the transients caused by external noise and radiation \cite{abbas:15}.
+	As devices shrank, several transistor characteristic which were not considered as challenges became severe problems for the modern semiconductor industry, alongside some new challenges. As transistors got smaller, the supply voltage decreased as well, in order accomodate appropriate currents to an evermore smaller channel. Although, as the supply voltage decreases the noise margins got narrower, with the smaller currents, and capacitances curbing the circuit ability to mask the transients caused by external noise and radiation \cite{abbas:15}. 
 
 	Furthermore, the manufacturing process did not improve in the same rythm as the scaling of devices. Variations into the devices geometrical and electrical parameters were always a reality, introducing minor, if not negligible, variations into the circuits behavior. Even though, those geometrical variations did not scale down at the same rate as the devices. It has gotten increasingly difficult to produce further smaller light waves to correctly print such small patterns. Additionally, modern devices are so close to the atomic limit, that even variations in the scale of few units to few hundreds of atoms can exert influence into the device behavior, decreasing yield \cite{abbas:15}.
 
@@ -921,7 +921,8 @@ The TIST 2:1 designs did not present any viable scenarios at 200mV and 300mV, wi
 \hline
 \multirow{2}{*}{Design} & \multirow{2}{*}{WFF} & \multicolumn{7}{c|}{Supply Voltage (V)}                             \\ \cline{3-9}
                         &                      & 0.1     & 0.2     & 0.3     & 0.4     & 0.5     & 0.6     & 0.7     \\ \hline
-\multirow{5}{*}{INV}    & 1\%                  & 2.18MHz & 49.4MHz & 1.12GHz & 6.5GHz  & 13.6GHz & 19.1GHz & 23.4GHz \\ \cline{2-9}
+\multirow{6}{*}{INV}    & Nom. 		       & 6MHz    & 160.7MHz & 2.1GHz & 9.42GHz & 15.2GHz & 20.5GHz & 24.5GHz \\ \cline{2-9}
+			& 1\%                  & 2.18MHz & 49.4MHz & 1.12GHz & 6.5GHz  & 13.6GHz & 19.1GHz & 23.4GHz \\ \cline{2-9}
                         & 2\%                  & 510KHz  & 15.4MHz & 504MHz  & 4.95GHz & 12GHz   & 17.9GHz & 22.3GHz \\ \cline{2-9}
                         & 3\%                  & -       & 4.79MHz & 149MHz  & 4.86GHz & 10.3GHz & 16.6GHz & 21.3GHz \\ \cline{2-9}
                         & 4\%                  & -       & -       & 47.2MHz & 1.77GHz & 8GHz    & 15.1GHz & 20.3GHz \\ \cline{2-9}
@@ -999,10 +1000,29 @@ When comparing the average energy consumption measures for all scenarios, in com
 
 Isolating each variable, the impact of each extra fin start from a maximum of 145.75\% increase from 1 to 2 fins to 18.7\% from 4 to 5 fins, with diminishing energy increases alongside the number of fins. The higher increase at a lower number of fins is due to the higher relative increase in transistor area, given that from 1 to 2 fins the area is doubled, while from 4 to 5 fins the area increases by 25\%, with the SIG presenting the lowest increase overall.
 
-Considering each level of variability, 
+Considering each level of variability, in average, there was a maximum energy increase of 652.86\%. Although, this result is inflated due to two peaks in energy increase at 3\% and 5\% WFF level as shown in Fig. \ref{fig:energyWFFstep}. Those peaks are due to the increase in non-viable scenarios at each of the peaks WFF level. When considering only the viable scenarios, the energy increase for each WFF step is 15.16\%, 35.61\%, 20.94\%, 9.04\%, and 7.18\% for the inverter, ST, SIG, TIST 2:1 and 3:1, respectively. 
 
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.8\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{energyIncreaseWFFstep.pdf}
+		\caption{Energy increase for each WFF level step.}
+	\label{fig:energyWFFstep}
+       	\legend{Source: From the author.}
+\end{figure}
 
-Concerning robustness, the ST and SIG presented a 55.83\%, 47.15\% higher sensibility while the TIST 2:1 and 3:1 presented a 42.39\% and 52.03\% lower sensibility to the process variability impact in comparison to the traditional inverter considering the scenarios where each design presented acceptable behavior. In order to make a fair comparison, considering only the subset of scenarios where all designs worked properly, the ST and TIST 3:1 presented 1.13\% and 33.36\% lower sensibilities while the SIG and TIST 2:1 presented 5.5\% and 7.99\% higher variability sensibility. Additionally, considering all cases, even when the circuit did not work properly, the ST, SIG, TIST 2:1, and TIST 3:1 presented 19.85\%, 12.09\%, 145.96\%, and 118.24\% higher sensibilities in comparison to the traditional inverter.
+The impact of supply voltage on the energy consumption is shown at \ref{fig:energySupplyStep}. Highlighted in blue, for the inverter, ST, and SIG, and in red, for the TIST 2:! and 3:1, respectively, are the clusters of scenarios operating at the minimum frequency of 50KHz due to the variability impact. As shown, there are up to 2-order magnitude increases due to the decrease of supply voltage, revealing sub-300mV supply voltage operations to be highly susceptible to the variability effects.
+
+%As a comparison, energy measures from simulations without inserted variability are shown at \ref{}.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.8\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{energyIncreaseSupply.pdf}
+		\caption{Energy measures in function of the supply voltage for each design.}
+	\label{fig:energySupplyStep}
+       	\legend{Source: From the author.}
+\end{figure}
+
+%Concerning robustness, the ST and SIG presented a 55.83\%, 47.15\% higher sensibility while the TIST 2:1 and 3:1 presented a 42.39\% and 52.03\% lower sensibility to the process variability impact in comparison to the traditional inverter considering the scenarios where each design presented acceptable behavior. In order to make a fair comparison, considering only the subset of scenarios where all designs worked properly, the ST and TIST 3:1 presented 1.13\% and 33.36\% lower sensibilities while the SIG and TIST 2:1 presented 5.5\% and 7.99\% higher variability sensibility. Additionally, considering all cases, even when the circuit did not work properly, the ST, SIG, TIST 2:1, and TIST 3:1 presented 19.85\%, 12.09\%, 145.96\%, and 118.24\% higher sensibilities in comparison to the traditional inverter.
 
 %The energy consumption increase over each variability scenario kept stable over 15.16\%, 35.6\%, 20.94\%, 9.04\% and, 7.18\% for the inverter, ST, SIG, TIST 2:1 and, TIST 3:1, respectively. Such increase is related to the frequency decrease over variability scaling. The low increase related to the TIST designs is due to many of the low supply voltage scenarios not being taken into account, in comparison to the other designs, since it did not work properly. A more fair analysis would consider only the subset of cases where all designs worked properly. Given such subset, the energy increase over each variability scenario would be 17.59\%, 18.16\%, 18.62\%, 9.04\% and 11.59\% for the inverter, ST, SIG, TIST 2:1 and, TIST 3:1, respectively.
     %Energy consumption measures over variability scenarios for each design is shown at Figure \ref{figEnergiaAbs}.
@@ -2368,18 +2388,3 @@ For future works, it is expected for a similar analysis to be made considering t
 \legend{Source: From the author.}
 \end{figure}
 
-\chapter{Extracted netlists from layouts}
-
-\addtolength{\oddsidemargin}{.875in}
-\addtolength{\evensidemargin}{.875in}
-\addtolength{\textwidth}{-1.75in}
-
-\begin{figure}[]
-\centering
-\includegraphics[width=\textwidth]{extsINV.pdf}
-\caption{Inverter extracted netlist for all sizings.}
-\label{fig:extsINV}
-\legend{Source: From the author.}
-\end{figure}
-
-\end{document}
