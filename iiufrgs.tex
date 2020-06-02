@@ -246,11 +246,9 @@ O surgimento da Internet das Coisas juntamente com o aumento do impacto da varia
 
 \chapter{Introduction}
 %\section{Internet of Things / Ultra Low Power Applications}
+	Technology scaling, as stated by Moore where the number of transistors in a chip should double at about every two years, is a major factor in the ascendance of Integrated Circuits (ICs), providing higher transistor densities and voltage scaling due to the miniaturization of gate dimensions, internal capacitances and resistances. Such improvements provided the IC designers with plenty processing power per area unit of chip and energy efficiency, making it the perfect combination for the start of the usage of ICs in mobile applications \cite{islam:10}.
 
-	
-	Technology scaling, as stated by Moore where the number of transistors in a chip should double at about every two years, is a major factor in the ascendance of Integrated Circuits (ICs), providing higher transistor densities and voltage scaling due to the miniaturization of gate dimensions, internal capacitances and resistances. Such improvements provided the IC designers with plenty processing power per area unit of chip and energy efficiency, making it the perfect combination for the start of the usage of ICs in mobile applications \cite{islam:10}. 
-
-	As devices shrank, several transistor characteristic which were not considered as challenges became severe problems for the modern semiconductor industry, alongside some new challenges. As transistors got smaller, the supply voltage decreased as well, in order accomodate appropriate currents to an evermore smaller channel. Although, as the supply voltage decreases the noise margins got narrower, with the smaller currents, and capacitances curbing the circuit ability to mask the transients caused by external noise and radiation \cite{abbas:15}. 
+	As devices shrank, several transistor characteristic which were not considered as challenges became severe problems for the modern semiconductor industry, alongside some new challenges. As transistors got smaller, the supply voltage decreased as well, in order accomodate appropriate currents to an evermore smaller channel. Although, as the supply voltage decreases the noise margins got narrower, with the smaller currents, and capacitances curbing the circuit ability to mask the transients caused by external noise and radiation \cite{abbas:15}.
 
 	Furthermore, the manufacturing process did not improve in the same rythm as the scaling of devices. Variations into the devices geometrical and electrical parameters were always a reality, introducing minor, if not negligible, variations into the circuits behavior. Even though, those geometrical variations did not scale down at the same rate as the devices. It has gotten increasingly difficult to produce further smaller light waves to correctly print such small patterns. Additionally, modern devices are so close to the atomic limit, that even variations in the scale of few units to few hundreds of atoms can exert influence into the device behavior, decreasing yield \cite{abbas:15}.
 
@@ -1000,7 +998,7 @@ When comparing the average energy consumption measures for all scenarios, in com
 
 Isolating each variable, the impact of each extra fin start from a maximum of 145.75\% increase from 1 to 2 fins to 18.7\% from 4 to 5 fins, with diminishing energy increases alongside the number of fins. The higher increase at a lower number of fins is due to the higher relative increase in transistor area, given that from 1 to 2 fins the area is doubled, while from 4 to 5 fins the area increases by 25\%, with the SIG presenting the lowest increase overall.
 
-Considering each level of variability, in average, there was a maximum energy increase of 652.86\%. Although, this result is inflated due to two peaks in energy increase at 3\% and 5\% WFF level as shown in Fig. \ref{fig:energyWFFstep}. Those peaks are due to the increase in non-viable scenarios at each of the peaks WFF level. When considering only the viable scenarios, the energy increase for each WFF step is 15.16\%, 35.61\%, 20.94\%, 9.04\%, and 7.18\% for the inverter, ST, SIG, TIST 2:1 and 3:1, respectively. 
+Considering each level of variability, in average, there was a maximum energy increase of 652.86\%. Although, this result is inflated due to two peaks in energy increase at 3\% and 5\% WFF level as shown in Fig. \ref{fig:energyWFFstep}. Those peaks are due to the increase in non-viable scenarios at each of the peaks WFF level. When considering only the viable scenarios, the energy increase for each WFF step is 15.16\%, 35.61\%, 20.94\%, 9.04\%, and 7.18\% for the inverter, ST, SIG, TIST 2:1 and 3:1, respectively.
 
 \begin{figure}[h]
 	\centering
@@ -1038,7 +1036,7 @@ The impact of supply voltage on the energy consumption is shown at \ref{fig:ener
   %  \end{figure}
 
 
-	Depending on the focus of the application, there could be several kinds of objectives. Overall, for low power applications, the focus should be on circuit designs directives to achieve circuits with the minimum energy consumption possible. Much of these directives aims for the decrease of currents, like the increase of the transistors channel length and the decrease of supply voltages. Although, such techniques will further decrease the circuits robustness to the effects of variability and radiation. 
+	Depending on the focus of the application, there could be several kinds of objectives. Overall, for low power applications, the focus should be on circuit designs directives to achieve circuits with the minimum energy consumption possible. Much of these directives aims for the decrease of currents, like the increase of the transistors channel length and the decrease of supply voltages. Although, such techniques will further decrease the circuits robustness to the effects of variability and radiation.
 
 Given so, trying to achieve a balance between given applications three types of analysis were performed, where the most apropriate subset of characteristics involving transistor sizing and supply voltage for each level of process variability is identified for the 1) lowest energy consumption, 2) highest robustness to the effects of process variability and 3) the most Cost-Benefit (CB). The lowest energy layout is identified through the energy measures. The higher robustness layout is identified by the lowest normalized standard deviation concerning energy consumption, and the CB layout is identified by the lowest value considering the product between the energy consumption and normalized standard deviation (EDP - Energy Deviation Product). The results are shown at Table \ref{tab:3types}. Some results will show more than one appropriate layout/supply voltage in order to provide flexibility, considering values up to 5\% higher than the minimum considered value.
 
@@ -1094,17 +1092,8 @@ Given so, trying to achieve a balance between given applications three types of 
 
     The robust layouts present a shift on supply voltage. At low variability scenarios (1\% to 3\%) the nominal supply voltage will persist at nominal value (0.7V). As the variability level rises, the supply voltage will abruptly fall into near-threshold region (300mV to 400mV) and increase as the variability level increases as well.
 
-The sudden fall into a near-threshold region can be explained in terms of the transistors current. At saturation region, the on-current presents an exponential dependency over the $V_{TH}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{TH}$, as shown in equation \ref{eqn:lin}. For both equations, the $I_{D,sat}$ is the saturation current, $I_{D,lin}$ is the linear current, $\mu_p$ is the p-material electron mobility, $C_{ox}$ is the specific capacitance of the gate, $W$ is the transistor width, $L$ is the transistor length, $V_{GS}$ is the gate-source voltage, $V_{DS}$ is the drain-source voltage, and $V_T$ is the threshold voltage. At low level variability scenarios, a saturation on-current will not present significant variations, while at high variability scenarios the on-current must fall to linear region in order to present lower deviations.
+The sudden fall into a near-threshold region can be explained in terms of the transistors current. At saturation region, the on-current presents an exponential dependency over the $V_{TH}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{TH}$, as shown in equation \ref{eqn:lin}. At low level variability scenarios, a saturation on-current will not present significant variations, while at high variability scenarios the on-current must fall to linear region in order to present lower deviations.
 
-    %\begin{equation}
-    %    \centering
-    %    \label{eqn:somelabel}
-    %    I_D = 0
-    %    \begin{cases}
-    %    V_{GS} > V_T
-    %    \end{cases}
-    %\end{equation}
-%\begin{subequations}
     \begin{equation}
         \centering
         \label{eqn:sat}
@@ -1125,15 +1114,16 @@ The sudden fall into a near-threshold region can be explained in terms of the tr
     \end{equation}
 where:
 \begin{conditions}
-Q_{SS} & charge in the gate dielectric \\
-C_{ox} & gate capacitance \\
-Q_{D} & depletion charge in the channel \\
-f_{ms} & work-function difference between the gate electrode and the semiconductor \\
-f_{f} & fermi-potential
+I_{D,sat} & saturation current \\
+I_{D,lin} & linear current \\
+\mu_p & p-material electron mobility \\
+C_{ox} & specific capacitance of the gate \\
+W & transistor width \\
+L & transistor length \\
+V_{GS} & gate-source voltage \\
+V_{DS} & drain-source voltage \\
+V_T & threshold voltage \\
 \end{conditions}
- 
-%\end{subequations}
-
 
     Energy consumption and deviation comparisons between each scenario best layout are shown in Fig. \ref{figscCompINV}, Fig. \ref{figscCompST}, Fig. \ref{figscCompSIG}, Fig. \ref{figscCompTIST21}, and Fig.\ref{figscCompTIST31}. The lines correspond to the energy consumption axis (left), while the bars correspond to the energy deviation axis (right). It is shown that the CB layouts presents similar results in comparison to the high robustness layouts while maintaining a lower energy consumption, for the ST and SIG, with the exception of the inverter. The inverter presents a high deviation for its minimum energy layout at 5\% WFF (1 fin layout with a supply voltage of 0.3V). Although, with a little increase on supply voltage, from 0.3V to 0.4V, matching the CB layout, the inverter presents a 8.95\% increase on energy consumption while decreasing its energy deviation by 93.49\%, as shown in Table \ref{tab:CBDiff}. This result highlights the importance of a cost-benefit analysis in order to bring flexibility, and the best of both low energy and robust layouts.
 
@@ -2402,3 +2392,4 @@ For future works, it is expected for a similar analysis to be made considering t
 \legend{Source: From the author.}
 \end{figure}
 
+\end{document}
