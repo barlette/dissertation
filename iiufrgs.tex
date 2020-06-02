@@ -1038,8 +1038,9 @@ The impact of supply voltage on the energy consumption is shown at \ref{fig:ener
   %  \end{figure}
 
 
+	Depending on the focus of the application, there could be several kinds of objectives. Overall, for low power applications, the focus should be on circuit designs directives to achieve circuits with the minimum energy consumption possible. Much of these directives aims for the decrease of currents, like the increase of the transistors channel length and the decrease of supply voltages. Although, such techniques will further decrease the circuits robustness to the effects of variability and radiation. 
 
-    Three types of analysis were performed to identify the most appropriate layout depending on the scenario: 1) layout with the lowest energy consumption, 2) highest robustness and 3) the most Cost-Benefit (CB) oriented layout. The lowest energy layout is identified through the energy measures. The higher robustness layout is identified by the lowest normalized standard deviation concerning energy consumption and the CB layout is identified by the lowest value considering the product between the energy consumption and normalized standard deviation (EDP - Energy Deviation Product). The results are shown at Table \ref{tab:3types}.
+Given so, trying to achieve a balance between given applications three types of analysis were performed, where the most apropriate subset of characteristics involving transistor sizing and supply voltage for each level of process variability is identified for the 1) lowest energy consumption, 2) highest robustness to the effects of process variability and 3) the most Cost-Benefit (CB). The lowest energy layout is identified through the energy measures. The higher robustness layout is identified by the lowest normalized standard deviation concerning energy consumption, and the CB layout is identified by the lowest value considering the product between the energy consumption and normalized standard deviation (EDP - Energy Deviation Product). The results are shown at Table \ref{tab:3types}. Some results will show more than one appropriate layout/supply voltage in order to provide flexibility, considering values up to 5\% higher than the minimum considered value.
 
     % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
@@ -1087,9 +1088,13 @@ The impact of supply voltage on the energy consumption is shown at \ref{fig:ener
 }
 \end{table}
 
-    Some results will show more than one appropriate layout/supply voltage. Values of energy consumption, energy normalized deviation and EDPs between the respective minimum value and, relatively, 5\% higher values were considered in order to provide more flexibility. It is possible to identify patterns concerning the minimum energy and highest robustness layouts. The minimum energy layouts contain only few fins and lower supply voltages. Both low values aim to lower currents and increase resistance, therefore decreasing energy consumption. As variability rises, the supply voltage rises as well. That is due to the lower frequencies applied in those scenarios and the consequent increase on propagation times, given that energy is the by-product of power and time. A higher supply voltage will decrease propagation times followed by a decrease on energy consumption. The TIST designs present a steep increase on supply voltage, from 0.1V to 0.6V/0.7V due to the lack of possible mid-term (0.2V to 0.5V) viable scenarios.
+	It is possible to identify patterns concerning the minimum energy and highest robustness layouts. The minimum energy layouts, as a general rule, will contain only few fins, if not only one, and lower supply voltages. Both low values aim to lower currents and increase resistance, therefore decreasing energy consumption. As variability rises, the supply voltage rises as well. That is due to the lower frequencies applied in those scenarios and the consequent increase on propagation times, given that energy is the by-product of power and time. A higher supply voltage will decrease propagation times followed by a decrease on energy consumption. The TIST designs present a steep increase on supply voltage, from 0.1V to 0.6V/0.7V due to the lack of possible mid-term (0.2V to 0.5V) viable scenarios.
 
-    The robust layouts present a shift on supply voltage. At saturation region, the on-current presents an exponential dependency over the $V_{TH}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{TH}$, as shown in equation \ref{eqn:lin}. For both equations, the $I_{D,sat}$ is the saturation current, $I_{D,lin}$ is the linear current, $\mu_p$ is the p-material electron mobility, $C_{ox}$ is the specific capacitance of the gate, $W$ is the transistor width, $L$ is the transistor length, $V_{GS}$ is the gate-source voltage, $V_{DS}$ is the drain-source voltage, and $V_T$ is the threshold voltage. At low level variability scenarios, a saturation on-current will not present significant variations, while at high variability scenarios the on-current must fall to linear region in order to present lower deviations.
+%Values of energy consumption, energy normalized deviation and EDPs between the respective minimum value and, relatively, 5\% higher values were considered in order to provide more flexibility.
+
+    The robust layouts present a shift on supply voltage. At low variability scenarios (1\% to 3\%) the nominal supply voltage will persist at nominal value (0.7V). As the variability level rises, the supply voltage will abruptly fall into near-threshold region (300mV to 400mV) and increase as the variability level increases as well.
+
+The sudden fall into a near-threshold region can be explained in terms of the transistors current. At saturation region, the on-current presents an exponential dependency over the $V_{TH}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{TH}$, as shown in equation \ref{eqn:lin}. For both equations, the $I_{D,sat}$ is the saturation current, $I_{D,lin}$ is the linear current, $\mu_p$ is the p-material electron mobility, $C_{ox}$ is the specific capacitance of the gate, $W$ is the transistor width, $L$ is the transistor length, $V_{GS}$ is the gate-source voltage, $V_{DS}$ is the drain-source voltage, and $V_T$ is the threshold voltage. At low level variability scenarios, a saturation on-current will not present significant variations, while at high variability scenarios the on-current must fall to linear region in order to present lower deviations.
 
     %\begin{equation}
     %    \centering
@@ -1118,6 +1123,15 @@ The impact of supply voltage on the energy consumption is shown at \ref{fig:ener
         V_{DS} > V_{GS} - V_T
         \end{cases}
     \end{equation}
+where:
+\begin{conditions}
+Q_{SS} & charge in the gate dielectric \\
+C_{ox} & gate capacitance \\
+Q_{D} & depletion charge in the channel \\
+f_{ms} & work-function difference between the gate electrode and the semiconductor \\
+f_{f} & fermi-potential
+\end{conditions}
+ 
 %\end{subequations}
 
 
