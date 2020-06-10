@@ -1,0 +1,41 @@
+%it is observed the higher increase when comparing the energy consumption of low energy layouts and CB alternatives for the inverter and TIST designs.
+%\begin{table}[!h]
+%\centering
+%\caption{Difference in energy metrics between the CB layout and its low energy and high robustness counterparts.}
+%\label{tab:CBDiff}
+%\resizebox{\textwidth}{!}{
+%\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+%\hline
+%\multicolumn{9}{|c|}{CB Layout comparison (\%)}                                          \\ \hline
+%\multirow{3}{*}{Design} & \multicolumn{4}{c|}{Energy}                                            & \multicolumn{4}{c|}{Energy Deviation}                                  \\ \cline{2-9}
+%                        & \multicolumn{2}{c|}{Low Energy} & \multicolumn{2}{c|}{High Robustness} & \multicolumn{2}{c|}{Low Energy} & \multicolumn{2}{c|}{High Robustness} \\ \cline{2-9}
+%& Maximum & Average & Maximum & Average & Maximum & Average & Maximum & Average \\ \hline
+%INV     & 260.64 & 81.44 & -37.51 & -7.50  & -93.49 & -76.87 & 7.42  & 1.48  \\ \hline
+%ST      & 80.17  & 37.38 & -78.60 & -53.56 & -84.05 & -60.67 & 31.98 & 12.96 \\ \hline
+%SIG     & 53.09  & 34.70 & -58.92 & -24.14 & -90.88 & -68.28 & 22.48 & 7.26  \\ \hline
+%TIST 2:1 & 308.67 & 72.48 & -39.10 & -29.49 & -95.04 & -41.72 & 23.89 & 15.05 \\ \hline
+%TIST 3:1 & 301.76 & 74.77 & -33.75 & -25.24 & -92.18 & -48.97 & 13.31 & 5.39  \\ \hline
+%\end{tabular}
+%}
+%\end{table}
+
+
+%The first factor is related to the presence of a leakage current suppression system, part to the feed-back circuit, in the ST and SIG designs. Secondly, as WFF increases, the minimum energy values start to rise as well, due to lower frequencies and higher supply voltages. Although, the high robustness layouts energy consumption rises as well, it does not rises as fast as the minimum energy layouts consumption. Given so, with the CB layouts energy consumption always staying between the high robustness and minimum energy layouts, the difference between the energy consumption of the minimum energy layout and the CB layout will be diminished as variability rises.
+
+    %Considering the difference in energy consumption, the CB inverter shows the lowest decrease compared to the high robustness layout. It is mainly due to the CB layout trending into a more robust approach. It happens due to the higher difference in sensibility caused by sizing. For example, at 0.7V the inverter can show up to 44.4\% higher energy deviation, depending on the sizing, while the ST will present a maximum of 21.17\% increase in deviation. This makes the inverter less flexible, tightening appropriate setups around more specific sets of sizing and supply voltages. All around, it can be noted huge maximum decreases in energy deviation in comparison to the low energy layout for all designs.
+
+  %The ST CB layouts presented a maximum of 31.98\% increase on sensibility, with a maximum average of 12.96\%, in comparison to the high robustness layouts, while there is a maximum increase on energy consumption of 80.17\% with an average increase of 37.38\%, in comparison to the minimum energy layout. Over improvements, it brought a maximum reduction on sensibility of 85.01\% with an average of 60.68\%, in comparison to the low energy layouts, for the energy consumption, there was a maximum reduction of 78.6\% with an average of 53.56\%, in comparison to the high robustness layouts.
+
+    %Presenting a similar behaviour, the SIG CB layouts showed a maximum and average increase on sensibility of 22.48\% and 7.27\%, in comparison to the high robustness layout, respectively, while presenting a maximum and average energy consumption increase of 53.09\% and 34.7\%, in comparison to the low energy layout, respectively. The SIG presented improvements of 90.88\% maximum and 68.28\% average decreases on sensibility in comparison to the low energy layouts, while presenting a 58.92\% maximum decrease and 24.14\% average decrease on energy consumption related to the high robustness layouts
+
+%The inverter presents a different behaviour, with the majority of its CB layouts being the same as the high robustness layouts. This highlights an important pattern where considering its EDP, the robustness was prioritized, as the energy deviation goes up to 132\% at 5\% WFF, the highest among the considered scenarios. Given so, the inverter CB layouts present virtually no worsening concerning robustness, with a maximum worsening of 7.42\% and an average of 1.5\% and no improvement on energy, in comparison to a the high robustness layouts, with a maximum energy reduction of 37.51\% at 2\% WFF, and an average reduction of 7.5\%. In comparison to the low energy layouts, there is a considerable increase on energy consumption with a maximum increase of 260.64\% and an average increase of 81.44\%. Although, the sensibility levels decreased as well, with a maximum and average decreases on energy deviation of 93.49\% and 76.87\%, respectively.
+
+    %It is important to clarify that the 1-fin inverter operating at 0.4V presents the highest robustness while still maintaining a considerable smaller energy consumption over the ST, and SIG.
+
+%Over the TIST 2:1 the CB layouts presented a maximum deviation increase of 23.89\% and an average increase of 15.05\%, in comparison to the high robustness layout. Comparing to the low energy layout, the CB alternative presented a maximum decrease on energy deviation up to 95.04\% with and average of 41.72\%. On absolute values of energy consumption, the CB variant presented a maximum and average increase of 308.67\%, and 72.48\%, respectively, comparing to the low energy layout. In comparison to the high robustness layout it presented a maximum decrease of 39.10\% with an average decrease of 29.49\%.
+
+    %Lastly, the TIST 3:1 CB layouts showed a maximum sensibility worsening of 13.31\% with an average of 5.39\%, in comparison to the high robustness variant, in comparison to the low energy layouts, it presented a maximum improvement over energy deviation of 92.18\% with an average of 48.97\%. Concerning energy consumption, the CB layout has a maximum increase of 301.76\% with an average increase of 74.77\%, in comparison to the low energy design.
+
+    %The inverter low-energy layout showed the highest energy consumption increase as the variability level increased - 3.84, 3.21, and 3.25 times for the inverter, ST and SIG, respectively. Additionally, at high variability scenario (5\% WFF), the low-energy inverter presented the highest deviation 132.75\% while showing similar energy consumption to the high robustness and CB layouts.
+
+

@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: iiufrgs.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 12797 items from 5000.
+Database file #1: abntex2-options.bib
+Database file #2: biblio.bib
+You're missing a field name---line 14 of file biblio.bib
+ :   
+ :   %editor={Metzler, Carolina and Gaillardo, Pierre-Emmanuel and Cardenas, Carlos S. and Reis, Ricardo },
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em moraeslivrovlsi
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+You've used 113 entries,
+            6711 wiz_defined-function locations,
+            1796 strings with 32048 characters,
+and the built_in function-call counts, 108944 in all, are:
+= -- 8590
+> -- 4265
+< -- 255
++ -- 1664
+- -- 1255
+* -- 8243
+:= -- 14026
+add.period$ -- 499
+call.type$ -- 113
+change.case$ -- 1452
+chr.to.int$ -- 274
+cite$ -- 112
+duplicate$ -- 5038
+empty$ -- 8153
+format.name$ -- 6133
+if$ -- 26572
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 1992
+newline$ -- 493
+num.names$ -- 555
+pop$ -- 2676
+preamble$ -- 1
+purify$ -- 512
+quote$ -- 0
+skip$ -- 5636
+stack$ -- 1
+substring$ -- 4691
+swap$ -- 2678
+text.length$ -- 200
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 1
+while$ -- 934
+width$ -- 0
+write$ -- 1900
+(There was 1 error message)
