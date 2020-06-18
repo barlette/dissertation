@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 12797 items from 5000.
+Reallocated field_info (elt_size=4) to 12728 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblio.bib
 You're missing a field name---line 14 of file biblio.bib
@@ -29,45 +29,45 @@ Warning--campo year vazio ou faltando em moraeslivrovlsi
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 113 entries,
+You've used 112 entries,
             6711 wiz_defined-function locations,
-            1796 strings with 32048 characters,
-and the built_in function-call counts, 108944 in all, are:
-= -- 8590
-> -- 4265
+            1792 strings with 31941 characters,
+and the built_in function-call counts, 108333 in all, are:
+= -- 8547
+> -- 4250
 < -- 255
-+ -- 1664
-- -- 1255
-* -- 8243
-:= -- 14026
-add.period$ -- 499
-call.type$ -- 113
-change.case$ -- 1452
-chr.to.int$ -- 274
-cite$ -- 112
-duplicate$ -- 5038
-empty$ -- 8153
-format.name$ -- 6133
-if$ -- 26572
++ -- 1659
+- -- 1250
+* -- 8207
+:= -- 13939
+add.period$ -- 496
+call.type$ -- 112
+change.case$ -- 1446
+chr.to.int$ -- 273
+cite$ -- 111
+duplicate$ -- 5002
+empty$ -- 8092
+format.name$ -- 6110
+if$ -- 26425
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 1992
-newline$ -- 493
-num.names$ -- 555
-pop$ -- 2676
+missing$ -- 1973
+newline$ -- 489
+num.names$ -- 550
+pop$ -- 2651
 preamble$ -- 1
-purify$ -- 512
+purify$ -- 509
 quote$ -- 0
-skip$ -- 5636
+skip$ -- 5602
 stack$ -- 1
-substring$ -- 4691
-swap$ -- 2678
+substring$ -- 4674
+swap$ -- 2664
 text.length$ -- 200
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 26
 warning$ -- 1
-while$ -- 934
+while$ -- 928
 width$ -- 0
-write$ -- 1900
+write$ -- 1886
 (There was 1 error message)
