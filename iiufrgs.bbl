@@ -501,6 +501,11 @@ Scientific Research Publishing, 2013.}
   variability between junctionless and conventional finfets.
 \textbf{IEEE electron device letters}, IEEE, v.~35, n.~6, p. 663--665, 2014.}
 
+\bibitem[Neuberger, Wirth and Reis 2014]{neuberger2014protecting}
+\abntrefinfo{Neuberger, Wirth and Reis}{NEUBERGER; WIRTH; REIS}{2014}
+{NEUBERGER, G.; WIRTH, G.; REIS, R. \textbf{Protecting chips against hold time
+  violations due to variability}. [S.l.]: Springer, 2014.}
+
 \bibitem[Pal and Islam 2018]{pal2018circuit}
 \abntrefinfo{Pal and Islam}{PAL; ISLAM}{2018}
 {PAL, I.; ISLAM, A. Circuit-level technique to design variation-and noise-aware
@@ -524,6 +529,12 @@ Scientific Research Publishing, 2013.}
 \abntrefinfo{Pfister}{PFISTER}{1992}
 {PFISTER, A. Novel cmos schmitt trigger with controllable hysteresis.
 \textbf{Electronics Letters}, IET, v.~28, n.~7, p. 639--641, 1992.}
+
+\bibitem[Posser, Sapatnekar and Reis 2016]{posser2016electromigration}
+\abntrefinfo{Posser, Sapatnekar and Reis}{POSSER; SAPATNEKAR; REIS}{2016}
+{POSSER, G.; SAPATNEKAR, S.~S.; REIS, R. \textbf{Electromigration Inside Logic
+  Cells: Modeling, Analyzing and Mitigating Signal Electromigration in
+  NanoCMOS}. [S.l.]: Springer, 2016.}
 
 \bibitem[Qian 2015]{qian2015variability}
 \abntrefinfo{Qian}{QIAN}{2015}
