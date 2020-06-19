@@ -1,73 +1,73 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: iiufrgs.aux
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 12728 items from 5000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated field_info (elt_size=8) to 12866 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblio.bib
-You're missing a field name---line 14 of file biblio.bib
+You're missing a field name---line 39 of file biblio.bib
  :   
  :   %editor={Metzler, Carolina and Gaillardo, Pierre-Emmanuel and Cardenas, Carlos S. and Reis, Ricardo },
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 Warning--campo year vazio ou faltando em moraeslivrovlsi
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 112 entries,
+You've used 114 entries,
             6711 wiz_defined-function locations,
-            1792 strings with 31941 characters,
-and the built_in function-call counts, 108333 in all, are:
-= -- 8547
-> -- 4250
+            1798 strings with 32274 characters,
+and the built_in function-call counts, 110197 in all, are:
+= -- 8683
+> -- 4352
 < -- 255
-+ -- 1659
-- -- 1250
-* -- 8207
-:= -- 13939
-add.period$ -- 496
-call.type$ -- 112
-change.case$ -- 1446
-chr.to.int$ -- 273
-cite$ -- 111
-duplicate$ -- 5002
-empty$ -- 8092
-format.name$ -- 6110
-if$ -- 26425
++ -- 1697
+- -- 1280
+* -- 8357
+:= -- 14181
+add.period$ -- 502
+call.type$ -- 114
+change.case$ -- 1474
+chr.to.int$ -- 275
+cite$ -- 113
+duplicate$ -- 5084
+empty$ -- 8218
+format.name$ -- 6250
+if$ -- 26869
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 1973
-newline$ -- 489
-num.names$ -- 550
-pop$ -- 2651
+missing$ -- 2015
+newline$ -- 497
+num.names$ -- 560
+pop$ -- 2717
 preamble$ -- 1
-purify$ -- 509
+purify$ -- 519
 quote$ -- 0
-skip$ -- 5602
+skip$ -- 5690
 stack$ -- 1
-substring$ -- 4674
-swap$ -- 2664
+substring$ -- 4708
+swap$ -- 2700
 text.length$ -- 200
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 26
 warning$ -- 1
-while$ -- 928
+while$ -- 940
 width$ -- 0
-write$ -- 1886
+write$ -- 1914
 (There was 1 error message)
