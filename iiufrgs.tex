@@ -274,7 +274,7 @@ A miniaturização da tecnologia de trasistores, juntamente com o crescente impa
 
     One of the industry responses to the challenges related to the improvements in the semiconductor industry is the Fin Field Effect Transistor (FinFET) Technology. FinFET devices present superior channel control due to the reduced Short Channel Effects (SCE) and low (if none) Random Dopant Fluctuation (RDF) effect due to the fully depleted channel \cite{farkhani2014comparative}. Although, at deep technology nodes, variability is, still, one of the most challenging factors, including on FinFET devices. Variability introduces geometrical inconsistencies which changes the circuits behavior in comparison to the final manufactured product. Such changes influence the circuits metrics, hastening its degradation and deviating from its correct operation regime \cite{abbas:15} \cite{nassif:08}.
 
-    Due to the energy constraints of low power applications and the variability impact on recent nodes, the Schmitt Trigger (ST) circuit has been pointed as an alternative. The classical ST has been employed as a key element for several ULP circuits \cite{kulkarni2007160, hays201262, melek:17, lotze2017ultra}. For variability mitigation, mainly attenuating the deviation on the power consumption, and replacing internal inverters on more complex circuits \cite{dokania2015circuit} where spreads in major metrics were successfully limited. Also, the same experiment was executed at electrical and layout levels considering FinFET technology, and showed a considerable decrease in overall variability impact on metrics \cite{toledo2018pros,moraes2018evaluation}. However, with a considerable increase in delay and power consumption.
+    Due to the energy constraints of low power applications and the variability impact on recent nodes, the Schmitt Trigger (ST) circuit has been pointed as an alternative. The classical ST has been employed as a key element for several ULP circuits \cite{kulkarni2007160, 5746345, melek:17, lotze2017ultra}. For variability mitigation, mainly attenuating the deviation on the power consumption, and replacing internal inverters on more complex circuits \cite{dokania2015circuit} where spreads in major metrics were successfully limited. Also, the same experiment was executed at electrical and layout levels considering FinFET technology, and showed a considerable decrease in overall variability impact on metrics \cite{toledo2018pros,moraes2018evaluation}. However, with a considerable increase in delay and power consumption.
 % In addition to previous work, this work will present further analysis related to this ST technique.
 
 %Furthermore, a considerable part of this work consists of evaluations about the behavior of the classical ST, the Stacked Inverter Gate (SIG) \cite{bose2018stacked} and Triple Inverter Schmitt Trigger (TI-ST) \cite{luo2017sub} over several scenarios of sizing, supply voltage, and process variability level, to identify the most apropriate set of characteristics for each design.
@@ -867,7 +867,7 @@ The Full Adders listed below have been chosen due to their promising results in 
 \includegraphics[width=1\textwidth]{FAs.png}
 \caption{Full Adders with internal inverters to be replaced highlighted. Transmission Gate Adder (a), Transmission Function Adder (b), Mirror CMOS Adder (c) and Hybrid Full Adder (d).}
 \label{fig:FAs}
-\legend{Source: \citet{samuel2016}}
+\legend{Source: \citet{toledo2017impact}}
 \end{figure}
 
 The Mirror Full Adder is considered the most traditional Full Adder topology containing 28 Transistors arranged in a pull-up and pull-down networks, which are logically complementary. It has a full voltage swing and buffered Sum and Cout signal and the advantages of good conductibility and robustness when working with novel technologies and low voltages. However, it has high capacitance because each input is connected to the gate of at least a p-channel metal-oxide-semiconductor (PMOS) and n-channel metal-oxide-semiconductor (NMOS) device additionally, it shows the impact of the pull-up network that makes the circuit slower due to the low mobility of its holes \cite{beckett2002fine} \cite{devadas2017design} \cite{islam2011design}.
@@ -1565,6 +1565,7 @@ For the energy results, it was observed considerable improvement over robustness
 \centering
 \caption{Delay measures for near-threshold operation}
 \label{delayNT}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{lccccccccc}
 \hline
 \multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Delays} \\ \cline{3-10}
@@ -1582,15 +1583,16 @@ For the energy results, it was observed considerable improvement over robustness
 \multirow{3}{*}{Hybrid} & - & 115.90 & 83.02 & 70.57 & - & 111.92 & 82.45 & 74.76 & - \\ \cline{2-10}
 & ST1 & 187.36 & 143.80 & 78.99 & -11.93 & 116.02 & 71.26 & 61.00 & 18.41 \\ \cline{2-10}
 & ST2 & 207.00 & 168.04 & 72.56 & -2.81 & 167.50 & 66.72 & 40.94 & 45.23 \\ \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
-\vspace{1em}
 %ENERGIA NT
 
 \begin{table}[]
 \centering
 \caption{Energy measures for near-threshold operation}
 \label{energiaNT}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{lccccccccc}
 \hline
 \multirow{3}{*}{FA} & \multirow{3}{*}{ST} & \multicolumn{8}{c}{Energy} \\ \cline{3-10}
@@ -1608,39 +1610,51 @@ For the energy results, it was observed considerable improvement over robustness
 \multirow{3}{*}{Hybrid} & - & 9.66 & 3.09 & 32.02 & - & 12.80 & 3.17 & 24.77 & - \\ \cline{2-10}
 & ST1 & 36.40 & 17.94 & 49.30 & -53.96 & 45.80 & 23.63 & 51.54 & -108.07 \\ \cline{2-10}
 & ST2 & 35.40 & 12.72 & 35.91 & -12.14 & 46.60 & 13.84 & 29.69 & -19.86 \\ \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 %\vspace{-1.5em}
 
-\section{Penalties}
+\section{Currents}
 
-Overviews for metrics measurements and variability sensitivities are shown in Figs. \ref{fig:avgDelayNominal}, \ref{fig:avgEnergyNominal}, \ref{fig:avgDelayNT}, and \ref{fig:avgEnergyNT}. Since it is considered a technique where a single inverter (2 transistors) by ST1/ST2 (4/6 transistors). It is expected penalties concerning delay, energy and area metrics. For the delays, it was observed an average 30\% and 97\% increase for the ST1 and ST2, respectively. Additionally, for the energy, there was a 123\% and 176\% average increase for the ST1 and ST2, respectively.
+As part of the analysis concerning the STs impact on metrics, the currents were taken into account. Current deviations are the main determinants of the consequent deviations in propagation times and energy consumption. Therefore, any decrease in current deviations would be benefical for the overall reliable operation of the circuit. As shown in Fig. \ref{fig:onCurrDevFA}, the STs introduce significant reduction in the dynamic current normalized deviations. On average, the ST1 and ST2 reduced the normalized deviations by 3\% and 26\%, at nominal operation, and 3\% and 21\%, at near-threshold operation, respectively. The TGA presented the highest reductions in the dynamic current deviations with up to 40\% less deviations with the ST2. The ST2 reults are in accordance with the results related to the currentes presented in the previous analysis, where the ST2 presents considerable less deviations in the dynamic currents.
 
 \begin{figure}[t]
+  \centering
+    \includegraphics[width=0.85\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{onCurrDev.pdf}
+     \caption{Average normalized deviation for the dynamic (on) current for each FA design and respective ST.}
+  \label{fig:onCurrDevFA}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.85\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{offCurrDev.pdf}
+     \caption{Average normalized deviation for the dynamic (off) current for each FA design and respective ST.}
+  \label{fig:offCurrDevFA}
+\end{figure}
+
+As for the static currents (off), as shown in Fig. \ref{fig:offCurrDevFA}, both STs presented an average reduction of 9\% and 15\% in the normalized deviations at near-threshold and nominal operations, respectively. The TFA presented the highest impact, with up to 52\% reduction in deviations due to the ST replacement. This result shows how prone the TFA is to metrics deviations and the impact of its pass-trasistor logic.
+
+\begin{figure}[h]
   \centering
     \includegraphics[width=0.85\textwidth, trim={2cm 10cm 2cm 10.5cm}, clip]{averageDelayNominal.pdf}
      \caption{Average delay measures for nominal operation and their respective normalized deviation (variability sensitivity).}
   \label{fig:avgDelayNominal}
 \end{figure}
 
-%\vspace{1em}
+\vspace{-1em}
 
-\begin{figure}[]
+\begin{figure}[h]
   \centering
     \includegraphics[width=0.85\textwidth, trim={3.5cm 3cm 2cm 3.5cm}, clip]{averageEnergyNominal.pdf}
      \caption{Average energy measures for nominal operation and their respective normalized deviation (variability sensitivity).}
   \label{fig:avgEnergyNominal}
 \end{figure}
 
-Concerning area penalties, the ST1 increased the FAs area by 157.71\%, on average, while the ST2 increased by 52.20\%. The ST1 higher increase in area is due to the necessity to use TAP-Cells, which is a technology restriction, to explicitly connect the transistor's bulk to specific points of the circuit or source/ground making the ST1 cell more prominent than expected. The ST2 does not apply specific bulk connections, although it was necessary the use of METAL3 for cell routing, increasing parasitic capacitance and resistance.
+\section{Penalties}
 
-Considering all scenarios, there can be observed no delay robustness improvement at nominal operation with the ST1 and ST2 showing, on average, 50\% and 115.2\% worsening on delay robustness, respectively. For energy robustness, at nominal operation, the ST2 presented a considerable average improvement of 11.18\% while the ST1 showed an average worsening of 25\%. For near-threshold operation, ST1 and ST2 showed 7.79\% and 18.173\% higher delay robustness. For energy robustness, the ST2 showed a 4.13\% improvement while the ST1 presented a worsening of 4.5\%.
-
-%\vspace{-3.65em}
-
-
-%\vspace{1em}
+Overviews for metrics measurements and variability sensitivities are shown in Figs. \ref{fig:avgDelayNominal}, \ref{fig:avgEnergyNominal}, \ref{fig:avgDelayNT}, and \ref{fig:avgEnergyNT}. Since it is considered a technique where a single inverter (2 transistors) by ST1/ST2 (4/6 transistors). It is expected penalties concerning delay, energy and area metrics. For the delays, it was observed an average 30\% and 97\% increase for the ST1 and ST2, respectively. Additionally, for the energy, there was a 123\% and 176\% average increase for the ST1 and ST2, respectively.
 
 \begin{figure}[t]
   \centering
@@ -1655,6 +1669,42 @@ Considering all scenarios, there can be observed no delay robustness improvement
      \caption{Average energy measures for near-threshold operation and their respective normalized deviation (variability sensitivity).}
   \label{fig:avgEnergyNT}
 \end{figure}
+
+Concerning area penalties, the ST1 increased the FAs area by 157.71\%, on average, while the ST2 increased by 52.20\%. The ST1 higher increase in area is due to the necessity to use TAP-Cells, which is a technology restriction, to explicitly connect the transistor's bulk to specific points of the circuit or source/ground making the ST1 cell more prominent than expected. The ST2 does not apply specific bulk connections, although it was necessary the use of METAL3 for cell routing, increasing parasitic capacitance and resistance.
+
+Considering all scenarios, there can be observed no delay robustness improvement at nominal operation with the ST1 and ST2 showing, on average, 50\% and 115.2\% worsening on delay robustness, respectively. For energy robustness, at nominal operation, the ST2 presented a considerable average improvement of 11.18\% while the ST1 showed an average worsening of 25\%. For near-threshold operation, ST1 and ST2 showed 7.79\% and 18.173\% higher delay robustness. For energy robustness, the ST2 showed a 4.13\% improvement while the ST1 presented a worsening of 4.5\%.
+
+
+For the currents, there was an average increase of 20\% and 90\% for the dynamic and static currents for the ST1 and 92\% and 89\% increases for the dynamic and static currents for the ST2. Given so, the ST1 caused a significant reduction in current ratios of 50\%, which can be explained by its lack of a current suppression system. In the contrary, the ST2 presented an average 4\% increase in current ratios. Table \ref{tab:onoffcurrFA} presents all current measures and ratios for each FA and respective ST.
+
+\begin{table}[]
+\centering
+\caption{Dynamic, and static current, and ratio measures for each FA and respective ST design.}
+\label{tab:onoffcurrFA}
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{cccccccc}
+\hline
+\multicolumn{2}{c}{\multirow{2}{*}{Design}} & \multicolumn{3}{c}{NT}    & \multicolumn{3}{c}{Nominal} \\ \cline{3-8} 
+\multicolumn{2}{c}{}                        & on ($\mu$A) & off (nA) & Ratio  & on ($\mu$A)  & off (nA) & Ratio   \\ \hline
+\multirow{3}{*}{Mirror}        & -          & 0.82   	  & 12.99    & 295    & 21.29        & 17.65    & 16,773  \\ \cline{2-8} 
+                               & ST1        & 0.96   	  & 16.29    & 262    & 23.42        & 22.03    & 14,149  \\ \cline{2-8} 
+                               & ST2        & 1.36        & 16.17    & 502    & 28.77        & 21.84    & 21,629  \\ \hline
+\multirow{3}{*}{TFA}           & -          & 0.26   	  & 3.49     & 2,112  & 7.05         & 6.94     & 143,349 \\ \cline{2-8} 
+                               & ST1        & 0.37   	  & 10.07    & 196    & 9.46         & 13.69    & 11,412  \\ \cline{2-8} 
+                               & ST2        & 0.72   	  & 10.00    & 556    & 15.48        & 13.57    & 30,261  \\ \hline
+\multirow{3}{*}{TGA}           & -          & 0.72   	  & 12.89    & 268    & 18.26        & 17.52    & 14,851  \\ \cline{2-8} 
+                               & ST1        & 1.02   	  & 24.31    & 230    & 22.53        & 33.12    & 11,179  \\ \cline{2-8} 
+                               & ST2        & 1.85        & 24.09    & 596    & 36.14        & 32.84    & 27,163  \\ \hline
+\multirow{3}{*}{Hybrid}        & -          & 1.93        & 13.77    & 2,827  & 25.42        & 18.74    & 41,178  \\ \cline{2-8} 
+                               & ST1        & 1.75        & 27.87    & 510    & 24.12        & 37.65    & 11,561  \\ \cline{2-8} 
+                               & ST2        & 2.29        & 27.93    & 579    & 40.91        & 37.79    & 22,969  \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
+%\vspace{1em}
+
 
 \chapter{Conclusions}
 
@@ -1762,6 +1812,24 @@ Additionally, since when considering just one variable much of the impact of oth
 }
 \end{table}
 
+When considering only the currents, Table \ref{tab:FACurr} presents the highest and lowest results of the products between each current average measures and normalized deviations. Additionally, the MDP for each current is multiplied by one another to Dynamic Deviation Product (DDP) and Static Deviation Product (SDP) in order to provide a more general overview of each design behaviour. According to the table, the TFA presents the lowest product of measures and deviations for both currents and NT operation, while the Hybrid FA with the ST2 presents the highest currents and highest deviations for NT operation. At nominal operation, the TGA will be a more viable option, while the Hybrid FA with the ST2 keeps presenting worst results. It is important to highlight that the TFA presented the lowest product based on its low energy consumption which brings down the product value. The TFA current deviation is the highest among all FAs and should be thoroughly considered if the application for the FA should be as reliable as possible. A more apropriate FA would be the TGA wth the ST2 applied, which presented the lowest dynamic current deviations while presenting a 156\% higher energy consumption in comparison to its TFA counterpart with the same ST2 applied on.
+
+\begin{table}[]
+\centering
+\caption{Current results for the FAs considering the product between measures and deviations for dynamic and static currents.}
+\label{tab:FACurr}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{Operation}} & \multicolumn{2}{c|}{Measure Deviation   Product} & \multirow{2}{*}{DDP and SDP Product} \\ \cline{3-4}
+\multicolumn{2}{|c|}{}                           & Dynamic                & Static                 &                                      \\ \hline
+\multirow{2}{*}{Nominal}       & Highest       & TFAST2                 & HYBRIDST2              & HYBRIDST2                            \\ \cline{2-5} 
+                               & Lowest        & TGA                    & TFAST2                 & TGA                                  \\ \hline
+\multirow{2}{*}{NT}            & Highest       & HYBRIDST2              & HYBRIDST2              & HYBRIDST2                            \\ \cline{2-5} 
+                               & Lowest        & TFA                    & TFA                    & TFA                                  \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 \section{Future Works}
 
