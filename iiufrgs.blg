@@ -14,7 +14,6 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated field_info (elt_size=4) to 12935 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblio.bib
-Warning--I didn't find a database entry for "samuel2016"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -24,45 +23,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 114 entries,
+You've used 115 entries,
             6711 wiz_defined-function locations,
-            1839 strings with 33616 characters,
-and the built_in function-call counts, 109691 in all, are:
-= -- 8547
-> -- 4396
-< -- 260
-+ -- 1716
-- -- 1292
-* -- 8452
-:= -- 14153
-add.period$ -- 474
-call.type$ -- 114
-change.case$ -- 1488
-chr.to.int$ -- 277
-cite$ -- 112
-duplicate$ -- 5129
-empty$ -- 7862
-format.name$ -- 6312
-if$ -- 26453
+            1844 strings with 33755 characters,
+and the built_in function-call counts, 110727 in all, are:
+= -- 8624
+> -- 4438
+< -- 264
++ -- 1732
+- -- 1304
+* -- 8536
+:= -- 14286
+add.period$ -- 477
+call.type$ -- 115
+change.case$ -- 1502
+chr.to.int$ -- 281
+cite$ -- 113
+duplicate$ -- 5179
+empty$ -- 7927
+format.name$ -- 6373
+if$ -- 26698
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 2060
-newline$ -- 516
-num.names$ -- 560
-pop$ -- 2717
+missing$ -- 2078
+newline$ -- 521
+num.names$ -- 565
+pop$ -- 2737
 preamble$ -- 1
-purify$ -- 522
+purify$ -- 527
 quote$ -- 0
-skip$ -- 5609
+skip$ -- 5662
 stack$ -- 1
-substring$ -- 4794
-swap$ -- 2776
-text.length$ -- 204
+substring$ -- 4852
+swap$ -- 2806
+text.length$ -- 207
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 0
-while$ -- 953
+while$ -- 962
 width$ -- 0
-write$ -- 1928
-(There was 1 warning)
+write$ -- 1946

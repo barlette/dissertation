@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {6.3}Currents}{79}{section.6.3}
 \contentsline {section}{\numberline {6.4}Penalties}{81}{section.6.4}
 \contentsline {chapter}{7~Conclusions}{84}{CHAPTER.7}
-\contentsline {section}{\numberline {7.1}Future Works}{88}{section.7.1}
+\contentsline {section}{\numberline {7.1}Future Works}{89}{section.7.1}
 \contentsline {chapter}{\xspace {}References}{90}{schapter.6}
 \contentsline {chapter}{\MakeUppercase {Annex} A~--- Publications}{99}{CHAPTER.A}
 \contentsline {section}{\numberline {A.1}Published}{99}{section.A.1}

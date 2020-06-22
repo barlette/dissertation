@@ -581,6 +581,12 @@ Thesis (PhD) --- UC Berkeley, 2015.}
   integrated systems: A survey of techniques from circuits to software.
 \textbf{Proceedings of the IEEE}, IEEE, v.~104, n.~7, p. 1410--1448, 2016.}
 
+\bibitem[Reis et al. 1995]{reis1995associating}
+\abntrefinfo{Reis et al.}{REIS et al.}{1995}
+{REIS, A. et al. Associating cmos transistors with bdd arcs for technology
+  mapping.
+\textbf{Electronics Letters}, IET, v.~31, n.~14, p. 1118--1120, 1995.}
+
 \bibitem[Reis et al. 2020]{reis2020circuit}
 \abntrefinfo{Reis et al.}{REIS et al.}{2020}
 {REIS, R. et al. Circuit level design methods to mitigate soft errors. In:
