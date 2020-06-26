@@ -34,8 +34,9 @@
 \usepackage{array}
 \usepackage{bibentry}
 %\usepackage{natbib}
-
+%\usepackage[belowskip=-15pt,aboveskip=0pt]{caption}
 %\nobibliography*
+%\setlength\belowcaptionskip{-3ex}
 
 \newenvironment{conditions}
 	{\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
@@ -235,7 +236,7 @@
 
 % resumo na língua do documento
 \begin{abstract}
-{Technology scaling alongside the increasing process variability impact in modern technology nodes are the main reasons to control deviations over metrics in IC nanometer designs. Also, given the increasing set of devices working in battery-oriented environments, energy consumption should be minimal and the operation regime reliable. Schmitt Triggers are traditionally used for noise immunity enhancement, and have been recently applied to mitigate radiation effects and process variability impact. However, Schmitt Trigger operation at the nominal voltage introduces higher power consumption, in comparison to an inverter, making the application of Schmitt Trigger in ultra low power applications difficult. Thus, this work main contribution is to trace the relationship between transistor sizing, supply voltage, and process variability to get a low energy consumption circuit while still keeping low levels of deviations due to the impact of process-induced variability. The results are extracted from three different designs of inverters. All simulations are performed upon the extracted layouts design at 7-nm with the FinFET technology. Each layout presents a different number of fins, where each simulation presents a different level of variability and supply voltage. Amongst the several metrics considered - propagation times, energy, hysteresis interval, current ratios, voltage gains, and slopes - the energy is the prioritized metrics with an analysis considering different kinds of applications - low energy, low sensibility, and cost-benefit - being performed. Given so, it is shown that a cost-benefit analysis can highlight sets of sizing and supply voltage where it can provide a 37.51\% decrease on energy consumption while only increasing its sensibility by 7.42\%. Furthermore, it is presented that the dependence of supply voltage and sensibility to process variability is not directly related, with slight decreases in the supply voltages bringing better results. Considering the average measures, the inverter is still the fastest and most energy-efficient circuit, presenting the highest performance, lowest energy consumption, and smallest area. Although, when comparing noise immunity characteristics, the 6-Transistor Schmitt Trigger presents the highest noise margins and slopes, with higher current ratios, and gains. The TIST designs present the highest current ratios, gains, and hysteresis ratios. The improvements, although, do not come without respective increases in propagations times, energy consumption, and area.}
+{Technology scaling alongside the increasing process variability impact in modern technology nodes are the main reasons to control deviations over metrics in IC nanometer designs. Also, given the increasing set of devices working in battery-oriented environments, energy consumption should be minimal and the operation regime reliable. Schmitt Triggers are traditionally used for noise immunity enhancement, and have been recently applied to mitigate radiation effects and process variability impact. However, Schmitt Trigger operation at the nominal voltage introduces higher power consumption, in comparison to an inverter, making the application of Schmitt Trigger in ultra low power applications difficult. Thus, this work main contribution is to trace the relationship between transistor sizing, supply voltage, and process variability to get a low energy consumption circuit while still keeping low levels of deviations due to the impact of process-induced variability. The results are extracted from three different designs of inverters. All simulations are performed upon the extracted layouts design at 7-nm with the FinFET technology. Each layout presents a different number of fins, where each simulation presents a different level of variability and supply voltage. Amongst the several metrics considered - propagation times, energy, hysteresis interval, current ratios, voltage gains, and slopes - the energy is the prioritized metrics with an analysis considering different kinds of applications - low energy, low sensibility, and cost-benefit - being performed. Given so, it is shown that a cost-benefit analysis can highlight sets of sizing and supply voltage where it can provide a 37.51\% decrease on energy consumption while only increasing its sensibility by 7.42\%. Furthermore, it is presented that the dependence of supply voltage and sensibility to process variability is not directly related, with slight decreases in the supply voltages bringing better results. Considering the average measures, the inverter is still the fastest and most energy-efficient circuit, presenting the highest performance, lowest energy consumption, and smallest area. Although, when comparing noise immunity characteristics, the 6-Transistor Schmitt Trigger presents the highest noise margins and slopes, with higher current ratios, and gains. The TIST designs present the highest current ratios, gains, and hysteresis ratios. The improvements, although, may increase propagations times, energy consumption, and area.}
 \end{abstract}
 
 % ^ qual circuito tem melhores vantagens e em quais métricas?
@@ -288,6 +289,7 @@ A miniaturização da tecnologia de trasistores, juntamente com o crescente impa
 For both analysis it will be considered the means, standard deviations and normalized standard deviations for the energy and propagation time measures. Specifically for the first analysis, the means, standard deviations and normalized standard deviations will be calculated for further metrics: on and off currents, current ratios and hysteresis interval (when applicable). The output curve slopes and voltage gain will be presented, as well.
 
     This work is divided into five further sections: Variability Effects on FinFET Technology, where a theoretical foundation about variability is laid with several related works about mitigating its impact in the characteristics of FinFET devices and how process variability presents itself in the device. A section about the considered circuits will explain their functionality and applications. The Methodology Section will explain the experimental setup which will be employed to generate the results. A Results Section is present, showing the extracted measures and related analysis. Lastly, there are a Conclusions and Future Work sections.
+
 
 \chapter{Process Variability Effects on FinFET Technology}
 
@@ -692,7 +694,7 @@ All circuits were designed using the Virtuoso Electronic Design Automation (EDA)
 
 \begin{figure}[]
 \centering
-\includegraphics[width=1.5\textwidth, trim={0cm 0cm 4cm 3cm},clip, angle=90]{INVComp.pdf}
+\includegraphics[width=1.5\textwidth, trim={0cm 0cm 3cm 3cm},clip, angle=90]{INVComp.pdf}
 \caption{1 to 5 fins (left to the right) traditional CMOS inverter layout comparison.}
 \label{fig:invComp}
 \legend{Source: From the author.}
@@ -700,7 +702,7 @@ All circuits were designed using the Virtuoso Electronic Design Automation (EDA)
 
 \begin{figure}[]
 \centering
-\includegraphics[width=1.5\textwidth, trim={0cm 0cm 3cm 12cm},clip, angle=90]{STComp.pdf}
+\includegraphics[width=1.5\textwidth, trim={0cm 0cm 2cm 12cm},clip, angle=90]{STComp.pdf}
 \caption{1 to 5 fins (left to the right) ST layout comparison.}
 \label{fig:stComp}
 \legend{Source: From the author.}
@@ -708,7 +710,7 @@ All circuits were designed using the Virtuoso Electronic Design Automation (EDA)
 
 \begin{figure}[]
 \centering
-\includegraphics[width=1.5\textwidth, trim={0cm 0cm 3cm 12cm},clip, angle=90]{SIGComp.pdf}
+\includegraphics[width=1.5\textwidth, trim={0cm 0cm 2cm 12cm},clip, angle=90]{SIGComp.pdf}
 \caption{1 to 5 fins (left to the right) SIG layout comparison.}
 \label{fig:sigComp}
 \legend{Source: From the author.}
@@ -716,7 +718,7 @@ All circuits were designed using the Virtuoso Electronic Design Automation (EDA)
 
 \begin{figure}[]
 \centering
-\includegraphics[width=1.5\textwidth, trim={0cm 0cm 3cm 8cm},clip, angle=90]{TISTComp.pdf}
+\includegraphics[width=1.5\textwidth, trim={0cm 0cm 2cm 8cm},clip, angle=90]{TISTComp.pdf}
 \caption{From the left to the right, 2, 4 and 6 maximum fins TIST layout comparison.}
 \label{fig:tistComp}
 \legend{Source: From the author.}
@@ -749,7 +751,7 @@ All circuits were designed using the Virtuoso Electronic Design Automation (EDA)
 %\end{figure}
 
 
-Due to technology restriction it is not possible to decrease the cell height when considering layout with a fin count below 3. In the case of the ST, for the layouts with a fin count below 3, M2 was applied to connect the source/drain of the ${P_F}$ and ${N_F}$ transistors to the X and Y layout nodes. For the TIST, in layouts with less than 3 fins, M2 was necessary to connect the output signal to the $P_2$ and $N_2$ transistors gate. Given the smaller area to work with, it was necessary to apply M2 to respect the M1 spacing rules, bringing to light one of the challenges related to a smaller layout. The M2 usage in those cases will increase the design parasitics from the necessary extra vias connecting M1 and M2.
+Due to technology restrictions, the cell height must be at least equivalent to a cell with 3-fins transistors (e.g. 270nm). In the case of the ST, for the layouts with a fin count below 3, M2 was applied to connect the source/drain of the ${P_F}$ and ${N_F}$ transistors to the X and Y layout nodes. For the TIST, in layouts with less than 3 fins, M2 was necessary to connect the output signal to the $P_2$ and $N_2$ transistors gate. Given the smaller area to work with, it was necessary to apply M2 to respect the M1 spacing rules, bringing to light one of the challenges related to a smaller layout. The M2 usage in those cases will increase the design parasitics from the necessary extra vias connecting M1 and M2.
 
 
 The ASAP7 PDK contains the manufacturing process composed by front end of line (FEOL), middle of line (MOL) and back end of line (BEOL). The layouts were developed in a continuous diffusion layer with every gate surrounding another gate in the horizontal axis. The Source-Drain Trench (SDT) connects the active area to the LISD layer. The Local-Interconnect Gate (LIG) is applied to connect the gate terminal, and Local-Interconnect Source-Drain (LISD) is used to connect the source and drain of the transistors. The function of Via 0 (V0) is to join the LIG and LISD to the BEOL layers. The Metal 1 (M1) is used for intra-cell routing and short connections. The Metal 2 (M2) was applied to connect the PF and NF drains to ground and source, respectively. To make the back-gate connections, it is necessary a TAP-Cell. It is responsible to connect the NMOS and PMOS back-gates to supply/ground, respectively, being possible to connect the PMOS back-gates to another node. It is a PDK restriction needed for the proper function of the circuit. Its layout has a length of 108nm resulting in an area of 29,160$nm^{2}$ the 3-fins variant is shown in Figure \ref{tap}. In order to build the back-gate connections present in the LPST, it was necessary the insertion of TAP-Cells, greatly increasing the layouts size.
@@ -1199,14 +1201,18 @@ A further comparison between each design layout is presented in Fig. \ref{figCom
     Lastly, for the CB layouts, the energy consumption scaling through the designs follows the same pattern, although with smaller differences. In comparison to the inverter, the SIG, ST, TIST 3:1, and TIST 2:1 presented average increases of 18.84\%, 47.74\%, 281.85\%, and 379.6\%. The TIST designs presented the lowest deviations with 4.07\% and 5.8\% for the 2:1 and 3:1 proportions, respectively. The SIG, inverter and ST, presented respectively, 6.72\%, 7.05\%, and 8.74\% deviations on energy. In this case, the SIG, presents a higher energy consumption and much bigger layout, it only provides a minor improvement over deviations (4.91\%, relative to the inverter). The ST presented higher energy and bigger area as well, with a increase on deviations (1.69\%, absolute and 23.97\% relative increases, in comparison to the inverter), although it still presents hysteresis. The TIST designs, consume considerably more energy, with less deviation (although, as stated before, those numbers are deflated), bigger layout area, and less viable scenarios to work with.
 
 
-    \begin{figure}[H]
+    \begin{figure}[t]
         \centering
             \includegraphics[width=0.85\textwidth, trim={1.25cm 3cm 2cm 3cm}, clip]{compCB.pdf}
             \caption{CB layouts energy metrics comparison for each design.}
-        \label{figCompCB}
+	    \label{figCompCB}
     \end{figure}
 
+   %\vspace{-2cm}
+
 It is shown that the CB layouts presents similar energy deviations in comparison to the high robustness layouts while maintaining a lower energy consumption, for the ST and SIG, with the exception of the inverter. The inverter presents a high deviation for its minimum energy layout at 5\% WFF (1 fin layout with a supply voltage of 0.3V). Although, with a little increase on supply voltage, from 300mV to 400mV, matching the CB layout, the inverter presents a 8.95\% increase on energy consumption while decreasing its energy deviation by 93.49\%. The ST presented a similar results at 3\% WFF where a 100mV increase, from 200mV to 300mV of supply voltage, provided a reduction of 85.01\% in energy deviations while increasing the energy consumption by 7.86\%. For the SIG, at 3\% WFF as well, is was possible to decrease the deviation by 90.88\% while increasing the energy consumption by 22.09\%m, with the same supply voltage increase performed for the ST. Average and maximums differences in energy consumption and deviations between CB, low energy, and high robustness layouts are shown in Fig. \ref{CBCompLE} and Fig. \ref{CBCompHR}, respectively.
+
+    At the same time, it is important to analyze the drawbacks of a CB approach. The CB layouts for inverter and TIST layouts presented higher increases on energy consumption, in comparison to the ST and SIG designs. Higher average increase is directly related to the shift of a supply voltage from 100mV to 0.7V, at 1\% WFF. The supply voltage switch on the inverter is due to the considerable decrease in energy deviation (from 25.83\% to 5.04\%) of 5.125x, while the energy consumption increased 3.6x. For the TIST the higher energy increases are related to the lack of working scenarios at near-threshold, and the sudden increase in supply voltage, similar to the inverter. When observing the increases in energy deviations comparing the CB and high robustness layouts, the CB layouts can bring up to 32\% increase in energy deviations, although, causing an 79\% decrease in energy consumption, highlighting the differences between applications.
 
 \begin{figure}[t]
 	\centering
@@ -1219,7 +1225,6 @@ It is shown that the CB layouts presents similar energy deviations in comparison
       	\includegraphics[width=0.85\textwidth, trim={1.25cm 2cm 2cm 3cm}, clip]{compCB-HR.pdf}
 \end{figure}
 
-    At the same time, it is important to analyze the drawbacks of a CB approach. The CB layouts for inverter and TIST layouts presented higher increases on energy consumption, in comparison to the ST and SIG designs. Higher average increase is directly related to the shift of a supply voltage from 100mV to 0.7V, at 1\% WFF. The supply voltage switch on the inverter is due to the considerable decrease in energy deviation (from 25.83\% to 5.04\%) of 5.125x, while the energy consumption increased 3.6x. For the TIST the higher energy increases are related to the lack of working scenarios at near-threshold, and the sudden increase in supply voltage, similar to the inverter. When observing the increases in energy deviations comparing the CB and high robustness layouts, the CB layouts can bring up to 32\% increase in energy deviations, although, causing an 79\% decrease in energy consumption, highlighting the differences between applications.
 
 \section{Current Ratios}
 
@@ -1249,9 +1254,9 @@ It is shown that the CB layouts presents similar energy deviations in comparison
 
 
 
-    When considering the impact of process variability into the energy consumption, it will depend of the propagation times and the power consumption, and their respective deviations. Performance and power are highly dependent on the value and stability of the devices currents, either dynamic (on) and static (off). The devices delays are highly dependent on how fast can the circuit switch its value, which is related to the circuit parasitics and its dynamic current. In parallel, the circuit power, being a function of the current and resistances will suffer higher influence from current values and deviations. In order for the circuit to maintain its signals well defined, fast signal value switching, and low static power consumption, it is recommended to maintain the on and off current high and low as possible, respectively. The ideal current setup may be achieved through circuit level methods or the apropriate transistor sizing, where the length and width of the channel will be fine tuned to achieve the highest ratio possible between currents.
+    When considering the impact of process variability into the energy consumption, it will depend of the propagation times and the power consumption, and their respective deviations. Performance and power are highly dependent on the value and stability of the devices currents, either dynamic (on) and static (off). The devices delays are highly dependent on how fast can the circuit switch its value, which is related to the circuit parasitics and its dynamic current. In parallel, the circuit power, being a function of the current and resistances will suffer higher influence from current values and deviations. In order for the circuit to maintain its signals well defined, fast signal value switching, and low static power consumption, it is recommended to maintain the on and off current high and low as possible, respectively. The ideal current setup may be achieved through circuit level methods or the apropriate transistor sizing, where, for bulk transistors, the length and width of the channel and, for FinFET devices, the number of fins, will be fine tuned to achieve the highest ratio possible between currents.
 
-In order to more clearly understand the impact of process variability and supply voltage influence on current behaviour, the dynamic and static currents average measures and normalized standard deviations will be explored. The graphs are divided in two parts for each current, with average measures and normalized standard deviations. Fig. \ref{fig:dynCurrAbs} and Fig. \ref{fig:dynCurrDev} present the average values and normalized standard deviations for the dynamic current. It can be observed an exponential and an overall linear dependency over supply voltage and WFF level, respectively, with the current slightly decreasing due to WFF level. Although, when considering sub-200mV supply voltages, the average dynamic current will increase exponentially as variability level scales. This happens due to the higher number of extreme cases where the worst-case measure can be up to 5-orders of magnitude higher than the average. For the normalized standard deviations of the dynamic current, there are exponential dependencies over both variables when considering low supply voltage/high variability level scenarios, with curves presenting a linear behaviour at the remaining scenarios.
+In order to more clearly understand the impact of process variability and supply voltage influence on current behaviour, the dynamic and static currents average measures and normalized standard deviations will be explored. The graphs are divided in two parts for each current, with average measures and normalized standard deviations. Fig. \ref{fig:dynCurrAbs} and Fig. \ref{fig:dynCurrDev} present the average of all designs dynamic current measures and normalized deviations, respectively. It can be observed an exponential and an overall linear dependency over supply voltage and WFF level, respectively, with the current slightly decreasing due to WFF level. Although, when considering sub-200mV supply voltages, the average dynamic current will increase exponentially as variability level scales. This happens due to the higher number of extreme cases where the worst-case measure can be up to 5-orders of magnitude higher than the average. For the normalized standard deviations of the dynamic current, there are exponential dependencies over both variables when considering low supply voltage/high variability level scenarios, with curves presenting a linear behaviour at the remaining scenarios.
 %dificil trabalhar nessa tensão então por causa da corrente
 
 
@@ -1287,9 +1292,7 @@ Fig. \ref{fig:StatCurrAbs} and Fig. \ref{fig:StatCurrDev} present the results fo
         \label{fig:StatCurrDev}
     \end{figure}
 
-
-
-As shown in Fig. \ref{figOnOffScal}. due to the linear and exponential dependency of the dynamic and static current measures upon the variability level, the static current presents a much higher scaling factor, in comparison to its counterpart. Given so, the current ratios will present a decrease as the process variability level increases, as shown in Fig. \ref{figsCurrComp}. Comparing to the inverter, the ST, TIST 2:1, and TIST 3:1 presented, on average, 118.01\%, 600.21\%, and 468.7\% higher ratios. The SIG is the only design which presented a worsening, with a 12.53\% lower ratio. While considering deviations into the ratio due to process variability, the ST and SIG presented 11.1\% and 6.91\% lower deviations, with the TIST 2:1 and 3:1 presenting 49.57\% and 42.79\% higher deviations, respectively.
+As shown in Fig. \ref{figOnOffScal}. due to the linear and exponential dependency of the dynamic and static current measures upon the variability level, the static current presents a much higher scaling factor, in comparison to its counterpart. Given so, the current ratios will present a decrease as the process variability level increases, as shown in Fig. \ref{figsCurrComp}. Comparing to the inverter, the ST, TIST 2:1, and TIST 3:1 presented, on average, 1.18x, 6x, and 4.69x higher ratios. The SIG is the only design which presented a worsening, with a 12.53\% lower ratio. While considering deviations into the ratio due to process variability, the ST and SIG presented 11.1\% and 6.91\% lower deviations, with the TIST 2:1 and 3:1 presenting 49.57\% and 42.79\% higher deviations, respectively.
 
     \begin{figure}[h]
         \centering
@@ -1415,7 +1418,7 @@ It was considered the output gain values for each design, as show in Fig. \ref{f
             \caption{Voltage Transfer Curves for all designs at 0.1V.}
         \label{fig:vtcs01}
     \end{figure}
-
+    \vspace{1cm}
         \begin{figure}[H]
         \centering
             \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{vtcs07.png}
@@ -1423,7 +1426,7 @@ It was considered the output gain values for each design, as show in Fig. \ref{f
         \label{fig:vtcs07}
     \end{figure}
     %According to \cite{henzler2006power}
-
+\newpage
 \section{Hysteresis}
 
 The hysteresis characteristic, for the designs who present it through circuit-level methods, will improve the circuit noise margins through the insertion of upper and lower threshold voltages. The hysteresis does not improve the noise margins through enhancing the signal - by making it closer to an ideal square signal - although, through the two threshold voltages, it will make necessary higher noise amplitude to kickoff the value change of the output signal.
@@ -1461,7 +1464,7 @@ The hysteresis characteristic, for the designs who present it through circuit-le
 \newpage
 \section{Measures Distribution}
 
-    Fig. \ref{fig:energyDist0_2} shows the distribution of the energy metrics for the inverter over all levels of WFF for 0.2V, 0.4V, and 0.7V supply voltages. Each figure presents an histogram of the 2000 simulations with a blue line, indicating where the average energy measure is located at. The black line corresponds to a projection of the local average. For low variability and high supply voltage scenarios it can be observed a normal, or close-to-normal, distribution. At higher variability and lower supply voltages, a right skew can be noted at first, where the majority of the cases stay clustered although, there is a considerable number of cases where the energy is lower than the average. As variability rises even further, the skew direction will shift and take a hard left, with the worst scenarios showing up to 5 orders of magnitude higher than the average. Histograms and dispersion graphs for all designs, are shown in Annex D.
+    Fig. \ref{fig:energyDist0_2} shows the distribution of the energy metrics for the inverter over all levels of WFF for 0.2V, 0.4V, and 0.7V supply voltages. Each figure presents an histogram of the 2000 simulations with a blue line, indicating where the average energy measure is located at. The yellow line corresponds to a projection of the local average. For low variability and high supply voltage scenarios it can be observed a normal, or close-to-normal, distribution. At higher variability and lower supply voltages, a right skew can be noted at first, where the majority of the cases stay clustered although, there is a considerable number of cases where the energy is lower than the average. As variability rises even further, the skew direction will shift and take a hard left, with the worst scenarios showing up to 5 orders of magnitude higher than the average. Histograms and dispersion graphs for all designs, are shown in Annex D.
 
      \begin{figure}[]
         \centering
@@ -1470,23 +1473,7 @@ The hysteresis characteristic, for the designs who present it through circuit-le
         \label{fig:energyDist0_2}
     \end{figure}
 
-    %\begin{figure}[]
-    %    \centering
-    %        \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{dist_energy_INV_0_4.pdf}
-    %        \caption{Energy measures distribution for the inverter at different levels of variability at 0.4V.}
-    %    \label{fig:energyDist0_4}
-    %\end{figure}
-
-    %     \begin{figure}[]
-    %    \centering
-    %        \includegraphics[width=1\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{dist_energy_INV_0_7.pdf}
-    %        \caption{Energy measures distribution for the inverter at different levels of variability at 0.7V.}
-    %    \label{fig:energyDist0_7}
-    %\end{figure}
-
 \chapter{Full Adders}
-
-%\section{Full Adders}
 
 The results are divided into two main analyses, with the set of FAs operating at nominal and near-threshold. In both cases, simulations were performed with and without the ST technique. To better present the improvements (positive values) and drawbacks (negative values) of each ST, results also show a comparison ($\Delta$) between the normalized deviation between the traditional and the circuits with the applied technique. For the sake of simplicity the LPST and traditional 6T ST were renamed ST1 and ST2, respectively.
 
@@ -1630,7 +1617,7 @@ As part of the analysis concerning the STs impact on metrics, the currents were 
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.85\textwidth, trim={2cm 3cm 2cm 3cm}, clip]{offCurrDev.pdf}
-     \caption{Average normalized deviation for the dynamic (off) current for each FA design and respective ST.}
+     \caption{Average normalized deviation for the static (off) current for each FA design and respective ST.}
   \label{fig:offCurrDevFA}
 \end{figure}
 
@@ -1836,9 +1823,11 @@ Given all the concepts, results and conclusions, the contributions of this work 
 
 \section{Future Works}
 
-For future works, it would be interesting to do a similar analysis  considering the TIST design at a different technology node (FD-SOI 28nm) at sub-100mV to achieve ultra low-power circuits capable of enhancing the circuits robustness to noise and to decrease the impact of process variability. Additionally, as shown in the current section of the results, the leakage currents measures and normalized deviations will exponentially scale with the WFF level and the related deviations will not scale down with supply voltage. Given so, techniques for leakage suppression and the minimization of current deviations should be investigated. Further tests on transistor sizing for the considered inverter designs should be performed as well, since different transistor proportions were not considered in the analysis, as in the TIST.
+For future works, it would be interesting to do a similar analysis  considering the TIST design at a different technology node (FD-SOI 28nm) at sub-100mV to achieve ultra low-power circuits capable of enhancing the circuits robustness to noise and to decrease the impact of process variability. Additionally, as shown in the current section of the results, the leakage currents measures and normalized deviations will exponentially scale with the WFF level and the related deviations will not scale down with as the supply voltage increases. Given so, techniques for leakage suppression and the minimization of current deviations should be investigated. Further tests on transistor sizing for the considered inverter designs should be performed as well, since different transistor proportions were not considered in the analysis, as in the TIST. 
 
-All publications - published, co-authored, book chapters, and in proceedings, are listed in Annex A.
+
+\vspace{1cm}
+OBS: All publications - published, co-authored, book chapters, and in proceedings, are listed in Annex A.
 
 \bibliographystyle{abntex2-alf}
 
