@@ -1,16 +1,16 @@
-  Optimal nbti degradation and pvt variation resistant device sizing in a full adder cell
-  Single-ended Schmitt-trigger-based robust low-power SRAM cell
-  A Hybrid Time Borrowing Technique to Improve the Performance of Digital Circuits in the Presence of Variations
-  Low power Schmitt trigger circuit
-  Variations in nanometer CMOS flip-flops: Part I—Impact of process variations on timing
-  Variations in nanometer CMOS flip-flops: Part II—Energy variability and impact of other sources of variations
-  Delay variability due to supply variations in transmission-gate full adders
-  Investigating PVT variability effects on full adders
-  Random dopant induced threshold voltage lowering and fluctuations in sub 50 nm MOSFETs: a statistical 3D atomistic simulation study
-  Simulation of intrinsic parameter fluctuations in decananometer and nanometer-scale MOSFETs
-  Opportunities and challenges for better than worst-case design
-  A fine-grained reconfigurable logic array based on double gate transistors
-  High-performance CMOS variability in the 65-nm regime and beyond
+% Optimal nbti degradation and pvt variation resistant device sizing in a full adder cell
+% Single-ended Schmitt-trigger-based robust low-power SRAM cell
+% A Hybrid Time Borrowing Technique to Improve the Performance of Digital Circuits in the Presence of Variations
+% Low power Schmitt trigger circuit
+% Variations in nanometer CMOS flip-flops: Part I—Impact of process variations on timing
+% Variations in nanometer CMOS flip-flops: Part II—Energy variability and impact of other sources of variations
+% Delay variability due to supply variations in transmission-gate full adders
+% Investigating PVT variability effects on full adders
+% Random dopant induced threshold voltage lowering and fluctuations in sub 50 nm MOSFETs: a statistical 3D atomistic simulation study
+% Simulation of intrinsic parameter fluctuations in decananometer and nanometer-scale MOSFETs
+% Opportunities and challenges for better than worst-case design
+% A fine-grained reconfigurable logic array based on double gate transistors
+% High-performance CMOS variability in the 65-nm regime and beyond
   FinFETs: From devices to architectures
   Comparison and Optimization of the Minimum Supply Voltage of Schmitt Trigger Gates versus CMOS Gates under Process Variations
   Critical reliability challenges for the international technology roadmap for semiconductors (ITRS)
@@ -110,29 +110,3 @@
   Low voltage CMOS Schmitt trigger circuits
   Modeling of the reliability degradation of a FinFET-based SRAM due to bias temperature instability, hot carrier injection, and gate oxide breakdown
   FinFET cells with different transistor sizing techniques against PVT variations
-  Uncertainty-aware circuit optimization
-  Width-dependent statistical leakage modeling for random dopant induced threshold voltage shift
-	Reducing the number of transistors with gate clustering
-  Power management of digital circuits in deep sub-micron CMOS technologies
-  Low-power single-bit full adder cells
-  Comparison of adaptive body bias (ABB) and adaptive supply voltage (ASV) for improving delay and leakage under the presence of process variation
-  Performance analysis of low-power 1-bit CMOS full adder cells
-  Static power optimization of a full-adder under front-end of line systematic variations
-  Optimizing electronic standard cell libraries for variability tolerance through the nano-CMOS grid
-  A survey of optimization techniques targeting low power VLSI circuits
-  Low-power CMOS digital design
-  Leakage issues in IC design: trends, estimation and avoidance
-  High immunity to threshold voltage variability in undoped ultra-thin FDSOI MOSFETs and its physical understanding
-  The alleviation of low power Schmitt trigger using FinFET technology
-  Understanding Schmitt Triggers - Application Report
-  Path-based statistical timing analysis considering inter-and intra-die correlations
-  Empirical characteristics and extraction of overall variations for 65-nm MOSFETs and beyond
-  Performance analysis of single-bit full adder cells using 0.18, 0.25, and 0.35 $\mu$m CMOS technologies.
-  Comparative study of Bulk, FDSOI and FinFET technologies in presence of a resistive short defect
-  Predictive Technology Model (PTM [online])
-Grain-Orientation Induced Work Function Variation in Nanoscale Metal-Gate Transistors #x2014;Part I: Modeling, Analysis, and Experimental Validation
-  Within-chip variability analysis
-  Optimized design of the CMOS Schmitt trigger for ultra-low-voltage operation
-  CMOS adjustable Schmitt triggers
-  The ITRS Website. [Online] Available:
-  Dielectric breakdown mechanisms in gate oxides

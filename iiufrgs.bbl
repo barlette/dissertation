@@ -10,14 +10,16 @@
 {ABBAS, Z. et al. Optimal nbti degradation and pvt variation resistant device
   sizing in a full adder cell. In:  IEEE. \textbf{2015 4th International
   Conference on Reliability, Infocom Technologies and Optimization
-  (ICRITO)(Trends and Future Directions)}. India, 2015. p.~1--6.}
+  (ICRITO)(Trends and Future Directions)}. India, 2015. p.~1--6.
+  {d}oi:\href{https://doi.org/10.1109/icrito.2015.7359366}{10.1109/icrito.2015.7359366}.}
 
 \bibitem[Ahmad et al. 2016]{ahmad2016single}
 \abntrefinfo{Ahmad et al.}{AHMAD et al.}{2016}
 {AHMAD, S. et al. Single-ended schmitt-trigger-based robust low-power sram
   cell.
 \textbf{IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
-  IEEE, v.~24, n.~8, p. 2634--2642, 2016.}
+  IEEE, v.~24, n.~8, p. 2634--2642, 2016.
+{d}oi:\href{https://doi.org/10.1109/tvlsi.2016.2520490}{10.1109/tvlsi.2016.2520490}.}
 
 \bibitem[Ahmadi, Alizadeh and Forouzandeh 2016]{ahmadi2017hybrid}
 \abntrefinfo{Ahmadi, Alizadeh and Forouzandeh}{AHMADI; ALIZADEH;
@@ -25,58 +27,67 @@
 {AHMADI, M.; ALIZADEH, B.; FOROUZANDEH, B. A hybrid time borrowing technique to
   improve the performance of digital circuits in the presence of variations.
 \textbf{IEEE Transactions on Circuits and Systems I: Regular Papers}, IEEE,
-  v.~64, n.~1, p. 100--110, 2016.}
+  v.~64, n.~1, p. 100--110, 2016.
+{d}oi:\href{https://doi.org/10.1109/tcsi.2016.2600750}{10.1109/tcsi.2016.2600750}.}
 
 \bibitem[Al-Sarawi 2002]{al2002low}
 \abntrefinfo{Al-Sarawi}{AL-SARAWI}{2002}
 {AL-SARAWI, S. Low power schmitt trigger circuit.
-\textbf{Electronics letters}, IET, v.~38, n.~18, p. 1009--1010, 2002.}
+\textbf{Electronics letters}, IET, v.~38, n.~18, p. 1009--1010, 2002.
+{d}oi:\href{https://doi.org/10.1049/el:20020687}{10.1049/el:20020687}.}
 
 \bibitem[Alioto, Consoli and Palumbo 2015]{2000Simulations}
 \abntrefinfo{Alioto, Consoli and Palumbo}{ALIOTO; CONSOLI; PALUMBO}{2015a}
 {ALIOTO, M.; CONSOLI, E.; PALUMBO, G. Variations in nanometer cmos flip-flops:
   Part ii—energy variability and impact of other sources of variations.
 \textbf{IEEE Transactions on Circuits and Systems I: Regular Papers}, IEEE,
-  v.~62, n.~3, p. 835--843, 2015.}
+  v.~62, n.~3, p. 835--843, 2015.
+{d}oi:\href{https://doi.org/10.1109/tcsi.2014.2366813}{10.1109/tcsi.2014.2366813}.}
 
 \bibitem[Alioto, Consoli and Palumbo 2015]{alioto2015variations}
 \abntrefinfo{Alioto, Consoli and Palumbo}{ALIOTO; CONSOLI; PALUMBO}{2015b}
 {ALIOTO, M.; CONSOLI, E.; PALUMBO, G. Variations in nanometer cmos flip-flops:
   Part i—impact of process variations on timing.
 \textbf{IEEE Transactions on Circuits and Systems I: Regular Papers}, IEEE,
-  v.~62, n.~8, p. 2035--2043, 2015.}
+  v.~62, n.~8, p. 2035--2043, 2015.
+{d}oi:\href{https://doi.org/10.1109/tcsi.2014.2366811}{10.1109/tcsi.2014.2366811}.}
 
 \bibitem[Alioto and Palumbo 2007]{alioto2007delay}
 \abntrefinfo{Alioto and Palumbo}{ALIOTO; PALUMBO}{2007}
 {ALIOTO, M.; PALUMBO, G. Delay variability due to supply variations in
   transmission-gate full adders. In:  IEEE. \textbf{Symposium on Circuits and
   Systems, 2007. ISCAS 2007. IEEE International}. University of Louisiana, New
-  Orleans - USA, 2007. p. 3732--3735.}
+  Orleans - USA, 2007. p. 3732--3735.
+  {d}oi:\href{https://doi.org/10.1109/iscas.2007.378654}{10.1109/iscas.2007.378654}.}
 
 \bibitem[Ames et al. 2016]{ames2016investigating}
 \abntrefinfo{Ames et al.}{AMES et al.}{2016}
 {AMES, S.~O. et al. Investigating pvt variability effects on full adders. In:
   IEEE. \textbf{Optimization and Simulation (PATMOS), 2016 26th International
-  Workshop on Power and Timing Modeling}. Bremen, Germany, 2016. p. 155--161.}
+  Workshop on Power and Timing Modeling}. Bremen, Germany, 2016. p. 155--161.
+  {d}oi:\href{https://doi.org/10.1109/patmos.2016.7833681}{10.1109/patmos.2016.7833681}.}
 
 \bibitem[Asenov 1999]{asenov1999random}
 \abntrefinfo{Asenov}{ASENOV}{1999}
 {ASENOV, A. Random dopant induced threshold voltage lowering and fluctuations
   in sub 50 nm mosfets: a statistical 3d atomistic simulation study.
-\textbf{Nanotechnology}, IOP Publishing, v.~10, n.~2, p.~153, 1999.}
+\textbf{Nanotechnology}, IOP Publishing, v.~10, n.~2, p.~153, 1999.
+{d}oi:\href{https://doi.org/10.1088/0957-4484/10/2/309}{10.1088/0957-4484/10/2/309}.}
 
 \bibitem[Asenov et al. 2003]{asenov2003simulation}
 \abntrefinfo{Asenov et al.}{ASENOV et al.}{2003}
 {ASENOV, A. et al. Simulation of intrinsic parameter fluctuations in
   decananometer and nanometer-scale mosfets.
 \textbf{IEEE transactions on electron devices}, IEEE, v.~50, n.~9, p.
-  1837--1852, 2003.}
+  1837--1852, 2003.
+{d}oi:\href{https://doi.org/10.1109/ted.2003.815862}{10.1109/ted.2003.815862}.}
 
 \bibitem[Austin et al. 2005]{austin2005opportunities}
 \abntrefinfo{Austin et al.}{AUSTIN et al.}{2005}
 {AUSTIN, T. et al. Opportunities and challenges for better than worst-case
   design. In:  ACM. \textbf{Proceedings of the 2005 Asia and South Pacific
-  Design Automation Conference}. Shanghai, China, 2005. p.~2--7.}
+  Design Automation Conference}. Shanghai, China, 2005. p.~2--7.
+  {d}oi:\href{https://doi.org/10.1109/aspdac.2005.1466113}{10.1109/aspdac.2005.1466113}.}
 
 \bibitem[Bai, Visweswariah and Strenski 2002]{bai2002uncertainty}
 \abntrefinfo{Bai, Visweswariah and Strenski}{BAI; VISWESWARIAH; STRENSKI}{2002}
@@ -89,14 +100,16 @@
 {BECKETT, P. A fine-grained reconfigurable logic array based on double gate
   transistors. In:  IEEE. \textbf{2002.(FPT). Proceedings. 2002 IEEE
   International Conference on Field-Programmable Technology}. Hong Kong, China,
-  2002. p. 260--267.}
+  2002. p. 260--267.
+  {d}oi:\href{https://doi.org/10.1109/fpt.2002.1188690}{10.1109/fpt.2002.1188690}.}
 
 \bibitem[Bernstein et al. 2006]{bernstein2006high}
 \abntrefinfo{Bernstein et al.}{BERNSTEIN et al.}{2006}
 {BERNSTEIN, K. et al. High-performance cmos variability in the 65-nm regime and
   beyond.
 \textbf{IBM journal of research and development}, IBM, v.~50, n.~4.5, p.
-  433--449, 2006.}
+  433--449, 2006.
+{d}oi:\href{https://doi.org/10.1147/rd.504.0433}{10.1147/rd.504.0433}.}
 
 \bibitem[Bhattacharya and Jha 2014]{bhattacharya2014finfets}
 \abntrefinfo{Bhattacharya and Jha}{BHATTACHARYA; JHA}{2014}
@@ -527,7 +540,8 @@ Scientific Research Publishing, 2013.}
 \bibitem[Neuberger, Wirth and Reis 2014]{neuberger2014protecting}
 \abntrefinfo{Neuberger, Wirth and Reis}{NEUBERGER; WIRTH; REIS}{2014}
 {NEUBERGER, G.; WIRTH, G.; REIS, R. \textbf{Protecting chips against hold time
-  violations due to variability}. NY, USA: Springer, 2014.}
+  violations due to variability}. NY, USA: Springer, 2014.
+  {d}oi:\href{https://doi.org/10.1007/978-94-007-2427-3_3}{10.1007/978-94-007-2427-3\_3}.}
 
 \bibitem[Pal and Islam 2018]{pal2018circuit}
 \abntrefinfo{Pal and Islam}{PAL; ISLAM}{2018}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.6.25)  26 JUN 2020 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.6.25)  27 JUN 2020 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3525,673 +3525,673 @@ h the same identifier (name{cite.ahmad2016single}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.15 \bibitem[Ahmad et al. 2016]{ahmad2016single}
+l.16 \bibitem[Ahmad et al. 2016]{ahmad2016single}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.ahmadi2017hybrid}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 ...eh and Forouzandeh 2016]{ahmadi2017hybrid}
+l.24 ...eh and Forouzandeh 2016]{ahmadi2017hybrid}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.al2002low}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.30 \bibitem[Al-Sarawi 2002]{al2002low}
+l.33 \bibitem[Al-Sarawi 2002]{al2002low}
                                         pdfTeX warning (ext4): destination with
  the same identifier (name{cite.2000Simulations}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.35 ...Consoli and Palumbo 2015]{2000Simulations}
+l.39 ...Consoli and Palumbo 2015]{2000Simulations}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.alioto2015variations}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 ...li and Palumbo 2015]{alioto2015variations}
+l.47 ...li and Palumbo 2015]{alioto2015variations}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.alioto2007delay}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 ...[Alioto and Palumbo 2007]{alioto2007delay}
+l.55 ...[Alioto and Palumbo 2007]{alioto2007delay}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.ames2016investigating}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 ...m[Ames et al. 2016]{ames2016investigating}
+l.63 ...m[Ames et al. 2016]{ames2016investigating}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.asenov1999random}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \bibitem[Asenov 1999]{asenov1999random}
+l.70 \bibitem[Asenov 1999]{asenov1999random}
                                             pdfTeX warning (ext4): destination 
 with the same identifier (name{cite.asenov2003simulation}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 ...[Asenov et al. 2003]{asenov2003simulation}
+l.77 ...[Asenov et al. 2003]{asenov2003simulation}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.austin2005opportunities}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 ...stin et al. 2005]{austin2005opportunities}
+l.85 ...stin et al. 2005]{austin2005opportunities}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.bai2002uncertainty}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 ...iah and Strenski 2002]{bai2002uncertainty}
+l.92 ...iah and Strenski 2002]{bai2002uncertainty}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.beckett2002fine}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \bibitem[Beckett 2002]{beckett2002fine}
+l.98 \bibitem[Beckett 2002]{beckett2002fine}
                                             pdfTeX warning (ext4): destination 
 with the same identifier (name{cite.bernstein2006high}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
-l.94 ...[Bernstein et al. 2006]{bernstein2006high}
+l.106 ...Bernstein et al. 2006]{bernstein2006high}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.bhattacharya2014finfets}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 ...ya and Jha 2014]{bhattacharya2014finfets}
+l.114 ...ya and Jha 2014]{bhattacharya2014finfets}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.bleitner2018comparison}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.106 ...tner et al. 2018]{bleitner2018comparison}
+l.119 ...tner et al. 2018]{bleitner2018comparison}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.blish2003critical}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 ...tem[Blish et al. 2003]{blish2003critical}
+l.126 ...tem[Blish et al. 2003]{blish2003critical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.borkar2004design}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 ...tem[Borkar et al. 2004]{borkar2004design}
+l.132 ...tem[Borkar et al. 2004]{borkar2004design}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.bose2018stacked}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 ...[Bose and Johnston 2018]{bose2018stacked}
+l.138 ...[Bose and Johnston 2018]{bose2018stacked}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.brown2010impact}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \bibitem[Brown et al. 2010]{brown2010impact}
+l.145 \bibitem[Brown et al. 2010]{brown2010impact}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.brunner2003optical}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \bibitem[Brunner 2003]{brunner2003optical}
+l.152 \bibitem[Brunner 2003]{brunner2003optical}
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{cite.chang2013synchronous}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 ...[Chang et al. 2013]{chang2013synchronous}
+l.159 ...[Chang et al. 2013]{chang2013synchronous}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.chava2015standard}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 ...tem[Chava et al. 2015]{chava2015standard}
+l.167 ...tem[Chava et al. 2015]{chava2015standard}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.clark2016asap7}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 \bibitem[Clark et al. 2016]{clark2016asap7}
+l.174 \bibitem[Clark et al. 2016]{clark2016asap7}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.colinge2008finfets}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.166 ...[Colinge et al. 2008]{colinge2008finfets}
+l.179 ...[Colinge et al. 2008]{colinge2008finfets}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.dadgour2008statistical}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.171 ...nd Banerjee 2008]{dadgour2008statistical}
+l.184 ...nd Banerjee 2008]{dadgour2008statistical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.datta2003high}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.178 \bibitem[Datta et al. 2003]{datta2003high}
+l.191 \bibitem[Datta et al. 2003]{datta2003high}
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{cite.devadas2017design}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 ...adas and Kishore 2017]{devadas2017design}
+l.197 ...adas and Kishore 2017]{devadas2017design}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.dietrich2011process}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 ...rich and Haase 2011]{dietrich2011process}
+l.203 ...rich and Haase 2011]{dietrich2011process}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.dighe2011within}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.196 \bibitem[Dighe et al. 2011]{dighe2011within}
+l.209 \bibitem[Dighe et al. 2011]{dighe2011within}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.dokania2013investigation}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 ...and Islam 2013]{dokania2013investigation}
+l.217 ...and Islam 2013]{dokania2013investigation}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.dokania2015circuit}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.210 ...kania and Islam 2015]{dokania2015circuit}
+l.223 ...kania and Islam 2015]{dokania2015circuit}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.doki1984cmos}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.218 \bibitem[Dokic 1984]{doki1984cmos}
+l.231 \bibitem[Dokic 1984]{doki1984cmos}
                                         pdfTeX warning (ext4): destination with
  the same identifier (name{cite.dreslinski2010near}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.224 ...eslinski et al. 2010]{dreslinski2010near}
+l.237 ...eslinski et al. 2010]{dreslinski2010near}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.farkhani2014comparative}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.230 ...ani et al. 2014]{farkhani2014comparative}
+l.243 ...ani et al. 2014]{farkhani2014comparative}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.federspiel201228nm}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 ...derspiel et al. 2012]{federspiel201228nm}
+l.250 ...derspiel et al. 2012]{federspiel201228nm}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.thiagoTIST}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.243 ..., Schneider and Lettnin 2019]{thiagoTIST}
+l.256 ..., Schneider and Lettnin 2019]{thiagoTIST}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.fojtik2013millimeter}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.252 ...Fojtik et al. 2013]{fojtik2013millimeter}
+l.265 ...Fojtik et al. 2013]{fojtik2013millimeter}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.frank2001device}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.259 \bibitem[Frank et al. 2001]{frank2001device}
+l.272 \bibitem[Frank et al. 2001]{frank2001device}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.frank2000simulation}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.265 ...Frank and Wong 2000]{frank2000simulation}
+l.278 ...Frank and Wong 2000]{frank2000simulation}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.gielen2008emerging}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.272 ...m[Gielen et al. 2008]{gielen2008emerging}
+l.285 ...m[Gielen et al. 2008]{gielen2008emerging}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.guduri2015design}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 ...[Guduri and Islam 2015]{guduri2015design}
+l.291 ...[Guduri and Islam 2015]{guduri2015design}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.gusev2001ultrathin}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.285 ...em[Gusev et al. 2001]{gusev2001ultrathin}
+l.298 ...em[Gusev et al. 2001]{gusev2001ultrathin}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.gusev2006advanced}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.291 ...ayanan and Frank 2006]{gusev2006advanced}
+l.304 ...ayanan and Frank 2006]{gusev2006advanced}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.FinFET01}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.298 \bibitem[Harrington et al. 2018]{FinFET01}
+l.311 \bibitem[Harrington et al. 2018]{FinFET01}
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{cite.hobbs2004fermi}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.305 \bibitem[Hobbs et al. 2004]{hobbs2004fermi}
+l.318 \bibitem[Hobbs et al. 2004]{hobbs2004fermi}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.islam2011variability}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.312 ...ram and Hasan 2011]{islam2011variability}
+l.325 ...ram and Hasan 2011]{islam2011variability}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.islam:10}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.319 \bibitem[Islam et al. 2010]{islam:10}
+l.332 \bibitem[Islam et al. 2010]{islam:10}
                                            pdfTeX warning (ext4): destination w
 ith the same identifier (name{cite.islam2011design}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.326 ...em[Islam and Hasan 2011]{islam2011design}
+l.339 ...em[Islam and Hasan 2011]{islam2011design}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.jeon2012design}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.332 \bibitem[Jeon et al. 2012]{jeon2012design}
+l.345 \bibitem[Jeon et al. 2012]{jeon2012design}
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{cite.jeong2009impact}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.339 ..., Kahng and Samadi 2009]{jeong2009impact}
+l.352 ..., Kahng and Samadi 2009]{jeong2009impact}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.kahng2010slack}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.346 \bibitem[Kahng et al. 2010]{kahng2010slack}
+l.359 \bibitem[Kahng et al. 2010]{kahng2010slack}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.kakoee2012variation}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.353 ...Loi and Benini 2012]{kakoee2012variation}
+l.366 ...Loi and Benini 2012]{kakoee2012variation}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.khan2014flexible}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.360 ...ya and Lorenzelli 2014]{khan2014flexible}
+l.373 ...ya and Lorenzelli 2014]{khan2014flexible}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.kim1993new}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.367 \bibitem[Kim, Kih and Kim 1993]{kim1993new}
+l.380 \bibitem[Kim, Kih and Kim 1993]{kim1993new}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.finfetchar1}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.374 \bibitem[King 2005]{finfetchar1}
+l.387 \bibitem[King 2005]{finfetchar1}
                                       pdfTeX warning (ext4): destination with t
 he same identifier (name{cite.kulkarni2007160}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.380 ...karni, Kim and Roy 2007]{kulkarni2007160}
+l.393 ...karni, Kim and Roy 2007]{kulkarni2007160}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.FINFET05}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.387 \bibitem[Liao et al. 2008]{FINFET05}
+l.400 \bibitem[Liao et al. 2008]{FINFET05}
                                           pdfTeX warning (ext4): destination wi
 th the same identifier (name{cite.5746345}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
-l.393 \bibitem[Lotze and Manoli 2011]{5746345}
+l.406 \bibitem[Lotze and Manoli 2011]{5746345}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.lotze2017ultra}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.400 ...em[Lotze and Manoli 2017]{lotze2017ultra}
+l.413 ...em[Lotze and Manoli 2017]{lotze2017ultra}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.luo2017sub}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.407 \bibitem[Luo et al. 2017]{luo2017sub}
+l.420 \bibitem[Luo et al. 2017]{luo2017sub}
                                            pdfTeX warning (ext4): destination w
 ith the same identifier (name{cite.finfetdis}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.414 \bibitem[Manoj et al. 2007]{finfetdis}
+l.427 \bibitem[Manoj et al. 2007]{finfetdis}
                                             pdfTeX warning (ext4): destination 
 with the same identifier (name{cite.manoli2010energy}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.420 \bibitem[Manoli 2010]{manoli2010energy}
+l.433 \bibitem[Manoli 2010]{manoli2010energy}
                                              pdfTeX warning (ext4): destination
  with the same identifier (name{cite.meinhardt2014impact}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 ...mpeck and Reis 2014]{meinhardt2014impact}
+l.438 ...mpeck and Reis 2014]{meinhardt2014impact}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.melek:17}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.432 \bibitem[Melek et al. 2017]{melek:17}
+l.445 \bibitem[Melek et al. 2017]{melek:17}
                                            pdfTeX warning (ext4): destination w
 ith the same identifier (name{cite.miorandi2012internet}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.439 ...orandi et al. 2012]{miorandi2012internet}
+l.452 ...orandi et al. 2012]{miorandi2012internet}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moghaddam2017design}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.445 ...eri and Eshghi 2017]{moghaddam2017design}
+l.458 ...eri and Eshghi 2017]{moghaddam2017design}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraes2019exploring}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.452 ...[Moraes et al. 2019]{moraes2019exploring}
+l.465 ...[Moraes et al. 2019]{moraes2019exploring}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraes2019minimum}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.458 ...em[Moraes et al. 2019]{moraes2019minimum}
+l.471 ...em[Moraes et al. 2019]{moraes2019minimum}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraes2018sim}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.465 \bibitem[Moraes et al. 2018]{moraes2018sim}
+l.478 \bibitem[Moraes et al. 2018]{moraes2018sim}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.moraes2018wcas}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.472 \bibitem[Moraes et al. 2018]{moraes2018wcas}
+l.485 \bibitem[Moraes et al. 2018]{moraes2018wcas}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraes2019wcas}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.479 \bibitem[Moraes et al. 2019]{moraes2019wcas}
+l.492 \bibitem[Moraes et al. 2019]{moraes2019wcas}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraes2020iscas}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.486 ...item[Moraes et al. 2020]{moraes2020iscas}
+l.499 ...item[Moraes et al. 2020]{moraes2020iscas}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraeslivrovlsi}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.492 ...item[Moraes et al. 2020]{moraeslivrovlsi}
+l.505 ...item[Moraes et al. 2020]{moraeslivrovlsi}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.moraes2018evaluation}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.497 ...Moraes et al. 2018]{moraes2018evaluation}
+l.510 ...Moraes et al. 2018]{moraes2018evaluation}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.mustafa2013threshold}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.503 ...hat and Beigh 2013]{mustafa2013threshold}
+l.516 ...hat and Beigh 2013]{mustafa2013threshold}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.nassif:08}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.510 \bibitem[Nassif 2008]{nassif:08}
+l.523 \bibitem[Nassif 2008]{nassif:08}
                                       pdfTeX warning (ext4): destination with t
 he same identifier (name{cite.navi2009novel}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
-l.516 \bibitem[Navi et al. 2009]{navi2009novel}
+l.529 \bibitem[Navi et al. 2009]{navi2009novel}
                                                pdfTeX warning (ext4): destinati
 on with the same identifier (name{cite.nawaz2014comparison}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.521 ...m[Nawaz et al. 2014]{nawaz2014comparison}
+l.534 ...m[Nawaz et al. 2014]{nawaz2014comparison}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.neuberger2014protecting}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.527 ...h and Reis 2014]{neuberger2014protecting}
+l.540 ...h and Reis 2014]{neuberger2014protecting}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.pal2018circuit}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.532 \bibitem[Pal and Islam 2018]{pal2018circuit}
+l.546 \bibitem[Pal and Islam 2018]{pal2018circuit}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.pawlowski2012530mv}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.539 ...awlowski et al. 2012]{pawlowski2012530mv}
+l.553 ...awlowski et al. 2012]{pawlowski2012530mv}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.pedroni2005low}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.545 \bibitem[Pedroni 2005]{pedroni2005low}
+l.559 \bibitem[Pedroni 2005]{pedroni2005low}
                                             pdfTeX warning (ext4): destination 
 with the same identifier (name{cite.pfister1992novel}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.551 \bibitem[Pfister 1992]{pfister1992novel}
+l.565 \bibitem[Pfister 1992]{pfister1992novel}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.posser2016electromigration}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.556 ...nd Reis 2016]{posser2016electromigration}
+l.570 ...nd Reis 2016]{posser2016electromigration}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.qian2015variability}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.562 \bibitem[Qian 2015]{qian2015variability}
+l.576 \bibitem[Qian 2015]{qian2015variability}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.rabaey2002digital}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.569 ...asan and Nikolic 2002]{rabaey2002digital}
+l.583 ...asan and Nikolic 2002]{rabaey2002digital}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.rahimi2016variability}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.576 ...ni and Gupta 2016]{rahimi2016variability}
+l.590 ...ni and Gupta 2016]{rahimi2016variability}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.reis1995associating}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.582 ...em[Reis et al. 1995]{reis1995associating}
+l.596 ...em[Reis et al. 1995]{reis1995associating}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.reis2020circuit}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.588 \bibitem[Reis et al. 2020]{reis2020circuit}
+l.602 \bibitem[Reis et al. 2020]{reis2020circuit}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.FinFET02}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
-l.594 \bibitem[Ren et al. 2018]{FinFET02}
+l.608 \bibitem[Ren et al. 2018]{FinFET02}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{cite.rithe2011effect}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.600 \bibitem[Rithe et al. 2011]{rithe2011effect}
+l.614 \bibitem[Rithe et al. 2011]{rithe2011effect}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.schrom1997vlsi}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.607 ..., De and Selberherr 1997]{schrom1997vlsi}
+l.621 ..., De and Selberherr 1997]{schrom1997vlsi}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.shah2020soft}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.614 \bibitem[Shah et al. 2020]{shah2020soft}
+l.628 \bibitem[Shah et al. 2020]{shah2020soft}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.shams2000novel}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.620 ...m[Shams and Bayoumi 2000]{shams2000novel}
+l.634 ...m[Shams and Bayoumi 2000]{shams2000novel}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.steyaert1986novel}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.627 ...yaert and Sansen 1986]{steyaert1986novel}
+l.641 ...yaert and Sansen 1986]{steyaert1986novel}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.stine1997analysis}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.632 ...Boning and Chung 1997]{stine1997analysis}
+l.646 ...Boning and Chung 1997]{stine1997analysis}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.tache2018reliability}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.639 ...[Tache et al. 2018]{tache2018reliability}
+l.653 ...[Tache et al. 2018]{tache2018reliability}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.takeda1983empirical}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.645 ...eda and Suzuki 1983]{takeda1983empirical}
+l.659 ...eda and Suzuki 1983]{takeda1983empirical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.taur2013fundamentals}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.651 ...Taur and Ning 2013]{taur2013fundamentals}
+l.665 ...Taur and Ning 2013]{taur2013fundamentals}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.toledo2017impact}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.656 ...tem[Toledo et al. 2017]{toledo2017impact}
+l.670 ...tem[Toledo et al. 2017]{toledo2017impact}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.toledo2018pros}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.663 \bibitem[Toledo et al. 2018]{toledo2018pros}
+l.677 \bibitem[Toledo et al. 2018]{toledo2018pros}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.tschanz2002adaptive}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.670 ...Tschanz et al. 2002]{tschanz2002adaptive}
+l.684 ...Tschanz et al. 2002]{tschanz2002adaptive}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.wang2008statistical}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.677 ...em[Wang et al. 2008]{wang2008statistical}
+l.691 ...em[Wang et al. 2008]{wang2008statistical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.wang2011statistical}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.683 ...em[Wang et al. 2011]{wang2011statistical}
+l.697 ...em[Wang et al. 2011]{wang2011statistical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.weste1985principles}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.690 ...and Eshraghian 1985]{weste1985principles}
+l.704 ...and Eshraghian 1985]{weste1985principles}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.wong1999nanoscale}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.695 ...item[Wong et al. 1999]{wong1999nanoscale}
+l.709 ...item[Wong et al. 1999]{wong1999nanoscale}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.FinFET03}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.700 \bibitem[Xiong and Bokor 2003]{FinFET03}
+l.714 \bibitem[Xiong and Bokor 2003]{FinFET03}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.young1994failure}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.707 ...oung and Christou 1994]{young1994failure}
+l.721 ...oung and Christou 1994]{young1994failure}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.van2004principles}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.713 \bibitem[Zeghbroeck 2004]{van2004principles}
+l.727 \bibitem[Zeghbroeck 2004]{van2004principles}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.zhang2003low}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.718 ...Srivastava and Ajmera 2003]{zhang2003low}
+l.732 ...Srivastava and Ajmera 2003]{zhang2003low}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.FinFET04}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.724 \bibitem[Zhang et al. 2017]{FinFET04}
+l.738 \bibitem[Zhang et al. 2017]{FinFET04}
                                            pdfTeX warning (ext4): destination w
 ith the same identifier (name{cite.zimpeck2016finfet}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.731 ...m[Zimpeck et al. 2016]{zimpeck2016finfet}
+l.745 ...m[Zimpeck et al. 2016]{zimpeck2016finfet}
                                                   )pdfTeX warning (ext4): desti
 nation with the same identifier (name{cite.moraes2018evaluation}) has been alre
 ady used, duplicate ignored
@@ -4260,7 +4260,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1871.
 
-<INV1F.png, id=2328, 319.94531pt x 624.08156pt>
+<INV1F.png, id=2342, 319.94531pt x 624.08156pt>
 File: INV1F.png Graphic file (type png)
 <use INV1F.png>
 Package pdftex.def Info: INV1F.png  used on input line 1873.
@@ -4272,7 +4272,7 @@ LaTeX Warning: Float too large for page by 47.86165pt on input line 1877.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1879.
 
-<INV2F.png, id=2329, 321.45094pt x 625.58719pt>
+<INV2F.png, id=2343, 321.45094pt x 625.58719pt>
 File: INV2F.png Graphic file (type png)
 <use INV2F.png>
 Package pdftex.def Info: INV2F.png  used on input line 1881.
@@ -4284,7 +4284,7 @@ LaTeX Warning: Float too large for page by 33.3676pt on input line 1885.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1887.
 
-<INV3F.png, id=2330, 319.94531pt x 625.58719pt>
+<INV3F.png, id=2344, 319.94531pt x 625.58719pt>
 File: INV3F.png Graphic file (type png)
 <use INV3F.png>
 Package pdftex.def Info: INV3F.png  used on input line 1889.
@@ -4296,7 +4296,7 @@ LaTeX Warning: Float too large for page by 33.3676pt on input line 1893.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1895.
 
-<INV4F.png, id=2331, 273.27094pt x 627.09282pt>
+<INV4F.png, id=2345, 273.27094pt x 627.09282pt>
 File: INV4F.png Graphic file (type png)
 <use INV4F.png>
 Package pdftex.def Info: INV4F.png  used on input line 1897.
@@ -4308,7 +4308,7 @@ LaTeX Warning: Float too large for page by 33.37498pt on input line 1901.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1903.
 
-<INV5F.png, id=2332, 237.88875pt x 625.58719pt>
+<INV5F.png, id=2346, 237.88875pt x 625.58719pt>
 File: INV5F.png Graphic file (type png)
 <use INV5F.png>
 Package pdftex.def Info: INV5F.png  used on input line 1905.
@@ -4320,7 +4320,7 @@ LaTeX Warning: Float too large for page by 33.3676pt on input line 1909.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1918.
 
-<ST1F.png, id=2333, 730.22812pt x 627.09282pt>
+<ST1F.png, id=2347, 730.22812pt x 627.09282pt>
 File: ST1F.png Graphic file (type png)
 <use ST1F.png>
 Package pdftex.def Info: ST1F.png  used on input line 1920.
@@ -4329,7 +4329,7 @@ Package pdftex.def Info: ST1F.png  used on input line 1920.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1926.
 
-<ST2F.png, id=2334, 730.22812pt x 625.58719pt>
+<ST2F.png, id=2348, 730.22812pt x 625.58719pt>
 File: ST2F.png Graphic file (type png)
 <use ST2F.png>
 Package pdftex.def Info: ST2F.png  used on input line 1928.
@@ -4338,7 +4338,7 @@ Package pdftex.def Info: ST2F.png  used on input line 1928.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1934.
 
-<ST3F.png, id=2335, 731.73375pt x 627.09282pt>
+<ST3F.png, id=2349, 731.73375pt x 627.09282pt>
 File: ST3F.png Graphic file (type png)
 <use ST3F.png>
 Package pdftex.def Info: ST3F.png  used on input line 1936.
@@ -4347,7 +4347,7 @@ Package pdftex.def Info: ST3F.png  used on input line 1936.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1942.
 
-<ST4F.png, id=2336, 623.32875pt x 625.58719pt>
+<ST4F.png, id=2350, 623.32875pt x 625.58719pt>
 File: ST4F.png Graphic file (type png)
 <use ST4F.png>
 Package pdftex.def Info: ST4F.png  used on input line 1944.
@@ -4356,7 +4356,7 @@ Package pdftex.def Info: ST4F.png  used on input line 1944.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1950.
 
-<ST5F.png, id=2337, 543.53062pt x 625.58719pt>
+<ST5F.png, id=2351, 543.53062pt x 625.58719pt>
 File: ST5F.png Graphic file (type png)
 <use ST5F.png>
 Package pdftex.def Info: ST5F.png  used on input line 1952.
@@ -4365,7 +4365,7 @@ Package pdftex.def Info: ST5F.png  used on input line 1952.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1963.
 
-<SIG1F.png, id=2338, 730.22812pt x 625.58719pt>
+<SIG1F.png, id=2352, 730.22812pt x 625.58719pt>
 File: SIG1F.png Graphic file (type png)
 <use SIG1F.png>
 Package pdftex.def Info: SIG1F.png  used on input line 1965.
@@ -4374,7 +4374,7 @@ Package pdftex.def Info: SIG1F.png  used on input line 1965.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1971.
 
-<SIG2F.png, id=2339, 729.47531pt x 625.58719pt>
+<SIG2F.png, id=2353, 729.47531pt x 625.58719pt>
 File: SIG2F.png Graphic file (type png)
 <use SIG2F.png>
 Package pdftex.def Info: SIG2F.png  used on input line 1973.
@@ -4383,7 +4383,7 @@ Package pdftex.def Info: SIG2F.png  used on input line 1973.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1979.
 
-<SIG3F.png, id=2340, 730.98094pt x 625.58719pt>
+<SIG3F.png, id=2354, 730.98094pt x 625.58719pt>
 File: SIG3F.png Graphic file (type png)
 <use SIG3F.png>
 Package pdftex.def Info: SIG3F.png  used on input line 1981.
@@ -4392,7 +4392,7 @@ Package pdftex.def Info: SIG3F.png  used on input line 1981.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1987.
 
-<SIG4F.png, id=2341, 623.32875pt x 625.58719pt>
+<SIG4F.png, id=2355, 623.32875pt x 625.58719pt>
 File: SIG4F.png Graphic file (type png)
 <use SIG4F.png>
 Package pdftex.def Info: SIG4F.png  used on input line 1989.
@@ -4401,7 +4401,7 @@ Package pdftex.def Info: SIG4F.png  used on input line 1989.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1995.
 
-<SIG5F.png, id=2342, 542.77782pt x 625.58719pt>
+<SIG5F.png, id=2356, 542.77782pt x 625.58719pt>
 File: SIG5F.png Graphic file (type png)
 <use SIG5F.png>
 Package pdftex.def Info: SIG5F.png  used on input line 1997.
@@ -4410,7 +4410,7 @@ Package pdftex.def Info: SIG5F.png  used on input line 1997.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2009.
 
-<TIST2F1F.png, id=2343, 523.9575pt x 626.34pt>
+<TIST2F1F.png, id=2357, 523.9575pt x 626.34pt>
 File: TIST2F1F.png Graphic file (type png)
 <use TIST2F1F.png>
 Package pdftex.def Info: TIST2F1F.png  used on input line 2011.
@@ -4419,7 +4419,7 @@ Package pdftex.def Info: TIST2F1F.png  used on input line 2011.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2017.
 
-<TIST3F1F.png, id=2344, 523.9575pt x 625.58719pt>
+<TIST3F1F.png, id=2358, 523.9575pt x 625.58719pt>
 File: TIST3F1F.png Graphic file (type png)
 <use TIST3F1F.png>
 Package pdftex.def Info: TIST3F1F.png  used on input line 2019.
@@ -4428,7 +4428,7 @@ Package pdftex.def Info: TIST3F1F.png  used on input line 2019.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2025.
 
-<TIST4F2F.png, id=2345, 446.41782pt x 625.58719pt>
+<TIST4F2F.png, id=2359, 446.41782pt x 625.58719pt>
 File: TIST4F2F.png Graphic file (type png)
 <use TIST4F2F.png>
 Package pdftex.def Info: TIST4F2F.png  used on input line 2027.
@@ -4437,7 +4437,7 @@ Package pdftex.def Info: TIST4F2F.png  used on input line 2027.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2033.
 
-<TIST6F2F.png, id=2346, 347.79938pt x 627.09282pt>
+<TIST6F2F.png, id=2360, 347.79938pt x 627.09282pt>
 File: TIST6F2F.png Graphic file (type png)
 <use TIST6F2F.png>
 Package pdftex.def Info: TIST6F2F.png  used on input line 2035.
@@ -4449,7 +4449,7 @@ LaTeX Warning: Float too large for page by 47.87498pt on input line 2039.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2041.
 
-<TIST6F3F.png, id=2347, 347.79938pt x 627.09282pt>
+<TIST6F3F.png, id=2361, 347.79938pt x 627.09282pt>
 File: TIST6F3F.png Graphic file (type png)
 <use TIST6F3F.png>
 Package pdftex.def Info: TIST6F3F.png  used on input line 2043.
@@ -4514,7 +4514,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2055.
 
-<CMOS.png, id=2457, 1287.30937pt x 340.27126pt>
+<CMOS.png, id=2471, 1287.30937pt x 340.27126pt>
 File: CMOS.png Graphic file (type png)
 <use CMOS.png>
 Package pdftex.def Info: CMOS.png  used on input line 2057.
@@ -4531,7 +4531,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2064.
 
-<CMOSST1.png, id=2467, 1297.09593pt x 146.04562pt>
+<CMOSST1.png, id=2481, 1297.09593pt x 146.04562pt>
 File: CMOSST1.png Graphic file (type png)
 <use CMOSST1.png>
 Package pdftex.def Info: CMOSST1.png  used on input line 2066.
@@ -4540,7 +4540,7 @@ Package pdftex.def Info: CMOSST1.png  used on input line 2066.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2073.
 
-<CMOSST2.png, id=2468, 1297.09593pt x 222.07968pt>
+<CMOSST2.png, id=2482, 1297.09593pt x 222.07968pt>
 File: CMOSST2.png Graphic file (type png)
 <use CMOSST2.png>
 Package pdftex.def Info: CMOSST2.png  used on input line 2075.
@@ -4549,7 +4549,7 @@ Package pdftex.def Info: CMOSST2.png  used on input line 2075.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2086.
 
-<TFA.png, id=2469, 1295.59032pt x 250.68657pt>
+<TFA.png, id=2483, 1295.59032pt x 250.68657pt>
 File: TFA.png Graphic file (type png)
 <use TFA.png>
 Package pdftex.def Info: TFA.png  used on input line 2088.
@@ -4558,7 +4558,7 @@ Package pdftex.def Info: TFA.png  used on input line 2088.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2095.
 
-<TFAST1.png, id=2470, 1296.34312pt x 126.4725pt>
+<TFAST1.png, id=2484, 1296.34312pt x 126.4725pt>
 File: TFAST1.png Graphic file (type png)
 <use TFAST1.png>
 Package pdftex.def Info: TFAST1.png  used on input line 2097.
@@ -4567,7 +4567,7 @@ Package pdftex.def Info: TFAST1.png  used on input line 2097.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2104.
 
-<TFAST2.png, id=2471, 1297.09593pt x 198.7425pt>
+<TFAST2.png, id=2485, 1297.09593pt x 198.7425pt>
 File: TFAST2.png Graphic file (type png)
 <use TFAST2.png>
 Package pdftex.def Info: TFAST2.png  used on input line 2106.
@@ -4576,7 +4576,7 @@ Package pdftex.def Info: TFAST2.png  used on input line 2106.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2120.
 
-<TGA.png, id=2472, 1295.59032pt x 222.8325pt>
+<TGA.png, id=2486, 1295.59032pt x 222.8325pt>
 File: TGA.png Graphic file (type png)
 <use TGA.png>
 Package pdftex.def Info: TGA.png  used on input line 2122.
@@ -4585,7 +4585,7 @@ Package pdftex.def Info: TGA.png  used on input line 2122.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2129.
 
-<TGAST1.png, id=2473, 1297.09593pt x 77.53969pt>
+<TGAST1.png, id=2487, 1297.09593pt x 77.53969pt>
 File: TGAST1.png Graphic file (type png)
 <use TGAST1.png>
 Package pdftex.def Info: TGAST1.png  used on input line 2131.
@@ -4594,7 +4594,7 @@ Package pdftex.def Info: TGAST1.png  used on input line 2131.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2138.
 
-<TGAST2.png, id=2474, 1297.09593pt x 140.77594pt>
+<TGAST2.png, id=2488, 1297.09593pt x 140.77594pt>
 File: TGAST2.png Graphic file (type png)
 <use TGAST2.png>
 Package pdftex.def Info: TGAST2.png  used on input line 2140.
@@ -4603,7 +4603,7 @@ Package pdftex.def Info: TGAST2.png  used on input line 2140.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2153.
 
-<HYBRID.png, id=2475, 1296.34312pt x 234.1247pt>
+<HYBRID.png, id=2489, 1296.34312pt x 234.1247pt>
 File: HYBRID.png Graphic file (type png)
 <use HYBRID.png>
 Package pdftex.def Info: HYBRID.png  used on input line 2155.
@@ -4612,7 +4612,7 @@ Package pdftex.def Info: HYBRID.png  used on input line 2155.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2162.
 
-<HYBRIDST1.png, id=2476, 1295.59032pt x 75.28125pt>
+<HYBRIDST1.png, id=2490, 1295.59032pt x 75.28125pt>
 File: HYBRIDST1.png Graphic file (type png)
 <use HYBRIDST1.png>
 Package pdftex.def Info: HYBRIDST1.png  used on input line 2164.
@@ -4621,7 +4621,7 @@ Package pdftex.def Info: HYBRIDST1.png  used on input line 2164.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2171.
 
-<HYBRIDST2.png, id=2477, 1296.34312pt x 140.02313pt>
+<HYBRIDST2.png, id=2491, 1296.34312pt x 140.02313pt>
 File: HYBRIDST2.png Graphic file (type png)
 <use HYBRIDST2.png>
 Package pdftex.def Info: HYBRIDST2.png  used on input line 2173.
@@ -4661,7 +4661,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2186.
 
-<dist_energy_INV_0_2.pdf, id=2535, 505.89pt x 505.89pt>
+<dist_energy_INV_0_2.pdf, id=2549, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_2.pdf>
 Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 2188.
@@ -4675,7 +4675,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2188--2189
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2194.
 
-<dist_energy_INV_0_4.pdf, id=2536, 505.89pt x 505.89pt>
+<dist_energy_INV_0_4.pdf, id=2550, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_4.pdf>
 Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 2196.
@@ -4689,7 +4689,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2196--2197
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2202.
 
-<dist_energy_INV_0_7.pdf, id=2537, 505.89pt x 505.89pt>
+<dist_energy_INV_0_7.pdf, id=2551, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_7.pdf>
 Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 2204.
@@ -4703,7 +4703,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2204--2205
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2210.
 
-<dist_disp_INV_0_2.pdf, id=2538, 505.89pt x 505.89pt>
+<dist_disp_INV_0_2.pdf, id=2552, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_2.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_2.pdf>
 Package pdftex.def Info: dist_disp_INV_0_2.pdf  used on input line 2212.
@@ -4717,7 +4717,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2212--2213
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2218.
 
-<dist_disp_INV_0_4.pdf, id=2539, 505.89pt x 505.89pt>
+<dist_disp_INV_0_4.pdf, id=2553, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_4.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_4.pdf>
 Package pdftex.def Info: dist_disp_INV_0_4.pdf  used on input line 2220.
@@ -4731,7 +4731,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2220--2221
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2226.
 
-<dist_disp_INV_0_7.pdf, id=2540, 505.89pt x 505.89pt>
+<dist_disp_INV_0_7.pdf, id=2554, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_7.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_7.pdf>
 Package pdftex.def Info: dist_disp_INV_0_7.pdf  used on input line 2228.
@@ -4745,7 +4745,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2228--2229
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2236.
 
-<dist_energy_ST_0_2.pdf, id=2541, 505.89pt x 505.89pt>
+<dist_energy_ST_0_2.pdf, id=2555, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_2.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_2.pdf>
 Package pdftex.def Info: dist_energy_ST_0_2.pdf  used on input line 2238.
@@ -4759,7 +4759,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2238--2239
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2244.
 
-<dist_energy_ST_0_4.pdf, id=2542, 505.89pt x 505.89pt>
+<dist_energy_ST_0_4.pdf, id=2556, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_4.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_4.pdf>
 Package pdftex.def Info: dist_energy_ST_0_4.pdf  used on input line 2246.
@@ -4773,7 +4773,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2246--2247
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2252.
 
-<dist_energy_ST_0_7.pdf, id=2543, 505.89pt x 505.89pt>
+<dist_energy_ST_0_7.pdf, id=2557, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_7.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_7.pdf>
 Package pdftex.def Info: dist_energy_ST_0_7.pdf  used on input line 2254.
@@ -4787,7 +4787,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2254--2255
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2260.
 
-<dist_disp_ST_0_2.pdf, id=2544, 505.89pt x 505.89pt>
+<dist_disp_ST_0_2.pdf, id=2558, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_2.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_2.pdf>
 Package pdftex.def Info: dist_disp_ST_0_2.pdf  used on input line 2262.
@@ -4801,7 +4801,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2262--2263
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2268.
 
-<dist_disp_ST_0_4.pdf, id=2545, 505.89pt x 505.89pt>
+<dist_disp_ST_0_4.pdf, id=2559, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_4.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_4.pdf>
 Package pdftex.def Info: dist_disp_ST_0_4.pdf  used on input line 2270.
@@ -4815,7 +4815,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2270--2271
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2276.
 
-<dist_disp_ST_0_7.pdf, id=2546, 505.89pt x 505.89pt>
+<dist_disp_ST_0_7.pdf, id=2560, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_7.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_7.pdf>
 Package pdftex.def Info: dist_disp_ST_0_7.pdf  used on input line 2278.
@@ -4829,7 +4829,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2278--2279
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2286.
 
-<dist_energy_SIG_0_2.pdf, id=2547, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_2.pdf, id=2561, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_2.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_2.pdf  used on input line 2288.
@@ -4843,7 +4843,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2288--2289
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2294.
 
-<dist_energy_SIG_0_4.pdf, id=2548, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_4.pdf, id=2562, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_4.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_4.pdf  used on input line 2296.
@@ -4857,7 +4857,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2296--2297
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2302.
 
-<dist_energy_SIG_0_7.pdf, id=2549, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_7.pdf, id=2563, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_7.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_7.pdf  used on input line 2304.
@@ -4871,7 +4871,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2304--2305
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2310.
 
-<dist_disp_SIG_0_2.pdf, id=2550, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_2.pdf, id=2564, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_2.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_2.pdf  used on input line 2312.
@@ -4885,7 +4885,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2312--2313
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2318.
 
-<dist_disp_SIG_0_4.pdf, id=2551, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_4.pdf, id=2565, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_4.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_4.pdf  used on input line 2320.
@@ -4899,7 +4899,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2320--2321
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2326.
 
-<dist_disp_SIG_0_7.pdf, id=2552, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_7.pdf, id=2566, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_7.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_7.pdf  used on input line 2328.
@@ -4913,7 +4913,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2328--2329
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2336.
 
-<dist_energy_6F3F_0_2.pdf, id=2553, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_2.pdf, id=2567, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_2.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_2.pdf  used on input line 2338.
@@ -4927,7 +4927,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2338--2339
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2344.
 
-<dist_energy_6F3F_0_4.pdf, id=2554, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_4.pdf, id=2568, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_4.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_4.pdf  used on input line 2346.
@@ -4941,7 +4941,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2346--2347
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2352.
 
-<dist_energy_6F3F_0_7.pdf, id=2555, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_7.pdf, id=2569, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_7.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_7.pdf  used on input line 2354.
@@ -4955,7 +4955,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2354--2355
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2360.
 
-<dist_disp_6F3F_0_2.pdf, id=2556, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_2.pdf, id=2570, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_2.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_2.pdf  used on input line 2362.
@@ -4969,7 +4969,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2362--2363
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2368.
 
-<dist_disp_6F3F_0_4.pdf, id=2557, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_4.pdf, id=2571, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_4.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_4.pdf  used on input line 2370.
@@ -4983,7 +4983,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2370--2371
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2376.
 
-<dist_disp_6F3F_0_7.pdf, id=2558, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_7.pdf, id=2572, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_7.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_7.pdf  used on input line 2378.
@@ -4997,7 +4997,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2378--2379
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2386.
 
-<dist_energy_6F2F_0_2.pdf, id=2559, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_2.pdf, id=2573, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_2.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_2.pdf  used on input line 2388.
@@ -5011,7 +5011,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2388--2389
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2394.
 
-<dist_energy_6F2F_0_4.pdf, id=2560, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_4.pdf, id=2574, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_4.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_4.pdf  used on input line 2396.
@@ -5025,7 +5025,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2396--2397
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2402.
 
-<dist_energy_6F2F_0_7.pdf, id=2561, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_7.pdf, id=2575, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_7.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_7.pdf  used on input line 2404.
@@ -5039,7 +5039,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2404--2405
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2410.
 
-<dist_disp_6F2F_0_2.pdf, id=2562, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_2.pdf, id=2576, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_2.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_2.pdf  used on input line 2412.
@@ -5053,7 +5053,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2412--2413
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2418.
 
-<dist_disp_6F2F_0_4.pdf, id=2563, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_4.pdf, id=2577, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_4.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_4.pdf  used on input line 2420.
@@ -5067,7 +5067,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2420--2421
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2426.
 
-<dist_disp_6F2F_0_7.pdf, id=2564, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_7.pdf, id=2578, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_7.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_7.pdf  used on input line 2428.
@@ -5179,7 +5179,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2434.
 Here is how much of TeX's memory you used:
  29267 strings out of 492167
  486576 string characters out of 6131558
- 648540 words of memory out of 5000000
+ 649636 words of memory out of 5000000
  32738 multiletter control sequences out of 15000+600000
  584550 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5192,10 +5192,10 @@ r/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts
 /type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iiufrgs.pdf (165 pages, 9801377 bytes).
+Output written on iiufrgs.pdf (165 pages, 9802202 bytes).
 PDF statistics:
- 3088 PDF objects out of 3580 (max. 8388607)
- 2436 compressed objects within 25 object streams
+ 3102 PDF objects out of 3580 (max. 8388607)
+ 2450 compressed objects within 25 object streams
  482 named destinations out of 1000 (max. 500000)
  1270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
