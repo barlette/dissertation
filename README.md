@@ -1,85 +1,80 @@
-LaTeX3 Programming Conventions
-==============================
 
-Release 2020-04-06
+The `microtype` package
+=======================
+
+**Subliminal refinements towards typographical perfection**
+
+  (v2.7d -- 2019/11/18)
+
 
 Overview
 --------
 
-The files of the `l3kernel` bundle provide a low-level API for TeX programmers
-with special syntax conventions, completely separating it from document level
-syntax. Hence, the commands provided are not intended for use at the document
-level nor for use in describing design layouts in document class files.
+The `microtype` package provides a LaTeX interface to the micro-typographic
+extensions that were introduced by pdfTeX and have since also propagated to
+LuaTeX and XeTeX: most prominently, character protrusion and font expansion,
+furthermore the adjustment of interword spacing and additional kerning, as
+well as hyphenatable letterspacing (tracking) and the possibility to disable
+all or selected ligatures.
 
-This API provides the foundation on which the LaTeX3 kernel and other advanced
-extensions are built. Special care has been taken so that they can be used
-within a LaTeX2e context as regular packages.
+These features may be applied to customisable sets of fonts, and all 
+micro-typographic aspects of the fonts can be configured in a straight-forward
+and flexible way. Settings for various fonts are provided.
 
-While `l3kernel` is still experimental, the bundle is now regarded as broadly
-stable. The syntax conventions and functions provided are now ready for wider
-use. There may still be changes to some functions, but these will be minor when
-compared to the scope of `l3kernel`.
+*Note that character protrusion requires pdfTeX (version 0.14f or later),
+LuaTeX, or XeTeX (at least version 0.9997). Font expansion works with pdfTeX
+(version 1.20 for automatic expansion) or LuaTeX. The package will by default
+enable protrusion and expansion if they can safely be assumed to work.
+Disabling ligatures requires pdfTeX (at least version 1.30) or LuaTeX, while
+the adjustment of interword spacing and of kerning only works with pdfTeX
+(at least 1.40). Letterspacing is available with pdfTeX (1.40) or LuaTeX (0.62).*
 
-Programmers making use of `l3kernel` are *strongly* encouraged to subscribe to
-the LaTeX-L mailing list (see below): announcements concerning the deprecation
-or modification of functions are made on the list.
+The alternative package `letterspace`, which also works with plain TeX,
+provides the user commands for letterspacing only, omitting support for all
+other extensions.
 
-Requirements
+The documentation can be found in `microtype.pdf`.
+
+
+Installation
 ------------
 
-The `l3kernel` bundle requires the e-TeX extensions and additional functionality
-to support string comparisons, expandable character generation with arbitrary
-category codes (for Unicode engines) and PDF support primitives (where direct
-PDF generation is used). The bundle only works with the following engines:
-* pdfTeX v1.40 or later
-* XeTeX v0.99992 or later
-* LuaTeX v0.76 or later
-* e-(u)pTeX from mid-2012 onward
+To install the package, use one of the following methods
+(in decreasing order of simplicity):
 
-pdfTeX v1.40 was released in 2007, and so any recent TeX distribution
-supports `l3kernel`. Both XeTeX and LuaTeX have developed more
-actively over the past few years, and for this reason only recent
-releases of these engines are supported.
+- Use the package manager of your TeX system 
+  (TeXLive: `tlmgr install microtype`;
+   MiKTeX: MiKTeX Package Manager).
+ 
+- Download `microtype.tds.zip` from CTAN, 
+  extract it in the root of one of your TDS trees, 
+  and update the filename database.
 
-(Engine developers should contact the team for detailed discussion about
-primitive requirements.)
+- Get the source (`microtype.zip`) from CTAN and extract it,
+  run `latex` on `microtype.ins` to generate the package and configuration files,
+  and move all generated files into a directory where LaTeX will find them,
+  e.g., `TEXMF/tex/latex/microtype/`.
 
-Discussion
-----------
 
-Discussion concerning the approach, suggestions for improvements,
-changes, additions, _etc._ should be addressed to the list
-[LaTeX-L](https://listserv.uni-heidelberg.de/cgi-bin/wa?A0=LATEX-L).
+License
+-------
 
-You can subscribe to this list by sending mail to
+This work may be distributed and/or modified under the conditions of the
+LaTeX Project Public License, either version 1.3c of this license or (at
+your option) any later version. The latest version of this license is in:
+http://www.latex-project.org/lppl.txt, and version 1.3c or later is part
+of all distributions of LaTeX version 2005/12/01 or later.
 
-    listserv@urz.uni-heidelberg.de
+This work has the LPPL maintenance status 'author-maintained'.
 
-with the body containing
+This work consists of the files `microtype.dtx` and `microtype.ins` and the
+derived files `microtype.sty`, `microtype-pdftex.def`, `microtype-luatex.def`,
+`microtype-xetex.def`, `microtype.lua` and `letterspace.sty`.
 
-    subscribe LATEX-L  <Your-First-Name> <Your-Second-Name>
+Modified versions of the configuration files (`*.cfg`) may be distributed
+provided that: (1) the original copyright statement is not removed, and
+(2) the identification string is changed.
 
-Issues
-------
-
-The issue tracker for LaTeX3 is currently located
-[on GitHub](https://github.com/latex3/latex3/issues).
-
-Please report specific issues with LaTeX3 code there; more general
-discussion should be directed to the [LaTeX-L list](#Discussion).
-
-The LaTeX3 Project
-------------------
-
-Development of LaTeX3 is carried out by
-[The LaTeX3 Project](https://www.latex-project.org/latex3/).
-
-The development team can be contacted
-by e-mail: <latex-team@latex-project.org>; for general LaTeX3 discussion
-the [LaTeX-L list](#Discussion) should be used.
-
------
-
-<p>Copyright (C) 1998-2012,2015-2020 The LaTeX3 Project <br />
-<a href="http://latex-project.org/">http://latex-project.org/</a> <br />
-All rights reserved.</p>
+------------------------------------------------------
+Copyright (c) 2004--2019  R Schlicht `<w.m.l@gmx.net>`
+------------------------------------------------------

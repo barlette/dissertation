@@ -93,7 +93,8 @@
 \abntrefinfo{Bai, Visweswariah and Strenski}{BAI; VISWESWARIAH; STRENSKI}{2002}
 {BAI, X.; VISWESWARIAH, C.; STRENSKI, P.~N. Uncertainty-aware circuit
   optimization. In:  ACM. \textbf{Proceedings of the 39th annual Design
-  Automation Conference}. Louisiana, USA, 2002. p. 58--63.}
+  Automation Conference}. Louisiana, USA, 2002. p. 58--63.
+  {d}oi:\href{https://doi.org/10.1109/dac.2002.1012594}{10.1109/dac.2002.1012594}.}
 
 \bibitem[Beckett 2002]{beckett2002fine}
 \abntrefinfo{Beckett}{BECKETT}{2002}
@@ -114,7 +115,8 @@
 \bibitem[Bhattacharya and Jha 2014]{bhattacharya2014finfets}
 \abntrefinfo{Bhattacharya and Jha}{BHATTACHARYA; JHA}{2014}
 {BHATTACHARYA, D.; JHA, N.~K. Finfets: From devices to architectures.
-\textbf{Advances in Electronics}, Hindawi, v.~2014, 2014.}
+\textbf{Advances in Electronics}, Hindawi, v.~2014, 2014.
+{d}oi:\href{https://doi.org/10.1017/cbo9781316156148.003}{10.1017/cbo9781316156148.003}.}
 
 \bibitem[Bleitner et al. 2018]{bleitner2018comparison}
 \abntrefinfo{Bleitner et al.}{BLEITNER et al.}{2018}
@@ -127,34 +129,38 @@
 \abntrefinfo{Blish et al.}{BLISH et al.}{2003}
 {BLISH, R. et al. Critical reliability challenges for the international
   technology roadmap for semiconductors (itrs).
-\textbf{Technology Transfer}, 2003.}
+\textbf{Technology Transfer}, 2003.
+{d}oi:\href{https://doi.org/10.1007/978-3-642-23096-7_7}{10.1007/978-3-642-23096-7\_7}.}
 
 \bibitem[Borkar et al. 2004]{borkar2004design}
 \abntrefinfo{Borkar et al.}{BORKAR et al.}{2004}
 {BORKAR, S. et al. Design and reliability challenges in nanometer technologies.
   In:  ACM. \textbf{Proceedings of the 41st annual Design Automation
-  Conference}. San Diego, USA, 2004. p. 75--75.}
+  Conference}. San Diego, USA, 2004. p. 75--75.
+  {d}oi:\href{https://doi.org/10.1145/996566.996588}{10.1145/996566.996588}.}
 
 \bibitem[Bose and Johnston 2018]{bose2018stacked}
 \abntrefinfo{Bose and Johnston}{BOSE; JOHNSTON}{2018}
 {BOSE, S.; JOHNSTON, M.~L. A stacked-inverter ring oscillator for 50 mv
   fully-integrated cold-start of energy harvesters. In:  IEEE. \textbf{2018
   IEEE International Symposium on Circuits and Systems (ISCAS)}. Florence,
-  Italy, 2018. p.~1--5.}
+  Italy, 2018. p.~1--5.
+  {d}oi:\href{https://doi.org/10.1109/iscas.2018.8351445}{10.1109/iscas.2018.8351445}.}
 
 \bibitem[Brown et al. 2010]{brown2010impact}
 \abntrefinfo{Brown et al.}{BROWN et al.}{2010}
 {BROWN, A.~R. et al. Impact of metal gate granularity on threshold voltage
   variability: A full-scale three-dimensional statistical simulation study.
-\textbf{IEEE Electron Device Letters}, IEEE, v.~31, n.~11, p. 1199--1201,
-  2010.}
+\textbf{IEEE Electron Device Letters}, IEEE, v.~31, n.~11, p. 1199--1201, 2010.
+{d}oi:\href{https://doi.org/10.1109/led.2010.2069080}{10.1109/led.2010.2069080}.}
 
 \bibitem[Brunner 2003]{brunner2003optical}
 \abntrefinfo{Brunner}{BRUNNER}{2003}
 {BRUNNER, T.~A. Why optical lithography will live forever.
 \textbf{Journal of Vacuum Science \& Technology B: Microelectronics and
   Nanometer Structures Processing, Measurement, and Phenomena}, AVS, v.~21,
-  n.~6, p. 2632--2637, 2003.}
+  n.~6, p. 2632--2637, 2003.
+{d}oi:\href{https://doi.org/10.1116/1.1619954}{10.1116/1.1619954}.}
 
 \bibitem[Chang et al. 2013]{chang2013synchronous}
 \abntrefinfo{Chang et al.}{CHANG et al.}{2013}
@@ -162,49 +168,57 @@
   microcontroller cores for realizing the internet of things: A comparative
   study on dynamic voltage scaling and variation effects.
 \textbf{IEEE journal on emerging and selected topics in circuits and systems},
-  IEEE, v.~3, n.~1, p. 23--34, 2013.}
+  IEEE, v.~3, n.~1, p. 23--34, 2013.
+{d}oi:\href{https://doi.org/10.1109/jetcas.2013.2243031}{10.1109/jetcas.2013.2243031}.}
 
 \bibitem[Chava et al. 2015]{chava2015standard}
 \abntrefinfo{Chava et al.}{CHAVA et al.}{2015}
 {CHAVA, B. et al. Standard cell design in n7: Euv vs. immersion. In:
   INTERNATIONAL SOCIETY FOR OPTICS AND PHOTONICS.
   \textbf{Design-Process-Technology Co-optimization for Manufacturability IX}.
-  San Jose, USA, 2015. v.~9427, p. 94270E.}
+  San Jose, USA, 2015. v.~9427, p. 94270E.
+  {d}oi:\href{https://doi.org/10.1117/12.2085739}{10.1117/12.2085739}.}
 
 \bibitem[Clark et al. 2016]{clark2016asap7}
 \abntrefinfo{Clark et al.}{CLARK et al.}{2016}
 {CLARK, L.~T. et al. Asap7: A 7-nm finfet predictive process design kit.
-\textbf{Microelectronics Journal}, Elsevier, v.~53, p. 105--115, 2016.}
+\textbf{Microelectronics Journal}, Elsevier, v.~53, p. 105--115, 2016.
+{d}oi:\href{https://doi.org/10.1016/j.mejo.2016.04.006}{10.1016/j.mejo.2016.04.006}.}
 
 \bibitem[Colinge et al. 2008]{colinge2008finfets}
 \abntrefinfo{Colinge et al.}{COLINGE et al.}{2008}
 {COLINGE, J.-P. et al. \textbf{FinFETs and other multi-gate transistors}. NY,
-  USA: Springer, 2008.}
+  USA: Springer, 2008.
+  {d}oi:\href{https://doi.org/10.1007/978-0-387-71752-4}{10.1007/978-0-387-71752-4}.}
 
 \bibitem[Dadgour, De and Banerjee 2008]{dadgour2008statistical}
 \abntrefinfo{Dadgour, De and Banerjee}{DADGOUR; DE; BANERJEE}{2008}
 {DADGOUR, H.; DE, V.; BANERJEE, K. Statistical modeling of metal-gate
   work-function variability in emerging device technologies and implications
   for circuit design. In:  IEEE. \textbf{2008 IEEE/ACM International Conference
-  on Computer-Aided Design}. San Jose, USA, 2008. p. 270--277.}
+  on Computer-Aided Design}. San Jose, USA, 2008. p. 270--277.
+  {d}oi:\href{https://doi.org/10.1109/iccad.2008.4681585}{10.1109/iccad.2008.4681585}.}
 
 \bibitem[Datta et al. 2003]{datta2003high}
 \abntrefinfo{Datta et al.}{DATTA et al.}{2003}
 {DATTA, S. et al. High mobility si/sige strained channel mos transistors with
   hfo/sub 2//tin gate stack. In:  IEEE. \textbf{IEEE International Electron
-  Devices Meeting 2003}. Washington, DC, USA, 2003. p. 28--1.}
+  Devices Meeting 2003}. Washington, DC, USA, 2003. p. 28--1.
+  {d}oi:\href{https://doi.org/10.1109/iedm.2003.1269365}{10.1109/iedm.2003.1269365}.}
 
 \bibitem[Devadas and Kishore 2017]{devadas2017design}
 \abntrefinfo{Devadas and Kishore}{DEVADAS; KISHORE}{2017}
 {DEVADAS, M.; KISHORE, K.~L. Design topologies for low power cmos full adder.
   In:  IEEE. \textbf{2017 International Conference on Inventive Systems and
-  Control (ICISC)}. Coimbatore, India, 2017. p.~1--4.}
+  Control (ICISC)}. Coimbatore, India, 2017. p.~1--4.
+  {d}oi:\href{https://doi.org/10.1109/icisc.2017.8068741}{10.1109/icisc.2017.8068741}.}
 
 \bibitem[Dietrich and Haase 2011]{dietrich2011process}
 \abntrefinfo{Dietrich and Haase}{DIETRICH; HAASE}{2011}
 {DIETRICH, M.; HAASE, J. \textbf{Process Variations and Probabilistic
   Integrated Circuit Design}. Berlin/Heidelberg, Germany: Springer Science \&
-  Business Media, 2011.}
+  Business Media, 2011.
+  {d}oi:\href{https://doi.org/10.1007/978-1-4419-6621-6}{10.1007/978-1-4419-6621-6}.}
 
 \bibitem[Dighe et al. 2011]{dighe2011within}
 \abntrefinfo{Dighe et al.}{DIGHE et al.}{2011}
@@ -212,13 +226,15 @@
   with optimal core allocation and thread hopping for the 80-core teraflops
   processor.
 \textbf{IEEE Journal of Solid-State Circuits}, IEEE, v.~46, n.~1, p. 184--193,
-  2011.}
+  2011.
+{d}oi:\href{https://doi.org/10.1109/jssc.2010.2080550}{10.1109/jssc.2010.2080550}.}
 
 \bibitem[Dokania, Imran and Islam 2013]{dokania2013investigation}
 \abntrefinfo{Dokania, Imran and Islam}{DOKANIA; IMRAN; ISLAM}{2013}
 {DOKANIA, V.; IMRAN, A.; ISLAM, A. Investigation of robust full adder cell in
   16-nm cmos technology node. In:  IEEE. \textbf{IMPACT-2013}. Berlin, Germany,
-  2013. p. 207--211.}
+  2013. p. 207--211.
+  {d}oi:\href{https://doi.org/10.1109/mspct.2013.6782120}{10.1109/mspct.2013.6782120}.}
 
 \bibitem[Dokania and Islam 2015]{dokania2015circuit}
 \abntrefinfo{Dokania and Islam}{DOKANIA; ISLAM}{2015}
@@ -226,32 +242,37 @@
   process, voltage and temperature variations in complementary metal-oxide
   semiconductor full adder cells.
 \textbf{IET Circuits, Devices \& Systems}, IET, IET USA Inc., 379 Thornall
-  Street, Edison, New Jersey, NJ 08837, USA, v.~9, n.~3, p. 204--212, 2015.}
+  Street, Edison, New Jersey, NJ 08837, USA, v.~9, n.~3, p. 204--212, 2015.
+{d}oi:\href{https://doi.org/10.1049/iet-cds.2014.0167}{10.1049/iet-cds.2014.0167}.}
 
 \bibitem[Dokic 1984]{doki1984cmos}
 \abntrefinfo{Dokic}{DOKIC}{1984}
 {DOKIC, B. Cmos schmitt triggers. In:  IET. \textbf{IEE Proceedings
   G-Electronic Circuits and Systems}. IET USA Inc., 379 Thornall Street,
-  Edison, New Jersey, NJ 08837, USA, 1984. v.~131, n.~5, p. 197--202.}
+  Edison, New Jersey, NJ 08837, USA, 1984. v.~131, n.~5, p. 197--202.
+  {d}oi:\href{https://doi.org/10.1049/ip-g-1.1984.0037}{10.1049/ip-g-1.1984.0037}.}
 
 \bibitem[Dreslinski et al. 2010]{dreslinski2010near}
 \abntrefinfo{Dreslinski et al.}{DRESLINSKI et al.}{2010}
 {DRESLINSKI, R.~G. et al. Near-threshold computing: Reclaiming moore's law
   through energy efficient integrated circuits.
-\textbf{Proceedings of the IEEE}, IEEE, v.~98, n.~2, p. 253--266, 2010.}
+\textbf{Proceedings of the IEEE}, IEEE, v.~98, n.~2, p. 253--266, 2010.
+{d}oi:\href{https://doi.org/10.1109/jproc.2009.2034764}{10.1109/jproc.2009.2034764}.}
 
 \bibitem[Farkhani et al. 2014]{farkhani2014comparative}
 \abntrefinfo{Farkhani et al.}{FARKHANI et al.}{2014}
 {FARKHANI, H. et al. Comparative study of finfets versus 22nm bulk cmos
   technologies: Sram design perspective. In:  IEEE. \textbf{2014 27th IEEE
   International System-on-Chip Conference (SOCC)}. Las Vegas, Nevada, USA,
-  2014. p. 449--454.}
+  2014. p. 449--454.
+  {d}oi:\href{https://doi.org/10.1109/socc.2014.6948971}{10.1109/socc.2014.6948971}.}
 
 \bibitem[Federspiel et al. 2012]{federspiel201228nm}
 \abntrefinfo{Federspiel et al.}{FEDERSPIEL et al.}{2012}
 {FEDERSPIEL, X. et al. 28nm node bulk vs fdsoi reliability comparison. In:
   IEEE. \textbf{2012 IEEE International Reliability Physics Symposium (IRPS)}.
-  Anaheim, CA, USA, 2012. p. 3B--1.}
+  Anaheim, CA, USA, 2012. p. 3B--1.
+  {d}oi:\href{https://doi.org/10.1109/irps.2012.6241805}{10.1109/irps.2012.6241805}.}
 
 \bibitem[Fernandes, Schneider and Lettnin 2019]{thiagoTIST}
 \abntrefinfo{Fernandes, Schneider and Lettnin}{FERNANDES; SCHNEIDER;
@@ -267,74 +288,85 @@
 {FOJTIK, M. et al. A millimeter-scale energy-autonomous sensor system with
   stacked battery and solar cells.
 \textbf{IEEE Journal of Solid-State Circuits}, IEEE, v.~48, n.~3, p. 801--813,
-  2013.}
+  2013.
+{d}oi:\href{https://doi.org/10.1109/jssc.2012.2233352}{10.1109/jssc.2012.2233352}.}
 
 \bibitem[Frank et al. 2001]{frank2001device}
 \abntrefinfo{Frank et al.}{FRANK et al.}{2001}
 {FRANK, D.~J. et al. Device scaling limits of si mosfets and their application
   dependencies.
-\textbf{Proceedings of the IEEE}, IEEE, v.~89, n.~3, p. 259--288, 2001.}
+\textbf{Proceedings of the IEEE}, IEEE, v.~89, n.~3, p. 259--288, 2001.
+{d}oi:\href{https://doi.org/10.1109/5.915374}{10.1109/5.915374}.}
 
 \bibitem[Frank and Wong 2000]{frank2000simulation}
 \abntrefinfo{Frank and Wong}{FRANK; WONG}{2000}
 {FRANK, D.~J.; WONG, H.-S. Simulation of stochastic doping effects in si
   mosfets. In:  IEEE. \textbf{7th International Workshop on Computational
   Electronics. Book of Abstracts. IWCE (Cat. No. 00EX427)}. Glascow, UK, 2000.
-  p.~2--3.}
+  p.~2--3.
+  {d}oi:\href{https://doi.org/10.1109/iwce.2000.869981}{10.1109/iwce.2000.869981}.}
 
 \bibitem[Gielen et al. 2008]{gielen2008emerging}
 \abntrefinfo{Gielen et al.}{GIELEN et al.}{2008}
 {GIELEN, G. et al. Emerging yield and reliability challenges in nanometer cmos
   technologies. In:  \textbf{Proceedings of the conference on Design,
-  automation and test in Europe}. Munich, Germany: IEEE, 2008. p. 1322--1327.}
+  automation and test in Europe}. Munich, Germany: IEEE, 2008. p. 1322--1327.
+  {d}oi:\href{https://doi.org/10.1109/date.2008.4484862}{10.1109/date.2008.4484862}.}
 
 \bibitem[Guduri and Islam 2015]{guduri2015design}
 \abntrefinfo{Guduri and Islam}{GUDURI; ISLAM}{2015}
 {GUDURI, M.; ISLAM, A. Design of hybrid full adder in deep subthreshold region
   for ultralow power applications. In:  IEEE. \textbf{2015 2nd International
   Conference on Signal Processing and Integrated Networks (SPIN)}. Amity
-  University, Noida- Delhi NCR, India, 2015. p. 931--935.}
+  University, Noida- Delhi NCR, India, 2015. p. 931--935.
+  {d}oi:\href{https://doi.org/10.1109/spin.2015.7095348}{10.1109/spin.2015.7095348}.}
 
 \bibitem[Gusev et al. 2001]{gusev2001ultrathin}
 \abntrefinfo{Gusev et al.}{GUSEV et al.}{2001}
 {GUSEV, E. et al. Ultrathin high-k gate stacks for advanced cmos devices. In:
   IEEE. \textbf{International Electron Devices Meeting. Technical Digest (Cat.
-  No. 01CH37224)}. Washington, DC, USA, 2001. p. 20--1.}
+  No. 01CH37224)}. Washington, DC, USA, 2001. p. 20--1.
+  {d}oi:\href{https://doi.org/10.1016/s0167-9317(01)00667-0}{10.1016/s0167-9317(01)00667-0}.}
 
 \bibitem[Gusev, Narayanan and Frank 2006]{gusev2006advanced}
 \abntrefinfo{Gusev, Narayanan and Frank}{GUSEV; NARAYANAN; FRANK}{2006}
 {GUSEV, E.~P.; NARAYANAN, V.; FRANK, M.~M. Advanced high-$\kappa$ dielectric
   stacks with polysi and metal gates: Recent progress and current challenges.
 \textbf{IBM Journal of Research and Development}, IBM, v.~50, n.~4.5, p.
-  387--410, 2006.}
+  387--410, 2006.
+{d}oi:\href{https://doi.org/10.1147/rd.504.0387}{10.1147/rd.504.0387}.}
 
 \bibitem[Harrington et al. 2018]{FinFET01}
 \abntrefinfo{Harrington et al.}{HARRINGTON et al.}{2018}
 {HARRINGTON, R. et al. Effect of transistor variants on single-event transients
   at the 14-/16-nm bulk finfet technology generation.
 \textbf{IEEE Transactions on Nuclear Science}, IEEE, v.~65, n.~8, p.
-  1807--1813, 2018.}
+  1807--1813, 2018.
+{d}oi:\href{https://doi.org/10.1109/tns.2018.2843260}{10.1109/tns.2018.2843260}.}
 
 \bibitem[Hobbs et al. 2004]{hobbs2004fermi}
 \abntrefinfo{Hobbs et al.}{HOBBS et al.}{2004}
 {HOBBS, C.~C. et al. Fermi-level pinning at the polysilicon/metal-oxide
   interface-part ii.
 \textbf{IEEE Transactions on Electron Devices}, IEEE, v.~51, n.~6, p. 978--984,
-  2004.}
+  2004.
+{d}oi:\href{https://doi.org/10.1109/ted.2004.829510}{10.1109/ted.2004.829510}.}
 
 \bibitem[Islam, Akram and Hasan 2011]{islam2011variability}
 \abntrefinfo{Islam, Akram and Hasan}{ISLAM; AKRAM; HASAN}{2011}
 {ISLAM, A.; AKRAM, M.; HASAN, M. Variability immune finfet-based full adder
   design in subthreshold region. In:  IEEE. \textbf{2011 International
   Conference on Devices and Communications (ICDeCom)}. Mesra, Ranchi, India,
-  2011. p.~1--5.}
+  2011. p.~1--5.
+  {d}oi:\href{https://doi.org/10.1109/icdecom.2011.5738477}{10.1109/icdecom.2011.5738477}.}
 
 \bibitem[Islam et al. 2010]{islam:10}
 \abntrefinfo{Islam et al.}{ISLAM et al.}{2010}
 {ISLAM, A. et al. Design and analysis of robust dual threshold cmos full adder
   circuit in 32nm technology. In:  IEEE. \textbf{2010 International Conference
   on Advances in Recent Technologies in Communication and Computing}. Kottayam,
-  India, 2010. p. 418--420.}
+  India, 2010. p. 418--420.
+  {d}oi:\href{https://doi.org/10.1109/artcom.2010.20}{10.1109/artcom.2010.20}.}
 
 \bibitem[Islam and Hasan 2011]{islam2011design}
 \abntrefinfo{Islam and Hasan}{ISLAM; HASAN}{2011}
@@ -347,133 +379,153 @@
 {JEON, D. et al. Design methodology for voltage-overscaled ultra-low-power
   systems.
 \textbf{IEEE Transactions on Circuits and Systems II: Express Briefs}, IEEE,
-  v.~59, n.~12, p. 952--956, 2012.}
+  v.~59, n.~12, p. 952--956, 2012.
+{d}oi:\href{https://doi.org/10.1109/tcsii.2012.2231036}{10.1109/tcsii.2012.2231036}.}
 
 \bibitem[Jeong, Kahng and Samadi 2009]{jeong2009impact}
 \abntrefinfo{Jeong, Kahng and Samadi}{JEONG; KAHNG; SAMADI}{2009}
 {JEONG, K.; KAHNG, A.~B.; SAMADI, K. Impact of guardband reduction on design
   outcomes: A quantitative approach.
 \textbf{IEEE Transactions on Semiconductor Manufacturing}, IEEE, v.~22, n.~4,
-  p. 552--565, 2009.}
+  p. 552--565, 2009.
+{d}oi:\href{https://doi.org/10.1109/tsm.2009.2031789}{10.1109/tsm.2009.2031789}.}
 
 \bibitem[Kahng et al. 2010]{kahng2010slack}
 \abntrefinfo{Kahng et al.}{KAHNG et al.}{2010}
 {KAHNG, A.~B. et al. Slack redistribution for graceful degradation under
   voltage overscaling. In:  IEEE. \textbf{2010 15th Asia and South Pacific
   Design Automation Conference (ASP-DAC)}. Taipei International Convention
-  Center, Taipei, Taiwan, 2010. p. 825--831.}
+  Center, Taipei, Taiwan, 2010. p. 825--831.
+  {d}oi:\href{https://doi.org/10.1109/aspdac.2010.5419690}{10.1109/aspdac.2010.5419690}.}
 
 \bibitem[Kakoee, Loi and Benini 2012]{kakoee2012variation}
 \abntrefinfo{Kakoee, Loi and Benini}{KAKOEE; LOI; BENINI}{2012}
 {KAKOEE, M.~R.; LOI, I.; BENINI, L. Variation-tolerant architecture for ultra
   low power shared-l1 processor clusters.
 \textbf{IEEE Transactions on Circuits and Systems II: Express Briefs}, IEEE,
-  v.~59, n.~12, p. 927--931, 2012.}
+  v.~59, n.~12, p. 927--931, 2012.
+{d}oi:\href{https://doi.org/10.1109/tcsii.2012.2231039}{10.1109/tcsii.2012.2231039}.}
 
 \bibitem[Khan, Dahiya and Lorenzelli 2014]{khan2014flexible}
 \abntrefinfo{Khan, Dahiya and Lorenzelli}{KHAN; DAHIYA; LORENZELLI}{2014}
 {KHAN, S.; DAHIYA, R.~S.; LORENZELLI, L. Flexible thermoelectric generator
   based on transfer printed si microwires. In:  IEEE. \textbf{2014 44th
   European Solid State Device Research Conference (ESSDERC)}. Palazzo Del
-  Casinò, Venezia Lido, Italy, 2014. p. 86--89.}
+  Casinò, Venezia Lido, Italy, 2014. p. 86--89.
+  {d}oi:\href{https://doi.org/10.1109/essderc.2014.6948764}{10.1109/essderc.2014.6948764}.}
 
 \bibitem[Kim, Kih and Kim 1993]{kim1993new}
 \abntrefinfo{Kim, Kih and Kim}{KIM; KIH; KIM}{1993}
 {KIM, D.; KIH, J.; KIM, W. A new waveform-reshaping circuit: an alternative
   approach to schmitt trigger.
 \textbf{IEEE journal of solid-state circuits}, IEEE, v.~28, n.~2, p. 162--164,
-  1993.}
+  1993.
+{d}oi:\href{https://doi.org/10.1109/4.192048}{10.1109/4.192048}.}
 
 \bibitem[King 2005]{finfetchar1}
 \abntrefinfo{King}{KING}{2005}
 {KING, T.-J. Finfets for nanoscale cmos digital integrated circuits. In:  IEEE.
   \textbf{ICCAD-2005. IEEE/ACM International Conference on Computer-Aided
-  Design, 2005.} San Jose, CA, USA, 2005. p. 207--210.}
+  Design, 2005.} San Jose, CA, USA, 2005. p. 207--210.
+  {d}oi:\href{https://doi.org/10.1109/iccad.2005.1560065}{10.1109/iccad.2005.1560065}.}
 
 \bibitem[Kulkarni, Kim and Roy 2007]{kulkarni2007160}
 \abntrefinfo{Kulkarni, Kim and Roy}{KULKARNI; KIM; ROY}{2007}
 {KULKARNI, J.~P.; KIM, K.; ROY, K. A 160 mv robust schmitt trigger based
   subthreshold sram.
 \textbf{IEEE Journal of Solid-State Circuits}, IEEE, v.~42, n.~10, p.
-  2303--2313, 2007.}
+  2303--2313, 2007.
+{d}oi:\href{https://doi.org/10.1109/jssc.2007.897148}{10.1109/jssc.2007.897148}.}
 
 \bibitem[Liao et al. 2008]{FINFET05}
 \abntrefinfo{Liao et al.}{LIAO et al.}{2008}
 {LIAO, W. et al. Investigation of reliability characteristics in nmos and pmos
   finfets.
-\textbf{IEEE Electron Device Letters}, IEEE, v.~29, n.~7, p. 788--790, 2008.}
+\textbf{IEEE Electron Device Letters}, IEEE, v.~29, n.~7, p. 788--790, 2008.
+{d}oi:\href{https://doi.org/10.1109/led.2008.2000723}{10.1109/led.2008.2000723}.}
 
 \bibitem[Lotze and Manoli 2011]{5746345}
 \abntrefinfo{Lotze and Manoli}{LOTZE; MANOLI}{2011}
 {LOTZE, N.; MANOLI, Y. A 62mv 0.13$\mu$m cmos standard-cell-based design
   technique using schmitt-trigger logic. In:  \textbf{2011 IEEE International
   Solid-State Circuits Conference}. San Francisco, CA, USA: IEEE, 2011. p.
-  340--342.}
+  340--342.
+  {d}oi:\href{https://doi.org/10.1109/isscc.2011.5746345}{10.1109/isscc.2011.5746345}.}
 
 \bibitem[Lotze and Manoli 2017]{lotze2017ultra}
 \abntrefinfo{Lotze and Manoli}{LOTZE; MANOLI}{2017}
 {LOTZE, N.; MANOLI, Y. Ultra-sub-threshold operation of always-on digital
   circuits for iot applications by use of schmitt trigger gates.
 \textbf{IEEE Transactions on Circuits and Systems I: Regular Papers}, IEEE,
-  v.~64, n.~11, p. 2920--2933, 2017.}
+  v.~64, n.~11, p. 2920--2933, 2017.
+{d}oi:\href{https://doi.org/10.1109/tcsi.2017.2705053}{10.1109/tcsi.2017.2705053}.}
 
 \bibitem[Luo et al. 2017]{luo2017sub}
 \abntrefinfo{Luo et al.}{LUO et al.}{2017}
 {LUO, Z. et al. A sub-10 mv power converter with fully integrated self-start,
   mppt, and zcs control for thermoelectric energy harvesting.
 \textbf{IEEE Transactions on Circuits and Systems I: Regular Papers}, IEEE,
-  v.~65, n.~5, p. 1744--1757, 2017.}
+  v.~65, n.~5, p. 1744--1757, 2017.
+{d}oi:\href{https://doi.org/10.1109/tcsi.2017.2757505}{10.1109/tcsi.2017.2757505}.}
 
 \bibitem[Manoj et al. 2007]{finfetdis}
 \abntrefinfo{Manoj et al.}{MANOJ et al.}{2007}
 {MANOJ, C. et al. Device optimization of bulk finfets and its comparison with
   soi finfets. In:  IEEE. \textbf{2007 International Workshop on Physics of
-  Semiconductor Devices}. Mumbai, India, 2007. p. 134--137.}
+  Semiconductor Devices}. Mumbai, India, 2007. p. 134--137.
+  {d}oi:\href{https://doi.org/10.1109/iwpsd.2007.4472472}{10.1109/iwpsd.2007.4472472}.}
 
 \bibitem[Manoli 2010]{manoli2010energy}
 \abntrefinfo{Manoli}{MANOLI}{2010}
 {MANOLI, Y. Energy harvesting—from devices to systems. In:  IEEE.
-  \textbf{2010 Proceedings of ESSCIRC}. Sevilla, Spain, 2010. p. 27--36.}
+  \textbf{2010 Proceedings of ESSCIRC}. Sevilla, Spain, 2010. p. 27--36.
+  {d}oi:\href{https://doi.org/10.1109/esscirc.2010.5619870}{10.1109/esscirc.2010.5619870}.}
 
 \bibitem[Meinhardt, Zimpeck and Reis 2014]{meinhardt2014impact}
 \abntrefinfo{Meinhardt, Zimpeck and Reis}{MEINHARDT; ZIMPECK; REIS}{2014}
 {MEINHARDT, C.; ZIMPECK, A.~L.; REIS, R. Impact of gate workfunction
   fluctuation on finfet standard cells. In:  IEEE. \textbf{2014 21st IEEE
   International Conference on Electronics, Circuits and Systems (ICECS)}.
-  Marseille, France, 2014. p. 574--577.}
+  Marseille, France, 2014. p. 574--577.
+  {d}oi:\href{https://doi.org/10.1109/icecs.2014.7050050}{10.1109/icecs.2014.7050050}.}
 
 \bibitem[Melek et al. 2017]{melek:17}
 \abntrefinfo{Melek et al.}{MELEK et al.}{2017}
 {MELEK, L. et al. Analysis and design of the classical cmos schmitt trigger in
   subthreshold operation.
 \textbf{IEEE Transactions on Circuits and Systems I: Regular Papers}, IEEE,
-  v.~64, n.~4, p. 869--878, 2017.}
+  v.~64, n.~4, p. 869--878, 2017.
+{d}oi:\href{https://doi.org/10.1109/tcsi.2016.2631726}{10.1109/tcsi.2016.2631726}.}
 
 \bibitem[Miorandi et al. 2012]{miorandi2012internet}
 \abntrefinfo{Miorandi et al.}{MIORANDI et al.}{2012}
 {MIORANDI, D. et al. Internet of things: Vision, applications and research
   challenges.
-\textbf{Ad hoc networks}, Elsevier, v.~10, n.~7, p. 1497--1516, 2012.}
+\textbf{Ad hoc networks}, Elsevier, v.~10, n.~7, p. 1497--1516, 2012.
+{d}oi:\href{https://doi.org/10.1016/j.adhoc.2012.02.016}{10.1016/j.adhoc.2012.02.016}.}
 
 \bibitem[Moghaddam, Moaiyeri and Eshghi 2017]{moghaddam2017design}
 \abntrefinfo{Moghaddam, Moaiyeri and Eshghi}{MOGHADDAM; MOAIYERI; ESHGHI}{2017}
 {MOGHADDAM, M.; MOAIYERI, M.~H.; ESHGHI, M. Design and evaluation of an
   efficient schmitt trigger-based hardened latch in cntfet technology.
 \textbf{IEEE Transactions on Device and Materials Reliability}, IEEE, v.~17,
-  n.~1, p. 267--277, 2017.}
+  n.~1, p. 267--277, 2017.
+{d}oi:\href{https://doi.org/10.1109/tdmr.2017.2665780}{10.1109/tdmr.2017.2665780}.}
 
 \bibitem[Moraes et al. 2019]{moraes2019exploring}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2019a}
 {MORAES, L. et al. Exploring schmitt trigger circuits for process variability
   mitigation. In:  IEEE. \textbf{2019 17th IEEE International New Circuits and
-  Systems Conference (NEWCAS)}. Munich, Germany, 2019. p.~1--4.}
+  Systems Conference (NEWCAS)}. Munich, Germany, 2019. p.~1--4.
+  {d}oi:\href{https://doi.org/10.1109/newcas44328.2019.8961235}{10.1109/newcas44328.2019.8961235}.}
 
 \bibitem[Moraes et al. 2019]{moraes2019minimum}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2019b}
 {MORAES, L. et al. Minimum energy finfet schmitt trigger design considering
   process variability. In:  IEEE. \textbf{2019 IFIP/IEEE 27th International
   Conference on Very Large Scale Integration (VLSI-SoC)}. Cuzco, Peru, 2019. p.
-  88--93.}
+  88--93.
+  {d}oi:\href{https://doi.org/10.1109/vlsi-soc.2019.8920297}{10.1109/vlsi-soc.2019.8920297}.}
 
 \bibitem[Moraes et al. 2018]{moraes2018sim}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2018a}
@@ -505,37 +557,43 @@
 \bibitem[Moraes et al. 2020]{moraeslivrovlsi}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2020b}
 {MORAES, L.~B. et al. \textbf{Robust FinFET Schmitt Trigger Designs for Low
-  Power Applications}. NY, USA: Springer, 2020. 24~p.}
+  Power Applications}. NY, USA: Springer, 2020. 24~p.
+  {d}oi:\href{https://doi.org/10.1007/978-3-030-53273-4_3}{10.1007/978-3-030-53273-4\_3}.}
 
 \bibitem[Moraes et al. 2018]{moraes2018evaluation}
 \abntrefinfo{Moraes et al.}{MORAES et al.}{2018}
 {MORAES, L. B.~d. et al. Evaluation of variability using schmitt trigger on
   full adders layout.
-\textbf{Microelectronics Reliability}, Elsevier, v.~88, p. 116--121, 2018.}
+\textbf{Microelectronics Reliability}, Elsevier, v.~88, p. 116--121, 2018.
+{d}oi:\href{https://doi.org/10.1016/j.microrel.2018.07.061}{10.1016/j.microrel.2018.07.061}.}
 
 \bibitem[Mustafa, Bhat and Beigh 2013]{mustafa2013threshold}
 \abntrefinfo{Mustafa, Bhat and Beigh}{MUSTAFA; BHAT; BEIGH}{2013}
 {MUSTAFA, M.; BHAT, T.~A.; BEIGH, M. Threshold voltage sensitivity to metal
   gate work-function based performance evaluation of double-gate n-finfet
   structures for lstp technology.
-Scientific Research Publishing, 2013.}
+Scientific Research Publishing, 2013.
+{d}oi:\href{https://doi.org/10.4236/wjnse.2013.31003}{10.4236/wjnse.2013.31003}.}
 
 \bibitem[Nassif 2008]{nassif:08}
 \abntrefinfo{Nassif}{NASSIF}{2008}
 {NASSIF, S. Process variability at the 65nm node and beyond. In:  IEEE.
   \textbf{Custom Integrated Circuits Conference, 2008. CICC 2008. IEEE}. San
-  Jose, CA, USA, 2008. p.~1--8.}
+  Jose, CA, USA, 2008. p.~1--8.
+  {d}oi:\href{https://doi.org/10.1109/cicc.2008.4672005}{10.1109/cicc.2008.4672005}.}
 
 \bibitem[Navi et al. 2009]{navi2009novel}
 \abntrefinfo{Navi et al.}{NAVI et al.}{2009}
 {NAVI, K. et al. A novel low-power full-adder cell for low voltage.
-\textbf{Integration}, Elsevier, v.~42, n.~4, p. 457--467, 2009.}
+\textbf{Integration}, Elsevier, v.~42, n.~4, p. 457--467, 2009.
+{d}oi:\href{https://doi.org/10.1016/j.vlsi.2009.02.001}{10.1016/j.vlsi.2009.02.001}.}
 
 \bibitem[Nawaz et al. 2014]{nawaz2014comparison}
 \abntrefinfo{Nawaz et al.}{NAWAZ et al.}{2014}
 {NAWAZ, S.~M. et al. Comparison of random dopant and gate-metal workfunction
   variability between junctionless and conventional finfets.
-\textbf{IEEE electron device letters}, IEEE, v.~35, n.~6, p. 663--665, 2014.}
+\textbf{IEEE electron device letters}, IEEE, v.~35, n.~6, p. 663--665, 2014.
+{d}oi:\href{https://doi.org/10.1109/led.2014.2313916}{10.1109/led.2014.2313916}.}
 
 \bibitem[Neuberger, Wirth and Reis 2014]{neuberger2014protecting}
 \abntrefinfo{Neuberger, Wirth and Reis}{NEUBERGER; WIRTH; REIS}{2014}
@@ -548,30 +606,35 @@ Scientific Research Publishing, 2013.}
 {PAL, I.; ISLAM, A. Circuit-level technique to design variation-and noise-aware
   reliable dynamic logic gates.
 \textbf{IEEE Trans. on Device and Materials Reliability}, IEEE, v.~18, n.~2, p.
-  224--239, 2018.}
+  224--239, 2018.
+{d}oi:\href{https://doi.org/10.1109/tdmr.2018.2819019}{10.1109/tdmr.2018.2819019}.}
 
 \bibitem[Pawlowski et al. 2012]{pawlowski2012530mv}
 \abntrefinfo{Pawlowski et al.}{PAWLOWSKI et al.}{2012}
 {PAWLOWSKI, R. et al. A 530mv 10-lane simd processor with variation resiliency
   in 45nm soi. In:  IEEE. \textbf{2012 IEEE International Solid-State Circuits
-  Conference}. San Francisco, CA, USA, 2012. p. 492--494.}
+  Conference}. San Francisco, CA, USA, 2012. p. 492--494.
+  {d}oi:\href{https://doi.org/10.1109/isscc.2012.6177105}{10.1109/isscc.2012.6177105}.}
 
 \bibitem[Pedroni 2005]{pedroni2005low}
 \abntrefinfo{Pedroni}{PEDRONI}{2005}
 {PEDRONI, V. Low-voltage high-speed schmitt trigger and compact window
   comparator.
-\textbf{Electronics Letters}, IET, v.~41, n.~22, p. 1213--1214, 2005.}
+\textbf{Electronics Letters}, IET, v.~41, n.~22, p. 1213--1214, 2005.
+{d}oi:\href{https://doi.org/10.1049/el:20052799}{10.1049/el:20052799}.}
 
 \bibitem[Pfister 1992]{pfister1992novel}
 \abntrefinfo{Pfister}{PFISTER}{1992}
 {PFISTER, A. Novel cmos schmitt trigger with controllable hysteresis.
-\textbf{Electronics Letters}, IET, v.~28, n.~7, p. 639--641, 1992.}
+\textbf{Electronics Letters}, IET, v.~28, n.~7, p. 639--641, 1992.
+{d}oi:\href{https://doi.org/10.1049/el:19920404}{10.1049/el:19920404}.}
 
 \bibitem[Posser, Sapatnekar and Reis 2016]{posser2016electromigration}
 \abntrefinfo{Posser, Sapatnekar and Reis}{POSSER; SAPATNEKAR; REIS}{2016}
-{POSSER, G.; SAPATNEKAR, S.~S.; REIS, R. \textbf{Electromigration Inside Logic
-  Cells: Modeling, Analyzing and Mitigating Signal Electromigration in
-  NanoCMOS}. NY, USA: Springer, 2016.}
+{POSSER, G.; SAPATNEKAR, S.~S.; REIS, R. \textbf{Analyzing the Electromigration
+  Effects on Different Metal Layers and Different Wire Lengths}. NY, USA:
+  Springer, 2016. 93--98~p.
+  {d}oi:\href{https://doi.org/10.1007/978-3-319-48899-8_7}{10.1007/978-3-319-48899-8\_7}.}
 
 \bibitem[Qian 2015]{qian2015variability}
 \abntrefinfo{Qian}{QIAN}{2015}
@@ -580,18 +643,19 @@ Scientific Research Publishing, 2013.}
   devices}.
 Thesis (PhD) --- UC Berkeley, 2015.}
 
-\bibitem[Rabaey, Chandrakasan and Nikolic 2002]{rabaey2002digital}
-\abntrefinfo{Rabaey, Chandrakasan and Nikolic}{RABAEY; CHANDRAKASAN;
-  NIKOLIC}{2002}
-{RABAEY, J.; CHANDRAKASAN, A.; NIKOLIC, B. \textbf{Digital integrated
-  circuits}. 910 Sylvan Ave, Englewood Cliffs, NJ, USA: Prentice hall Englewood
-  Cliffs, 2002.}
+\bibitem[Rabaey, Chandrakasan and Nikoli{\'c} 2003]{rabaey2003digital}
+\abntrefinfo{Rabaey, Chandrakasan and Nikoli{\'c}}{RABAEY; CHANDRAKASAN;
+  NIKOLI{\'C}}{2003}
+{RABAEY, J.~M.; CHANDRAKASAN, A.~P.; NIKOLI{\'C}, B. \textbf{Digital integrated
+  circuits: a design perspective}. [S.l.]: Pearson Education Upper Saddle
+  River, NJ, 2003.}
 
 \bibitem[Rahimi, Benini and Gupta 2016]{rahimi2016variability}
 \abntrefinfo{Rahimi, Benini and Gupta}{RAHIMI; BENINI; GUPTA}{2016}
 {RAHIMI, A.; BENINI, L.; GUPTA, R.~K. Variability mitigation in nanometer cmos
   integrated systems: A survey of techniques from circuits to software.
-\textbf{Proceedings of the IEEE}, IEEE, v.~104, n.~7, p. 1410--1448, 2016.}
+\textbf{Proceedings of the IEEE}, IEEE, v.~104, n.~7, p. 1410--1448, 2016.
+{d}oi:\href{https://doi.org/10.1109/jproc.2016.2518864}{10.1109/jproc.2016.2518864}.}
 
 \bibitem[Reis et al. 1995]{reis1995associating}
 \abntrefinfo{Reis et al.}{REIS et al.}{1995}

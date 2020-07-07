@@ -6,7 +6,7 @@
 %
 %\documentclass[pgmicro,mestrado,english]{iiufrgs}
 
-\documentclass[pgmicro,diss,english]{iiufrgs}
+\documentclass[diss,pgmicro,english]{iiufrgs}
 %\usepackage[alf,abnt-emphasize=bf]{abntex2cite}
 \usepackage[alf]{abntex2cite}
 % um tipo específico de monografia pode ser informado como parâmetro opcional:
@@ -33,6 +33,7 @@
 \usepackage{amsmath}
 \usepackage{array}
 \usepackage{bibentry}
+\usepackage{microtype}
 %\usepackage{natbib}
 %\usepackage[belowskip=-15pt,aboveskip=0pt]{caption}
 %\nobibliography*
@@ -536,12 +537,12 @@ The 6T ST was chosen due to promising results at \cite{lotze2017ultra}, where a 
 
 The TIST, shown in Fig. \ref{fig:TIST} is a ST implementation, most common in textbooks. It has been mostly unexplored for low power applications. It consists of a CMOS inverter followed by a latch. The idea behind this circuit is related to the switching threshold of a CMOS inverter being determined by the ratio between NMOS and PMOS transistors ($k_n$/$k_p$). Increasing the ratio results in a reduction of the threshold and vice-versa. Adapting the ratio depending upon the direction of the transition results in a shift in the switching threshold, characterizing a hysteresis effect. This effect is achieved with a feed-back mechanism, as the previous design. For example, when the input signal is low (zero) the $P2$ and $P0$ are conducting, while the $N2$ and $N0$ are off.
 
-As the input goes high (one) with $P1$ shutting down and $N1$ start conducting. As the input to the latch start discharging $P2$ and $P0$ will start conducting at the same time, changing the ratio between the number of parallel PMOS/NMOS transistor conducting and effectively changing the ratio. The same dynamic occurs when changing the input from a high value to a low value, just inverting the transistors from PMOS to NMOS and vice-versa. The brief ratio change is enough for decreasing the switching threshold for the appearance of hysteresis. The TIST in this work has been modified to turn it into an inverter. The original TIST is shown in \cite{rabaey2002digital}.
+As the input goes high (one) with $P1$ shutting down and $N1$ start conducting. As the input to the latch start discharging $P2$ and $P0$ will start conducting at the same time, changing the ratio between the number of parallel PMOS/NMOS transistor conducting and effectively changing the ratio. The same dynamic occurs when changing the input from a high value to a low value, just inverting the transistors from PMOS to NMOS and vice-versa. The brief ratio change is enough for decreasing the switching threshold for the appearance of hysteresis. The TIST in this work has been modified to turn it into an inverter. The original TIST is shown in \cite{rabaey2003digital}.
 
 \begin{figure}[t]
   \centering
     \includegraphics[width=0.8\textwidth, trim={0cm 0cm 0cm 0cm}, clip]{TIST.png}
-     \caption{Modified TIST schematic \cite{rabaey2002digital}}
+     \caption{Modified TIST schematic \cite{rabaey2003digital}}
   \label{fig:TIST}
 \end{figure}
 
@@ -1037,7 +1038,7 @@ Considering each level of variability, in average, there was a maximum energy in
        	\legend{Source: From the author.}
 \end{figure}
 
-The impact of supply voltage on the energy consumption is shown at \ref{fig:energySupplyStep}. Highlighted in blue, for the inverter, ST, and SIG, and in red, for the TIST 2:! and 3:1, respectively, are the clusters of scenarios operating at the minimum frequencya due to the variability impact. As shown, there are up to 2-order magnitude increases due to the decrease of supply voltage, revealing sub-300mV supply voltage operations to be highly susceptible to the variability effects.
+The impact of supply voltage on the energy consumption is shown at \ref{fig:energySupplyStep}. Highlighted in blue, for the inverter, ST, and SIG, and in red, for the TIST 2:1 and 3:1, respectively, are the clusters of scenarios operating at the minimum frequency due to the variability impact. As shown, there are up to 2-order magnitude increases due to the decrease of supply voltage, revealing sub-300mV supply voltage operations to be highly susceptible to the variability effects.
 
 %As a comparison, energy measures from simulations without inserted variability are shown at \ref{}.
 
@@ -1292,7 +1293,7 @@ Fig. \ref{fig:StatCurrAbs} and Fig. \ref{fig:StatCurrDev} present the results fo
         \label{fig:StatCurrDev}
     \end{figure}
 
-As shown in Fig. \ref{figOnOffScal}. due to the linear and exponential dependency of the dynamic and static current measures upon the variability level, the static current presents a much higher scaling factor, in comparison to its counterpart. Given so, the current ratios will present a decrease as the process variability level increases, as shown in Fig. \ref{figsCurrComp}. Comparing to the inverter, the ST, TIST 2:1, and TIST 3:1 presented, on average, 1.18x, 6x, and 4.69x higher ratios. The SIG is the only design which presented a worsening, with a 12.53\% lower ratio. While considering deviations into the ratio due to process variability, the ST and SIG presented 11.1\% and 6.91\% lower deviations, with the TIST 2:1 and 3:1 presenting 49.57\% and 42.79\% higher deviations, respectively.
+As shown in Fig. \ref{figOnOffScal}. due to the linear and exponential dependency of the dynamic and static current measures upon the variability level, the static current presents a much higher scaling factor, in comparison to its counterpart. Given so, the current ratios will present a decrease as the process variability level increases, as shown in Fig. \ref{figsCurrComp}. Comparing to the inverter, the ST, TIST 2:1, and TIST 3:1 presented, on average, 2.18x, 7x, and 5.69x higher ratios. The SIG is the only design which presented a worsening, with a 12.53\% lower ratio. While considering deviations into the ratio due to process variability, the ST and SIG presented 11.1\% and 6.91\% lower deviations, with the TIST 2:1 and 3:1 presenting 49.57\% and 42.79\% higher deviations, respectively.
 
     \begin{figure}[h]
         \centering
@@ -1839,11 +1840,14 @@ OBS: All publications - published, co-authored, book chapters, and in proceeding
 \section{Published}
 \nobibliography*
 
-\bibentry{moraes2018evaluation}
+\begin{sloppypar}
+\bibentry{moraes2018evaluation} \\
+\end{sloppypar}
 
-\bibentry{moraes2019exploring}
+\bibentry{moraes2019exploring} \\
 
-\bibentry{moraes2019minimum}
+
+\bibentry{moraes2019minimum} \\
 
 \section{Co-author}
 
@@ -1856,15 +1860,19 @@ OBS: All publications - published, co-authored, book chapters, and in proceeding
 \section{Book Chapter (to be published)}
 
 \bibentry{moraeslivrovlsi}
+
 %\citep{moraeslivrovlsi}
 
 \section{In Proceedings}
 
-\bibentry{moraes2019wcas}
+\bibentry{moraes2019wcas} \\
 
-\bibentry{moraes2018wcas}
 
-\bibentry{moraes2018sim}
+\bibentry{moraes2018wcas} \\
+
+
+\bibentry{moraes2018sim} \\
+
 
 \chapter{Inverter Designs Layouts}
 

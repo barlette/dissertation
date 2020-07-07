@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Electrostatic potential in a generic 30-nm MOSFET with the surface potential shown below. The metal gate has two grains with the grain boundary diagonally across the channel.\relax }}{26}{figure.2.4}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces ST inverter leakage suppression \cite {lotze2017ultra}.\relax }}{32}{figure.3.1}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Modified TIST schematic \cite {rabaey2002digital}\relax }}{33}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Modified TIST schematic \cite {rabaey2003digital}\relax }}{33}{figure.3.2}% 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces SIG schematic \cite {bose2018stacked}\relax }}{34}{figure.3.3}% 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces LPST Inverter from \citeonline {dokania2015circuit}\relax }}{34}{figure.3.4}% 
 \addvspace {10\p@ }

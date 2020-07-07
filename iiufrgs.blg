@@ -14,11 +14,6 @@ Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated field_info (elt_size=8) to 12935 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblio.bib
-I was expecting a `,' or a `}'---line 137 of file biblio.bib
- :   
- :   note={{d}oi:\href{https://doi.org/10.1109/dac.2002.1012594}{10.1109/dac.2002.1012594}}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -30,37 +25,37 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 115 entries,
             6711 wiz_defined-function locations,
-            1857 strings with 34801 characters,
-and the built_in function-call counts, 111075 in all, are:
-= -- 8672
+            1923 strings with 40086 characters,
+and the built_in function-call counts, 112717 in all, are:
+= -- 8902
 > -- 4438
 < -- 264
 + -- 1732
 - -- 1304
-* -- 8556
-:= -- 14314
-add.period$ -- 491
+* -- 8656
+:= -- 14446
+add.period$ -- 557
 call.type$ -- 115
 change.case$ -- 1502
 chr.to.int$ -- 281
 cite$ -- 113
-duplicate$ -- 5221
-empty$ -- 7941
+duplicate$ -- 5417
+empty$ -- 8009
 format.name$ -- 6373
-if$ -- 26774
+if$ -- 27137
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 2092
-newline$ -- 529
+missing$ -- 2157
+newline$ -- 562
 num.names$ -- 565
-pop$ -- 2737
+pop$ -- 2735
 preamble$ -- 1
 purify$ -- 527
 quote$ -- 0
-skip$ -- 5676
+skip$ -- 5740
 stack$ -- 1
-substring$ -- 4880
-swap$ -- 2834
+substring$ -- 5010
+swap$ -- 2965
 text.length$ -- 207
 text.prefix$ -- 0
 top$ -- 0
@@ -68,5 +63,4 @@ type$ -- 8
 warning$ -- 0
 while$ -- 962
 width$ -- 0
-write$ -- 1960
-(There was 1 error message)
+write$ -- 2026
