@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: iiufrgs.aux
 The style file: abntex2-alf.bst
@@ -25,37 +25,37 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 115 entries,
             6711 wiz_defined-function locations,
-            1923 strings with 40086 characters,
-and the built_in function-call counts, 112717 in all, are:
-= -- 8902
+            1946 strings with 41830 characters,
+and the built_in function-call counts, 113287 in all, are:
+= -- 8980
 > -- 4438
 < -- 264
 + -- 1732
 - -- 1304
-* -- 8656
-:= -- 14446
-add.period$ -- 557
+* -- 8688
+:= -- 14492
+add.period$ -- 580
 call.type$ -- 115
 change.case$ -- 1502
 chr.to.int$ -- 281
 cite$ -- 113
-duplicate$ -- 5417
-empty$ -- 8009
+duplicate$ -- 5486
+empty$ -- 8032
 format.name$ -- 6373
-if$ -- 27137
+if$ -- 27261
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 2157
-newline$ -- 562
+missing$ -- 2180
+newline$ -- 576
 num.names$ -- 565
 pop$ -- 2735
 preamble$ -- 1
 purify$ -- 527
 quote$ -- 0
-skip$ -- 5740
+skip$ -- 5763
 stack$ -- 1
-substring$ -- 5010
-swap$ -- 2965
+substring$ -- 5056
+swap$ -- 3011
 text.length$ -- 207
 text.prefix$ -- 0
 top$ -- 0
@@ -63,4 +63,4 @@ type$ -- 8
 warning$ -- 0
 while$ -- 962
 width$ -- 0
-write$ -- 2026
+write$ -- 2049

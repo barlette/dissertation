@@ -50,7 +50,7 @@
 % Informações gerais
 %
 %\addbibresource{biblio.bib}
-\title{Schmitt Trigger Dimensioning Under Variability and Voltage Scaling for Minimum Energy Operation}
+\title{Variability and Voltage Scaling Aware FinFET Design}
 
 \author{de Moraes}{Leonardo Barlette}
 % alguns documentos podem ter varios autores:
@@ -270,9 +270,9 @@ A miniaturização da tecnologia de trasistores, juntamente com o crescente impa
 
     IoT devices have been applied in many different scenarios, from improving building maintenance, to sensoring remote areas for environmental observation and even in cars, for better safety and comfort. However, while many devices have to be connected to the power grid, sensor nodes are expected to be self-sufficient. Additionally, batteries, the traditional means of powering self-sufficient systems, need to be replaced and/or charged, which means maintenance must be frequently performed \cite{bleitner2018comparison}. Given that, energy harvesting in combination with rechargeable batteries has become a viable way to alleviate the power source and consumption dilemma \cite{manoli2010energy}.
 
-    Energy harvesting makes use of readily available power sources in the vicinity as for example motion or vibration induced kinetic energy, solar and electromagnetic or temperature gradients. A number of viable solutions are already present on the market, like self powered wireless light switches and electro-magnetic generators, which converts vibrations available in industrial plants for powering wireless monitoring sensors \cite{manoli2010energy} \cite{bleitner2018comparison}. Although, regardless of the sensors power supply, it will be always restricted by its power budget, with devices which are able to perform their functionality under heavy power constraints being essential for IoT. In traditional Complementary Metal Oxide Semiconductor (CMOS) circuit design aimed at Ultra Low Power (ULP) applications, the ideal circuit is the one that performs a given task or functionality while consuming the least amount of energy. Such circuits are achieved under transistor sizing and supply voltage tuning, and are technology and application-dependent. Additionally, such circuits could be achieved by decreasing the number of transistors present in a chip without changing its functionality. As shown in \cite{reis1995associating}, through logic minimization and the use of Static CMOS Complex Gates (SCCG) it was possible to reduce the number of transistors by as much as 30\%, reducing not only energy consumption as total circuit area and wire length, improving overall perfomance. 
+    Energy harvesting makes use of readily available power sources in the vicinity as for example motion or vibration induced kinetic energy, solar and electromagnetic or temperature gradients. A number of viable solutions are already present on the market, like self powered wireless light switches and electro-magnetic generators, which converts vibrations available in industrial plants for powering wireless monitoring sensors \cite{manoli2010energy} \cite{bleitner2018comparison}. Although, regardless of the sensors power supply, it will be always restricted by its power budget, with devices which are able to perform their functionality under heavy power constraints being essential for IoT. In traditional Complementary Metal Oxide Semiconductor (CMOS) circuit design aimed at Ultra Low Power (ULP) applications, the ideal circuit is the one that performs a given task or functionality while consuming the least amount of energy. Such circuits are achieved under transistor sizing and supply voltage tuning, and are technology and application-dependent. Additionally, such circuits could be achieved by decreasing the number of transistors present in a chip without changing its functionality. As shown in \cite{reis1995associating}, through logic minimization and the use of Static CMOS Complex Gates (SCCG) it was possible to reduce the number of transistors by as much as 30\%, reducing not only energy consumption as total circuit area and wire length, improving overall perfomance.
 
-    Nevertheless, the performance of a system operating in its minimum energy per operation point may exceed the power budget of a given application. For example, with an application such as presented in \cite{fojtik2013millimeter}, where the device is only active once per hour, about 80\% of its power consumption is due to standby power. In such a case, the minimization of energy-per-operation seems to be suboptimal in comparison to an idle power minimization kind-of solution. The minimization of supply voltage brings advantage for certain energy harvesting approaches such as thermo-electric. Such harvesting technique can result in DC voltage levels from tens to even hundreds of milivolts \cite{khan2014flexible}. 
+    Nevertheless, the performance of a system operating in its minimum energy per operation point may exceed the power budget of a given application. For example, with an application such as presented in \cite{fojtik2013millimeter}, where the device is only active once per hour, about 80\% of its power consumption is due to standby power. In such a case, the minimization of energy-per-operation seems to be suboptimal in comparison to an idle power minimization kind-of solution. The minimization of supply voltage brings advantage for certain energy harvesting approaches such as thermo-electric. Such harvesting technique can result in DC voltage levels from tens to even hundreds of milivolts \cite{khan2014flexible}.
 
     One of the industry responses to the challenges related to the improvements in the semiconductor industry is the Fin Field Effect Transistor (FinFET) Technology. FinFET devices present superior channel control due to the reduced Short Channel Effects (SCE) and low (if none) Random Dopant Fluctuation (RDF) effect due to the fully depleted channel \cite{farkhani2014comparative}. Although, at deep technology nodes, variability is, still, one of the most challenging factors, including on FinFET devices. Variability introduces geometrical inconsistencies which changes the circuits behavior in comparison to the final manufactured product. Such changes influence the circuits metrics, hastening its degradation and deviating from its correct operation regime \cite{abbas:15} \cite{nassif:08}.
 
@@ -328,7 +328,7 @@ Variability consists of characteristic deviations, internal or external to the c
 
 Defined by device and interconnect geometry variations due to design dependency as well as random material variations. Interconnect width and spacing variations occur mainly due to photolithographic and etch dependencies. Those deviations will impact the interconnect parasitics, resulting in performance and signal degradation. An example is the Chemical-Mechanical Polishing (CMP) relationship between the thickness of the metal and the layout feature density \cite{stine1997analysis}.  Random material variations consist of atomic-level deviations between devices (even when they are identical in layout and geometry) inside the chip. Overall, devices and interconnects will have fully correlated random components, which mean each random component will influence devices and interconnections equally \cite{dietrich2011process}.
 
-Fig. \ref{fig:transAbs}, depicts the transistor intrinsic variability and different levels of abstraction, where from left to right it is shown a typical ideal transistor, a more realistic transitor with variations in its geometrical and electrical parameter, and the atomic-level limit at which we find the transistors in the most modern technologies, where a single atom can make a difference, respectively. These deviations appear in dopant profiles, thickness variations, and Line-Edge Roughness (LER). Dopant fluctuations are the main cause to $V_T$ variations \cite{asenov2003simulation}, with the removal of doping from the channel contributing for the $V_T$ variation reduction, introducing the necessity to set the $V_T$ by gate-metal Work Function (WF) or by biased back gate \cite{frank2001device,wong1999nanoscale}.
+Fig. \ref{fig:transAbs}, depicts the transistor intrinsic variability and different levels of abstraction, where from left to right it is shown a typical ideal transistor, a more realistic transistor with variations in its geometrical and electrical parameter, and the atomic-level limit at which we find the transistors in the most modern technologies, where a single atom can make a difference, respectively. These deviations appear in dopant profiles, thickness variations, and Line-Edge Roughness (LER). Dopant fluctuations are the main cause to $V_T$ variations \cite{asenov2003simulation}, with the removal of doping from the channel contributing for the $V_T$ variation reduction, introducing the necessity to set the $V_T$ by gate-metal Work Function (WF) or by biased back gate \cite{frank2001device,wong1999nanoscale}.
 
 Fluctuations in doping levels and device features cause variations in the source/drain regions, which affects the overlap capacitance and the source resistance \cite{frank2000simulation}. LER arises from variations in the total number of incident photons during lithography. Such roughness introduction into the polygons geometry may determine the effective gate width as one moves along the x axis of a Field Effect Transistor (FET) \cite{brunner2003optical}. Another source of random device variability rises from the atomic-scale oxide thickness variation. It can introduce variations in the $V_T$ \cite{asenov2003simulation}, in the oxide tunneling current, and may cause mobility degradation due to the potential variation across the Metal Oxide Semiconductor FET (MOSFET) channel \cite{bernstein2006high}.
 The manufacturing factor influencing at intra-die level comprises of geometric and parameter variations in the device and the interconnect derived from the manufacturing process. \textit{Film Thickness} and \textit{Channel Length} variations can result in systematic (not random) differences in $V_T$ and leakage currents between chips in the same wafer. Additionally, deviations in the width in the lower layers of metal due to the congestion and proximity between layers and defects of lithographic nature can impact line resistance as well coupling capacitance. This type of variation is caused by the manufacturing steps: rapid thermal annealing (the wafer is rapidly heated up and cooled down to trigger additional chemical reactions within the photoresist) - with an uneven temperature accross the wafer and by-reticle variability can contribute due to changes in the focus as the mask is stepped across the wafer in the photolithography process - the focus can suffer deviations due to exposure tool lens astigmatisms or by wafer nonplanarity \cite{bernstein2006high, qian2015variability}.
@@ -392,7 +392,7 @@ It is notable that none of these works consider the layout in its simulations an
 \cite{federspiel201228nm} presents reliability comparison between 28nm bulk CMOS and Fully Depleted Silicon On Insulator (FDSOI) technologies at layout level, with FDSOI showing 32\% improved performance, 40\% reduced power consumption and improved matching, with its intrinsic reliability behavior similar to 28nm bulk at the device level. \cite{alioto2007delay} presents a study about the delay variability caused by supply variations in the TGA. The experiments were performed at 90nm and 180nm bulk CMOS Technology in Spectre at layout level. It showed that lower supply voltages bring more delay variability to the circuit with the TGA presenting worse results 15\% (25\%) for the 90 nm (180 nm) in comparison to static logic.
 
 
-Some works focus on evaluating techniques: In \cite{zimpeck2016finfet} three transistor sizing techniques are applied on a set of cells and their impact on variability robustness is analyzed. The simulations were performed considering a 14nm FinFET technology using a SPICE tool. The authors concluded that the Optimized Transistor Sizing (OTS) technique has the best ratio between nominal PDP and PDP under process variability. \cite{ahmadi2017hybrid} introduces a new technique to improve the performance of digital circuits in the presence of variations. It consists of a hybrid of two former methods to prevent errors due to delay variations. The simulations were performed with a 45nm predictive technology and applied on ITC’99 and ISCAS’89 benchmarks circuits. The results show that the hybrid technique can tolerate process variations up to 27.3\% better than previous state-of-the-art techniques.
+Some works focus on evaluating techniques: In \cite{zimpeck2016} three transistor sizing techniques are applied on a set of cells and their impact on variability robustness is analyzed. The simulations were performed considering a 14nm FinFET technology using a SPICE tool. The authors concluded that the Optimized Transistor Sizing (OTS) technique has the best ratio between nominal PDP and PDP under process variability. \cite{ahmadi2017hybrid} introduces a new technique to improve the performance of digital circuits in the presence of variations. It consists of a hybrid of two former methods to prevent errors due to delay variations. The simulations were performed with a 45nm predictive technology and applied on ITC’99 and ISCAS’89 benchmarks circuits. The results show that the hybrid technique can tolerate process variations up to 27.3\% better than previous state-of-the-art techniques.
 
 \section{FinFET Technology}
 
@@ -506,7 +506,7 @@ If the threshold shifts, it will cross the input causing it to switch again. It 
 
 A variety of CMOS STs have been proposed and implemented over the years based on different requirements. A higher performance ST is proposed in \cite{steyaert1986novel} where, by a different design, a smaller load capacitor value is achieved, decreasing the slew rate of the ST internal node. In \cite{pfister1992novel} a ST with a programmable hysteresis is proposed. The programmable hysteresis is achieved by adding a P and N transistors in series with the 6T ST $P_F$ and $N_F$ transistors, respectively, both receiving the same gate signal. \cite{kim1993new} proposes a 10T ST which its hysteresis interval does not depend on transistors width/length ratios being, consequently, more robust to process variations.
 
- A low-power ST is proposed at \cite{al2002low} with low short circuit current achieved by the presence of only one path to each power rail, being recommended for low power, and very low frequency applications. In \cite{pedroni2005low} proposes a low-power ST by having only one transistor transmitting (at stable output values), considerably reducing power consumption. STs can be optimised by adequate dimensioning as well as stated in \cite{tache2018reliability} where the OTS technique presented the best metrics for low power applications, in accordance to \cite{zimpeck2016finfet}.
+ A low-power ST is proposed at \cite{al2002low} with low short circuit current achieved by the presence of only one path to each power rail, being recommended for low power, and very low frequency applications. In \cite{pedroni2005low} proposes a low-power ST by having only one transistor transmitting (at stable output values), considerably reducing power consumption. STs can be optimised by adequate dimensioning as well as stated in \cite{tache2018reliability} where the OTS technique presented the best metrics for low power applications, in accordance to \cite{zimpeck2016}.
 
 In \cite{shah2020soft} a voltage-booster is applied in the traditional 6T ST to replace its pull up network and reduce the number of PMOS transistor to only one. This replacement makes it less vulnerable to the effects of NBTI, which severely affects PMOS devices. It was simulated on 32 nm bulk CMOS technology and was revealed to present an almost negligible delay shift of 0.47\%, with the traditional 6T ST and CMOS inverter presenting 7.2\% and 5.32\% shifts, after three years of simulated NBTI stress, respectively. Furthermore, it presented an improved sensitivity against charged particles of 62.48\% and 55.10\% against the CMOS inverter and 6T ST, respectively. And finally, it presented 168.68\% less deviations in comparison to the CMOS inverter considering process variability. It is important, though, to highlight its 4.315x higher leakage power and potential higher area, given finfet technology restrictions considering the higher number of NMOS transistors (5) in comparison to the traditional 6T ST (3).
 
@@ -649,7 +649,7 @@ The transistor sizing exploration evaluate layouts from 1 to 5 fins through 1-fi
 \end{figure}
 \section{Layout Design}
 
-All circuits were designed using the Virtuoso Electronic Design Automation (EDA) tool from Cadence\textregistered with the process design kit (PDK) of 7-nm FinFET of Arizona State Predictive PDK (ASAP7) from the Arizona State University in partnership with ARM \cite{clark2016asap7}. It is the only open-source and free 7-nm PDK available for academic use. This PDK was chosen due to realistic design conjecture regarding the current design competencies. FinFET technologies present the width quantization aspect \cite{2000Simulations}. With a 27nm fin pitch, high-density layout is achieved with 3-fins transistors. Otherwise, for a higher fin count, there is a lower density and routing complexity \cite{chava2015standard}. The main PDK rules and lithography assumptions considered in this work are shown in Table I. To exemplify the PDK layers, the 3-fins transistors ST is shown in Fig. \ref{fig:layers}. The dimensions and areas related to each layout is shown at Table \ref{tab:areas}. Figs. \ref{fig:invComp}, \ref{fig:stComp}, \ref{fig:sigComp} and \ref{fig:tistComp} show comparisons between each circuit layouts. All inverters layouts are shown individually in Annex B, at the end of the document. %The ST height with 3, 4 and 5 fins are set to 7.5, 9 and 10.5 tracks of Metal 2 (M2). The total area is 131220nm², 157464nm² and 183708nm² for a design with 3, 4 and 5 fins, respectively. The layout of the ST with 3, 4 and 5 fins are shown in Figs. X, Y and Z, respectively.
+All circuits were designed using the Virtuoso Electronic Design Automation (EDA) tool from Cadence\textregistered with the process design kit (PDK) of 7-nm FinFET of Arizona State Predictive PDK (ASAP7) from the Arizona State University in partnership with ARM \cite{clark2016asap7}. It is the only open-source and free 7-nm PDK available for academic use. This PDK was chosen due to realistic design conjecture regarding the current design competencies. FinFET technologies present the width quantization aspect \cite{2000Simulations}. With a 27nm fin pitch, high-density layout is achieved with 3-fins transistors. Otherwise, for a higher fin count, there is a lower density and routing complexity \cite{chava2015standard}. The main PDK rules and lithography assumptions considered in this work are shown in Table I. To exemplify the PDK layers, the 3-fins transistors 6T ST is shown in Fig. \ref{fig:layers}. The dimensions and areas related to each layout is shown at Table \ref{tab:areas}. Figs. \ref{fig:invComp}, \ref{fig:stComp}, \ref{fig:sigComp} and \ref{fig:tistComp} show comparisons between each circuit layouts. All inverters layouts are shown individually in Annex B, at the end of the document. %The ST height with 3, 4 and 5 fins are set to 7.5, 9 and 10.5 tracks of Metal 2 (M2). The total area is 131220nm², 157464nm² and 183708nm² for a design with 3, 4 and 5 fins, respectively. The layout of the ST with 3, 4 and 5 fins are shown in Figs. X, Y and Z, respectively.
 
 
 \begin{figure}[]
@@ -789,7 +789,7 @@ Furthermore, given the shared well of the NMOS devices, it was not possible to c
 
 \section{Electrical Simulation}
 
-The simulations will be carried out in HSPICE \footnote{https://www.synopsys.com/} using the netlist obtained after the physical verification flow and the parasitic capacitances extraction. The deviation on the device geometry impacts the electrical parameter WF causing high fluctuations \cite{zimpeck2016finfet}. It happens due to the orientation of metal grains randomly aligned in FinFET manufacturing process. In this way, WFF represents the most significant variation beyond the other parameters \cite{meinhardt2014impact}. The process variability evaluation will be taken through 2000 Monte Carlo (MC) simulations \cite{alioto2015variations} varying the WF of devices according to a Gaussian distribution considering a 3\(\sigma\) deviation. The reference values from ASAP7 technology for electrical simulations are shown in Table \ref{electPar}.
+The simulations will be carried out in HSPICE \footnote{https://www.synopsys.com/} using the netlist obtained after the physical verification flow and the parasitic capacitances extraction. The deviation on the device geometry impacts the electrical parameter WF causing high fluctuations \cite{zimpeck2016}. It happens due to the orientation of metal grains randomly aligned in FinFET manufacturing process. In this way, WFF represents the most significant variation beyond the other parameters \cite{meinhardt2014impact}. The process variability evaluation will be taken through 2000 Monte Carlo (MC) simulations \cite{alioto2015variations} varying the WF of devices according to a Gaussian distribution considering a 3\(\sigma\) deviation. The reference values from ASAP7 technology for electrical simulations are shown in Table \ref{electPar}.
 
 \begin{table}[]
 \centering
@@ -1112,38 +1112,38 @@ Given so, trying to achieve a balance between given applications three types of 
 
     The robust layouts present a shift on supply voltage. At low variability scenarios (1\% to 3\%) the nominal supply voltage will persist at nominal value (0.7V). As the variability level rises, the supply voltage will abruptly fall into near-threshold region (300mV to 400mV) and increase, as the variability level increases as well.
 
-	The sudden fall into a near-threshold region can be explained in terms of the transistors current. When the on-current is at the saturation region, it presents an quadratic dependency over the $V_{T}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{T}$, as shown in equation \ref{eqn:lin} \cite{van2004principles}. Given so, as the level of variability rises, the transistor will have to fall into linear region operation to decrease the current deviations due to increasingly $V_{T}$ variability.
+	%The sudden fall into a near-threshold region can be explained in terms of the transistors current. When the on-current is at the saturation region, it presents an quadratic dependency over the $V_{T}$, as shown in equation \ref{eqn:sat}, while at the linear region, the on-current presents a linear dependency over the $V_{T}$, as shown in equation \ref{eqn:lin} \cite{van2004principles}. Given so, as the level of variability rises, the transistor will have to fall into linear region operation to decrease the current deviations due to increasingly $V_{T}$ variability.
 
-    \begin{equation}
-        \centering
-        \label{eqn:sat}
-        I_{D,sat} = \frac{\mu_p \cdot C_{ox}}{2} \cdot \frac{W}{L} \cdot (V_{GS} - V_T)^2
-        \begin{cases}
-        V_{GS} \leq V_T\\
-        V_{DS} \leq V_{GS} - V_T
-        \end{cases}
-    \end{equation}
-    \begin{equation}
-        \centering
-        \label{eqn:lin}
-        I_{D,lin} = \frac{\mu_p \cdot C_{ox}}{2} \cdot \frac{W}{L} \cdot [2 \cdot (V_{GS} - V_T)V_{DS} - V_{DS}^2]
-        \begin{cases}
-        V_{GS} \leq V_T\\
-        V_{DS} > V_{GS} - V_T
-        \end{cases}
-    \end{equation}
-where:
-\begin{conditions}
-I_{D,sat} & saturation current \\
-I_{D,lin} & linear current \\
-\mu_p & p-material electron mobility \\
-C_{ox} & specific capacitance of the gate \\
-W & transistor width \\
-L & transistor length \\
-V_{GS} & gate-source voltage \\
-V_{DS} & drain-source voltage \\
-V_T & threshold voltage \\
-\end{conditions}
+    %\begin{equation}
+    %    \centering
+    %    \label{eqn:sat}
+    %    I_{D,sat} = \frac{\mu_p \cdot C_{ox}}{2} \cdot \frac{W}{L} \cdot (V_{GS} - V_T)^2
+    %    \begin{cases}
+    %    V_{GS} \leq V_T\\
+    %    V_{DS} \leq V_{GS} - V_T
+    %    \end{cases}
+    %\end{equation}
+    %\begin{equation}
+    %    \centering
+    %    \label{eqn:lin}
+    %    I_{D,lin} = \frac{\mu_p \cdot C_{ox}}{2} \cdot \frac{W}{L} \cdot [2 \cdot (V_{GS} - V_T)V_{DS} - V_{DS}^2]
+%        \begin{cases}
+%        V_{GS} \leq V_T\\
+%        V_{DS} > V_{GS} - V_T
+%        \end{cases}
+%    \end{equation}
+%where:
+%\begin{conditions}
+%I_{D,sat} & saturation current \\
+%I_{D,lin} & linear current \\
+%\mu_p & p-material electron mobility \\
+%C_{ox} & specific capacitance of the gate \\
+%W & transistor width \\
+%L & transistor length \\
+%V_{GS} & gate-source voltage \\
+%V_{DS} & drain-source voltage \\
+%V_T & threshold voltage \\
+%\end{conditions}
 
 
 For the CB layouts, what can be observed is an adoption of supply voltages similar to the high robustness layouts, with an earlier adoption of near-threshold supply voltages, as variability rises, and the adoption of a fin count similar to the low energy layouts, although slightly higher. Energy consumption and deviation comparisons between each recommended layout are shown in Fig. \ref{figscCompINV}, Fig. \ref{figscCompST}, Fig. \ref{figscCompSIG}, Fig. \ref{figscCompTIST21}, and Fig. \ref{figscCompTIST31}. The lines correspond to the energy consumption axis (left), while the bars correspond to the energy deviation axis (right).
@@ -1672,19 +1672,19 @@ For the currents, there was an average increase of 20\% and 90\% for the dynamic
 \resizebox{0.9\textwidth}{!}{%
 \begin{tabular}{cccccccc}
 \hline
-\multicolumn{2}{c}{\multirow{2}{*}{Design}} & \multicolumn{3}{c}{NT}    & \multicolumn{3}{c}{Nominal} \\ \cline{3-8} 
+\multicolumn{2}{c}{\multirow{2}{*}{Design}} & \multicolumn{3}{c}{NT}    & \multicolumn{3}{c}{Nominal} \\ \cline{3-8}
 \multicolumn{2}{c}{}                        & on ($\mu$A) & off (nA) & Ratio  & on ($\mu$A)  & off (nA) & Ratio   \\ \hline
-\multirow{3}{*}{Mirror}        & -          & 0.82   	  & 12.99    & 295    & 21.29        & 17.65    & 16,773  \\ \cline{2-8} 
-                               & ST1        & 0.96   	  & 16.29    & 262    & 23.42        & 22.03    & 14,149  \\ \cline{2-8} 
+\multirow{3}{*}{Mirror}        & -          & 0.82   	  & 12.99    & 295    & 21.29        & 17.65    & 16,773  \\ \cline{2-8}
+                               & ST1        & 0.96   	  & 16.29    & 262    & 23.42        & 22.03    & 14,149  \\ \cline{2-8}
                                & ST2        & 1.36        & 16.17    & 502    & 28.77        & 21.84    & 21,629  \\ \hline
-\multirow{3}{*}{TFA}           & -          & 0.26   	  & 3.49     & 2,112  & 7.05         & 6.94     & 143,349 \\ \cline{2-8} 
-                               & ST1        & 0.37   	  & 10.07    & 196    & 9.46         & 13.69    & 11,412  \\ \cline{2-8} 
+\multirow{3}{*}{TFA}           & -          & 0.26   	  & 3.49     & 2,112  & 7.05         & 6.94     & 143,349 \\ \cline{2-8}
+                               & ST1        & 0.37   	  & 10.07    & 196    & 9.46         & 13.69    & 11,412  \\ \cline{2-8}
                                & ST2        & 0.72   	  & 10.00    & 556    & 15.48        & 13.57    & 30,261  \\ \hline
-\multirow{3}{*}{TGA}           & -          & 0.72   	  & 12.89    & 268    & 18.26        & 17.52    & 14,851  \\ \cline{2-8} 
-                               & ST1        & 1.02   	  & 24.31    & 230    & 22.53        & 33.12    & 11,179  \\ \cline{2-8} 
+\multirow{3}{*}{TGA}           & -          & 0.72   	  & 12.89    & 268    & 18.26        & 17.52    & 14,851  \\ \cline{2-8}
+                               & ST1        & 1.02   	  & 24.31    & 230    & 22.53        & 33.12    & 11,179  \\ \cline{2-8}
                                & ST2        & 1.85        & 24.09    & 596    & 36.14        & 32.84    & 27,163  \\ \hline
-\multirow{3}{*}{Hybrid}        & -          & 1.93        & 13.77    & 2,827  & 25.42        & 18.74    & 41,178  \\ \cline{2-8} 
-                               & ST1        & 1.75        & 27.87    & 510    & 24.12        & 37.65    & 11,561  \\ \cline{2-8} 
+\multirow{3}{*}{Hybrid}        & -          & 1.93        & 13.77    & 2,827  & 25.42        & 18.74    & 41,178  \\ \cline{2-8}
+                               & ST1        & 1.75        & 27.87    & 510    & 24.12        & 37.65    & 11,561  \\ \cline{2-8}
                                & ST2        & 2.29        & 27.93    & 579    & 40.91        & 37.79    & 22,969  \\ \hline
 \end{tabular}%
 }
@@ -1811,9 +1811,9 @@ When considering only the currents, Table \ref{tab:FACurr} presents the highest 
 \hline
 \multicolumn{2}{|c|}{\multirow{2}{*}{Operation}} & \multicolumn{2}{c|}{Measure Deviation   Product} & \multirow{2}{*}{DDP and SDP Product} \\ \cline{3-4}
 \multicolumn{2}{|c|}{}                           & Dynamic                & Static                 &                                      \\ \hline
-\multirow{2}{*}{Nominal}       & Highest       & TFAST2                 & HYBRIDST2              & HYBRIDST2                            \\ \cline{2-5} 
+\multirow{2}{*}{Nominal}       & Highest       & TFAST2                 & HYBRIDST2              & HYBRIDST2                            \\ \cline{2-5}
                                & Lowest        & TGA                    & TFAST2                 & TGA                                  \\ \hline
-\multirow{2}{*}{NT}            & Highest       & HYBRIDST2              & HYBRIDST2              & HYBRIDST2                            \\ \cline{2-5} 
+\multirow{2}{*}{NT}            & Highest       & HYBRIDST2              & HYBRIDST2              & HYBRIDST2                            \\ \cline{2-5}
                                & Lowest        & TFA                    & TFA                    & TFA                                  \\ \hline
 \end{tabular}%
 }
@@ -1824,7 +1824,7 @@ Given all the concepts, results and conclusions, the contributions of this work 
 
 \section{Future Works}
 
-For future works, it would be interesting to do a similar analysis  considering the TIST design at a different technology node (FD-SOI 28nm) at sub-100mV to achieve ultra low-power circuits capable of enhancing the circuits robustness to noise and to decrease the impact of process variability. Additionally, as shown in the current section of the results, the leakage currents measures and normalized deviations will exponentially scale with the WFF level and the related deviations will not scale down with as the supply voltage increases. Given so, techniques for leakage suppression and the minimization of current deviations should be investigated. Further tests on transistor sizing for the considered inverter designs should be performed as well, since different transistor proportions were not considered in the analysis, as in the TIST. 
+For future works, it would be interesting to do a similar analysis  considering the TIST design at a different technology node (FD-SOI 28nm) at sub-100mV to achieve ultra low-power circuits capable of enhancing the circuits robustness to noise and to decrease the impact of process variability. Additionally, as shown in the current section of the results, the leakage currents measures and normalized deviations will exponentially scale with the WFF level and the related deviations will not scale down with as the supply voltage increases. Given so, techniques for leakage suppression and the minimization of current deviations should be investigated. Further tests on transistor sizing for the considered inverter designs should be performed as well, since different transistor proportions were not considered in the analysis, as in the TIST.
 
 
 \vspace{1cm}

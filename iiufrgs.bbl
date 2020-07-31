@@ -661,109 +661,126 @@ Thesis (PhD) --- UC Berkeley, 2015.}
 \abntrefinfo{Reis et al.}{REIS et al.}{1995}
 {REIS, A. et al. Associating cmos transistors with bdd arcs for technology
   mapping.
-\textbf{Electronics Letters}, IET, v.~31, n.~14, p. 1118--1120, 1995.}
+\textbf{Electronics Letters}, IET, v.~31, n.~14, p. 1118--1120, 1995.
+{d}oi:\href{https://doi.org/10.1049/el:19950799}{10.1049/el:19950799}.}
 
 \bibitem[Reis et al. 2020]{reis2020circuit}
 \abntrefinfo{Reis et al.}{REIS et al.}{2020}
 {REIS, R. et al. Circuit level design methods to mitigate soft errors. In:
   IEEE. \textbf{2020 IEEE Latin-American Test Symposium (LATS)}. Jatiúca,
-  Maceió, Brazil, 2020. p.~1--3.}
+  Maceió, Brazil, 2020. p.~1--3.
+  {d}oi:\href{https://doi.org/10.1109/lats49555.2020.9093683}{10.1109/lats49555.2020.9093683}.}
 
 \bibitem[Ren et al. 2018]{FinFET02}
 \abntrefinfo{Ren et al.}{REN et al.}{2018}
 {REN, P. et al. New insights into the hci degradation of pass-gate transistor
   in advanced finfet technology. In:  IEEE. \textbf{2018 IEEE International
-  Reliability Physics Symposium (IRPS)}. Monterey, CA, USA, 2018. p. P--CR.}
+  Reliability Physics Symposium (IRPS)}. Monterey, CA, USA, 2018. p. P--CR.
+  {d}oi:\href{https://doi.org/10.1109/irps.2018.8353656}{10.1109/irps.2018.8353656}.}
 
 \bibitem[Rithe et al. 2011]{rithe2011effect}
 \abntrefinfo{Rithe et al.}{RITHE et al.}{2011}
 {RITHE, R. et al. The effect of random dopant fluctuations on logic timing at
   low voltage.
 \textbf{IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
-  IEEE, v.~20, n.~5, p. 911--924, 2011.}
+  IEEE, v.~20, n.~5, p. 911--924, 2011.
+{d}oi:\href{https://doi.org/10.1109/tvlsi.2011.2124477}{10.1109/tvlsi.2011.2124477}.}
 
 \bibitem[Schrom, De and Selberherr 1997]{schrom1997vlsi}
 \abntrefinfo{Schrom, De and Selberherr}{SCHROM; DE; SELBERHERR}{1997}
 {SCHROM, G.; DE, V.; SELBERHERR, S. Vlsi performance metric based on minimum
   tcad simulations. In:  IEEE. \textbf{SISPAD'97. 1997 International Conference
   on Simulation of Semiconductor Processes and Devices. Technical Digest}.
-  Cambridge, MA, USA, 1997. p. 25--28.}
+  Cambridge, MA, USA, 1997. p. 25--28.
+  {d}oi:\href{https://doi.org/10.1016/s0920-5489(99)92304-8}{10.1016/s0920-5489(99)92304-8}.}
 
 \bibitem[Shah et al. 2020]{shah2020soft}
 \abntrefinfo{Shah et al.}{SHAH et al.}{2020}
 {SHAH, A.~P. et al. Soft error hardening enhancement analysis of nbti tolerant
   schmitt trigger circuit.
-\textbf{Microelectronics Reliability}, Elsevier, v.~107, p. 113617, 2020.}
+\textbf{Microelectronics Reliability}, Elsevier, v.~107, p. 113617, 2020.
+{d}oi:\href{https://doi.org/10.1016/j.microrel.2020.113617}{10.1016/j.microrel.2020.113617}.}
 
 \bibitem[Shams and Bayoumi 2000]{shams2000novel}
 \abntrefinfo{Shams and Bayoumi}{SHAMS; BAYOUMI}{2000}
 {SHAMS, A.~M.; BAYOUMI, M.~A. A novel high-performance cmos 1-bit full-adder
   cell.
 \textbf{IEEE Transactions on circuits and systems II: Analog and digital signal
-  processing}, IEEE, v.~47, n.~5, p. 478--481, 2000.}
+  processing}, IEEE, v.~47, n.~5, p. 478--481, 2000.
+{d}oi:\href{https://doi.org/10.1109/82.842117}{10.1109/82.842117}.}
 
 \bibitem[Steyaert and Sansen 1986]{steyaert1986novel}
 \abntrefinfo{Steyaert and Sansen}{STEYAERT; SANSEN}{1986}
 {STEYAERT, M.; SANSEN, W. Novel cmos schmitt trigger.
-\textbf{Electronics Letters}, IET, v.~22, n.~4, p. 203--204, 1986.}
+\textbf{Electronics Letters}, IET, v.~22, n.~4, p. 203--204, 1986.
+{d}oi:\href{https://doi.org/10.1049/el:19860142}{10.1049/el:19860142}.}
 
 \bibitem[Stine, Boning and Chung 1997]{stine1997analysis}
 \abntrefinfo{Stine, Boning and Chung}{STINE; BONING; CHUNG}{1997}
 {STINE, B.~E.; BONING, D.~S.; CHUNG, J.~E. Analysis and decomposition of
   spatial variation in integrated circuit processes and devices.
 \textbf{IEEE Transactions on Semiconductor Manufacturing}, IEEE, v.~10, n.~1,
-  p. 24--41, 1997.}
+  p. 24--41, 1997.
+{d}oi:\href{https://doi.org/10.1109/66.554480}{10.1109/66.554480}.}
 
 \bibitem[Tache et al. 2018]{tache2018reliability}
 \abntrefinfo{Tache et al.}{TACHE et al.}{2018}
 {TACHE, M. et al. Reliability and performance of optimised schmitt trigger
   gates.
-\textbf{The Journal of Engineering}, IET, v.~2018, n.~8, p. 735--744, 2018.}
+\textbf{The Journal of Engineering}, IET, v.~2018, n.~8, p. 735--744, 2018.
+{d}oi:\href{https://doi.org/10.1049/joe.2018.0091}{10.1049/joe.2018.0091}.}
 
 \bibitem[Takeda and Suzuki 1983]{takeda1983empirical}
 \abntrefinfo{Takeda and Suzuki}{TAKEDA; SUZUKI}{1983}
 {TAKEDA, E.; SUZUKI, N. An empirical model for device degradation due to
   hot-carrier injection.
-\textbf{IEEE electron device letters}, IEEE, v.~4, n.~4, p. 111--113, 1983.}
+\textbf{IEEE electron device letters}, IEEE, v.~4, n.~4, p. 111--113, 1983.
+{d}oi:\href{https://doi.org/10.1109/edl.1983.25667}{10.1109/edl.1983.25667}.}
 
 \bibitem[Taur and Ning 2013]{taur2013fundamentals}
 \abntrefinfo{Taur and Ning}{TAUR; NING}{2013}
 {TAUR, Y.; NING, T.~H. \textbf{Fundamentals of modern VLSI devices}. Cambridge,
-  UK: Cambridge university press, 2013.}
+  UK: Cambridge university press, 2013.
+  {d}oi:\href{https://doi.org/10.1017/cbo9781139195065}{10.1017/cbo9781139195065}.}
 
 \bibitem[Toledo et al. 2017]{toledo2017impact}
 \abntrefinfo{Toledo et al.}{TOLEDO et al.}{2017}
 {TOLEDO, S.~P. et al. Impact of schmitt trigger inverters on process
   variability robustness of 1-bit full adders. In:  IEEE. \textbf{2017 24th
   IEEE International Conference on Electronics, Circuits and Systems (ICECS)}.
-  Batumi, Georgia, 2017. p. 290--293.}
+  Batumi, Georgia, 2017. p. 290--293.
+  {d}oi:\href{https://doi.org/10.1109/icecs.2017.8292012}{10.1109/icecs.2017.8292012}.}
 
 \bibitem[Toledo et al. 2018]{toledo2018pros}
 \abntrefinfo{Toledo et al.}{TOLEDO et al.}{2018}
 {TOLEDO, S.~P. et al. Pros and cons of schmitt trigger inverters to mitigate
   pvt variability on full adders. In:  IEEE. \textbf{2018 IEEE International
   Symposium on Circuits and Systems (ISCAS)}. Villa Vittoria. Florence, Italy,
-  2018. p.~1--5.}
+  2018. p.~1--5.
+  {d}oi:\href{https://doi.org/10.1109/iscas.2018.8351097}{10.1109/iscas.2018.8351097}.}
 
 \bibitem[Tschanz et al. 2002]{tschanz2002adaptive}
 \abntrefinfo{Tschanz et al.}{TSCHANZ et al.}{2002}
 {TSCHANZ, J.~W. et al. Adaptive body bias for reducing impacts of die-to-die
   and within-die parameter variations on microprocessor frequency and leakage.
 \textbf{IEEE Journal of Solid-State Circuits}, IEEE, v.~37, n.~11, p.
-  1396--1402, 2002.}
+  1396--1402, 2002.
+{d}oi:\href{https://doi.org/10.1109/isscc.2002.992287}{10.1109/isscc.2002.992287}.}
 
 \bibitem[Wang et al. 2008]{wang2008statistical}
 \abntrefinfo{Wang et al.}{WANG et al.}{2008}
 {WANG, W. et al. Statistical prediction of circuit aging under process
   variations. In:  IEEE. \textbf{2008 IEEE Custom Integrated Circuits
-  Conference}. San Jose, CA, USA, 2008. p. 13--16.}
+  Conference}. San Jose, CA, USA, 2008. p. 13--16.
+  {d}oi:\href{https://doi.org/10.5772/6875}{10.5772/6875}.}
 
 \bibitem[Wang et al. 2011]{wang2011statistical}
 \abntrefinfo{Wang et al.}{WANG et al.}{2011}
 {WANG, X. et al. Statistical threshold-voltage variability in scaled
   decananometer bulk hkmg mosfets: A full-scale 3-d simulation scaling study.
 \textbf{IEEE Transactions on Electron Devices}, IEEE, v.~58, n.~8, p.
-  2293--2301, 2011.}
+  2293--2301, 2011.
+{d}oi:\href{https://doi.org/10.1109/ted.2011.2149531}{10.1109/ted.2011.2149531}.}
 
 \bibitem[Weste and Eshraghian 1985]{weste1985principles}
 \abntrefinfo{Weste and Eshraghian}{WESTE; ESHRAGHIAN}{1985}
@@ -773,20 +790,23 @@ Thesis (PhD) --- UC Berkeley, 2015.}
 \bibitem[Wong et al. 1999]{wong1999nanoscale}
 \abntrefinfo{Wong et al.}{WONG et al.}{1999}
 {WONG, H.-S. et al. Nanoscale cmos.
-\textbf{Proceedings of the IEEE}, IEEE, v.~87, n.~4, p. 537--570, 1999.}
+\textbf{Proceedings of the IEEE}, IEEE, v.~87, n.~4, p. 537--570, 1999.
+{d}oi:\href{https://doi.org/10.1109/5.752515}{10.1109/5.752515}.}
 
 \bibitem[Xiong and Bokor 2003]{FinFET03}
 \abntrefinfo{Xiong and Bokor}{XIONG; BOKOR}{2003}
-{XIONG, S.; BOKOR, J. Sensitivity of double-gate and finfetdevices to process
+{XIONG, S.; BOKOR, J. Sensitivity of double-gate and finfet devices to process
   variations.
 \textbf{IEEE Transactions on Electron Devices}, IEEE, v.~50, n.~11, p.
-  2255--2261, 2003.}
+  2255--2261, 2003.
+{d}oi:\href{https://doi.org/10.1109/ted.2003.818594}{10.1109/ted.2003.818594}.}
 
 \bibitem[Young and Christou 1994]{young1994failure}
 \abntrefinfo{Young and Christou}{YOUNG; CHRISTOU}{1994}
 {YOUNG, D.; CHRISTOU, A. Failure mechanism models for electromigration.
 \textbf{IEEE Transactions on Reliability}, IEEE, v.~43, n.~2, p. 186--192,
-  1994.}
+  1994.
+{d}oi:\href{https://doi.org/10.1109/24.294986}{10.1109/24.294986}.}
 
 \bibitem[Zeghbroeck 2004]{van2004principles}
 \abntrefinfo{Zeghbroeck}{ZEGHBROECK}{2004}
@@ -797,19 +817,22 @@ Thesis (PhD) --- UC Berkeley, 2015.}
 \abntrefinfo{Zhang, Srivastava and Ajmera}{ZHANG; SRIVASTAVA; AJMERA}{2003}
 {ZHANG, C.; SRIVASTAVA, A.; AJMERA, P.~K. Low voltage cmos schmitt trigger
   circuits.
-\textbf{Electronics Letters}, IET, v.~39, n.~24, p. 1696--1698, 2003.}
+\textbf{Electronics Letters}, IET, v.~39, n.~24, p. 1696--1698, 2003.
+{d}oi:\href{https://doi.org/10.1049/el:20031131}{10.1049/el:20031131}.}
 
 \bibitem[Zhang et al. 2017]{FinFET04}
 \abntrefinfo{Zhang et al.}{ZHANG et al.}{2017}
 {ZHANG, R. et al. Modeling of the reliability degradation of a finfet-based
   sram due to bias temperature instability, hot carrier injection, and gate
   oxide breakdown. In:  IEEE. \textbf{2017 IEEE International Integrated
-  Reliability Workshop (IIRW)}. Fallen Leaf Lake, CA, USA, 2017. p.~1--4.}
+  Reliability Workshop (IIRW)}. Fallen Leaf Lake, CA, USA, 2017. p.~1--4.
+  {d}oi:\href{https://doi.org/10.1109/iirw.2017.8361243}{10.1109/iirw.2017.8361243}.}
 
-\bibitem[Zimpeck et al. 2016]{zimpeck2016finfet}
+\bibitem[Zimpeck et al. 2016]{zimpeck2016}
 \abntrefinfo{Zimpeck et al.}{ZIMPECK et al.}{2016}
 {ZIMPECK, A.~L. et al. Finfet cells with different transistor sizing techniques
   against pvt variations. In:  IEEE. \textbf{2016 IEEE International Symposium
-  on Circuits and Systems (ISCAS)}. Montreal, Canada, 2016. p. 45--48.}
+  on Circuits and Systems (ISCAS)}. Montreal, Canada, 2016. p. 45--48.
+  {d}oi:\href{https://doi.org/10.1109/iscas.2016.7527166}{10.1109/iscas.2016.7527166}.}
 
 \end{thebibliography}

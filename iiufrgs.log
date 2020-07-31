@@ -1,37 +1,37 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.6.25)  7 JUL 2020 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.19)  26 JUL 2020 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **iiufrgs.tex
 (./iiufrgs.tex
-LaTeX2e <2019-10-01> patch level 1
-(./iiufrgs.cls
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (./iiufrgs.cls
 Document Class: iiufrgs 2010/08/13 v4.4.0 Formatacao de documentos para o II/UF
 RGS
 (/usr/share/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2019/08/27 v1.4j Standard LaTeX document class
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
 (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/usr/share/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
@@ -44,30 +44,33 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 ) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/10/15 3.35 The Babel package
-
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/10/15 3.35 Babel switching mechanism
-)
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+Package: babel 2020/05/13 3.44 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/10/15 3.35 Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen103
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+\l@babelnohyphens=\language86
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count90
+\bbl@readstream=\read2
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+\bbl@dirlevel=\count177
+
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
 )
-(/usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
-Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-\l@brazilian = a dialect from \language\l@portuges 
-Package babel Info: Making " an active character on input line 145.
+(/usr/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
+Language: portuges 2020/05/04 v1.2r Portuguese support from the babel system
+Package babel Info: \l@brazilian = using hyphenrules for portuguese
+(babel)             (\language69) on input line 111.
+Package babel Info: Making " an active character on input line 143.
 ))
 (./brazilian.babel) (./english.babel) (./lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
@@ -78,10 +81,10 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 Package: iidefs 
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -94,42 +97,42 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
 )) (./setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (./ccaption.sty
 Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
-\@contcwidth=\skip43
-\@contindw=\skip44
-\abovelegendskip=\skip45
-\belowlegendskip=\skip46
-\c@newflo@tctr=\count91
+\@contcwidth=\skip49
+\@contindw=\skip50
+\abovelegendskip=\skip51
+\belowlegendskip=\skip52
+\c@newflo@tctr=\count178
 ) (./titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box27
-\beforetitleunit=\skip47
-\aftertitleunit=\skip48
-\ttl@plus=\dimen106
-\ttl@minus=\dimen107
-\ttl@toksa=\toks15
-\titlewidth=\dimen108
-\titlewidthlast=\dimen109
-\titlewidthfirst=\dimen110
+\ttl@box=\box45
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen138
+\ttl@minus=\dimen139
+\ttl@toksa=\toks16
+\titlewidth=\dimen140
+\titlewidthlast=\dimen141
+\titlewidthfirst=\dimen142
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip49
-\f@nch@O@elh=\skip50
-\f@nch@O@erh=\skip51
-\f@nch@O@olh=\skip52
-\f@nch@O@orh=\skip53
-\f@nch@O@elf=\skip54
-\f@nch@O@erf=\skip55
-\f@nch@O@olf=\skip56
-\f@nch@O@orf=\skip57
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
 ) (./xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -140,22 +143,22 @@ Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen111
-\ar@mcellbox=\box28
-\extrarowheight=\dimen112
-\NC@list=\toks16
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box29
+\col@sep=\dimen143
+\ar@mcellbox=\box46
+\extrarowheight=\dimen144
+\NC@list=\toks17
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box47
 )
-\everycr=\toks17
-\minrowclearance=\skip60
+\everycr=\toks18
+\minrowclearance=\skip66
 )
-\rownum=\count92
+\rownum=\count179
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -184,7 +187,7 @@ Package tocstyle Warning: THIS IS A DEPRECATED ALPHA VERSION!
 (tocstyle)                THERE IS NO SUPPORT, IF YOU USE THIS PACKAGE!
 (tocstyle)                Maybe it would be better, not to load this package.
 
-\tocstyle@indentstyle=\count93
+\tocstyle@indentstyle=\count180
 Package tocstyle Info: no tocstyle.cfg found on input line 951.
 )
 exclude: 
@@ -193,139 +196,152 @@ exclude:
 exclude: 
 exclude: 
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-Package pdftexcmds Info: LuaTeX not detected.
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-\@linkdim=\dimen113
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count181
+\Hy@pagecounter=\count182
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count96
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4414
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count183
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4338
 .
-Package hyperref Info: Option `breaklinks' set `true' on input line 4414.
-Package hyperref Info: Option `unicode' set `true' on input line 4414.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4338.
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2019/09/28 v7.00a Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4414.
-Package hyperref Info: Hyper figures OFF on input line 4540.
-Package hyperref Info: Link nesting OFF on input line 4545.
-Package hyperref Info: Hyper index ON on input line 4548.
-Package hyperref Info: Plain pages OFF on input line 4555.
-Package hyperref Info: Backreferencing OFF on input line 4560.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4793.
-\c@Hy@tempcnt=\count97
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count184
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5152.
-\XeTeXLinkMargin=\dimen114
-\Fld@menulength=\count98
-\Field@Width=\dimen115
-\Fld@charsize=\dimen116
-Package hyperref Info: Hyper figures OFF on input line 6423.
-Package hyperref Info: Link nesting OFF on input line 6428.
-Package hyperref Info: Hyper index ON on input line 6431.
-Package hyperref Info: backreferencing OFF on input line 6438.
-Package hyperref Info: Link coloring ON on input line 6441.
-Package hyperref Info: Link coloring with OCG OFF on input line 6448.
-Package hyperref Info: PDF/A mode OFF on input line 6453.
-LaTeX Info: Redefining \ref on input line 6493.
-LaTeX Info: Redefining \pageref on input line 6497.
-\Hy@abspage=\count99
-\c@Item=\count100
-\c@Hfootnote=\count101
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen146
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count185
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring ON on input line 6365.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count186
+\c@Item=\count187
+\c@Hfootnote=\count188
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
-\Fld@listcount=\count102
-\c@bookmark@seq@number=\count103
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+(/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Hy@SectionHShift=\skip61
+\Fld@listcount=\count189
+\c@bookmark@seq@number=\count190
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip67
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
 (/usr/share/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
 
-(/usr/share/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+(/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )) (./abntex2cite.sty
 Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
 
@@ -334,175 +350,20 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count104
-\calc@Bcount=\count105
-\calc@Adimen=\dimen117
-\calc@Bdimen=\dimen118
-\calc@Askip=\skip62
-\calc@Bskip=\skip63
+\calc@Acount=\count191
+\calc@Bcount=\count192
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count106
-\calc@Cskip=\skip64
+\calc@Ccount=\count193
+\calc@Cskip=\skip70
 ) (./abntex2abrev.sty)
 (./xparse.sty (./expl3.sty
 Package: expl3 2020-04-06 L3 programming layer (loader) 
- (./expl3-code.tex
-Package: expl3 2020-04-06 L3 programming layer (code)
-\c_max_int=\count107
-\l_tmpa_int=\count108
-\l_tmpb_int=\count109
-\g_tmpa_int=\count110
-\g_tmpb_int=\count111
-\l__seq_internal_a_int=\count112
-\l__seq_internal_b_int=\count113
-\g__kernel_prg_map_int=\count114
-\c__ior_term_noprompt_ior=\count115
-\c_log_iow=\count116
-\l_iow_line_count_int=\count117
-\l__iow_line_target_int=\count118
-\l__iow_one_indent_int=\count119
-\l__iow_indent_int=\count120
-\c_zero_dim=\dimen119
-\c_max_dim=\dimen120
-\l_tmpa_dim=\dimen121
-\l_tmpb_dim=\dimen122
-\g_tmpa_dim=\dimen123
-\g_tmpb_dim=\dimen124
-\c_zero_skip=\skip65
-\c_max_skip=\skip66
-\l_tmpa_skip=\skip67
-\l_tmpb_skip=\skip68
-\g_tmpa_skip=\skip69
-\g_tmpb_skip=\skip70
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count121
-\l__intarray_loop_int=\count122
-\c__intarray_sp_dim=\dimen125
-\g__intarray_font_int=\count123
-\c__fp_leading_shift_int=\count124
-\c__fp_middle_shift_int=\count125
-\c__fp_trailing_shift_int=\count126
-\c__fp_big_leading_shift_int=\count127
-\c__fp_big_middle_shift_int=\count128
-\c__fp_big_trailing_shift_int=\count129
-\c__fp_Bigg_leading_shift_int=\count130
-\c__fp_Bigg_middle_shift_int=\count131
-\c__fp_Bigg_trailing_shift_int=\count132
-\c__kernel_randint_max_int=\count133
-\g__fp_array_int=\count134
-\l__fp_array_loop_int=\count135
-\l__sort_length_int=\count136
-\l__sort_min_int=\count137
-\l__sort_top_int=\count138
-\l__sort_max_int=\count139
-\l__sort_true_max_int=\count140
-\l__sort_block_int=\count141
-\l__sort_begin_int=\count142
-\l__sort_end_int=\count143
-\l__sort_A_int=\count144
-\l__sort_B_int=\count145
-\l__sort_C_int=\count146
-\l__str_internal_int=\count147
-\c__str_replacement_char_int=\count148
-\l__tl_analysis_normal_int=\count149
-\l__tl_analysis_index_int=\count150
-\l__tl_analysis_nesting_int=\count151
-\l__tl_analysis_type_int=\count152
-\l__regex_internal_a_int=\count153
-\l__regex_internal_b_int=\count154
-\l__regex_internal_c_int=\count155
-\l__regex_balance_int=\count156
-\l__regex_group_level_int=\count157
-\l__regex_mode_int=\count158
-\c__regex_cs_in_class_mode_int=\count159
-\c__regex_cs_mode_int=\count160
-\l__regex_catcodes_int=\count161
-\l__regex_default_catcodes_int=\count162
-\c__regex_catcode_D_int=\count163
-\c__regex_catcode_S_int=\count164
-\c__regex_catcode_L_int=\count165
-\c__regex_catcode_O_int=\count166
-\c__regex_catcode_A_int=\count167
-\c__regex_all_catcodes_int=\count168
-\l__regex_show_lines_int=\count169
-\l__regex_min_state_int=\count170
-\l__regex_max_state_int=\count171
-\l__regex_left_state_int=\count172
-\l__regex_right_state_int=\count173
-\l__regex_capturing_group_int=\count174
-\l__regex_min_pos_int=\count175
-\l__regex_max_pos_int=\count176
-\l__regex_curr_pos_int=\count177
-\l__regex_start_pos_int=\count178
-\l__regex_success_pos_int=\count179
-\l__regex_curr_char_int=\count180
-\l__regex_curr_catcode_int=\count181
-\l__regex_last_char_int=\count182
-\l__regex_case_changed_char_int=\count183
-\l__regex_curr_state_int=\count184
-\l__regex_step_int=\count185
-\l__regex_min_active_int=\count186
-\l__regex_max_active_int=\count187
-\l__regex_replacement_csnames_int=\count188
-\l__regex_match_count_int=\count189
-\l__regex_min_submatch_int=\count190
-\l__regex_submatch_int=\count191
-\l__regex_zeroth_submatch_int=\count192
-\g__regex_trace_regex_int=\count193
-\c_empty_box=\box30
-\l_tmpa_box=\box31
-\l_tmpb_box=\box32
-\g_tmpa_box=\box33
-\g_tmpb_box=\box34
-\l__box_top_dim=\dimen126
-\l__box_bottom_dim=\dimen127
-\l__box_left_dim=\dimen128
-\l__box_right_dim=\dimen129
-\l__box_top_new_dim=\dimen130
-\l__box_bottom_new_dim=\dimen131
-\l__box_left_new_dim=\dimen132
-\l__box_right_new_dim=\dimen133
-\l__box_internal_box=\box35
-\l__coffin_internal_box=\box36
-\l__coffin_internal_dim=\dimen134
-\l__coffin_offset_x_dim=\dimen135
-\l__coffin_offset_y_dim=\dimen136
-\l__coffin_x_dim=\dimen137
-\l__coffin_y_dim=\dimen138
-\l__coffin_x_prime_dim=\dimen139
-\l__coffin_y_prime_dim=\dimen140
-\c_empty_coffin=\box37
-\l__coffin_aligned_coffin=\box38
-\l__coffin_aligned_internal_coffin=\box39
-\l_tmpa_coffin=\box40
-\l_tmpb_coffin=\box41
-\g_tmpa_coffin=\box42
-\g_tmpb_coffin=\box43
-\l__coffin_bounding_shift_dim=\dimen141
-\l__coffin_left_corner_dim=\dimen142
-\l__coffin_right_corner_dim=\dimen143
-\l__coffin_bottom_corner_dim=\dimen144
-\l__coffin_top_corner_dim=\dimen145
-\l__coffin_scaled_total_height_dim=\dimen146
-\l__coffin_scaled_width_dim=\dimen147
-\c__coffin_empty_coffin=\box44
-\l__coffin_display_coffin=\box45
-\l__coffin_display_coord_coffin=\box46
-\l__coffin_display_pole_coffin=\box47
-\l__coffin_display_offset_dim=\dimen148
-\l__coffin_display_x_dim=\dimen149
-\l__coffin_display_y_dim=\dimen150
-\g__char_data_ior=\read1
- (./l3deprecation.def
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
-(./l3backend-pdfmode.def
+ (./l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count194
 \l__pdf_internal_box=\box48
@@ -518,15 +379,25 @@ Package: xparse 2020-03-06 L3 Experimental document command parser
 \c@ABCIaux=\count199
 \c@ABCImax=\count266
 
+(/usr/share/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip73
 LaTeX Info: Redefining \newblock on input line 679.
-\ABCItoken=\toks18
+\ABCItoken=\toks19
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
 \Gm@cnth=\count267
 \Gm@cntv=\count268
 \c@Gm@tempcnt=\count269
@@ -538,7 +409,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutheight=\dimen156
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
-\Gm@dimlist=\toks19
+\Gm@dimlist=\toks20
 )
 \c@ii@authorcount=\count270
 \c@kwcounter=\count271
@@ -550,13 +421,13 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
  (./float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count273
-\float@exts=\toks20
+\float@exts=\toks21
 \float@box=\box49
-\@float@everytoks=\toks21
+\@float@everytoks=\toks22
 \@floatcapt=\box50
 )
-\@float@every@figure=\toks22
-\@float@every@table=\toks23
+\@float@every@figure=\toks23
+\@float@every@table=\toks24
 )
 (./pgmicro.def
 File: pgmicro.def 2014/04/12 Definições para o PGMicro
@@ -564,178 +435,18 @@ File: pgmicro.def 2014/04/12 Definições para o PGMicro
 File: diss.def 2003/02/03 Dissertação de Mestrado
 ) (./nominata.def)
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(/usr/share/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
 )
 (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FEFF (decimal 65279)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/psnfss/mathptmx.sty
-Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
@@ -824,7 +535,7 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \UL@box=\box51
 \UL@hyphenbox=\box52
 \UL@skip=\skip80
-\UL@hook=\toks26
+\UL@hook=\toks27
 \UL@height=\dimen167
 \UL@pe=\count279
 \UL@pixel=\dimen168
@@ -843,15 +554,15 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box54
-\AM@global@opts=\toks27
+\AM@global@opts=\toks28
 \AM@pagecnt=\count280
-\AM@toc@title=\toks28
+\AM@toc@title=\toks29
 \c@AM@survey=\count281
 \AM@templatesizebox=\box55
 ) (./listings.sty
 \lst@mode=\count282
 \lst@gtempboxa=\box56
-\lst@token=\toks29
+\lst@token=\toks30
 \lst@length=\count283
 \lst@currlwidth=\dimen172
 \lst@column=\count284
@@ -872,7 +583,7 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
  (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2019/04/01 v2.17c AMS math features
+Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip81
 
 For additional information on amsmath, use the `?' option.
@@ -881,7 +592,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
+\@emptytoks=\toks31
 \ex@=\dimen176
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -911,38 +622,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip17
 \c@parentequation=\count297
 \dspbrk@lvl=\count298
-\tag@help=\toks31
+\tag@help=\toks32
 \row@=\count299
 \column@=\count300
 \maxfields@=\count301
-\andhelp@=\toks32
+\andhelp@=\toks33
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
 \tagshift@=\dimen181
 \tagwidth@=\dimen182
 \totwidth@=\dimen183
 \lineht@=\dimen184
-\@envbody=\toks33
+\@envbody=\toks34
 \multlinegap=\skip82
 \multlinetaggap=\skip83
-\mathdisplay@stack=\toks34
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
 (/usr/share/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2019/10/10 v2.7c Micro-typographical refinements (RS)
-\MT@toks=\toks35
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks36
 \MT@count=\count302
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen185
-LaTeX Info: Redefining \textmicrotypecontext on input line 1347.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count303
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2019/10/10 v2.7c Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
@@ -951,88 +662,88 @@ LaTeX Info: Redefining \lslig on input line 914.
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2019/10/10 v2.7c microtype main configuration file (RS)
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 )) (./iiufrgs.aux
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++EXPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++EXPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++IMPL' multiply defined.
+LaTeX Warning: Label `zimpeck2016++IMPL' multiply defined.
 
 
-LaTeX Warning: Label `zimpeck2016finfet++YEAR' multiply defined.
+LaTeX Warning: Label `zimpeck2016++YEAR' multiply defined.
 
 
 LaTeX Warning: Label `fig:hyst_INV_2' multiply defined.
@@ -1080,15 +791,15 @@ LaTeX Warning: Label `fig:hyst_6F2F_4' multiply defined.
 LaTeX Warning: Label `fig:hyst_6F2F_7' multiply defined.
 
 )
-\openout1 = `iiufrgs.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
@@ -1098,58 +809,32 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-39.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
-9.
-
-(/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 139.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count304
 \scratchdimen=\dimen186
 \scratchbox=\box60
 \nofMPsegments=\count305
 \nofMParguments=\count306
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks37
 \MPscratchCnt=\count307
 \MPscratchDim=\dimen187
 \MPnumerator=\count308
 \makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks37
-) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
 Package tocstyle Info: prepare \l@part for redefinition on input line 139.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
 Package tocstyle Info: prepare \l@chapter for redefinition on input line 139.
 Package tocstyle Info: prepare \l@section for redefinition on input line 139.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
@@ -1203,18 +888,20 @@ Package hyperref Info: Link coloring ON on input line 139.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
 LaTeX Info: Redefining \ref on input line 139.
 LaTeX Info: Redefining \pageref on input line 139.
 LaTeX Info: Redefining \nameref on input line 139.
- (./iiufrgs.out) (./iiufrgs.out)
-\@outlinefile=\write3
-\openout3 = `iiufrgs.out'.
 
+(./iiufrgs.out) (./iiufrgs.out)
+\@outlinefile=\write3
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1253,8 +940,8 @@ LaTeX Info: Redefining \nameref on input line 139.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
 (/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -1278,7 +965,17 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 2035) in paragraph at lines 145--145
+[]\T1/ptm/m/n/12 (+20) Variability and Volt-age Scal-ing Aware Fin-FET De-sign
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 145--145
+\T1/ptm/m/n/12 (+20) / Leonardo Bar-lette de Moraes. -- Porto Ale-gre: PG-MI-
+ []
+
+[2
 
 
 ] [3
@@ -2131,8 +1828,6 @@ text noindent (lof, 1): 29.66396pt
 number noindent (lof, 1): 0.0pt
 )
 \tf@lof=\write4
-\openout4 = `iiufrgs.lof'.
-
  [9]
 Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
@@ -2432,8 +2127,6 @@ text noindent (toc, 0): 30.0pt
 number noindent (toc, 0): 0.0pt
 )
 \tf@toc=\write5
-\openout5 = `iiufrgs.toc'.
-
  [13
 
 ]
@@ -2568,12 +2261,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [28]
-Overfull \hbox (4.95978pt too wide) in paragraph at lines 503--504
-[]\T1/ptm/m/n/12 (-20) Variations in phys-i-cal pa-ram-e-ters be-came alarm-ing
- at ultra-deep sub-micron (UDSM)
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29
@@ -2860,8 +2547,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 794.
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 812.
 
 Underfull \vbox (badness 2478) has occurred while \output is active []
 
@@ -4049,148 +3734,148 @@ ation with the same identifier (name{cite.reis2020circuit}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.666 \bibitem[Reis et al. 2020]{reis2020circuit}
+l.667 \bibitem[Reis et al. 2020]{reis2020circuit}
                                                  pdfTeX warning (ext4): destina
 tion with the same identifier (name{cite.FinFET02}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
-l.672 \bibitem[Ren et al. 2018]{FinFET02}
+l.674 \bibitem[Ren et al. 2018]{FinFET02}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{cite.rithe2011effect}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.678 \bibitem[Rithe et al. 2011]{rithe2011effect}
+l.681 \bibitem[Rithe et al. 2011]{rithe2011effect}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.schrom1997vlsi}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.685 ..., De and Selberherr 1997]{schrom1997vlsi}
+l.689 ..., De and Selberherr 1997]{schrom1997vlsi}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.shah2020soft}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.692 \bibitem[Shah et al. 2020]{shah2020soft}
+l.697 \bibitem[Shah et al. 2020]{shah2020soft}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.shams2000novel}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.698 ...m[Shams and Bayoumi 2000]{shams2000novel}
+l.704 ...m[Shams and Bayoumi 2000]{shams2000novel}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.steyaert1986novel}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.705 ...yaert and Sansen 1986]{steyaert1986novel}
+l.712 ...yaert and Sansen 1986]{steyaert1986novel}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.stine1997analysis}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.710 ...Boning and Chung 1997]{stine1997analysis}
+l.718 ...Boning and Chung 1997]{stine1997analysis}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.tache2018reliability}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.717 ...[Tache et al. 2018]{tache2018reliability}
+l.726 ...[Tache et al. 2018]{tache2018reliability}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.takeda1983empirical}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.723 ...eda and Suzuki 1983]{takeda1983empirical}
+l.733 ...eda and Suzuki 1983]{takeda1983empirical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.taur2013fundamentals}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.729 ...Taur and Ning 2013]{taur2013fundamentals}
+l.740 ...Taur and Ning 2013]{taur2013fundamentals}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.toledo2017impact}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.734 ...tem[Toledo et al. 2017]{toledo2017impact}
+l.746 ...tem[Toledo et al. 2017]{toledo2017impact}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.toledo2018pros}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.741 \bibitem[Toledo et al. 2018]{toledo2018pros}
+l.754 \bibitem[Toledo et al. 2018]{toledo2018pros}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.tschanz2002adaptive}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.748 ...Tschanz et al. 2002]{tschanz2002adaptive}
+l.762 ...Tschanz et al. 2002]{tschanz2002adaptive}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.wang2008statistical}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.755 ...em[Wang et al. 2008]{wang2008statistical}
+l.770 ...em[Wang et al. 2008]{wang2008statistical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.wang2011statistical}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.761 ...em[Wang et al. 2011]{wang2011statistical}
+l.777 ...em[Wang et al. 2011]{wang2011statistical}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.weste1985principles}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.768 ...and Eshraghian 1985]{weste1985principles}
+l.785 ...and Eshraghian 1985]{weste1985principles}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.wong1999nanoscale}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.773 ...item[Wong et al. 1999]{wong1999nanoscale}
+l.790 ...item[Wong et al. 1999]{wong1999nanoscale}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.FinFET03}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.778 \bibitem[Xiong and Bokor 2003]{FinFET03}
+l.796 \bibitem[Xiong and Bokor 2003]{FinFET03}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.young1994failure}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.785 ...oung and Christou 1994]{young1994failure}
+l.804 ...oung and Christou 1994]{young1994failure}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.van2004principles}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.791 \bibitem[Zeghbroeck 2004]{van2004principles}
+l.811 \bibitem[Zeghbroeck 2004]{van2004principles}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.zhang2003low}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.796 ...Srivastava and Ajmera 2003]{zhang2003low}
+l.816 ...Srivastava and Ajmera 2003]{zhang2003low}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.FinFET04}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.802 \bibitem[Zhang et al. 2017]{FinFET04}
+l.823 \bibitem[Zhang et al. 2017]{FinFET04}
                                            pdfTeX warning (ext4): destination w
-ith the same identifier (name{cite.zimpeck2016finfet}) has been already used, d
-uplicate ignored
+ith the same identifier (name{cite.zimpeck2016}) has been already used, duplica
+te ignored
 <to be read again> 
                    \relax 
-l.809 ...m[Zimpeck et al. 2016]{zimpeck2016finfet}
-                                                  )pdfTeX warning (ext4): desti
-nation with the same identifier (name{cite.moraes2018evaluation}) has been alre
-ady used, duplicate ignored
+l.831 \bibitem[Zimpeck et al. 2016]{zimpeck2016}
+                                                )pdfTeX warning (ext4): destina
+tion with the same identifier (name{cite.moraes2018evaluation}) has been alread
+y used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1844 \bibentry{moraes2018evaluation}
@@ -4281,7 +3966,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1879.
 
-<INV1F.png, id=2404, 319.94531pt x 624.08156pt>
+<INV1F.png, id=2428, 319.94531pt x 624.08156pt>
 File: INV1F.png Graphic file (type png)
 <use INV1F.png>
 Package pdftex.def Info: INV1F.png  used on input line 1881.
@@ -4293,7 +3978,7 @@ LaTeX Warning: Float too large for page by 47.86165pt on input line 1885.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1887.
 
-<INV2F.png, id=2405, 321.45094pt x 625.58719pt>
+<INV2F.png, id=2429, 321.45094pt x 625.58719pt>
 File: INV2F.png Graphic file (type png)
 <use INV2F.png>
 Package pdftex.def Info: INV2F.png  used on input line 1889.
@@ -4305,7 +3990,7 @@ LaTeX Warning: Float too large for page by 33.3676pt on input line 1893.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1895.
 
-<INV3F.png, id=2406, 319.94531pt x 625.58719pt>
+<INV3F.png, id=2430, 319.94531pt x 625.58719pt>
 File: INV3F.png Graphic file (type png)
 <use INV3F.png>
 Package pdftex.def Info: INV3F.png  used on input line 1897.
@@ -4317,7 +4002,7 @@ LaTeX Warning: Float too large for page by 33.3676pt on input line 1901.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1903.
 
-<INV4F.png, id=2407, 273.27094pt x 627.09282pt>
+<INV4F.png, id=2431, 273.27094pt x 627.09282pt>
 File: INV4F.png Graphic file (type png)
 <use INV4F.png>
 Package pdftex.def Info: INV4F.png  used on input line 1905.
@@ -4329,7 +4014,7 @@ LaTeX Warning: Float too large for page by 33.37498pt on input line 1909.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1911.
 
-<INV5F.png, id=2408, 237.88875pt x 625.58719pt>
+<INV5F.png, id=2432, 237.88875pt x 625.58719pt>
 File: INV5F.png Graphic file (type png)
 <use INV5F.png>
 Package pdftex.def Info: INV5F.png  used on input line 1913.
@@ -4341,7 +4026,7 @@ LaTeX Warning: Float too large for page by 33.3676pt on input line 1917.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1926.
 
-<ST1F.png, id=2409, 730.22812pt x 627.09282pt>
+<ST1F.png, id=2433, 730.22812pt x 627.09282pt>
 File: ST1F.png Graphic file (type png)
 <use ST1F.png>
 Package pdftex.def Info: ST1F.png  used on input line 1928.
@@ -4350,7 +4035,7 @@ Package pdftex.def Info: ST1F.png  used on input line 1928.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1934.
 
-<ST2F.png, id=2410, 730.22812pt x 625.58719pt>
+<ST2F.png, id=2434, 730.22812pt x 625.58719pt>
 File: ST2F.png Graphic file (type png)
 <use ST2F.png>
 Package pdftex.def Info: ST2F.png  used on input line 1936.
@@ -4359,7 +4044,7 @@ Package pdftex.def Info: ST2F.png  used on input line 1936.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1942.
 
-<ST3F.png, id=2411, 731.73375pt x 627.09282pt>
+<ST3F.png, id=2435, 731.73375pt x 627.09282pt>
 File: ST3F.png Graphic file (type png)
 <use ST3F.png>
 Package pdftex.def Info: ST3F.png  used on input line 1944.
@@ -4368,7 +4053,7 @@ Package pdftex.def Info: ST3F.png  used on input line 1944.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1950.
 
-<ST4F.png, id=2412, 623.32875pt x 625.58719pt>
+<ST4F.png, id=2436, 623.32875pt x 625.58719pt>
 File: ST4F.png Graphic file (type png)
 <use ST4F.png>
 Package pdftex.def Info: ST4F.png  used on input line 1952.
@@ -4377,7 +4062,7 @@ Package pdftex.def Info: ST4F.png  used on input line 1952.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1958.
 
-<ST5F.png, id=2413, 543.53062pt x 625.58719pt>
+<ST5F.png, id=2437, 543.53062pt x 625.58719pt>
 File: ST5F.png Graphic file (type png)
 <use ST5F.png>
 Package pdftex.def Info: ST5F.png  used on input line 1960.
@@ -4386,7 +4071,7 @@ Package pdftex.def Info: ST5F.png  used on input line 1960.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1971.
 
-<SIG1F.png, id=2414, 730.22812pt x 625.58719pt>
+<SIG1F.png, id=2438, 730.22812pt x 625.58719pt>
 File: SIG1F.png Graphic file (type png)
 <use SIG1F.png>
 Package pdftex.def Info: SIG1F.png  used on input line 1973.
@@ -4395,7 +4080,7 @@ Package pdftex.def Info: SIG1F.png  used on input line 1973.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1979.
 
-<SIG2F.png, id=2415, 729.47531pt x 625.58719pt>
+<SIG2F.png, id=2439, 729.47531pt x 625.58719pt>
 File: SIG2F.png Graphic file (type png)
 <use SIG2F.png>
 Package pdftex.def Info: SIG2F.png  used on input line 1981.
@@ -4404,7 +4089,7 @@ Package pdftex.def Info: SIG2F.png  used on input line 1981.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1987.
 
-<SIG3F.png, id=2416, 730.98094pt x 625.58719pt>
+<SIG3F.png, id=2440, 730.98094pt x 625.58719pt>
 File: SIG3F.png Graphic file (type png)
 <use SIG3F.png>
 Package pdftex.def Info: SIG3F.png  used on input line 1989.
@@ -4413,7 +4098,7 @@ Package pdftex.def Info: SIG3F.png  used on input line 1989.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1995.
 
-<SIG4F.png, id=2417, 623.32875pt x 625.58719pt>
+<SIG4F.png, id=2441, 623.32875pt x 625.58719pt>
 File: SIG4F.png Graphic file (type png)
 <use SIG4F.png>
 Package pdftex.def Info: SIG4F.png  used on input line 1997.
@@ -4422,7 +4107,7 @@ Package pdftex.def Info: SIG4F.png  used on input line 1997.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2003.
 
-<SIG5F.png, id=2418, 542.77782pt x 625.58719pt>
+<SIG5F.png, id=2442, 542.77782pt x 625.58719pt>
 File: SIG5F.png Graphic file (type png)
 <use SIG5F.png>
 Package pdftex.def Info: SIG5F.png  used on input line 2005.
@@ -4431,7 +4116,7 @@ Package pdftex.def Info: SIG5F.png  used on input line 2005.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2017.
 
-<TIST2F1F.png, id=2419, 523.9575pt x 626.34pt>
+<TIST2F1F.png, id=2443, 523.9575pt x 626.34pt>
 File: TIST2F1F.png Graphic file (type png)
 <use TIST2F1F.png>
 Package pdftex.def Info: TIST2F1F.png  used on input line 2019.
@@ -4440,7 +4125,7 @@ Package pdftex.def Info: TIST2F1F.png  used on input line 2019.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2025.
 
-<TIST3F1F.png, id=2420, 523.9575pt x 625.58719pt>
+<TIST3F1F.png, id=2444, 523.9575pt x 625.58719pt>
 File: TIST3F1F.png Graphic file (type png)
 <use TIST3F1F.png>
 Package pdftex.def Info: TIST3F1F.png  used on input line 2027.
@@ -4449,7 +4134,7 @@ Package pdftex.def Info: TIST3F1F.png  used on input line 2027.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2033.
 
-<TIST4F2F.png, id=2421, 446.41782pt x 625.58719pt>
+<TIST4F2F.png, id=2445, 446.41782pt x 625.58719pt>
 File: TIST4F2F.png Graphic file (type png)
 <use TIST4F2F.png>
 Package pdftex.def Info: TIST4F2F.png  used on input line 2035.
@@ -4458,7 +4143,7 @@ Package pdftex.def Info: TIST4F2F.png  used on input line 2035.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2041.
 
-<TIST6F2F.png, id=2422, 347.79938pt x 627.09282pt>
+<TIST6F2F.png, id=2446, 347.79938pt x 627.09282pt>
 File: TIST6F2F.png Graphic file (type png)
 <use TIST6F2F.png>
 Package pdftex.def Info: TIST6F2F.png  used on input line 2043.
@@ -4470,7 +4155,7 @@ LaTeX Warning: Float too large for page by 33.37498pt on input line 2047.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2049.
 
-<TIST6F3F.png, id=2423, 347.79938pt x 627.09282pt>
+<TIST6F3F.png, id=2447, 347.79938pt x 627.09282pt>
 File: TIST6F3F.png Graphic file (type png)
 <use TIST6F3F.png>
 Package pdftex.def Info: TIST6F3F.png  used on input line 2051.
@@ -4535,7 +4220,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2063.
 
-<CMOS.png, id=2533, 1287.30937pt x 340.27126pt>
+<CMOS.png, id=2557, 1287.30937pt x 340.27126pt>
 File: CMOS.png Graphic file (type png)
 <use CMOS.png>
 Package pdftex.def Info: CMOS.png  used on input line 2065.
@@ -4552,7 +4237,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2072.
 
-<CMOSST1.png, id=2543, 1297.09593pt x 146.04562pt>
+<CMOSST1.png, id=2567, 1297.09593pt x 146.04562pt>
 File: CMOSST1.png Graphic file (type png)
 <use CMOSST1.png>
 Package pdftex.def Info: CMOSST1.png  used on input line 2074.
@@ -4561,7 +4246,7 @@ Package pdftex.def Info: CMOSST1.png  used on input line 2074.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2081.
 
-<CMOSST2.png, id=2544, 1297.09593pt x 222.07968pt>
+<CMOSST2.png, id=2568, 1297.09593pt x 222.07968pt>
 File: CMOSST2.png Graphic file (type png)
 <use CMOSST2.png>
 Package pdftex.def Info: CMOSST2.png  used on input line 2083.
@@ -4570,7 +4255,7 @@ Package pdftex.def Info: CMOSST2.png  used on input line 2083.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2094.
 
-<TFA.png, id=2545, 1295.59032pt x 250.68657pt>
+<TFA.png, id=2569, 1295.59032pt x 250.68657pt>
 File: TFA.png Graphic file (type png)
 <use TFA.png>
 Package pdftex.def Info: TFA.png  used on input line 2096.
@@ -4579,7 +4264,7 @@ Package pdftex.def Info: TFA.png  used on input line 2096.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2103.
 
-<TFAST1.png, id=2546, 1296.34312pt x 126.4725pt>
+<TFAST1.png, id=2570, 1296.34312pt x 126.4725pt>
 File: TFAST1.png Graphic file (type png)
 <use TFAST1.png>
 Package pdftex.def Info: TFAST1.png  used on input line 2105.
@@ -4588,7 +4273,7 @@ Package pdftex.def Info: TFAST1.png  used on input line 2105.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2112.
 
-<TFAST2.png, id=2547, 1297.09593pt x 198.7425pt>
+<TFAST2.png, id=2571, 1297.09593pt x 198.7425pt>
 File: TFAST2.png Graphic file (type png)
 <use TFAST2.png>
 Package pdftex.def Info: TFAST2.png  used on input line 2114.
@@ -4597,7 +4282,7 @@ Package pdftex.def Info: TFAST2.png  used on input line 2114.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2128.
 
-<TGA.png, id=2548, 1295.59032pt x 222.8325pt>
+<TGA.png, id=2572, 1295.59032pt x 222.8325pt>
 File: TGA.png Graphic file (type png)
 <use TGA.png>
 Package pdftex.def Info: TGA.png  used on input line 2130.
@@ -4606,7 +4291,7 @@ Package pdftex.def Info: TGA.png  used on input line 2130.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2137.
 
-<TGAST1.png, id=2549, 1297.09593pt x 77.53969pt>
+<TGAST1.png, id=2573, 1297.09593pt x 77.53969pt>
 File: TGAST1.png Graphic file (type png)
 <use TGAST1.png>
 Package pdftex.def Info: TGAST1.png  used on input line 2139.
@@ -4615,7 +4300,7 @@ Package pdftex.def Info: TGAST1.png  used on input line 2139.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2146.
 
-<TGAST2.png, id=2550, 1297.09593pt x 140.77594pt>
+<TGAST2.png, id=2574, 1297.09593pt x 140.77594pt>
 File: TGAST2.png Graphic file (type png)
 <use TGAST2.png>
 Package pdftex.def Info: TGAST2.png  used on input line 2148.
@@ -4624,7 +4309,7 @@ Package pdftex.def Info: TGAST2.png  used on input line 2148.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2161.
 
-<HYBRID.png, id=2551, 1296.34312pt x 234.1247pt>
+<HYBRID.png, id=2575, 1296.34312pt x 234.1247pt>
 File: HYBRID.png Graphic file (type png)
 <use HYBRID.png>
 Package pdftex.def Info: HYBRID.png  used on input line 2163.
@@ -4633,7 +4318,7 @@ Package pdftex.def Info: HYBRID.png  used on input line 2163.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2170.
 
-<HYBRIDST1.png, id=2552, 1295.59032pt x 75.28125pt>
+<HYBRIDST1.png, id=2576, 1295.59032pt x 75.28125pt>
 File: HYBRIDST1.png Graphic file (type png)
 <use HYBRIDST1.png>
 Package pdftex.def Info: HYBRIDST1.png  used on input line 2172.
@@ -4642,7 +4327,7 @@ Package pdftex.def Info: HYBRIDST1.png  used on input line 2172.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2179.
 
-<HYBRIDST2.png, id=2553, 1296.34312pt x 140.02313pt>
+<HYBRIDST2.png, id=2577, 1296.34312pt x 140.02313pt>
 File: HYBRIDST2.png Graphic file (type png)
 <use HYBRIDST2.png>
 Package pdftex.def Info: HYBRIDST2.png  used on input line 2181.
@@ -4682,7 +4367,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2194.
 
-<dist_energy_INV_0_2.pdf, id=2611, 505.89pt x 505.89pt>
+<dist_energy_INV_0_2.pdf, id=2635, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_2.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_2.pdf>
 Package pdftex.def Info: dist_energy_INV_0_2.pdf  used on input line 2196.
@@ -4696,7 +4381,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2196--2197
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2202.
 
-<dist_energy_INV_0_4.pdf, id=2612, 505.89pt x 505.89pt>
+<dist_energy_INV_0_4.pdf, id=2636, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_4.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_4.pdf>
 Package pdftex.def Info: dist_energy_INV_0_4.pdf  used on input line 2204.
@@ -4710,7 +4395,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2204--2205
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2210.
 
-<dist_energy_INV_0_7.pdf, id=2613, 505.89pt x 505.89pt>
+<dist_energy_INV_0_7.pdf, id=2637, 505.89pt x 505.89pt>
 File: dist_energy_INV_0_7.pdf Graphic file (type pdf)
 <use dist_energy_INV_0_7.pdf>
 Package pdftex.def Info: dist_energy_INV_0_7.pdf  used on input line 2212.
@@ -4724,7 +4409,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2212--2213
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2218.
 
-<dist_disp_INV_0_2.pdf, id=2614, 505.89pt x 505.89pt>
+<dist_disp_INV_0_2.pdf, id=2638, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_2.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_2.pdf>
 Package pdftex.def Info: dist_disp_INV_0_2.pdf  used on input line 2220.
@@ -4738,7 +4423,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2220--2221
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2226.
 
-<dist_disp_INV_0_4.pdf, id=2615, 505.89pt x 505.89pt>
+<dist_disp_INV_0_4.pdf, id=2639, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_4.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_4.pdf>
 Package pdftex.def Info: dist_disp_INV_0_4.pdf  used on input line 2228.
@@ -4752,7 +4437,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2228--2229
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2234.
 
-<dist_disp_INV_0_7.pdf, id=2616, 505.89pt x 505.89pt>
+<dist_disp_INV_0_7.pdf, id=2640, 505.89pt x 505.89pt>
 File: dist_disp_INV_0_7.pdf Graphic file (type pdf)
 <use dist_disp_INV_0_7.pdf>
 Package pdftex.def Info: dist_disp_INV_0_7.pdf  used on input line 2236.
@@ -4766,7 +4451,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2236--2237
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2244.
 
-<dist_energy_ST_0_2.pdf, id=2617, 505.89pt x 505.89pt>
+<dist_energy_ST_0_2.pdf, id=2641, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_2.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_2.pdf>
 Package pdftex.def Info: dist_energy_ST_0_2.pdf  used on input line 2246.
@@ -4780,7 +4465,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2246--2247
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2252.
 
-<dist_energy_ST_0_4.pdf, id=2618, 505.89pt x 505.89pt>
+<dist_energy_ST_0_4.pdf, id=2642, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_4.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_4.pdf>
 Package pdftex.def Info: dist_energy_ST_0_4.pdf  used on input line 2254.
@@ -4794,7 +4479,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2254--2255
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2260.
 
-<dist_energy_ST_0_7.pdf, id=2619, 505.89pt x 505.89pt>
+<dist_energy_ST_0_7.pdf, id=2643, 505.89pt x 505.89pt>
 File: dist_energy_ST_0_7.pdf Graphic file (type pdf)
 <use dist_energy_ST_0_7.pdf>
 Package pdftex.def Info: dist_energy_ST_0_7.pdf  used on input line 2262.
@@ -4808,7 +4493,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2262--2263
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2268.
 
-<dist_disp_ST_0_2.pdf, id=2620, 505.89pt x 505.89pt>
+<dist_disp_ST_0_2.pdf, id=2644, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_2.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_2.pdf>
 Package pdftex.def Info: dist_disp_ST_0_2.pdf  used on input line 2270.
@@ -4822,7 +4507,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2270--2271
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2276.
 
-<dist_disp_ST_0_4.pdf, id=2621, 505.89pt x 505.89pt>
+<dist_disp_ST_0_4.pdf, id=2645, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_4.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_4.pdf>
 Package pdftex.def Info: dist_disp_ST_0_4.pdf  used on input line 2278.
@@ -4836,7 +4521,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2278--2279
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2284.
 
-<dist_disp_ST_0_7.pdf, id=2622, 505.89pt x 505.89pt>
+<dist_disp_ST_0_7.pdf, id=2646, 505.89pt x 505.89pt>
 File: dist_disp_ST_0_7.pdf Graphic file (type pdf)
 <use dist_disp_ST_0_7.pdf>
 Package pdftex.def Info: dist_disp_ST_0_7.pdf  used on input line 2286.
@@ -4850,7 +4535,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2286--2287
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2294.
 
-<dist_energy_SIG_0_2.pdf, id=2623, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_2.pdf, id=2647, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_2.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_2.pdf  used on input line 2296.
@@ -4864,7 +4549,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2296--2297
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2302.
 
-<dist_energy_SIG_0_4.pdf, id=2624, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_4.pdf, id=2648, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_4.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_4.pdf  used on input line 2304.
@@ -4878,7 +4563,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2304--2305
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2310.
 
-<dist_energy_SIG_0_7.pdf, id=2625, 505.89pt x 505.89pt>
+<dist_energy_SIG_0_7.pdf, id=2649, 505.89pt x 505.89pt>
 File: dist_energy_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_energy_SIG_0_7.pdf>
 Package pdftex.def Info: dist_energy_SIG_0_7.pdf  used on input line 2312.
@@ -4892,7 +4577,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2312--2313
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2318.
 
-<dist_disp_SIG_0_2.pdf, id=2626, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_2.pdf, id=2650, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_2.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_2.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_2.pdf  used on input line 2320.
@@ -4906,7 +4591,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2320--2321
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2326.
 
-<dist_disp_SIG_0_4.pdf, id=2627, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_4.pdf, id=2651, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_4.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_4.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_4.pdf  used on input line 2328.
@@ -4920,7 +4605,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2328--2329
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2334.
 
-<dist_disp_SIG_0_7.pdf, id=2628, 505.89pt x 505.89pt>
+<dist_disp_SIG_0_7.pdf, id=2652, 505.89pt x 505.89pt>
 File: dist_disp_SIG_0_7.pdf Graphic file (type pdf)
 <use dist_disp_SIG_0_7.pdf>
 Package pdftex.def Info: dist_disp_SIG_0_7.pdf  used on input line 2336.
@@ -4934,7 +4619,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2336--2337
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2344.
 
-<dist_energy_6F3F_0_2.pdf, id=2629, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_2.pdf, id=2653, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_2.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_2.pdf  used on input line 2346.
@@ -4948,7 +4633,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2346--2347
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2352.
 
-<dist_energy_6F3F_0_4.pdf, id=2630, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_4.pdf, id=2654, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_4.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_4.pdf  used on input line 2354.
@@ -4962,7 +4647,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2354--2355
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2360.
 
-<dist_energy_6F3F_0_7.pdf, id=2631, 505.89pt x 505.89pt>
+<dist_energy_6F3F_0_7.pdf, id=2655, 505.89pt x 505.89pt>
 File: dist_energy_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F3F_0_7.pdf>
 Package pdftex.def Info: dist_energy_6F3F_0_7.pdf  used on input line 2362.
@@ -4976,7 +4661,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2362--2363
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2368.
 
-<dist_disp_6F3F_0_2.pdf, id=2632, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_2.pdf, id=2656, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_2.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_2.pdf  used on input line 2370.
@@ -4990,7 +4675,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2370--2371
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2376.
 
-<dist_disp_6F3F_0_4.pdf, id=2633, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_4.pdf, id=2657, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_4.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_4.pdf  used on input line 2378.
@@ -5004,7 +4689,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2378--2379
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2384.
 
-<dist_disp_6F3F_0_7.pdf, id=2634, 505.89pt x 505.89pt>
+<dist_disp_6F3F_0_7.pdf, id=2658, 505.89pt x 505.89pt>
 File: dist_disp_6F3F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F3F_0_7.pdf>
 Package pdftex.def Info: dist_disp_6F3F_0_7.pdf  used on input line 2386.
@@ -5018,7 +4703,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2386--2387
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2394.
 
-<dist_energy_6F2F_0_2.pdf, id=2635, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_2.pdf, id=2659, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_2.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_2.pdf  used on input line 2396.
@@ -5032,7 +4717,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2396--2397
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2402.
 
-<dist_energy_6F2F_0_4.pdf, id=2636, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_4.pdf, id=2660, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_4.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_4.pdf  used on input line 2404.
@@ -5046,7 +4731,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2404--2405
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2410.
 
-<dist_energy_6F2F_0_7.pdf, id=2637, 505.89pt x 505.89pt>
+<dist_energy_6F2F_0_7.pdf, id=2661, 505.89pt x 505.89pt>
 File: dist_energy_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_energy_6F2F_0_7.pdf>
 Package pdftex.def Info: dist_energy_6F2F_0_7.pdf  used on input line 2412.
@@ -5060,7 +4745,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2412--2413
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2418.
 
-<dist_disp_6F2F_0_2.pdf, id=2638, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_2.pdf, id=2662, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_2.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_2.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_2.pdf  used on input line 2420.
@@ -5074,7 +4759,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2420--2421
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2426.
 
-<dist_disp_6F2F_0_4.pdf, id=2639, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_4.pdf, id=2663, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_4.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_4.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_4.pdf  used on input line 2428.
@@ -5088,7 +4773,7 @@ Overfull \hbox (126.47249pt too wide) in paragraph at lines 2428--2429
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2434.
 
-<dist_disp_6F2F_0_7.pdf, id=2640, 505.89pt x 505.89pt>
+<dist_disp_6F2F_0_7.pdf, id=2664, 505.89pt x 505.89pt>
 File: dist_disp_6F2F_0_7.pdf Graphic file (type pdf)
 <use dist_disp_6F2F_0_7.pdf>
 Package pdftex.def Info: dist_disp_6F2F_0_7.pdf  used on input line 2436.
@@ -5198,13 +4883,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2442.
  ) 
 Here is how much of TeX's memory you used:
- 30940 strings out of 492167
- 516192 string characters out of 6131558
- 714575 words of memory out of 5000000
- 34217 multiletter control sequences out of 15000+600000
- 592968 words of font info for 214 fonts, out of 8000000 for 9000
+ 20191 strings out of 480478
+ 308051 string characters out of 5905959
+ 727275 words of memory out of 5000000
+ 35093 multiletter control sequences out of 15000+600000
+ 592204 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,75p,3184b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,19n,49p,3184b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -5213,10 +4898,10 @@ r/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts
 /type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on iiufrgs.pdf (165 pages, 9821400 bytes).
+Output written on iiufrgs.pdf (165 pages, 9823040 bytes).
 PDF statistics:
- 3164 PDF objects out of 3580 (max. 8388607)
- 2511 compressed objects within 26 object streams
+ 3188 PDF objects out of 3580 (max. 8388607)
+ 2535 compressed objects within 26 object streams
  482 named destinations out of 1000 (max. 500000)
  35062 words of extra memory for PDF output out of 35830 (max. 10000000)
 
