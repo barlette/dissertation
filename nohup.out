@@ -1,0 +1,16 @@
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$left"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$down"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$up"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$right"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$left"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$down"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$up"
+06/19/20 05:12:03 - ERROR: Could not translate string to key symbol: "$right"
+# unable to create file '/home/brltt/.cache/dconf/user': Permission denied.  dconf will not work properly.
+# unable to create file '/home/brltt/.cache/dconf/user': Permission denied.  dconf will not work properly.
+# unable to create file '/home/brltt/.cache/dconf/user': Permission denied.  dconf will not work properly.
+# unable to create file '/home/brltt/.cache/dconf/user': Permission denied.  dconf will not work properly.
+# unable to create file '/home/brltt/.cache/dconf/user': Permission denied.  dconf will not work properly.
+# unable to create file '/home/brltt/.cache/dconf/user': Permission denied.  dconf will not work properly.
+i3: Cannot open display
+

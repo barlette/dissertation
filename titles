@@ -1,0 +1,112 @@
+% Optimal nbti degradation and pvt variation resistant device sizing in a full adder cell
+% Single-ended Schmitt-trigger-based robust low-power SRAM cell
+% A Hybrid Time Borrowing Technique to Improve the Performance of Digital Circuits in the Presence of Variations
+% Low power Schmitt trigger circuit
+% Variations in nanometer CMOS flip-flops: Part I—Impact of process variations on timing
+% Variations in nanometer CMOS flip-flops: Part II—Energy variability and impact of other sources of variations
+% Delay variability due to supply variations in transmission-gate full adders
+% Investigating PVT variability effects on full adders
+% Random dopant induced threshold voltage lowering and fluctuations in sub 50 nm MOSFETs: a statistical 3D atomistic simulation study
+% Simulation of intrinsic parameter fluctuations in decananometer and nanometer-scale MOSFETs
+% Opportunities and challenges for better than worst-case design
+% A fine-grained reconfigurable logic array based on double gate transistors
+% High-performance CMOS variability in the 65-nm regime and beyond
+% FinFETs: From devices to architectures
+% Comparison and Optimization of the Minimum Supply Voltage of Schmitt Trigger Gates versus CMOS Gates under Process Variations
+% Critical reliability challenges for the international technology roadmap for semiconductors (ITRS)
+% Design and reliability challenges in nanometer technologies
+% A Stacked-Inverter Ring Oscillator for 50 mV Fully-Integrated Cold-Start of Energy Harvesters
+% Impact of metal gate granularity on threshold voltage variability: A full-scale three-dimensional statistical simulation study
+% Why optical lithography will live forever
+% Synchronous-logic and asynchronous-logic 8051 microcontroller cores for realizing the internet of things: A comparative study on dynamic voltage scaling and variation effects
+% Standard cell design in N7: EUV vs. immersion
+% ASAP7: A 7-nm finFET predictive process design kit
+% FinFETs and other multi-gate transistors
+% Statistical modeling of metal-gate work-function variability in emerging device technologies and implications for circuit design
+% High mobility Si/SiGe strained channel MOS transistors with HfO/sub 2//TiN gate stack
+% Design topologies for low power cmos full adder
+% Process Variations and Probabilistic Integrated Circuit Design
+% Within-die variation-aware dynamic-voltage-frequency-scaling with optimal core allocation and thread hopping for the 80-core teraflops processor
+% Investigation of robust full adder cell in 16-nm CMOS technology node
+% Circuit-level design technique to mitigate impact of process, voltage and temperature variations in complementary metal-oxide semiconductor full adder cells
+% CMOS Schmitt triggers
+% Near-threshold computing: Reclaiming moore's law through energy efficient integrated circuits
+% Comparative study of FinFETs versus 22nm bulk CMOS technologies: SRAM design perspective
+% 28nm node bulk vs FDSOI reliability comparison
+% CMOS Amplifiers and Schmitt Triggers for Ultra-Low-Voltage Applications
+% A millimeter-scale energy-autonomous sensor system with stacked battery and solar cells
+% Device scaling limits of Si MOSFETs and their application dependencies
+% Simulation of stochastic doping effects in Si MOSFETs
+% Emerging yield and reliability challenges in nanometer CMOS technologies
+% Design of hybrid full adder in deep subthreshold region for ultralow power applications
+% Ultrathin high-K gate stacks for advanced CMOS devices
+% Advanced high-$\kappa$ dielectric stacks with polySi and metal gates: Recent progress and current challenges
+% Effect of transistor variants on single-event transients at the 14-/16-nm bulk FinFET technology generation
+% Fermi-level pinning at the polysilicon/metal-oxide interface-Part II
+% Design and analysis of robust dual threshold cmos full adder circuit in 32nm technology
+% Variability immune finFET-based full adder design in subthreshold region
+% Design and analysis of power and variability aware digital summing circuit
+% Design methodology for voltage-overscaled ultra-low-power systems
+% Impact of guardband reduction on design outcomes: A quantitative approach
+% Slack redistribution for graceful degradation under voltage overscaling
+% Variation-tolerant architecture for ultra low power shared-l1 processor clusters
+% Flexible thermoelectric generator based on transfer printed Si microwires
+% A new waveform-reshaping circuit: an alternative approach to Schmitt trigger
+% FinFETs for nanoscale CMOS digital integrated circuits
+% A 160 mV robust Schmitt trigger based subthreshold SRAM
+% Investigation of reliability characteristics in NMOS and PMOS FinFETs
+% A 62mV 0.13$\mu$m CMOS standard-cell-based design technique using schmitt-trigger logic 
+% Ultra-sub-threshold operation of always-on digital circuits for IoT applications by use of Schmitt trigger gates
+% A sub-10 mV power converter with fully integrated self-start, MPPT, and ZCS control for thermoelectric energy harvesting
+% Device optimization of bulk FinFETs and its comparison with SOI FinFETs
+% Energy harvesting—From devices to systems
+% Impact of gate workfunction fluctuation on FinFET standard cells
+% Analysis and Design of the Classical CMOS Schmitt Trigger in Subthreshold Operation
+% Internet of things: Vision, applications and research challenges
+% Design and evaluation of an efficient Schmitt trigger-based hardened latch in CNTFET technology
+% Exploring Schmitt Trigger Circuits for Process Variability Mitigation
+% Minimum Energy FinFET Schmitt Trigger Design Considering Process Variability
+% Evaluation of Variability Through Schmitt Trigger Technique on CMOS Full Adder design
+% Process Variability Attenuation using Schmitt Trigger at Near-Threshold Operation
+% Low Energy and Process Variability Analysis over FinFET Schmitt Trigger Design
+% Pros and Cons of ST and SIG FinFET Inverters for Low Power Designs
+% Robust FinFET Schmitt Trigger Designs for Low Power Applications
+% Evaluation of variability using Schmitt trigger on full adders layout
+% Threshold voltage sensitivity to metal gate work-function based performance evaluation of double-gate n-FinFET structures for LSTP technology
+% Process variability at the 65nm node and beyond
+% A novel low-power full-adder cell for low voltage
+% Comparison of random dopant and gate-metal workfunction variability between junctionless and conventional FinFETs
+% Protecting chips against hold time violations due to variability
+% Circuit-Level Technique to Design Variation-and Noise-Aware Reliable Dynamic Logic Gates
+% A 530mV 10-lane SIMD processor with variation resiliency in 45nm SOI
+% Low-voltage high-speed Schmitt trigger and compact window comparator
+% Novel CMOS Schmitt trigger with controllable hysteresis
+% Electromigration Inside Logic Cells: Modeling, Analyzing and Mitigating Signal Electromigration in NanoCMOS
+% Variability modeling and statistical parameter extraction for CMOS devices
+% Digital integrated circuits
+% Variability mitigation in nanometer CMOS integrated systems: A survey of techniques from circuits to software
+  Associating CMOS transistors with BDD arcs for technology mapping
+  Circuit Level Design Methods to Mitigate Soft Errors
+  New insights into the HCI degradation of pass-gate transistor in advanced FinFET technology
+  The effect of random dopant fluctuations on logic timing at low voltage
+  VLSI performance metric based on minimum TCAD simulations
+  Soft error hardening enhancement analysis of NBTI tolerant Schmitt trigger circuit
+  A novel high-performance CMOS 1-bit full-adder cell
+  Novel CMOS Schmitt trigger
+  Analysis and decomposition of spatial variation in integrated circuit processes and devices
+  Reliability and performance of optimised Schmitt trigger gates
+  An empirical model for device degradation due to hot-carrier injection
+  Fundamentals of modern VLSI devices
+  Impact of schmitt trigger inverters on process variability robustness of 1-Bit full adders
+  Pros and Cons of Schmitt Trigger Inverters to Mitigate PVT Variability on Full Adders
+  Adaptive body bias for reducing impacts of die-to-die and within-die parameter variations on microprocessor frequency and leakage
+  Statistical prediction of circuit aging under process variations
+  Statistical threshold-voltage variability in scaled decananometer bulk HKMG MOSFETs: A full-scale 3-D simulation scaling study
+  Principles of CMOS VLSI design
+  Nanoscale cmos
+  Sensitivity of double-gate and FinFETDevices to process variations
+  Failure mechanism models for electromigration
+  Principles of semiconductor devices
+  Low voltage CMOS Schmitt trigger circuits
+  Modeling of the reliability degradation of a FinFET-based SRAM due to bias temperature instability, hot carrier injection, and gate oxide breakdown
+  FinFET cells with different transistor sizing techniques against PVT variations
