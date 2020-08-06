@@ -287,7 +287,7 @@ A miniaturização da tecnologia de trasistores, juntamente com o crescente impa
 
 	2) to apply the ST technique into circuits. In this work, the Full Adder circuit is adopted as a case-study. The technique consists of the replacement of the FAs internal inverters with the respective STs. The considered FAs will be: the Mirror FA, the Transmission Function Adder (TFA), the Transmission Gate Adder (TGA) and Hybrid FA. The two applied STs are the traditional 6T ST and a low-power back-gating-based ST (LPST). The LPST was chosen for demonstrating good results at \cite{dokania2015circuit}. Due to technology restrictions, the LPST design had to be modified, given so, the 6T ST was chosen, to provide a reference for comparison and showing desirable results in sub-threshold applications \cite{lotze2017ultra}. All layouts will be designs with a fixed number of transistors and two levels of supply voltages. All simulations will be performed at the same level of process variability.
 
-For both analysis it will be considered the means, standard deviations and normalized standard deviations for the energy and propagation time measures. Specifically for the first analysis, the means, standard deviations and normalized standard deviations will be calculated for further metrics: on and off currents, current ratios and hysteresis interval (when applicable). The output curve slopes and voltage gain will be presented, as well.
+For both analysis it will be considered the means, standard deviations and normalized standard deviations for the energy and propagation time measures. Specifically for the first analysis, the means, standard deviations and normalized standard deviations will be calculated for further metrics: on and off currents, current ratios and hysteresis interval (when applicable). The noise margins, output curve slopes, and voltage gain will be presented, as well.
 
     This work is divided into five further sections: Variability Effects on FinFET Technology, where a theoretical foundation about variability is laid with several related works about mitigating its impact in the characteristics of FinFET devices and how process variability presents itself in the device. A section about the considered circuits will explain their functionality and applications. The Methodology Section will explain the experimental setup which will be employed to generate the results. A Results Section is present, showing the extracted measures and related analysis. Lastly, there are a Conclusions and Future Work sections.
 
@@ -454,25 +454,25 @@ Metals exist \textit{in natura} in the form of crystals where each atom has seve
 
 The WFF impact can be better understood when considering the equation \ref{eqn:wffvt}, where the threshold voltage for multigate devices is expressed. Additionally, the fermi potential for the P-type silicon is given by equation \ref{eqn:ff} \cite{colinge2008finfets}.
 
-The effects of $Q_D$ and $Q_{SS}$ onto the threshold voltage ($V_{th}$) are almost negligible compared to $f_f$, in ultrathin body and lighly doped devices, like the FinFET. Additionally, $V_{in}$ is the additional surface potential to $2f_f$, of ultrathin body devices, that is needed to accumulate enough inversion charges into the channel region of the transistor to reach the threshold point \cite{mustafa2013threshold}.
+The effects of $Q_D$ and $Q_{SS}$ onto the threshold voltage ($V_{th}$) are almost negligible compared to $\Phi_f$, in ultrathin body and lighly doped devices, like the FinFET. Additionally, $V_{inv}$ is the additional surface potential to $2\Phi_f$, of ultrathin body devices, that is needed to accumulate enough inversion charges into the channel region of the transistor to reach the threshold point \cite{mustafa2013threshold}.
 
     \begin{equation}
         \centering
         \label{eqn:wffvt}
-        V_{th} = f_{ms} + 2f_{f} + \frac{Q_D}{C_{ox}} - \frac{Q_{SS}}{C_{ox}} + V_{in}
+        V_{th} = \Phi_{ms} + 2\Phi_{f} + \frac{Q_D}{C_{ox}} - \frac{Q_{SS}}{C_{ox}} + V_{inv}
     \end{equation}
 where:
 \begin{conditions}
 Q_{SS} & charge in the gate dielectric \\
 C_{ox} & gate capacitance \\
 Q_{D} & depletion charge in the channel \\
-f_{ms} & work-function difference between the gate electrode and the semiconductor \\
-f_{f} & fermi-potential
+\Phi_{ms} & work-function difference between the gate electrode and the semiconductor \\
+\Phi_{f} & bulk potential
 \end{conditions}
     \begin{equation}
         \centering
         \label{eqn:ff}
-        f_{f} = \frac{kT}{q} ln\frac{N_A}{n_i}
+        \Phi_{f} = \frac{kT}{q} ln\frac{N_A}{n_i}
     \end{equation}
 where:
 \begin{conditions}
@@ -498,7 +498,7 @@ This work selected 4 inverter alternative circuits based in recent literature, t
 
 Schmitt Triggers are commonly used as internal circuits on systems to provide enhanced noise tolerance and robustness against random variations in the input waveforms. On a typical input (non-ST), its binary value will switch at the same point on the rising and falling edges. With a slow rising edge, the input will change near the threshold point. When the switching occurs, it will require current from the supply source. With current being pushed from the supply, it can cause a voltage drop across the circuit causing a shift in the threshold voltage.
 
-If the threshold shifts, it will cross the input causing it to switch again. It can go indefinitely causing oscillation. The same thing can happen if there is noise on the input. STs are applied in these cases to filter noise introducing superior and inferior threshold voltages. STs circuits present a hysteresis characteristic. This hysteresis exists in the presence of two switching $V_T$. If the input level is within the hysteresis region, the ST shall not switch. Such characteristic gives a higher static noise margin (SNM) in comparison to traditional inverters, ensuring a high noise immunity.
+If the threshold shifts, it will cross the input causing it to switch again. It can go indefinitely causing oscillation. The same thing can happen if there is noise on the input. STs are applied in these cases to filter noise introducing superior and inferior threshold voltages. STs circuits present a hysteresis characteristic. This hysteresis exists in the presence of two switching $V_T$. If the input level is within the hysteresis region, the ST shall not switch. Such characteristic gives a higher noise margin (NM) in comparison to traditional inverters, ensuring a high noise immunity.
 
  Variations in physical parameters became alarming at ultra-deep sub-micron (UDSM) nodes because the node scaling was accompanied by a supply voltage scaling, making the circuits more susceptible to noise and electromagnetic interference due to the deterioration in SNM \cite{pal2018circuit}. Given that, this work explores four types of inverters, where three of them are considered STs given their hysteresis characteristic.
 
@@ -793,24 +793,25 @@ The simulations will be carried out in HSPICE \footnote{https://www.synopsys.com
 
 \begin{table}[]
 \centering
-\caption{Parameters applied in the electrical simulations}
+\caption{Parameters applied in the electrical simulations \cite{clark2016asap7}}
 \label{electPar}
-\resizebox{0.5\textwidth}{!}{%
-\begin{tabular}{lcc}
+\begin{tabular}{llccc}
 \hline
-\textbf{Parameter}                                            & \multicolumn{2}{c}{\textbf{7nm}}                                  \\ \hline
-\textbf{Nominal Supply Voltage}                               & \multicolumn{2}{c}{0.7 V}                                         \\ \hline
-\textbf{Gate Length (L\textsc{g})}           & \multicolumn{2}{c}{21nm}                                          \\ \hline
-\textbf{Fin Width (W\textsc{fin})}              & \multicolumn{2}{c}{6.5nm}                                         \\ \hline
-\textbf{Fin Height (H\textsc{fin})}          & \multicolumn{2}{c}{32nm}                                          \\ \hline
-\textbf{Oxide Thickness (T\textsc{ox})}      & \multicolumn{2}{c}{2.1nm}                                         \\ \hline
-\textbf{Channel Doping}                                       & \multicolumn{2}{c}{$1x10^{22}m^{-3}$}                                     \\ \hline
-\textbf{Source/Drain Doping}                                  & \multicolumn{2}{c}{$2x10^{22}m^{-3}$} \\ \hline
-\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Work Function (eV)}}} & NFET                            & 4.372                            \\ \cline{2-3}
-\multicolumn{1}{c}{}                                        & PFET                            & 4.8108                           \\ \hline
-\end{tabular}%
-}
-\legend{Source: \citet{clark2016asap7}}
+\multicolumn{3}{l}{\textbf{Parameter}}                           & \multicolumn{2}{c}{\textbf{7nm}} \\ \hline
+\multicolumn{3}{l}{\textbf{Nominal Supply Voltage}}              & \multicolumn{2}{c}{0.7V}         \\ \hline
+\multicolumn{3}{l}{\textbf{Gate Length (L\textsc{g})}}                     & \multicolumn{2}{c}{21nm}         \\ \hline
+\multicolumn{3}{l}{\textbf{Fin Width (W\textsc{fin})}}                    & \multicolumn{2}{c}{6.5nm}        \\ \hline
+\multicolumn{3}{l}{\textbf{Fin Height (H\textsc{fin})}}                   & \multicolumn{2}{c}{32nm}         \\ \hline
+\multicolumn{3}{l}{\textbf{Oxide Thickness (T\textsc{ox})}}               & \multicolumn{2}{c}{2.1nm}        \\ \hline
+\multicolumn{3}{l}{\textbf{Channel Doping}}                                                           & \multicolumn{2}{c}{$1\cdot10^{16}cm^{-3}$} \\ \hline
+\multicolumn{3}{l}{\textbf{Source/Drain Doping}}                                                      & \multicolumn{2}{c}{$2\cdot10^{16}cm^{-3}$} \\ \hline
+\multicolumn{3}{l}{\multirow{2}{*}{\textbf{Work Function (eV)}}} & NFET           & 4.372           \\ \cline{4-5}
+\multicolumn{3}{l}{}                                             & PFET           & 4.8108          \\ \hline
+\multicolumn{2}{l}{\multirow{4}{*}{\textbf{Threshold Voltage (V)}}} & \multirow{2}{*}{Saturation}     & NFET                             & 0.17                            \\ \cline{4-5}
+\multicolumn{2}{l}{}        &                                    & PFET           & -0.16           \\ \cline{3-5}
+\multicolumn{2}{l}{}        & \multirow{2}{*}{Linear}            & NFET           & 0.19            \\ \cline{4-5}
+\multicolumn{2}{l}{}        &                                    & PFET           & -0.19           \\ \hline
+\end{tabular}
 \end{table}
 
 \subsection{Inverters evaluation}
@@ -867,7 +868,7 @@ The Full Adders listed below have been chosen due to their promising results in 
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{FAs.png}
+\includegraphics[width=1\textwidth,trim={15.5cm 0cm 2cm 3cm},clip]{FAs.pdf}
 \caption{Full Adders with internal inverters to be replaced highlighted. Transmission Gate Adder (a), Transmission Function Adder (b), Mirror CMOS Adder (c) and Hybrid Full Adder (d).}
 \label{fig:FAs}
 \legend{Source: \citet{toledo2017impact}}
@@ -1355,21 +1356,21 @@ Given all the current-related results, the TIST designs present the lowest devia
 %Additionally, as stated in the last section, as the process variability level increases, the most recommended supply voltage, to achieve the highest robustness to variability effects on energy deviations, decreases.
 %\vspace{0cm}
 
-\section{Static Noise Margins}
+\section{Noise Margins}
 
-	The SNM of a circuit should be as high as possible to provide more noise tolerance. The noise, is defined by any extraneous voltage amplitude added to the signal in consideration. The circuit noise tolerance is defined by the circuit ability to receive this extraneous voltage amplitude summed with the \textit{noise-free} signal without causing it output voltage to deviate from the allowable logic voltage level. In this case, the SNMs were measures considering each designs VTCs at different supply voltage levels. This characteristic becomes increasingly critical for low power devices, as supply voltage decreases and noise amplitudes which accounted for only a fraction of the device supply voltage, can now be comparable to the total value of the supply voltage.
+	The noise margin of a circuit should be as high as possible to provide more noise tolerance. The noise, is defined by any extraneous voltage amplitude added to the signal in consideration. The circuit noise tolerance is defined by the circuit ability to receive this extraneous voltage amplitude summed with the \textit{noise-free} signal without causing it output voltage to deviate from the allowable logic voltage level. In this case, the noise margins were measures considering each designs VTCs at different supply voltage levels. This characteristic becomes increasingly critical for low power devices, as supply voltage decreases and noise amplitudes which accounted for only a fraction of the device supply voltage, can now be comparable to the total value of the supply voltage.
 
-	The evaluation of the SNMs are shown at Table \ref{tab:SNM}. The inverter and SIG presented identical SNMs. The TIST designs presented higher SNMs than the inverter and SIG at sub-threshold levels. The ST presented higher SNMs overall. In comparison to the inverter, SIG, and TIST 3:1 - which presented the same average SNM of 0.164V - the TIST 2:1 presented 2.6\% lower SNMs, while the ST showed 17.5\% higher SNMs. The ST presents the biggest differences at low supply voltages, with 41.91\% and 28.23\% higher SNMs at 0.1V and 0.2V, respectively, comparing to the inverter.
+	The evaluation of the noise margins are shown at Table \ref{tab:SNM}. The inverter and SIG presented identical margins. The TIST designs presented higher margins than the inverter and SIG at sub-threshold levels. The ST presented higher noise margins overall. In comparison to the inverter, SIG, and TIST 3:1 - which presented the same average margin of 0.164V - the TIST 2:1 presented 2.6\% lower noise margins, while the ST showed 17.5\% higher margins. The ST presents the biggest differences at low supply voltages, with 41.91\% and 28.23\% higher margins at 0.1V and 0.2V, respectively, comparing to the inverter.
 
 \begin{table}[H]
 \centering
-\caption{Static Noise Margins for each design as supply voltage scales.}
+\caption{Noise Margins for each design as supply voltage scales.}
 \label{tab:SNM}
 \resizebox{0.9\textwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline
 \multirow{2}{*}{Design} &
-  \multirow{2}{*}{SNM (V)} &
+  \multirow{2}{*}{NM (V)} &
   \multicolumn{7}{c|}{Supply Voltage (V)} \\ \cline{3-9}
  & & 0.1 & 0.2 & 0.3 & 0.4 & 0.5 & 0.6 & 0.7 \\ \hline
 \multirow{3}{*}{INV}      & $NM_{L}$      & 0.025          & 0.074          & 0.122          & 0.171          & 0.217          & 0.253          & 0.277          \\ \cline{2-9}
