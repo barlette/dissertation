@@ -1627,6 +1627,10 @@ As part of the analysis concerning the STs impact on metrics, the currents were 
 
 As for the static currents (off), as shown in Fig. \ref{fig:offCurrDevFA}, both STs presented an average reduction of 9\% and 15\% in the normalized deviations at near-threshold and nominal operations, respectively. The TFA presented the highest impact, with up to 52\% reduction in deviations due to the ST replacement. This result shows how prone the TFA is to metrics deviations and the impact of its pass-transistor logic.
 
+\section{Penalties}
+
+Overviews for metrics measurements and variability sensitivities are shown in Figs. \ref{fig:avgDelayNominal}, \ref{fig:avgEnergyNominal}, \ref{fig:avgDelayNT}, and \ref{fig:avgEnergyNT}. Since it is considered a technique where a single inverter (2 transistors) by ST1/ST2 (4/6 transistors). It is expected penalties concerning delay, energy and area metrics. For the delays, it was observed an average 30\% and 97\% increase for the ST1 and ST2, respectively. Additionally, for the energy, there was a 123\% and 176\% average increase for the ST1 and ST2, respectively.
+
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.85\textwidth, trim={2cm 10cm 2cm 10.5cm}, clip]{averageDelayNominal.pdf}
@@ -1642,10 +1646,6 @@ As for the static currents (off), as shown in Fig. \ref{fig:offCurrDevFA}, both 
      \caption{Average energy measures for nominal operation and their respective normalized deviation (variability sensitivity).}
   \label{fig:avgEnergyNominal}
 \end{figure}
-
-\section{Penalties}
-
-Overviews for metrics measurements and variability sensitivities are shown in Figs. \ref{fig:avgDelayNominal}, \ref{fig:avgEnergyNominal}, \ref{fig:avgDelayNT}, and \ref{fig:avgEnergyNT}. Since it is considered a technique where a single inverter (2 transistors) by ST1/ST2 (4/6 transistors). It is expected penalties concerning delay, energy and area metrics. For the delays, it was observed an average 30\% and 97\% increase for the ST1 and ST2, respectively. Additionally, for the energy, there was a 123\% and 176\% average increase for the ST1 and ST2, respectively.
 
 \begin{figure}[t]
   \centering
