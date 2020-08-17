@@ -837,6 +837,10 @@ The energy was calculated by integrating the current through time and multiplyin
 
 For the maximum frequencies, each time there was 10\% or more of failed simulations, from the 2000 MC, the frequency was decreased. On the contrary, if there was less than 10\% of failures, the frequency was increased. At each increase/decrease the simulations were performed again. The minimum frequency considered for the circuit to be considered functional at determined sizing, supply voltage, and level of variability is 50KHz. This frequency was chosen to save resources and bring a wide frequency range.
 
+Given so, all simulations were automatized through shell script. For each scenario the 2000 MC simulations would take place, and the script would detect how much errors there was by counting the number of error messages, detected through regular expression rules. If the number of error messages were higher than 10\% (200 simulations), the current frequency of operation would be decreased by a predetermined and arbritary margin based on the maximum operating frequency of similar scenarios.
+
+For example, since the traditional inverter with 5 fins at 1\% WFF and 0.7V of supply voltage, worked at about 25.3GHz, it is safe to assume a decrease step of a 100MHz, while at scenaios with lower supply voltages and higher variability levels, the decrease step could go down to the tens of KHz. If the number of errors is below 10\% the frequency will be increased by the same margin. A version of the shell script is shown in Annex E. Additionally, all measures were automatically parsed and arranged in tables, through shell scripts as well, for easier handling and to make the process of generating results less time consuming.
+
  For a more realistic test-bench, it will be considered a scenario where the Device Under Test (DUT) receives the signal passing through two inverters in series and having a 1fF output capacitance, as shown in Fig. \ref{fig:tbST}. It is essential to consider some details such as: the same supply voltage is applied in the entire test-bench, only the DUT suffers from variability, the inverters are the same (3-fins transistors) for all experiments, and they are, like the DUT, simulated from the extracted layout.
 
 \begin{figure}[]
@@ -902,18 +906,18 @@ Each FA area is shown in Table \ref{tab:FAareas} where the LPST and traditional 
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 Full Adder & \# Transistors & Width (nm)  & Area (nm²) & Ratio \\ \hline
-Mirror     & 28		   & 1,188       & 320,760    & -     \\ \hline
+Mirror     & 28		   			 & 1,188       & 320,760    & -     \\ \hline
 Mirror ST1 & 32            & 2,808       & 758,160    & 2.36  \\ \hline
 Mirror ST2 & 36            & 1,836       & 495,720    & 1.55  \\ \hline
 TGA        & 20            & 1,836       & 495,720    & -     \\ \hline
 TGA ST1    & 28            & 5,292       & 1,428,840  & 2.88  \\ \hline
 TGA ST2    & 36            & 2,916       & 787,320    & 1.59  \\ \hline
-TFA        & 16            & 1,620       & 437,400     & -    \\ \hline
-TFA ST1    & 20            & 3,240       & 874,800     & 2.00 \\ \hline
-TFA ST2    & 24            & 2,052       & 554,040     & 1.27 \\ \hline
-HYBRID     & 26            & 1,728       & 466,560     & -    \\ \hline
-HYBRID ST1 & 34            & 5,292       & 1,428,840   & 3.06 \\ \hline
-HYBRID ST2 & 42            & 2,916       & 787,320     & 1.69 \\ \hline
+TFA        & 16            & 1,620       & 437,400    & -    \\ \hline
+TFA ST1    & 20            & 3,240       & 874,800    & 2.00 \\ \hline
+TFA ST2    & 24            & 2,052       & 554,040    & 1.27 \\ \hline
+HYBRID     & 26            & 1,728       & 466,560    & -    \\ \hline
+HYBRID ST1 & 34            & 5,292       & 1,428,840  & 3.06 \\ \hline
+HYBRID ST2 & 42            & 2,916       & 787,320    & 1.69 \\ \hline
 \end{tabular}%
 }
 \legend{Source: from the author.}
@@ -1697,7 +1701,7 @@ For the currents, there was an average increase of 20\% and 90\% for the dynamic
 %\vspace{1em}
 
 
-\chapter{Conclusions}
+\chapter{General Evaluation}
 
 The ongoing trend of IoT devices was enabled by two key technology improvements: battery lifetime through capacity improvement, and node scaling. Although, for specific applications, battery maintenance and charging through the power grid is not possible. Given so, IoT devices have been constrained with tight energy consumption metrics, and adapted with self-sufficient mechanisms to produce energy through external sources. The node scaling, that enabled IoT devices, comes not short of inherent challenges, with process variability being the major one. New transistor technologies have been proposed such as FinFETs, although even such devices, at deep submicron nodes (e.g. 7-nm), present considerable deviation in its metrics. Such deviations are not appropriate for such sensible devices working at narrow constraints (with energy consumption being a priority).
 
@@ -1822,8 +1826,14 @@ When considering only the currents, Table \ref{tab:FACurr} presents the highest 
 }
 \end{table}
 
-Given all the concepts, results and conclusions, the contributions of this work surround: the understanding of the effects of transistor sizing and different levels of supply voltage and process variability. The analysis of different inverter designs in search of a replacement of the traditional CMOS inverter for low energy consumption and high robustness. The impact of the replacement of traditional inverters are evaluated on different Full Adders designs aiming to achieve a decrease into the impact of the process variability into the circuits metrics. Overall, it was shown frequency and energy, decrease and increase, respectively due to process variability. It was shown the increase in the currents with the leakage currents presenting a much higher scaling factor in comparison to the dynamic current, resulting in lower current ratios. Further, the leakage currents normalized deviations did not present considerable improvements over supply voltage increase. These results turn the leakage current relationship with process variability an evermore important challenge to be addressed. The replacement of traditional inverter in the Full Adders demonstrated the viability of this technique to reduce the effects of process variability in circuits, especially those based on pass-transistor logic.
 
+\section{Conclusions}
+
+Given all the concepts, results and discussion, the contributions of this work surround: the understanding of the effects of transistor sizing and different levels of supply voltage and process variability. The analysis of different inverter designs in search of a replacement of the traditional CMOS inverter for low energy consumption and high robustness. It was shown that the traditional inverter still is the circuit with best performance, energy efficiency, and smaller area. The 6T ST presents better results concerning the signal quality, robustness to noise, and overall current deviations. The TIST, although being a specific case, has shown high gains, hysteresis, and even noise margins, specially at very low supply voltage of 100mV. The SIG did present improvements over some metrics deviations, although at signal quality and noise margins, it showed a very similar behavior to the traditional inverter.
+
+Given so, the replacement of traditional inverters with the considered inverter designs is a question of application and priorities. If the priorities are performance, area utilization, and energy consumption at higher level  of supply voltage, the traditional inverter still is an appropriate circuit. If overall robustness, variability and noise-wise is a priority, the 6T ST should be considered. It can not yet be affirmed, since the simulations were not performed, but the TIST presented acceptable results at the lowest considered supply voltage (100mV) which could show a hint of the capabilities of the TIST to work at ultra low supply voltages.
+
+The impact of the replacement of traditional inverters are evaluated on different Full Adders designs aiming to achieve a decrease into the impact of the process variability into the circuits metrics. Overall, it was shown frequency and energy, decrease and increase, respectively due to process variability. It was shown the increase in the currents with the leakage currents presenting a much higher scaling factor in comparison to the dynamic current, resulting in lower current ratios. Further, the leakage currents normalized deviations did not present considerable improvements over supply voltage increase. These results turn the leakage current relationship with process variability an evermore important challenge to be addressed. The replacement of traditional inverter in the Full Adders demonstrated the viability of this technique to reduce the effects of process variability in circuits, especially those based on pass-transistor logic.
 
 \section{Future Works}
 
@@ -2441,5 +2451,104 @@ OBS: All publications - published, co-authored, book chapters, and in proceeding
 \label{fig:hyst_6F2F_7}
 \legend{Source: From the author.}
 \end{figure}
+
+\chapter{Shell Script responsible for the Spice Simulations Automation}
+\begin{lstlisting}
+#!/bin/bash
+
+outputs="ST_1F ST_2F ST_3F ST_4F ST_5F"
+number=0
+freq_text=0
+new_freq_text=0
+freq=0
+new_freq=0
+time=0
+new_time=0
+counter=0
+done=0
+
+path="${HOME}/Desktop/script/ST/1WFF/1"
+
+for output in $outputs
+do
+if [ $done -eq 1 -a $new_freq -ne 0 ]
+then
+freq_text=$(cat "$path/${output}.sp" | grep -m 1 "Hz" | awk '{print $1}')
+echo $freq_text
+time=$(cat "$path/${output}.sp" | grep -m 1 "freq1" | awk '{print $4}')
+echo $time
+sed -i 's/'$freq_text'/'$new_freq_text'/g' "$path/${output}.sp"
+sed -i 's/'$time'/'$new_time'/g' "$path/${output}.sp"
+fi
+rm $path/${output}
+hspice "$path/${output}.sp" >> $path/${output}
+number=$(grep -c "failed" $path/${output})
+echo $number
+done=0
+counter=$(expr $counter + 1)
+while [ $done -eq 0 ]
+do
+if [ $number -gt 200 ]
+then
+echo "while"
+echo "Maior que 200"
+freq_text=$(cat "$path/${output}.sp" | grep -m 1 "Hz" | awk '{print $1}')
+echo $freq_text
+time=$(cat "$path/${output}.sp" | grep -m 1 "freq1" | awk '{print $4}')
+echo $time
+freq=$(echo "${freq_text:1:${#freq_text}-3}")
+echo $freq
+new_freq=$(expr $freq - 50000) #10khz steps
+if [ $new_freq -ne 0 ]
+then
+echo $new_freq
+new_time=$(echo "scale=4; 500000000 / $new_freq" | bc)
+echo $new_time
+new_freq_text="*${new_freq}Hz"
+new_time="${new_time}ns"
+echo $new_freq_text
+sed -i 's/'$freq_text'/'$new_freq_text'/g' "$path/${output}.sp"
+sed -i 's/'$time'/'$new_time'/g' "$path/${output}.sp"
+rm $path/${output}
+hspice "$path/${output}.sp" >> $path/${output}
+number=$(grep -c "failed" $path/${output})
+echo $number
+else
+done=1
+echo "Frequencia zero."
+fi
+else
+echo "while"
+echo "Menor que 200"
+freq_text=$(cat "$path/${output}.sp" | grep -m 1 "Hz" | awk '{print $1}')
+echo $freq_text
+time=$(cat "$path/${output}.sp" | grep -m 1 "freq1" | awk '{print $4}')
+echo $time
+freq=$(echo "${freq_text:1:${#freq_text}-3}")
+echo $freq
+new_freq=$(expr $freq + 50000) #10khz steps
+echo $new_freq
+new_time=$(echo "scale=4; 500000000 / $new_freq" | bc)
+echo $new_time
+new_freq_text="*${new_freq}Hz"
+new_time="${new_time}ns"
+echo $new_freq_text
+sed -i 's/'$freq_text'/'$new_freq_text'/g' "$path/${output}.sp"
+sed -i 's/'$time'/'$new_time'/g' "$path/${output}.sp"
+rm $path/${output}
+hspice "$path/${output}.sp" >> $path/${output}
+number=$(grep -c "failed" $path/${output})
+echo $number
+if [ $number -gt 200 ]
+then
+sed -i 's/'$new_freq_text'/'$freq_text'/g' "$path/${output}.sp"
+sed -i 's/'$new_time'/'$time'/g' "$path/${output}.sp"
+done=1
+fi
+fi
+done
+echo "done with $path/${output}"
+done
+\end{lstlisting}
 
 \end{document}

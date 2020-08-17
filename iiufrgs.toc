@@ -32,15 +32,17 @@
 \contentsline {section}{\numberline {6.2}Near-Threshold Operation}{78}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Currents}{80}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Penalties}{82}{section.6.4}%
-\contentsline {chapter}{7~Conclusions}{85}{CHAPTER.7}%
-\contentsline {section}{\numberline {7.1}Future Works}{90}{section.7.1}%
-\contentsline {chapter}{\xspace {}References}{91}{schapter.6}%
-\contentsline {chapter}{\MakeUppercase {Annex} A~--- Publications}{100}{CHAPTER.A}%
-\contentsline {section}{\numberline {A.1}Published}{100}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Co-author}{100}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Submitted and Accepted}{100}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Book Chapter (to be published)}{101}{section.A.4}%
-\contentsline {section}{\numberline {A.5}In Proceedings}{101}{section.A.5}%
-\contentsline {chapter}{\MakeUppercase {Annex} B~--- Inverter Designs Layouts}{102}{CHAPTER.B}%
-\contentsline {chapter}{\MakeUppercase {Annex} C~--- Full Adders}{123}{CHAPTER.C}%
-\contentsline {chapter}{\MakeUppercase {Annex} D~--- Energy measures distributions}{136}{CHAPTER.D}%
+\contentsline {chapter}{7~General Evaluation}{86}{CHAPTER.7}%
+\contentsline {section}{\numberline {7.1}Conclusions}{90}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Works}{91}{section.7.2}%
+\contentsline {chapter}{\xspace {}References}{93}{schapter.6}%
+\contentsline {chapter}{\MakeUppercase {Annex} A~--- Publications}{102}{CHAPTER.A}%
+\contentsline {section}{\numberline {A.1}Published}{102}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Co-author}{102}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Submitted and Accepted}{102}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Book Chapter (to be published)}{103}{section.A.4}%
+\contentsline {section}{\numberline {A.5}In Proceedings}{103}{section.A.5}%
+\contentsline {chapter}{\MakeUppercase {Annex} B~--- Inverter Designs Layouts}{104}{CHAPTER.B}%
+\contentsline {chapter}{\MakeUppercase {Annex} C~--- Full Adders}{125}{CHAPTER.C}%
+\contentsline {chapter}{\MakeUppercase {Annex} D~--- Energy measures distributions}{138}{CHAPTER.D}%
+\contentsline {chapter}{\MakeUppercase {Annex} E~--- Shell Script responsible for the Spice Simulations Automation}{169}{CHAPTER.E}%
