@@ -247,10 +247,9 @@
 % na outra língua, separadas por vírgulas
 \begin{englishabstract}
 {
-Dimensionamento de inversores sob influência de variabilidade de processo e diminuição da  tensão de alimentação para operação com consumo mínimo.
+Projetos em FinFET robustos à escala da tensão de alimentação e nível de variabilidade de processo
 }{Variabilidade de Processo, FinFET, Energia, \textit{Schmitt Trigger}, Somadores Completos, Microeletrônica}
 {
-
 A miniaturização da tecnologia de trasistores, juntamente com o crescente impacto da variabilidade de processo nos nodos tecnológicos modernos são a principal razão para o esforço da indústria em investir nos métodos para controle dos efeitos de variabilidade nas métricas dos circuitos integrados. Além disso, dado o crescimento exponencial do número de aplicações dependendes de bateria, o consumo de energia deve-se manter mínimo e o regime de operação estável. Circuitos \textit{Schmitt Trigger} são tradicionalmente aplicados para melhora da resistência de circuitos integrados ao ruído e foram recentemente aplicados para mitigar os efeitos da radiação e do impacto da variabilidade. Contudo, a operação de \textit{Schmitt Triggers} em tensão nominal introduz alto consumo de potência, tornando a adoção de \textit{Schmitt Triggers} em cenários de ultra baixa potência, díficil. Assim, a principal contribuição deste trabalho é traçar a relação entre dimensionamento dos transistores, tensão de alimentação e variabilidade de processo, para alcançar o menor possível consumo de energia, mas mantendo a robustez aos efeitos de variabilidade em níveis aceitáveis. Os resultados são extraídos de três tipos de inversores, entre eles \textit{Schmitt Triggers}. Todas as simulações são realizadas considerando os leiautes extraídos projetados em 7nm com a tecnologia de transistores FinFET. Cada leiaute apresenta um numero diferente de \textit{fins}, onde cada simulação apresenta um nível diferente de variabilidade de processo e tensão de alimentação. Entre diversas métricas consideradas - tempos de propagação, energia, intervalo de histerese, razões entre as correntes dinâmica e estática, ganhos de tensão e inclinação dos sinais - as medidas de energia são priorizadas, com uma análise considerando diferentes tipos de aplicações - baixa energia, máxima robustez e custo-benefício. A partir dos resultados, é demonstrado que uma análise de custo-benefício pode destacar conjuntos de dimensionamentos e tensões de alimentação que podem prover uma redução de até 37.51\% no consumo de energia com um aumento de somente 7.42\% na sensibilidade aos efeitos de variabilidade. Além disso, é demonstrado que a dependência da tensão de alimentação e a robustez aos efeitos da variabilidade de processo não é direta, com pequenas diminuições na tensão de alimentação resultando em ganhos na robustez. Nas medidas médias das métricas, o inversor tradicional ainda é o circuito mais rápido e mais energéticamente eficiente, apresentando o melhor desempenho,  menor consumo de energia e menor área. Porém, quando comparando características que provêem imuidade ao ruído, o \textit{Schmitt Trigger} de seis transistores apresentou as maiores margens de ruído, com maiores razões das correntes e ganhos. Já o circuito TIST apresentou as maiores razões entre correntes, ganhos e intervalos de histerese. Entretanto, estas melhorias não vem sem as respectivas penalidades nos tempos de propagação, consumo de energia e area.
 
 }
@@ -340,7 +339,7 @@ The manufacturing factor influencing at intra-die level comprises of geometric a
 
     \begin{figure} []
         \centering
-        \includegraphics[width=0.8\textwidth, trim={0 0 0 0},clip]{transistorVariability.png}
+        \includegraphics[width=0.9\textwidth, trim={0.5cm 6cm 6cm 4cm},clip]{transistorVariability.pdf}
         \caption{Levels of abstraction from a ideal transistor concept towards a realistic and "atomistic" device concept. (a) Depicts a the current approach of semiconductor device simulation, with continuous dopant charge and smooth boundaries. (b) Depicts a 20-nm MOSFET, with less than 50 Si atoms along the channel. RDF, interface roughness and LER introduce considerable intrinsic parameter fluctuation. (c) Depicts a 4-nm MOSFET, with less than 10 Si atoms along the channel. }
         \label{fig:transAbs}
         \legend{Source: \citet{asenov2003simulation}}
@@ -1827,7 +1826,7 @@ When considering only the currents, Table \ref{tab:FACurr} presents the highest 
 \end{table}
 
 
-\section{Conclusions}
+\chapter{Conclusions}
 
 Given all the concepts, results and discussion, the contributions of this work surround: the understanding of the effects of transistor sizing and different levels of supply voltage and process variability. The analysis of different inverter designs in search of a replacement of the traditional CMOS inverter for low energy consumption and high robustness. It was shown that the traditional inverter still is the circuit with best performance, energy efficiency, and smaller area. The 6T ST presents better results concerning the signal quality, robustness to noise, and overall current deviations. The TIST, although being a specific case, has shown high gains, hysteresis, and even noise margins, specially at very low supply voltage of 100mV. The SIG did present improvements over some metrics deviations, although at signal quality and noise margins, it showed a very similar behavior to the traditional inverter.
 
