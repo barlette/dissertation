@@ -1,80 +1,25 @@
+Msc Dissertation
+  PGMICRO - UFRGS
+    Title: Variability and Voltage Scaling Aware FinFET Design
+    Advisor: Ricardo Augusto da Luz Reis
+    Co-advisor: Cristina Meinhardt
 
-The `microtype` package
-=======================
-
-**Subliminal refinements towards typographical perfection**
-
-  (v2.7d -- 2019/11/18)
-
-
-Overview
---------
-
-The `microtype` package provides a LaTeX interface to the micro-typographic
-extensions that were introduced by pdfTeX and have since also propagated to
-LuaTeX and XeTeX: most prominently, character protrusion and font expansion,
-furthermore the adjustment of interword spacing and additional kerning, as
-well as hyphenatable letterspacing (tracking) and the possibility to disable
-all or selected ligatures.
-
-These features may be applied to customisable sets of fonts, and all 
-micro-typographic aspects of the fonts can be configured in a straight-forward
-and flexible way. Settings for various fonts are provided.
-
-*Note that character protrusion requires pdfTeX (version 0.14f or later),
-LuaTeX, or XeTeX (at least version 0.9997). Font expansion works with pdfTeX
-(version 1.20 for automatic expansion) or LuaTeX. The package will by default
-enable protrusion and expansion if they can safely be assumed to work.
-Disabling ligatures requires pdfTeX (at least version 1.30) or LuaTeX, while
-the adjustment of interword spacing and of kerning only works with pdfTeX
-(at least 1.40). Letterspacing is available with pdfTeX (1.40) or LuaTeX (0.62).*
-
-The alternative package `letterspace`, which also works with plain TeX,
-provides the user commands for letterspacing only, omitting support for all
-other extensions.
-
-The documentation can be found in `microtype.pdf`.
-
-
-Installation
-------------
-
-To install the package, use one of the following methods
-(in decreasing order of simplicity):
-
-- Use the package manager of your TeX system 
-  (TeXLive: `tlmgr install microtype`;
-   MiKTeX: MiKTeX Package Manager).
- 
-- Download `microtype.tds.zip` from CTAN, 
-  extract it in the root of one of your TDS trees, 
-  and update the filename database.
-
-- Get the source (`microtype.zip`) from CTAN and extract it,
-  run `latex` on `microtype.ins` to generate the package and configuration files,
-  and move all generated files into a directory where LaTeX will find them,
-  e.g., `TEXMF/tex/latex/microtype/`.
-
-
-License
--------
-
-This work may be distributed and/or modified under the conditions of the
-LaTeX Project Public License, either version 1.3c of this license or (at
-your option) any later version. The latest version of this license is in:
-http://www.latex-project.org/lppl.txt, and version 1.3c or later is part
-of all distributions of LaTeX version 2005/12/01 or later.
-
-This work has the LPPL maintenance status 'author-maintained'.
-
-This work consists of the files `microtype.dtx` and `microtype.ins` and the
-derived files `microtype.sty`, `microtype-pdftex.def`, `microtype-luatex.def`,
-`microtype-xetex.def`, `microtype.lua` and `letterspace.sty`.
-
-Modified versions of the configuration files (`*.cfg`) may be distributed
-provided that: (1) the original copyright statement is not removed, and
-(2) the identification string is changed.
-
-------------------------------------------------------
-Copyright (c) 2004--2019  R Schlicht `<w.m.l@gmx.net>`
-------------------------------------------------------
+  Abstract: Technology scaling alongside the increasing process variability impact in modern technology nodes are the main reasons tocontrol 
+deviations over metrics in IC nanometer designs. Also, given the increasing set of devices working in battery-oriented environments, energy 
+consumption should be minimal and the operation regime reliable. Schmitt Triggers are traditionally used for noise immunity enhancement, and 
+have been recently applied to mitigate radiation effects and process variability impact. However, Schmitt Trigger operation at the nominal 
+voltage introduces higher power consumption, in comparison to an inverter, making the application of Schmitt Trigger in ultra low power 
+applications difficult. Thus, this work main contribution is to trace the relationship between transistor sizing, supply voltage, and 
+process variability to get a low energy consumption circuit while still keeping low levels of deviations due to the impact of process-
+induced variability. The results are extracted from three different designs of inverters. All simulations are performed upon the extracted 
+layouts design at 7-nm with the FinFET technology. Each layout presents a different number of fins, where each simulation presents a 
+different level of variability and supply voltage. Amongst the several metrics considered - propagation times, energy, hysteresis interval, 
+current ratios, voltage gains, and slopes - the energy is the prioritized metrics with an analysis considering different kinds of 
+applications - low energy, low sensibility, and cost-benefit - being performed. Given so, it is shown that a cost-benefit analysis can 
+highlight sets of sizing and supply voltage where it can provide a 37.51% decrease on energy consumption while only increasing its 
+sensibility by 7.42%. Furthermore, it is presented that the dependence of supply voltage and sensibility to process variability is not 
+directly related, with slight decreases in the supply voltages bringing better results. Considering the average measures, the inverter is 
+still the fastest and most energy-efficient circuit, presenting the highest performance, lowest energy consumption, and smallest area. 
+Although, when comparing noise immunity characteristics, the 6-Transistor Schmitt Trigger presents the highest noise margins and slopes, 
+with higher current ratios, and gains. The TIST designs present the highest current ratios, gains, and hysteresis ratios. The improvements, 
+although, may increase propagations times, energy consumption, and area.
