@@ -3,7 +3,6 @@
 \babel@toc {english}{}
 \babel@toc {brazilian}{}
 \babel@toc {english}{}
-<<<<<<< Updated upstream
 \contentsline {chapter}{1~Introduction}{14}{CHAPTER.1}%
 \contentsline {chapter}{2~Process Variability Effects on FinFET Technology}{18}{CHAPTER.2}%
 \contentsline {section}{\numberline {2.1}FinFET Technology}{24}{section.2.1}%
@@ -47,48 +46,3 @@
 \contentsline {chapter}{\MakeUppercase {Annex} C~--- Full Adders}{125}{CHAPTER.C}%
 \contentsline {chapter}{\MakeUppercase {Annex} D~--- Energy measures distributions}{138}{CHAPTER.D}%
 \contentsline {chapter}{\MakeUppercase {Annex} E~--- Shell Script responsible for the Spice Simulations Automation}{169}{CHAPTER.E}%
-=======
-\contentsline {chapter}{1~Introduction}{14}{CHAPTER.1}% 
-\contentsline {chapter}{2~Process Variability Effects on FinFET Technology}{18}{CHAPTER.2}% 
-\contentsline {section}{\numberline {2.1}FinFET Technology}{24}{section.2.1}% 
-\contentsline {chapter}{3~Considered Designs To Cope With Variability}{29}{CHAPTER.3}% 
-\contentsline {section}{\numberline {3.1}ST Topologies and alternatives}{29}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Evaluated Circuits}{31}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Traditional 6T ST}{31}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Three Inverter Schmitt Trigger (TIST)}{32}{subsection.3.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}Stacked Inverter Gate (SIG)}{33}{subsection.3.2.3}% 
-\contentsline {subsection}{\numberline {3.2.4}Low Power Schmitt Trigger (LPST)}{34}{subsection.3.2.4}% 
-\contentsline {chapter}{4~Methodology}{36}{CHAPTER.4}% 
-\contentsline {section}{\numberline {4.1}Layout Design}{37}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Electrical Simulation}{45}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Inverters evaluation}{45}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}ST technique on Full Adders}{48}{subsection.4.2.2}% 
-\contentsline {chapter}{5~Evaluation of ST Circuits and Alternatives}{52}{CHAPTER.5}% 
-\contentsline {section}{\numberline {5.1}Non-viable scenarios and Frequencies}{52}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Propagation Times}{55}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Energy Consumption and Deviation}{56}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Current Ratios}{66}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Noise Margins}{70}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Output Gains and Slopes}{71}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Hysteresis}{74}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Measures Distribution}{76}{section.5.8}% 
-\contentsline {chapter}{6~Full Adders}{78}{CHAPTER.6}% 
-\contentsline {section}{\numberline {6.1}Nominal Operation}{78}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Near-Threshold Operation}{78}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Currents}{80}{section.6.3}% 
-\contentsline {section}{\numberline {6.4}Penalties}{82}{section.6.4}% 
-\contentsline {chapter}{7~General Evaluation}{86}{CHAPTER.7}% 
-\contentsline {section}{\numberline {7.1}Conclusions}{90}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Future Works}{91}{section.7.2}% 
-\contentsline {chapter}{\xspace {}References}{93}{schapter.6}% 
-\contentsline {chapter}{\MakeUppercase {Annex} A~--- Publications}{102}{CHAPTER.A}% 
-\contentsline {section}{\numberline {A.1}Published}{102}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}Co-author}{102}{section.A.2}% 
-\contentsline {section}{\numberline {A.3}Submitted and Accepted}{102}{section.A.3}% 
-\contentsline {section}{\numberline {A.4}Book Chapter (to be published)}{103}{section.A.4}% 
-\contentsline {section}{\numberline {A.5}In Proceedings}{103}{section.A.5}% 
-\contentsline {chapter}{\MakeUppercase {Annex} B~--- Inverter Designs Layouts}{104}{CHAPTER.B}% 
-\contentsline {chapter}{\MakeUppercase {Annex} C~--- Full Adders}{125}{CHAPTER.C}% 
-\contentsline {chapter}{\MakeUppercase {Annex} D~--- Energy measures distributions}{138}{CHAPTER.D}% 
-\contentsline {chapter}{\MakeUppercase {Annex} E~--- Shell Script responsible for the Spice Simulations Automation}{169}{CHAPTER.E}% 
->>>>>>> Stashed changes
